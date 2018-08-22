@@ -3,7 +3,7 @@ https://arxiv.org/pdf/1808.06675.pdf
 
 **Predecessor**: Most similar is HD-CNN. Yan et al. first train a fine grained classifier and then use the confusion matrix to identify some coarse grained categories. A separate fine grained classifier is trained for each of these coarse grained categories to improve the accuracy. Thus, HD-CNN discovers a 2 level hierarchy with a 2 stage training process, while we discover a multilevel hierarchy using a single stage end to end training.
 
-**strong text**
+**Label Encoding**: This paper uses encoding other than one-hot. Other alternative encodings which came up were (1) to replace the 1-hot representation of the labels by an error correcting code (Hadamard code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDE0OTQ1MV19
+eyJoaXN0b3J5IjpbLTUzOTMyODU1NF19
 -->
