@@ -111,6 +111,9 @@ SIFT [[paper](http://www.cs.ubc.ca/~lowe/papers/iccv99.pdf)]
 Sketch token
 : a tight distribution of contours passing through the center of an image patch
 
+SLAM (Simultaneous Localization and Mapping) [[]]
+: The computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location within it.
+
 Spatial Pyramid Pooling (SPP)
 : ?
 
@@ -130,5 +133,5 @@ Variational Autoencoder (VAE)
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3MTE4NzY2XX0=
+eyJoaXN0b3J5IjpbLTUwOTE3NDMzLDQyNzExODc2Nl19
 -->
