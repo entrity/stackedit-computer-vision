@@ -11,8 +11,7 @@ https://arxiv.org/pdf/1808.06675.pdf
 
 **Hierarchy Encoding**: A hierarchy can be represented by a binary tree. A traversal from root to leaf can be represented as a binary string (left=0, right=1).
 
-A network called Class2Str take one-hot labels as input and outputs a set of probabilities which indicate the binary hierarchy str
-A network called Str2Class 
+A network called Class2Str take one-hot labels as input and outputs a set of probabilities which indicate the binary hierarchy string. A network called Str2Class learns the reverse mapping and imposes a loss in order that the mappings learned by Class2Str are one-to-one.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDg2MjUzNCwxMTU3MjcwMzU2XX0=
+eyJoaXN0b3J5IjpbLTg2ODcxMDYxNywxMTU3MjcwMzU2XX0=
 -->
