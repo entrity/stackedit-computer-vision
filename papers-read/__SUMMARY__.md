@@ -18,8 +18,9 @@
 : In contrast to work that concatenates condition (random) features at some point in the generator, this includes dedicated, transformation-specific conv layers at the latent level. It has no need for a clamping strategy to maintain object identity information.
 
 ![present]! ![toolbelt]! [Class2Str: End to End Latent Hierarchy Learning](https://arxiv.org/pdf/1808.06675.pdf)
-: Categories tend to be hierarchical. Prediction is improved if one predicts a hierarchy instead of a one-hot vector. The hierarchy is represented as a binary tree; a label is a binary string which represents a traversal of the tree from root to leaf.
+: Categories tend to be hierarchical. Performance may improve if one learns to predict a hierarchy instead of an arbitrary one-hot vector. The hierarchy is represented as a binary tree; a label is a binary string which represents a traversal of the tree from root to leaf.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjc5NjU1MCwyMDQwOTM3OTQ3XX0=
+eyJoaXN0b3J5IjpbMTQ5MTM0Njc4NSwtODI2Nzk2NTUwLDIwND
+A5Mzc5NDddfQ==
 -->
