@@ -1,3 +1,6 @@
+- ![present]! - to share at reading group. (if already shared, remove this)
+- ![toolbelt]! - something to use
+
 ![present]! [Learning Linear Transformations for Fast Arbitrary Style Transfer](https://arxiv.org/pdf/1808.04537.pdf)
 : Instead of using a SVD decomposition of a Gramm matrix for style features, this model uses miniature CNNs to learn a transformation matrix $T$ which is applied to the content features in order to compute the style features. This is performed at multiple levels in an autoencoder; thus there are multiple style losses and one content loss. The result is fast (140 fps) and flexible. A shallower network leads to less distortion; the learned $T$ allows for good results with a shallower encoder.
 
@@ -13,8 +16,8 @@
 [CT-GAN: Conditional Transformation Generative Adversarial Network for Image Attribute Modification](https://arxiv.org/pdf/1807.04812.pdf)
 : In contrast to work that concatenates condition (random) features at some point in the generator, this includes dedicated, transformation-specific conv layers at the latent level. It has no need for a clamping strategy to maintain object identity information.
 
-* [](https://arxiv.org/pdf/1808.06675.pdf)
+![present]! ![toolbelt]! [Class2Str: End to End Latent Hierarchy Learning](https://arxiv.org/pdf/1808.06675.pdf)
 : Instead of learning a one-hot vector, the label is a binary string which represents a traversal of a binary tree from root to leaf. The binary tree represents a learned latent hierarchy of the classes. During training, a Class2Str network 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3NDIwMDIxLDIwNDA5Mzc5NDddfQ==
+eyJoaXN0b3J5IjpbNjkxNjY3MTM5LDIwNDA5Mzc5NDddfQ==
 -->
