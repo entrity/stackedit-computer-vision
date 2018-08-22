@@ -13,8 +13,8 @@ https://arxiv.org/pdf/1808.06675.pdf
 
 A network called Class2Str take one-hot labels as input and outputs a set of probabilities which indicate the binary hierarchy string. A network called Str2Class learns the reverse mapping and imposes a loss in order that the mappings learned by Class2Str are one-to-one.
 
-**?**: What if the e2e character were sacrificed in favour of learning a hierarchy on word2vec, then learning to predict strings from that hierarchy? So semantically similar objects would have common prefixes, so if you misclassify something (and use the string instead of the one-hot translation), you'll at least get something semantically similar.
+**?**: What if the e2e character were sacrificed in favour of learning a hierarchy on word2vec, then learning to predict strings from that hierarchy? So semantically similar objects would have common prefixes, so if you misclassify something (and use the string instead of the one-hot translation), you may at least get something semantically similar. (As opposed to visually similar: crocodile shared a fish prefix because they were both found in water, so they were linked by visual, not semantic, similarity.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjg5ODI4OTIsLTg2ODcxMDYxNywxMT
-U3MjcwMzU2XX0=
+eyJoaXN0b3J5IjpbMTIxNzIxNTQxMywtODY4NzEwNjE3LDExNT
+cyNzAzNTZdfQ==
 -->
