@@ -12,6 +12,9 @@
 
 [CT-GAN: Conditional Transformation Generative Adversarial Network for Image Attribute Modification](https://arxiv.org/pdf/1807.04812.pdf)
 : In contrast to work that concatenates condition (random) features at some point in the generator, this includes dedicated, transformation-specific conv layers at the latent level. It has no need for a clamping strategy to maintain object identity information.
+
+[](https://arxiv.org/pdf/1808.06675.pdf)
+: Instead of learning a one-hot vector, the label is a binary string which represents a traversal of a binary tree from root to leaf. The binary tree represents a learned latent hierarchy of the classes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDkzNzk0N119
+eyJoaXN0b3J5IjpbLTE4NTA2NDc4NjYsMjA0MDkzNzk0N119
 -->
