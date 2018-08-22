@@ -10,6 +10,9 @@ https://arxiv.org/pdf/1808.06675.pdf
 **Label Encoding**: This paper uses encoding other than one-hot. Other alternative encodings which came up were (1) to replace the 1-hot representation of the labels by an error correcting code (Hadamard code) and (2) DeViSe suggests to replace the 1-hot vector representation of the labels by a word embedding which is learnt separately to model language. (1) satisfies a minimum distance property. (2) uses nearest neighbours on cosine similarity to compute loss, which imposes higher cost than this paper's loss computation.
 
 **Hierarchy Encoding**: A hierarchy can be represented by a binary tree. A traversal from root to leaf can be represented as a binary string (left=0, right=1).
+
+A network called Class2Str take one-hot labels as input and outputs a set of probabilities which indicate the binary hierarchy str
+A network called Str2Class 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjAwMDA0ODQsMTE1NzI3MDM1Nl19
+eyJoaXN0b3J5IjpbMTY0MDg2MjUzNCwxMTU3MjcwMzU2XX0=
 -->
