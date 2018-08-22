@@ -111,7 +111,7 @@ SIFT [[paper](http://www.cs.ubc.ca/~lowe/papers/iccv99.pdf)]
 Sketch token
 : a tight distribution of contours passing through the center of an image patch
 
-SLAM (Simultaneous Localization and Mapping) [[]]
+SLAM (Simultaneous Localization and Mapping) [[wiki](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping)]
 : The computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location within it.
 
 Spatial Pyramid Pooling (SPP)
@@ -130,8 +130,11 @@ Supervised learning
 Variational Autoencoder (VAE)
 : Generative model. Easier to train (more stable) than GAN, but good GAN yields better results. Codiscovered: [1](https://arxiv.org/abs/1312.6114), [2](https://arxiv.org/abs/1401.4082)
 
+Wasserstein Distance
+: A distance between two probability distributions.
+
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTE3NDMzLDQyNzExODc2Nl19
+eyJoaXN0b3J5IjpbLTIxMzgyNDIxNDIsNDI3MTE4NzY2XX0=
 -->
