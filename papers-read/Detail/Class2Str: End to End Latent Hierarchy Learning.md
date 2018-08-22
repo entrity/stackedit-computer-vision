@@ -3,7 +3,7 @@ https://arxiv.org/pdf/1808.06675.pdf
 
 **Problem**: Classes which a classifier must predict typically are not completely independent.
 
-**Proposal**: Learn a latent heirarchy of the classes in e2e training to improve classification.
+**Proposal**: Learn a latent hierarchy of the classes in e2e training to improve classification. Replace the traditional classifier (FC) with a "Latent Hierarchy Classifier" (LH).
 
 **Predecessor**: Most similar is HD-CNN. Yan et al. first train a fine grained classifier and then use the confusion matrix to identify some coarse grained categories. A separate fine grained classifier is trained for each of these coarse grained categories to improve the accuracy. Thus, HD-CNN discovers a 2 level hierarchy with a 2 stage training process, while we discover a multilevel hierarchy using a single stage end to end training.
 
@@ -11,5 +11,5 @@ https://arxiv.org/pdf/1808.06675.pdf
 
 **Hierarchy Encoding**: A hierarchy can be represented by a binary tree. A traversal from root to leaf can be represented as a binary string (left=0, right=1).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTMwNjI4MjVdfQ==
+eyJoaXN0b3J5IjpbMTE1NzI3MDM1Nl19
 -->
