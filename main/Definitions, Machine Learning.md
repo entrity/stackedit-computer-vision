@@ -131,10 +131,10 @@ Variational Autoencoder (VAE)
 : Generative model. Easier to train (more stable) than GAN, but good GAN yields better results. Codiscovered: [1](https://arxiv.org/abs/1312.6114), [2](https://arxiv.org/abs/1401.4082)
 
 Wasserstein Distance
-: A distance between two probability distributions.
+: A distance between two probability distributions, aka "the earth-mover's distance."
 
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzgyNDIxNDIsNDI3MTE4NzY2XX0=
+eyJoaXN0b3J5IjpbNzU5Nzg4MTIxLDQyNzExODc2Nl19
 -->
