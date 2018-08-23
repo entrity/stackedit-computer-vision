@@ -2,14 +2,14 @@
 
 VRD (Visual Relation Detection) is of value b/c it helps models for {VQA, visual chatbot, image captioning, etc} learn underlying reasoning rather than just training set bias.
 
-Labelling relations is more expensive than labelling objects: requires combinatorial checks. Results in long-tailed datasets, biased toward dominant combinations.
+Labeling relations is more expensive than labeling objects: requires combinatorial checks. Results in long-tailed datasets, biased toward dominant combinations.
 
 **Shuffle** is to discard the paired object alignments. **Assemble** is to create a pair-recover problem. (1) The RoI features learnt in the shuffle step should encode non-object-specific info. (2) The unsupervised assemble step allows exploration of more possible relationships
 
 Works on generic triplets.
 
-**Related work** falls into two lines of effort: (1) message passing between the to object features and (2) exploitation of subj-obj statistics (as from language priors o dataset bias)
+**Related work** falls into two lines of effort: (1) message passing between the to object features and (2) exploitation of subj-obj statistics (as from language priors and dataset bias)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODU1OTI4NywtMTQ5ODQzMTEyNCwyMj
+eyJoaXN0b3J5IjpbLTUxMTUxMzQyNywtMTQ5ODQzMTEyNCwyMj
 EyMDk1ODQsNDkxMjMzNzQ3XX0=
 -->
