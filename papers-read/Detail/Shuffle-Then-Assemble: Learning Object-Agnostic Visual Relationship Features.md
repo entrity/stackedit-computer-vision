@@ -4,7 +4,7 @@ VRD (Visual Relation Detection) is of value b/c it helps models for {VQA, visual
 
 Labelling relations is more expensive than labelling objects: requires combinatorial checks. Results in long-tailed datasets, biased toward dominant combinations.
 
-
+**Shuffle** is to discard the paired object alignments. **Assemble** is to create a pair-recover problem.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQ5NDUzNjEsNDkxMjMzNzQ3XX0=
+eyJoaXN0b3J5IjpbMjIxMjA5NTg0LDQ5MTIzMzc0N119
 -->
