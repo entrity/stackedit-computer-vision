@@ -4,11 +4,11 @@ VRD (Visual Relation Detection) is of value b/c it helps models for {VQA, visual
 
 Labeling relations is more expensive than labeling objects: requires combinatorial checks. Results in long-tailed datasets, biased toward dominant combinations.
 
-**Solution**: learn *visual relationship features*, not object features. Use a self-supervised/unsupervised method to do so.
+**Solution**: In the conv layers, learn *visual relationship features*, not object features. Use a self-supervised/unsupervised method to do so. (Pretraining on an image classification task preserves a bias for particular objects in a given relationship.)
 
-**Visual Relationship Features**: Learning visual relationship features instead of object features means that the conv layers are object-agnostic. Thus they should generalize better to unseen objects. The pretraining method is called **Shuffle-Then-Assemble**. (Pretraining on an image classification task wouldn't avoid the bias.)
+**Visual Relationship Features**: Learning visual relationship features instead of object features means that the conv layers are object-agnostic. Thus they should generalize better to unseen objects. The pretraining method is called **Shuffle-Then-Assemble**. 
 
-**Shuffle**: this means that the mapping of RoI to object class is discarded. Or the mapping of obj1 to obj2 (sub and obj) is discarded so that we can attempt to recover ("assemble") it in unsupervised manner. ?
+**Shuffle**: this means that the mapping of obj1 to obj2 (sub and obj) is discarded so that we can attempt to recover ("assemble") it in unsupervised manner.
 
 **Assemble**: obj1 may align to obj4 with relationship "sit." obj2 may align to obj6 with relationship "hold." The pretraining is performed as unsupervised adversarial domain transfer, where the domain transfer is the relationship.? The two domains contain the object-agnostic feature maps extracted from the RoIs,
 
@@ -18,7 +18,7 @@ Works on generic triplets.
 
 **Related work** falls into two lines of effort: (1) message passing between the to object features and (2) exploitation of subj-obj statistics (as from language priors and dataset bias)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODYyNTE5OCw3MzY2NTg3NDUsLTUxMT
-UxMzQyNywtMTQ5ODQzMTEyNCwyMjEyMDk1ODQsNDkxMjMzNzQ3
-XX0=
+eyJoaXN0b3J5IjpbMTI3NTM0MDI1MiwxNjM4NjI1MTk4LDczNj
+Y1ODc0NSwtNTExNTEzNDI3LC0xNDk4NDMxMTI0LDIyMTIwOTU4
+NCw0OTEyMzM3NDddfQ==
 -->
