@@ -22,7 +22,11 @@
 
 [Shuffle-Then-Assemble: Learning Object-Agnostic Visual Relationship Features](https://arxiv.org/pdf/1808.00171.pdf)
 : Unsupervised pretraining under adversarial domain transfer, in which each RoI selects another RoI as its partner yields performance increase. Generalization is helped by learning features for each RoI that are agnostic to classes but rather focus on being ready to find a partner.
+
+[Videos as Space-Time Region Graphs]([https://arxiv.org/abs/1806.01810](https://arxiv.org/abs/1806.01810))
+: Current video action recognition methods don't do much to consider how individual objects in the video move and change over time; they mostly operate on scene features. This paper uses an RPN to get object proposals across time; makes two graphs (adjacency matrices) to relate 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ1NDIyMTUsNzIxMTk0NTg0LDE0OT
-EzNDY3ODUsLTgyNjc5NjU1MCwyMDQwOTM3OTQ3XX0=
+eyJoaXN0b3J5IjpbMTYyMzgwMzE5MywtMTU5NDU0MjIxNSw3Mj
+ExOTQ1ODQsMTQ5MTM0Njc4NSwtODI2Nzk2NTUwLDIwNDA5Mzc5
+NDddfQ==
 -->
