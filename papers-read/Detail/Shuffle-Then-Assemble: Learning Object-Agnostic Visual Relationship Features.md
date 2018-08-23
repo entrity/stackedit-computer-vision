@@ -12,11 +12,11 @@ Labeling relations is more expensive than labeling objects: requires combinatori
 
 **Assemble**: All the RoI feature maps belong in two domains A and B. The objects should all map from one domain to another in the sense that they select a partner to which to be related in this image. E.g. obj1 may align to obj4 with relationship "sit." obj2 may align to obj6 with relationship "hold." The pretraining is performed as unsupervised adversarial domain transfer.
 
-This works e2e, on generic triplets. This can be integrated into predicate prediction, relation prediction, etc. After pretraining, experiments are performed for supervised, weakly supervised, and zero shot (supervised). More than 4 points
+**Tags and results**. This works e2e, on generic triplets. This can be integrated into predicate prediction, relation prediction, etc. After pretraining, experiments are performed for supervised, weakly supervised, and zero shot (supervised). More than 4 percentage points' improvement is achieved for each of these.
 
 **Related work** falls into two lines of effort: (1) message passing between the to object features and (2) exploitation of subj-obj statistics (as from language priors and dataset bias)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3NDAzMjM1LDE2Mzg2MjUxOTgsNzM2Nj
+eyJoaXN0b3J5IjpbODY0MDEwOTE1LDE2Mzg2MjUxOTgsNzM2Nj
 U4NzQ1LC01MTE1MTM0MjcsLTE0OTg0MzExMjQsMjIxMjA5NTg0
 LDQ5MTIzMzc0N119
 -->
