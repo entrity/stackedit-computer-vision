@@ -78,6 +78,9 @@ mAP (mean Average Precision)
 MLP (multi-layer perceptron)
 : vanilla feed-forward neural network. Still needs some 'activation' function such as ReLU to provide non-linearity.
 
+Mode collapse
+: is when the generator generates a limited diversity of samples, or even the same sample, regardless of the input.
+
 Multi-instance learning (MIL)
 : Given a bag of instances, you know that one of them corresponds to the label, but you don't know which one. One way to proceed is to run your model on all of them and then backpropagate on only the instance which produced the lowest error.
 
@@ -136,5 +139,6 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5Nzg4MTIxLDQyNzExODc2Nl19
+eyJoaXN0b3J5IjpbNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMT
+g3NjZdfQ==
 -->
