@@ -21,8 +21,8 @@
 : Categories tend to be hierarchical. Performance may improve if one learns to predict a hierarchy instead of an arbitrary one-hot vector. The hierarchy is represented as a binary tree; a label is a binary string which represents a traversal of the tree from root to leaf.
 
 [Shuffle-Then-Assemble: Learning Object-Agnostic Visual Relationship Features](https://arxiv.org/pdf/1808.00171.pdf)
-: 
+: Unsupervised pretraining under adversarial domain transfer, in which each RoI selects another RoI as its partner yields performance increase. Generalization
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxMTk0NTg0LDE0OTEzNDY3ODUsLTgyNj
-c5NjU1MCwyMDQwOTM3OTQ3XX0=
+eyJoaXN0b3J5IjpbNDU1MzE0MTI4LDcyMTE5NDU4NCwxNDkxMz
+Q2Nzg1LC04MjY3OTY1NTAsMjA0MDkzNzk0N119
 -->
