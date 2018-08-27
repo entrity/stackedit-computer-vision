@@ -93,8 +93,8 @@ Network-in-Network
 Partially supervised learning
 : *see "Supervised learning: partially supervised"*
 
-Recall @ X
-: The fraction of times that the correct answer is predicted in the top $x$ predictions.
+Recall @ X (Recall@X, R@X)
+: Among the top $X$ predictions across a dataset (sorted, for example, by confidence), the fraction of correct predictions.
 
 ROI Pooling
 : An ROI can be any size, but the network that operates on it expects a particular size. ROI Pooling changes the size of the ROI to fit the following network. First proposed in [Fast R-CNN](https://deepsense.ai/wp-content/uploads/2017/02/1504.08083.pdf). [[Brief explanation](https://deepsense.ai/region-of-interest-pooling-explained/)]
@@ -139,6 +139,6 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMT
-g3NjZdfQ==
+eyJoaXN0b3J5IjpbLTE4MTkwNDAzNTAsNTE5MTA3OTUzLDc1OT
+c4ODEyMSw0MjcxMTg3NjZdfQ==
 -->
