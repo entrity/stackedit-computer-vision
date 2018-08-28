@@ -1,4 +1,4 @@
-## CUDA
+# CUDA
 
 - `nvidia-smi` - prints GPUs and their current load
 - `export CUDA_VISIBLE_DEVICES=1,2` env variable to set for pytorch to use given gpu(s)
@@ -15,11 +15,11 @@ So for vision2, I have compute capability 6.1 and 3.5. So in calls to `nvcc`, I 
 	-gencode arch=compute_35,code=sm_35
 ```
 
-## Conda
+# Conda
 
 - `source activate <env>` Enter environment
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MzU4ODczMCw5MjAwNjIyNTAsOTY5Mj
-gxMTc5LC0xMDg3MTUwMTY4XX0=
+eyJoaXN0b3J5IjpbLTE1OTE5MDQ0NCwtMjczNTg4NzMwLDkyMD
+A2MjI1MCw5NjkyODExNzksLTEwODcxNTAxNjhdfQ==
 -->
