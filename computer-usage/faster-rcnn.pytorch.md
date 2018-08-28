@@ -2,8 +2,8 @@
 
 1. enter a python 3 environment with dependencies installed
 2. `export PATH="${PATH}:/usr/local/cuda/bin/"`
-3. `export CFLAGS=-std99`
-4. `cd lib && sh make.sh` NB: I use `sh` instead of `bash`, regardless of what the shebang line in `make.sh` says
+3. `export CFLAGS=-std=c99`
+4. `cd lib && ./make.sh`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjgzMzQyMF19
+eyJoaXN0b3J5IjpbNzY5NzE2NTk4XX0=
 -->
