@@ -4,7 +4,8 @@
 
 ## Conda
 
-Enter environment
+`source activate <env>` Enter environment
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI3NTMxMjI4XX0=
+eyJoaXN0b3J5IjpbMTU4NzI3MTA1NV19
 -->
