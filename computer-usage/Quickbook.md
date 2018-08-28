@@ -9,13 +9,17 @@ Find the compute capability at https://developer.nvidia.com/cuda-gpus.
 
 For instance, vision2 currently has one *GeForce GTX 1080 Ti* and two *Tesla K40c*. I got this information by running `nvidia-settings`, but an occluded list of gpus can also be had from `nvidia-smi`.
 
-So for vision2, I have compute capability 
+So for vision2, I have compute capability 6.1 and 3.5. So in calls to `nvcc`, I provide the arguments:
+```
+-gencode arch=compute_61,code=sm_61 \
+	-gencode arch=compute_35,code=sm_35
+```
 
 ## Conda
 
 - `source activate <env>` Enter environment
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwMDYyMjUwLDk2OTI4MTE3OSwtMTA4Nz
-E1MDE2OF19
+eyJoaXN0b3J5IjpbLTI3MzU4ODczMCw5MjAwNjIyNTAsOTY5Mj
+gxMTc5LC0xMDg3MTUwMTY4XX0=
 -->
