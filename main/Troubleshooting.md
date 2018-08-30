@@ -1,7 +1,4 @@
-
-
-
-> Written with [StackEdit](https://stackedit.io/).
+- When using a smaller batch size, use a lower learning rate. For my 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTQ2NjEyMjczMyw3MzA5OTgxMTZdfQ==
 -->
