@@ -26,7 +26,9 @@ Then learn a rank loss, which the projection function $f$ generalizes to unseen 
 
 ## Loss
 
-A rank loss combines the language module and the appearance module, comparing looks at the prediction and the 2nd-ranked prediction.
+A rank loss combines the language module and the appearance module, comparing the target triplet and the highest-ranked non-target triplet.
+
+## TMI
 
 ## Related Work
 
@@ -40,6 +42,6 @@ A rank loss combines the language module and the appearance module, comparing lo
   - Scene Graph dataset has 23,190 relationship types but only 2.3 predicates per object category; thus detecting relationships boils down to detecting objects
   - (ours) Visual Relationship dataset has 100 object categories, 70 predicates, 5000 images; 37,993 relationships with 6,672 relationship types
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5NTExNTEwLC02OTQ4NTkzMzYsMzEzNj
+eyJoaXN0b3J5IjpbNzgwOTMwNzg1LC02OTQ4NTkzMzYsMzEzNj
 kwNzgwXX0=
 -->
