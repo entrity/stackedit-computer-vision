@@ -33,8 +33,10 @@ pdb.set_trace()
 ## MATLAB Debugger
 
 ```matlab
-dbstop 
+DBSTOP if error
+DBSTOP in FILE at LINENO
+dbstop in infer at 2
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyNjA4MjI4XX0=
+eyJoaXN0b3J5IjpbNDU1MjI0NTA0XX0=
 -->
