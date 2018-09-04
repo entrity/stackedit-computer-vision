@@ -17,7 +17,8 @@ Use triplet $(obj_1,pred, obj_2)$ to denote relationships.
 - human-object interation and action recognition work has learned discriminative parts; we are not constrained to a human being the subject
 - lots of visual relationship works; we formalize VRD as a task unto itself
 - visual phrase work (learning appearance models for visual phrases) has improved object detection; it doesn't scale to many relationships; ours also detects unseen (zero shot) relationships
-
+  - Visual Phrases dataset has 17 common relationships types, which is few
+  - Scene Graph dataset has 23,190 relationship types but only 2.3 predicates per object category
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjYxNDY1ODhdfQ==
+eyJoaXN0b3J5IjpbLTg1NDYwNDIwOF19
 -->
