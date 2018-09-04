@@ -17,7 +17,7 @@ Stanford. Cewu Lu, Ranjay Krishna, Michael Bernstei, Li Fei-Fei
 
 - use triplets $(obj_1,pred, obj_2)$ to denote relationships
 - fully supervised
-- on test image: predict multiple relationships and localize the objects
+- *test time*: given an image, predict multiple relationships and localize the objects
 
 ## Language Module
 
@@ -29,6 +29,8 @@ Then learn a rank loss, which the projection function $f$ generalizes to unseen 
 A rank loss combines the language module and the appearance module, comparing the target triplet and the highest-ranked non-target triplet.
 
 ## TMI
+
+- uses RCNN for object proposals at test time
 
 ## Related Work
 
@@ -42,6 +44,6 @@ A rank loss combines the language module and the appearance module, comparing th
   - Scene Graph dataset has 23,190 relationship types but only 2.3 predicates per object category; thus detecting relationships boils down to detecting objects
   - (ours) Visual Relationship dataset has 100 object categories, 70 predicates, 5000 images; 37,993 relationships with 6,672 relationship types
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgwOTMwNzg1LC02OTQ4NTkzMzYsMzEzNj
-kwNzgwXX0=
+eyJoaXN0b3J5IjpbLTQ3NzUyMDYxNiwtNjk0ODU5MzM2LDMxMz
+Y5MDc4MF19
 -->
