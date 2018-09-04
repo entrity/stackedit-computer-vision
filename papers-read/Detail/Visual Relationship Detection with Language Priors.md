@@ -24,6 +24,10 @@ Stanford. Cewu Lu, Ranjay Krishna, Michael Bernstei, Li Fei-Fei
 Project triplets into a semantic space by concatenating word2vec for the two objects and then performing a linear transform $(W,b)$. These params are learnt by minimizing variance on pairs of relationships to make distances between two relationships $f(R,W)$ proportional to the word2vec distances (between objects and predicates.
 Then learn a rank loss, which the projection function $f$ generalizes to unseen triplets.
 
+## Loss
+
+A rank loss combines the language module and the appearance module, comparing looks at the prediction and the 2nd-ranked prediction.
+
 ## Related Work
 
 - leveraging statistics of object co-occurence; we instead study context or relationships in which objects co-occur
@@ -36,6 +40,6 @@ Then learn a rank loss, which the projection function $f$ generalizes to unseen 
   - Scene Graph dataset has 23,190 relationship types but only 2.3 predicates per object category; thus detecting relationships boils down to detecting objects
   - (ours) Visual Relationship dataset has 100 object categories, 70 predicates, 5000 images; 37,993 relationships with 6,672 relationship types
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzI5MTQyLC02OTQ4NTkzMzYsMzEzNj
+eyJoaXN0b3J5IjpbOTc5NTExNTEwLC02OTQ4NTkzMzYsMzEzNj
 kwNzgwXX0=
 -->
