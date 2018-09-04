@@ -16,7 +16,8 @@ Use triplet $(obj_1,pred, obj_2)$ to denote relationships.
 - learn spatial relationships btwn objects to improve segmentation; we study spatial relationships (above, below, etc) as well as non-spatial relationships (pull, taller than, etc)
 - human-object interation and action recognition work has learned discriminative parts; we are not constrained to a human being the subject
 - lots of visual relationship works; we formalize VRD as a task unto itself
-- visual phrase work (learning appearance models for visual phrases) has improved object detection; it doesn't scale to many relationships
+- visual phrase work (learning appearance models for visual phrases) has improved object detection; it doesn't scale to many relationships; ours also detects unseen (zero shot) relationships
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgyMTYwODI1XX0=
+eyJoaXN0b3J5IjpbLTE3NjYxNDY1ODhdfQ==
 -->
