@@ -35,8 +35,8 @@ pdb.set_trace()
 ```matlab
 DBSTOP if error
 DBSTOP in FILE at LINENO
-dbstop in infer at 2
+dbstop in infer at 28 % for file 'infer.m'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU1MjI0NTA0XX0=
+eyJoaXN0b3J5IjpbMjE0MTgxNDM4M119
 -->
