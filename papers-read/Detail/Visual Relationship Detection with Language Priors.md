@@ -9,7 +9,10 @@ Stanford. Cewu Lu, Ranjay Krishna, Michael Bernstei, Li Fei-Fei
 
 *New dataset*: **Visual Relationship Dataset (VRD)**
 
-Use triplet $(obj_1,pred, obj_2)$ to denote relationships.
+## Bullets
+
+- Use triplet $(obj_1,pred, obj_2)$ to denote relationships.
+- 
 
 ## Related Work
 - leveraging statistics of object co-occurence; we instead study context or relationships in which objects co-occur
@@ -18,7 +21,8 @@ Use triplet $(obj_1,pred, obj_2)$ to denote relationships.
 - lots of visual relationship works; we formalize VRD as a task unto itself
 - visual phrase work (learning appearance models for visual phrases) has improved object detection; it doesn't scale to many relationships; ours also detects unseen (zero shot) relationships
   - Visual Phrases dataset has 17 common relationships types, which is few
-  - Scene Graph dataset has 23,190 relationship types but only 2.3 predicates per object category
+  - Scene Graph dataset has 23,190 relationship types but only 2.3 predicates per object category; thus detecting relationships boils down to detecting objects
+  - (ours) Visual Relationship dataset has 100 object categories, 70 predicates, 5000 images; 37,993 relationships with 6,672 relationship types
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDYwNDIwOF19
+eyJoaXN0b3J5IjpbMjAwODQwNTcxM119
 -->
