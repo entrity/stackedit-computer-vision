@@ -18,6 +18,7 @@ Stanford. Cewu Lu, Ranjay Krishna, Michael Bernstei, Li Fei-Fei
 - use triplets $(obj_1,pred, obj_2)$ to denote relationships
 - fully supervised
 - on test image: predict multiple relationships and localize the objects
+## Language MOdu
 
 ## Related Work
 
@@ -31,5 +32,6 @@ Stanford. Cewu Lu, Ranjay Krishna, Michael Bernstei, Li Fei-Fei
   - Scene Graph dataset has 23,190 relationship types but only 2.3 predicates per object category; thus detecting relationships boils down to detecting objects
   - (ours) Visual Relationship dataset has 100 object categories, 70 predicates, 5000 images; 37,993 relationships with 6,672 relationship types
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDg1OTMzNiwzMTM2OTA3ODBdfQ==
+eyJoaXN0b3J5IjpbLTEyODk0MjcyMjcsLTY5NDg1OTMzNiwzMT
+M2OTA3ODBdfQ==
 -->
