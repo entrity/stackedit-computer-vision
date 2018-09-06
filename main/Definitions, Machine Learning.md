@@ -35,6 +35,9 @@ Fully supervised learning
 
 **GAN  (Generative Adversarial Network)** [[src](https://arxiv.org/abs/1406.2661)] [[CS231N](http://vision6.idav.ucdavis.edu:8888/notebooks/GANs-PyTorch.ipynb)] [[Hacks](https://github.com/soumith/ganhacks)]
 
+GCN (Graph Convolutional Network)
+: For a neighborhood of graph 
+
 GMM (Gaussian Mixture Model)
 : Assumes data points are generated from a mixture of a finite number of Gaussians. It's basically a k-means model with the inclusion of covariance information.
 
@@ -139,6 +142,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3NjkxMjYxLC0xODE5MDQwMzUwLDUxOT
-EwNzk1Myw3NTk3ODgxMjEsNDI3MTE4NzY2XX0=
+eyJoaXN0b3J5IjpbLTE3ODU1OTcwNiw5MTc2OTEyNjEsLTE4MT
+kwNDAzNTAsNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMTg3NjZd
+fQ==
 -->
