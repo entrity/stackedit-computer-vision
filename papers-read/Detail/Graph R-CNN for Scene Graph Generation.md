@@ -15,7 +15,9 @@
 
 SGGen+ computes recall for singleton entities (objects, predicates), pair entities (<object, attribute>), and triplets (<subj, predicate, obj>).
 
+**RePN** doesn't pass pairs of objects through an MLP because the number of pairs is quadratic. Instead, each object goes through a projection function $\phi$ and $\psi$ to project as subject and object respectively. Then the 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMDQwNzQ4NCwtMTY4MDE5MDI5MywtMT
-Q0OTI2MTY3NF19
+eyJoaXN0b3J5IjpbMTMzMTk5ODUxNywyMDMwNDA3NDg0LC0xNj
+gwMTkwMjkzLC0xNDQ5MjYxNjc0XX0=
 -->
