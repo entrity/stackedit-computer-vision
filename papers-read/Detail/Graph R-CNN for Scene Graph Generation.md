@@ -17,7 +17,8 @@ SGGen+ computes recall for singleton entities (objects, predicates), pair entiti
 
 **RePN** doesn't pass pairs of objects through an MLP because the number of pairs is quadratic. Instead, each object goes through a projection function $\phi$ and $\psi$ to project as subject and object respectively. Then the projection of a subject and object are paired and passed through a single matrix multiplication (and sigmoid) to yield a "relatedness" score.
 
+The top $K$ scoring pairs are taken; then NMS is applied
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA2MDM5MDIsMjAzMDQwNzQ4NCwtMTY4MD
-E5MDI5MywtMTQ0OTI2MTY3NF19
+eyJoaXN0b3J5IjpbMTk3NTE5MzgyNSwyMDMwNDA3NDg0LC0xNj
+gwMTkwMjkzLC0xNDQ5MjYxNjc0XX0=
 -->
