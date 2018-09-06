@@ -5,7 +5,12 @@
 
 **Contributions**
 - Graph R-CNN framework
-- 
+  - RePN (relation proposal network)
+  - aGCN (attentional graph convolutional network)
+
+**Details**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDkyNjE2NzRdfQ==
+eyJoaXN0b3J5IjpbLTE2ODAxOTAyOTMsLTE0NDkyNjE2NzRdfQ
+==
 -->
