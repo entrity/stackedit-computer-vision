@@ -7,10 +7,13 @@
 - Graph R-CNN framework
   - RePN (relation proposal network)
   - aGCN (attentional graph convolutional network)
+- SGGen+ metric
 
-**Details**
+## Details
+
+**SGGen+** overcomes weakness of the common metrics for triplet prediction that an object misclassification minor error (boy vs man) is heavily penalized even when most details in the predicted triplet are correct. ()
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODAxOTAyOTMsLTE0NDkyNjE2NzRdfQ
-==
+eyJoaXN0b3J5IjpbNzg3MTc5MzMxLC0xNjgwMTkwMjkzLC0xND
+Q5MjYxNjc0XX0=
 -->
