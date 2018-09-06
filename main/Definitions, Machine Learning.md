@@ -37,7 +37,8 @@ Fully supervised learning
 
 GCN (Graph Convolutional Network)
 : The input is effectively neighborhood of graph nodes. For layer $(l+1)$ and node $i$, the input is the output of the previous layer plus a sum of linearly transformed neighbours (at the same layer):
-$z_i^{l+1} = \sigma($
+$z_i^{(l+1)} = \sigma( z_i^{(l)} + \sum_{j \in N(i)} Wz_j^{(l)})$
+(Attention weights $\alpha_j$ can be applied to )
 
 GMM (Gaussian Mixture Model)
 : Assumes data points are generated from a mixture of a finite number of Gaussians. It's basically a k-means model with the inclusion of covariance information.
@@ -143,7 +144,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzNzE1MzM2LDkxNzY5MTI2MSwtMTgxOT
-A0MDM1MCw1MTkxMDc5NTMsNzU5Nzg4MTIxLDQyNzExODc2Nl19
-
+eyJoaXN0b3J5IjpbLTE2ODU4MTUyMzAsOTE3NjkxMjYxLC0xOD
+E5MDQwMzUwLDUxOTEwNzk1Myw3NTk3ODgxMjEsNDI3MTE4NzY2
+XX0=
 -->
