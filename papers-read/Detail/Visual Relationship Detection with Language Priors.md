@@ -7,6 +7,8 @@ Stanford. Cewu Lu, Ranjay Krishna, Michael Bernstei, Li Fei-Fei
 *Problem*: skew of rare relationships because relationships are combinatorial. Need to learn with relatively few examples, then. Contrast with [6], which required enough training examples for every possible triplet.
 *Proposal*: (1) learn appearance of objects and predicates separately, then fuse them together. (2) learn language model that makes use of word semantic embeddings.
 
+     *NB stopped taking notes halfway through the paper*
+
 ## Contributions
 
 - *New dataset*: **Visual Relationship Dataset (VRD)**
@@ -44,6 +46,6 @@ A rank loss combines the language module and the appearance module, comparing th
   - Scene Graph dataset has 23,190 relationship types but only 2.3 predicates per object category; thus detecting relationships boils down to detecting objects
   - (ours) Visual Relationship dataset has 100 object categories, 70 predicates, 5000 images; 37,993 relationships with 6,672 relationship types
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzUyMDYxNiwtNjk0ODU5MzM2LDMxMz
-Y5MDc4MF19
+eyJoaXN0b3J5IjpbMTQxMTY3NTI3OCwtNDc3NTIwNjE2LC02OT
+Q4NTkzMzYsMzEzNjkwNzgwXX0=
 -->
