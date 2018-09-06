@@ -11,9 +11,11 @@
 
 ## Details
 
-**SGGen+** overcomes weakness of the common metrics for triplet prediction that an object misclassification minor error (boy vs man) is heavily penalized even when most details in the predicted triplet are correct. ()
+**SGGen+** overcomes weakness of the common metrics for triplet prediction that an object misclassification minor error (boy vs man) is heavily penalized even when most details in the predicted triplet are correct. (Predicting predicate only sidesteps this weakness but fails to reflect test-time performance.)
+
+SGGen+ computes recall for singleton entities (objects, predicates), pair entities (<object, attribute>), and triple
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3MTc5MzMxLC0xNjgwMTkwMjkzLC0xND
+eyJoaXN0b3J5IjpbNDg4MDgzMjMyLC0xNjgwMTkwMjkzLC0xND
 Q5MjYxNjc0XX0=
 -->
