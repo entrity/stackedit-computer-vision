@@ -4,12 +4,13 @@
 2. update `arch` in Makefile (see [Reference, CUDA])
 3. Run:
 ```bash
+cd lib
 export PATH="${PATH}:/usr/local/cuda/bin/"
 export CFLAGS=-std=c99
-cd lib && ./make.sh
+./make.sh
 # For the sake of using it in another project
-export PYTHONPATH="${PYTHONPATH}:`pwd`"
+export PYTHONPATH="${PYTHONPATH}:$(pwd)"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjU4MTI0NV19
+eyJoaXN0b3J5IjpbLTE2NDEyNTIxNDgsMTA4MjU4MTI0NV19
 -->
