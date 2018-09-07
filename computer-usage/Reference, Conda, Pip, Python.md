@@ -11,12 +11,13 @@
 ## My env
 
 ```
-pip3 install easydict
-conda install python=3.6
+conda create -n gen python=3.6
+conda activate gen
 conda install scikit-image scipy
 conda install torchvision pytorch=0.4.0 cuda91 -c pytorch
+pip3 install easydict
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkwMDY2Mzg3LDE3Mjg0MjQ3ODQsLTkyNj
+eyJoaXN0b3J5IjpbNjM0OTI0ODAzLDE3Mjg0MjQ3ODQsLTkyNj
 A2OTYxOV19
 -->
