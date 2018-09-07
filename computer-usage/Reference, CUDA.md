@@ -12,7 +12,8 @@ For instance, vision2 currently has one *GeForce GTX 1080 Ti* and two *Tesla K40
 GPU | compute capability
 --- | ---
 [NVIDIA TITAN Xp](http://www.geforce.com/hardware/10series/titan-xp) | 6.1
-
+[GeForce GTX 1080 Ti](http://www.geforce.com/hardware/10series/geforce-gtx-1080-ti) | 6.1
+[Tesla K40](http://www.nvidia.com/object/personal-supercomputing.html) | 3.5
 
 So for vision2, I have compute capability 6.1 and 3.5. So in calls to `nvcc`, I provide the arguments:
 ```
@@ -23,6 +24,6 @@ So for vision2, I have compute capability 6.1 and 3.5. So in calls to `nvcc`, I 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQxODc4NjQsLTE0Mjc0OTM0MzldfQ
+eyJoaXN0b3J5IjpbLTExNzc4Mzk1MTMsLTE0Mjc0OTM0MzldfQ
 ==
 -->
