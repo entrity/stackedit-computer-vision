@@ -2,9 +2,12 @@
 
 1. enter a python 3 environment with dependencies installed
 2. update `arch` in Makefile (see [Reference, CUDA])
-3. `export PATH="${PATH}:/usr/local/cuda/bin/"`
-4. `export CFLAGS=-std=c99`
-5. `cd lib && ./make.sh`
+3. Run:
+```
+export PATH="${PATH}:/usr/local/cuda/bin/"
+export CFLAGS=-std=c99
+cd lib && ./make.sh
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0NTAwMDQ3XX0=
+eyJoaXN0b3J5IjpbNjMxNDg5MjczXX0=
 -->
