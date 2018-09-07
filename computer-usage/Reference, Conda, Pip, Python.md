@@ -12,10 +12,10 @@
 
 ```
 conda install easydict
-conda
+conda install python=3.6
 conda install scikit-image scipy
-conda install torchvision pytorch=0.4.0 -c pytorch
+conda install torchvision pytorch=0.4.0 cuda91 -c pytorch
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzODU5MDUyLC05MjYwNjk2MTldfQ==
+eyJoaXN0b3J5IjpbMTcyODQyNDc4NCwtOTI2MDY5NjE5XX0=
 -->
