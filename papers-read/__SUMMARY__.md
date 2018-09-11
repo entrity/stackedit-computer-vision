@@ -25,8 +25,10 @@
 
 [Videos as Space-Time Region Graphs]([https://arxiv.org/abs/1806.01810](https://arxiv.org/abs/1806.01810))
 : Current video action recognition methods don't do much to consider how individual objects in the video move and change over time; they mostly operate on scene features. This paper uses an RPN to get object proposals across time; makes two graphs (adjacency matrices) to relate proposals, then performs a graph convolution (GCN). 4.4% recognition boost. *(from Yong Jae)*
+
+(https://arxiv.org/pdf/1808.07962.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3OTM2MzIzLC0xNTk0NTQyMjE1LDcyMT
-E5NDU4NCwxNDkxMzQ2Nzg1LC04MjY3OTY1NTAsMjA0MDkzNzk0
-N119
+eyJoaXN0b3J5IjpbNzE5Mzc3MjgyLDQyNzkzNjMyMywtMTU5ND
+U0MjIxNSw3MjExOTQ1ODQsMTQ5MTM0Njc4NSwtODI2Nzk2NTUw
+LDIwNDA5Mzc5NDddfQ==
 -->
