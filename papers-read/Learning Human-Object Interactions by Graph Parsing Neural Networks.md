@@ -4,7 +4,10 @@
 
 **Proposal:** Graph Parsing Neural Network (GPNN) to represent HOI structures with graph and then parse optimal graph structures.
 
-## Graph Parsing Neural Network (GPNN_
+## Graph Parsing Neural Network (GPNN)
+Generalization of Message Passing Neural Network.
+
+Design motivations: (1) unify learning capability of NN with power of graphical representations. (2) apply to diverse tasks in 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTE2ODE2MDhdfQ==
+eyJoaXN0b3J5IjpbLTE3NDg4MjM2NjNdfQ==
 -->
