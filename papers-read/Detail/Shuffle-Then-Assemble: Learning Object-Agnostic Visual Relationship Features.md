@@ -15,8 +15,13 @@ Labeling relations is more expensive than labeling objects: requires combinatori
 **Tags and results**. This works e2e, on generic triplets. This can be integrated into predicate prediction, relation prediction, etc. After pretraining, experiments are performed for supervised, weakly supervised, and zero shot (supervised). More than 4 percentage points' improvement is achieved for each of these.
 
 **Related work** falls into two lines of effort: (1) message passing between the to object features and (2) exploitation of subj-obj statistics (as from language priors and dataset bias)
+
+## TMI
+
+### Data augmentionat
+Use RPN to extract additional proposals, then select those which have $IoU > 0.7$ as positive training examples.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0MDEwOTE1LDE2Mzg2MjUxOTgsNzM2Nj
-U4NzQ1LC01MTE1MTM0MjcsLTE0OTg0MzExMjQsMjIxMjA5NTg0
-LDQ5MTIzMzc0N119
+eyJoaXN0b3J5IjpbLTk0MjIzMzk2NCw4NjQwMTA5MTUsMTYzOD
+YyNTE5OCw3MzY2NTg3NDUsLTUxMTUxMzQyNywtMTQ5ODQzMTEy
+NCwyMjEyMDk1ODQsNDkxMjMzNzQ3XX0=
 -->
