@@ -2,7 +2,8 @@
 - Object detection
 - Human-object interation detection
 - Visual relationship detection
-- Semantic segmentat
+- Semantic segmentation
+- Instance segmentation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzMjU0MzkwXX0=
+eyJoaXN0b3J5IjpbLTI0NTk2MTc3MF19
 -->
