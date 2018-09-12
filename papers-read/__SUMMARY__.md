@@ -55,11 +55,11 @@ Object classes and predicate classes each get their own hierarchical tree, which
 
 1. The bottom of the tree is the class labels from VG.
 2. One layer up from that is made by using the part-of-speech tagger toolkit from NLTK and NLTK Lemmatizer to filter and normalize words s.t. ${"old\ man", "men", "tall\ man"} \in "man"$.
-3. The top layer is achieved by clustering. For the object-classes tree, this is done by using a threshold of 0.65 on Leacock-Chodorow distance. For the predicate-classes tree, this is done by segregating prepositions from verbs.
+3. The top layer is achieved by clustering. For the object-classes tree, this is done by using a threshold of 0.65 on Leacock-Chodorow distance. For the predicate-classes tree, words are clustered semantically but split into super groups of prepositions and verbs (so a lower-level entity can be a child of both a pre.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQxMTE5MCwtMTYzNTA0NjY5MSwyMD
-A0MzIwMjM5LC01OTA0NjkxNiwtMTQ3MTE1MjY2NSwtMTA2Njg1
-NTI4MCwtMzExMDY5MjE5LC0xODc1MjM3MzIxLDQyNzkzNjMyMy
-wtMTU5NDU0MjIxNSw3MjExOTQ1ODQsMTQ5MTM0Njc4NSwtODI2
-Nzk2NTUwLDIwNDA5Mzc5NDddfQ==
+eyJoaXN0b3J5IjpbMTMzODQ5NDc4OSwtMTkyNDExMTkwLC0xNj
+M1MDQ2NjkxLDIwMDQzMjAyMzksLTU5MDQ2OTE2LC0xNDcxMTUy
+NjY1LC0xMDY2ODU1MjgwLC0zMTEwNjkyMTksLTE4NzUyMzczMj
+EsNDI3OTM2MzIzLC0xNTk0NTQyMjE1LDcyMTE5NDU4NCwxNDkx
+MzQ2Nzg1LC04MjY3OTY1NTAsMjA0MDkzNzk0N119
 -->
