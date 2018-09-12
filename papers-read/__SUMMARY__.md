@@ -58,11 +58,12 @@ Object classes and predicate classes each get their own hierarchical tree, which
 3. The top layer is achieved by clustering. For the object-classes tree, this is done by using a threshold of 0.65 on Leacock-Chodorow distance. For the predicate-classes tree, words are clustered semantically but split into super groups of prepositions and verbs. (A lower-level entity can be a child of both a preposition and a verb in the event that the entire predicate label is a verb phrase with a preposition.)
 
 The loss is:
-$$\L = \L_s + \L_p + \L_o$$
+$$L = L_s + L_p + L_o$$
+...where the component parts are weighted hierarchical losses.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA1OTc1MTIsLTE5MjQxMTE5MCwtMT
-YzNTA0NjY5MSwyMDA0MzIwMjM5LC01OTA0NjkxNiwtMTQ3MTE1
-MjY2NSwtMTA2Njg1NTI4MCwtMzExMDY5MjE5LC0xODc1MjM3Mz
-IxLDQyNzkzNjMyMywtMTU5NDU0MjIxNSw3MjExOTQ1ODQsMTQ5
-MTM0Njc4NSwtODI2Nzk2NTUwLDIwNDA5Mzc5NDddfQ==
+eyJoaXN0b3J5IjpbMTU1NTcwNTI0LC0xOTI0MTExOTAsLTE2Mz
+UwNDY2OTEsMjAwNDMyMDIzOSwtNTkwNDY5MTYsLTE0NzExNTI2
+NjUsLTEwNjY4NTUyODAsLTMxMTA2OTIxOSwtMTg3NTIzNzMyMS
+w0Mjc5MzYzMjMsLTE1OTQ1NDIyMTUsNzIxMTk0NTg0LDE0OTEz
+NDY3ODUsLTgyNjc5NjU1MCwyMDQwOTM3OTQ3XX0=
 -->
