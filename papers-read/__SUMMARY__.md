@@ -26,9 +26,13 @@
 [Videos as Space-Time Region Graphs]([https://arxiv.org/abs/1806.01810](https://arxiv.org/abs/1806.01810))
 : Current video action recognition methods don't do much to consider how individual objects in the video move and change over time; they mostly operate on scene features. This paper uses an RPN to get object proposals across time; makes two graphs (adjacency matrices) to relate proposals, then performs a graph convolution (GCN). 4.4% recognition boost. *(from Yong Jae)*
 
-(https://arxiv.org/pdf/1808.07962.pdf)
+[Learning Human-Object Interactions by Graph Parsing Neural Networks](https://arxiv.org/pdf/1808.07962.pdf)
+
+
+[Zoom-Net: Mining Deep Feature Interactions for Visual Relationship Recognition](https://arxiv.org/pdf/1807.04979.pdf)
+: Instead of having spatial features and appearance features come from separate branches, learn spatially-aware appearance features.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5Mzc3MjgyLDQyNzkzNjMyMywtMTU5ND
+eyJoaXN0b3J5IjpbMzU0NDczNTU5LDQyNzkzNjMyMywtMTU5ND
 U0MjIxNSw3MjExOTQ1ODQsMTQ5MTM0Njc4NSwtODI2Nzk2NTUw
 LDIwNDA5Mzc5NDddfQ==
 -->
