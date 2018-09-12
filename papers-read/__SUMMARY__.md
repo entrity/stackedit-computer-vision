@@ -31,8 +31,11 @@
 
 [Zoom-Net: Mining Deep Feature Interactions for Visual Relationship Recognition](https://arxiv.org/pdf/1807.04979.pdf)
 : Instead of having spatial features and appearance features come from separate branches, learn spatially-aware appearance features.
+
+**Problem:** VRR.
+**Proposal:** Zoom-Net learns spatially aware appearance features instead of having spatial and appearance features come from separate branches.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0NDczNTU5LDQyNzkzNjMyMywtMTU5ND
-U0MjIxNSw3MjExOTQ1ODQsMTQ5MTM0Njc4NSwtODI2Nzk2NTUw
-LDIwNDA5Mzc5NDddfQ==
+eyJoaXN0b3J5IjpbLTE4NzUyMzczMjEsNDI3OTM2MzIzLC0xNT
+k0NTQyMjE1LDcyMTE5NDU4NCwxNDkxMzQ2Nzg1LC04MjY3OTY1
+NTAsMjA0MDkzNzk0N119
 -->
