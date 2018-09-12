@@ -30,7 +30,7 @@
 
 
 [Zoom-Net: Mining Deep Feature Interactions for Visual Relationship Recognition](https://arxiv.org/pdf/1807.04979.pdf)
-: Instead of having spatial features and appearance features come from separate branches, learn spatially-aware appearance features. Also replaces one-hot encoding with a hierarchical encoding to work on much larger scale.
+: Instead of having spatial features and appearance features come from separate branches, learn spatially-aware appearance features. Also replaces one-hot encoding with a hierarchical encoding to work on much larger scale (number of predicates).
 
 **Problem:** VRR.
 **Proposal:** Zoom-Net learns spatially aware appearance features instead of having spatial and appearance features come from separate branches.
@@ -49,8 +49,8 @@ Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and l
 
 Uses Visual Genome dataset (VG), which has many more relations than VRD. Impressive scale: 1,957 predicates.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjY4NTUyODAsLTMxMTA2OTIxOSwtMT
-g3NTIzNzMyMSw0Mjc5MzYzMjMsLTE1OTQ1NDIyMTUsNzIxMTk0
-NTg0LDE0OTEzNDY3ODUsLTgyNjc5NjU1MCwyMDQwOTM3OTQ3XX
-0=
+eyJoaXN0b3J5IjpbLTE0NzExNTI2NjUsLTEwNjY4NTUyODAsLT
+MxMTA2OTIxOSwtMTg3NTIzNzMyMSw0Mjc5MzYzMjMsLTE1OTQ1
+NDIyMTUsNzIxMTk0NTg0LDE0OTEzNDY3ODUsLTgyNjc5NjU1MC
+wyMDQwOTM3OTQ3XX0=
 -->
