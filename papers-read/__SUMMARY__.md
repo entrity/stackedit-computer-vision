@@ -44,11 +44,12 @@ Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and l
 ## Contributions
 
 - SCA-M
-- Intra-hierarchical tree - replaces one-hot classification encoding
+- IH-tree (Intra-hierarchical tree) - replaces one-hot classification encoding with multiclass hierarchical encoding
+- effective on large-scale (lots of vaguely defined predicates instead of VRD's 70)
 
 Uses Visual Genome dataset (VG), which has many more relations than VRD. Impressive scale: 1,957 predicates.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyOTk2OTIwLC0xODc1MjM3MzIxLDQyNz
-kzNjMyMywtMTU5NDU0MjIxNSw3MjExOTQ1ODQsMTQ5MTM0Njc4
-NSwtODI2Nzk2NTUwLDIwNDA5Mzc5NDddfQ==
+eyJoaXN0b3J5IjpbLTMxMTA2OTIxOSwtMTg3NTIzNzMyMSw0Mj
+c5MzYzMjMsLTE1OTQ1NDIyMTUsNzIxMTk0NTg0LDE0OTEzNDY3
+ODUsLTgyNjc5NjU1MCwyMDQwOTM3OTQ3XX0=
 -->
