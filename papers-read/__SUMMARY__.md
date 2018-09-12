@@ -35,13 +35,15 @@
 **Problem:** VRR.
 **Proposal:** Zoom-Net learns spatially aware appearance features instead of having spatial and appearance features come from separate branches.
 
-Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and lear
+Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and learning of relations.
 
 - **SCA-M** (Spatiality-Context-Appearance Module)
     - **Contrastive RoI Pooling Cell** - 
     - **Pyramid RoI Pooling Cell** - 
+
+Uses Visual Genome dataset (VG), which has many more relations than VRD. Impressive scale: 1,957 predicates.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MTQ0NTg4LC0xODc1MjM3MzIxLDQyNz
+eyJoaXN0b3J5IjpbLTcyOTYyMjI5LC0xODc1MjM3MzIxLDQyNz
 kzNjMyMywtMTU5NDU0MjIxNSw3MjExOTQ1ODQsMTQ5MTM0Njc4
 NSwtODI2Nzk2NTUwLDIwNDA5Mzc5NDddfQ==
 -->
