@@ -39,7 +39,7 @@ Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and l
 
 - **SCA-M** (Spatiality-Context-Appearance Module)
     - **Contrastive RoI Pooling Cell** - Makes sums of union-sized feature maps between sub-obj, sub-pred, and pred-obj. To do so, the sub and obj regions are RoI pooled, then deRoI pooled. The unpooled feature maps are placed in a union-sized feature map in the position which their features originally occupied; the rest of the region is set to zero. Thus, we effectively have message passing between two branches (SO, SP, or PO) with spatially aware features.
-    - **Pyramid RoI Pooling Cell** - 
+    - **Pyramid RoI Pooling Cell** - Not adequately explained.
 
 ## Contributions
 
@@ -49,8 +49,9 @@ Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and l
 
 Uses Visual Genome dataset (VG), which has many more relations than VRD. Impressive scale: 1,957 predicates.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDMyMDIzOSwtNTkwNDY5MTYsLTE0Nz
-ExNTI2NjUsLTEwNjY4NTUyODAsLTMxMTA2OTIxOSwtMTg3NTIz
-NzMyMSw0Mjc5MzYzMjMsLTE1OTQ1NDIyMTUsNzIxMTk0NTg0LD
-E0OTEzNDY3ODUsLTgyNjc5NjU1MCwyMDQwOTM3OTQ3XX0=
+eyJoaXN0b3J5IjpbLTE2MzUwNDY2OTEsMjAwNDMyMDIzOSwtNT
+kwNDY5MTYsLTE0NzExNTI2NjUsLTEwNjY4NTUyODAsLTMxMTA2
+OTIxOSwtMTg3NTIzNzMyMSw0Mjc5MzYzMjMsLTE1OTQ1NDIyMT
+UsNzIxMTk0NTg0LDE0OTEzNDY3ODUsLTgyNjc5NjU1MCwyMDQw
+OTM3OTQ3XX0=
 -->
