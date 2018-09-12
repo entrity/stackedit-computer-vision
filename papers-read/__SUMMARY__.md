@@ -34,8 +34,10 @@
 
 **Problem:** VRR.
 **Proposal:** Zoom-Net learns spatially aware appearance features instead of having spatial and appearance features come from separate branches.
+
+**SCA-M** (Spatiality-Context-Appearance Module)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzUyMzczMjEsNDI3OTM2MzIzLC0xNT
-k0NTQyMjE1LDcyMTE5NDU4NCwxNDkxMzQ2Nzg1LC04MjY3OTY1
-NTAsMjA0MDkzNzk0N119
+eyJoaXN0b3J5IjpbLTMxNTk1MDE2NiwtMTg3NTIzNzMyMSw0Mj
+c5MzYzMjMsLTE1OTQ1NDIyMTUsNzIxMTk0NTg0LDE0OTEzNDY3
+ODUsLTgyNjc5NjU1MCwyMDQwOTM3OTQ3XX0=
 -->
