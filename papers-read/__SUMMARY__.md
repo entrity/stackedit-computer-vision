@@ -48,10 +48,16 @@ Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and l
 - effective on large-scale (lots of vaguely defined predicates instead of VRD's 70)
 
 Uses Visual Genome dataset (VG), which has many more relations than VRD. Impressive scale: 1,957 predicates.
+
+**Hierarchical class tree**
+
+Object classes and predicate classes each get their own hierarchical tree, which is pre-computed (not learned).
+
+The bottom of the tree is the class labels from VG. One layer up from that is made by using the part-of-speech tagger toolkit from NLTK [47] and NLTK Lemmatizer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzUwNDY2OTEsMjAwNDMyMDIzOSwtNT
-kwNDY5MTYsLTE0NzExNTI2NjUsLTEwNjY4NTUyODAsLTMxMTA2
-OTIxOSwtMTg3NTIzNzMyMSw0Mjc5MzYzMjMsLTE1OTQ1NDIyMT
-UsNzIxMTk0NTg0LDE0OTEzNDY3ODUsLTgyNjc5NjU1MCwyMDQw
-OTM3OTQ3XX0=
+eyJoaXN0b3J5IjpbMjAwMjAwMzQzNSwtMTYzNTA0NjY5MSwyMD
+A0MzIwMjM5LC01OTA0NjkxNiwtMTQ3MTE1MjY2NSwtMTA2Njg1
+NTI4MCwtMzExMDY5MjE5LC0xODc1MjM3MzIxLDQyNzkzNjMyMy
+wtMTU5NDU0MjIxNSw3MjExOTQ1ODQsMTQ5MTM0Njc4NSwtODI2
+Nzk2NTUwLDIwNDA5Mzc5NDddfQ==
 -->
