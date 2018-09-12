@@ -53,11 +53,13 @@ Uses Visual Genome dataset (VG), which has many more relations than VRD. Impress
 
 Object classes and predicate classes each get their own hierarchical tree, which is pre-computed (not learned).
 
-The bottom of the tree is the class labels from VG. One layer up from that is made by using the part-of-speech tagger toolkit from NLTK [47] and NLTK Lemmatizer
+1. The bottom of the tree is the class labels from VG.
+2. One layer up from that is made by using the part-of-speech tagger toolkit from NLTK and NLTK Lemmatizer to filter and normalize words s.t. ${"old\ man", "men", "tall\ man"} \in "man"$.
+3. The top layer is achieved by clustering. For the object-classes tree, this is
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMjAwMzQzNSwtMTYzNTA0NjY5MSwyMD
-A0MzIwMjM5LC01OTA0NjkxNiwtMTQ3MTE1MjY2NSwtMTA2Njg1
-NTI4MCwtMzExMDY5MjE5LC0xODc1MjM3MzIxLDQyNzkzNjMyMy
-wtMTU5NDU0MjIxNSw3MjExOTQ1ODQsMTQ5MTM0Njc4NSwtODI2
-Nzk2NTUwLDIwNDA5Mzc5NDddfQ==
+eyJoaXN0b3J5IjpbLTE3MjQyNDcyMDksLTE2MzUwNDY2OTEsMj
+AwNDMyMDIzOSwtNTkwNDY5MTYsLTE0NzExNTI2NjUsLTEwNjY4
+NTUyODAsLTMxMTA2OTIxOSwtMTg3NTIzNzMyMSw0Mjc5MzYzMj
+MsLTE1OTQ1NDIyMTUsNzIxMTk0NTg0LDE0OTEzNDY3ODUsLTgy
+Njc5NjU1MCwyMDQwOTM3OTQ3XX0=
 -->
