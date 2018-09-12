@@ -5,21 +5,18 @@
 
 Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and learning of relations.
 
-
 ## Contributions
 
 - SCA-M
 - IH-tree (Intra-hierarchical tree) - replaces one-hot classification encoding with multiclass hierarchical encoding
-- effective on large-scale (lots of vaguely defined predicates instead of VRD's 70)
+- effective on large-scale (Uses Visual Genome dataset (VG), which has many more relations than VRD. Impressive scale: 1,957 predicates.)
 
-# SCA-M (Spatiality-Context-Appearance Module)
+## SCA-M (Spatiality-Context-Appearance Module)
 
 - **SCA-M** (Spatiality-Context-Appearance Module)
     - **Contrastive RoI Pooling Cell** - Makes sums of union-sized feature maps between sub-obj, sub-pred, and pred-obj. To do so, the sub and obj regions are RoI pooled, then deRoI pooled. The unpooled feature maps are placed in a union-sized feature map in the position which their features originally occupied; the rest of the region is set to zero. Thus, we effectively have message passing between two branches (SO, SP, or PO) with spatially aware features.
     - **Pyramid RoI Pooling Cell** - Not adequately explained.
 
-
-Uses Visual Genome dataset (VG), which has many more relations than VRD. Impressive scale: 1,957 predicates.
 
 ## **Hierarchical class tree**
 
@@ -37,5 +34,5 @@ $$L = L_s + L_p + L_o$$
 
 > The output of the subject/object branch is a concatenation of three independent softmax activated vectors corresponded to three hierarchical levels in the IH-tree. The loss Ls (Lo) is thus a summation of three independent softmax losses with respect to these levels, encouraging the intra-level mutual label exclusion and inter-level label dependency.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MzMxNDU3MV19
+eyJoaXN0b3J5IjpbLTExODA5ODQzOTVdfQ==
 -->
