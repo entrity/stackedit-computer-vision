@@ -49,7 +49,7 @@ Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and l
 
 Uses Visual Genome dataset (VG), which has many more relations than VRD. Impressive scale: 1,957 predicates.
 
-**Hierarchical class tree**
+## **Hierarchical class tree**
 
 Object classes and predicate classes each get their own hierarchical tree, which is pre-computed (not learned).
 
@@ -57,13 +57,17 @@ Object classes and predicate classes each get their own hierarchical tree, which
 2. One layer up from that is made by using the part-of-speech tagger toolkit from NLTK and NLTK Lemmatizer to filter and normalize words s.t. ${"old\ man", "men", "tall\ man"} \in "man"$.
 3. The top layer is achieved by clustering. For the object-classes tree, this is done by using a threshold of 0.65 on Leacock-Chodorow distance. For the predicate-classes tree, words are clustered semantically but split into super groups of prepositions and verbs. (A lower-level entity can be a child of both a preposition and a verb in the event that the entire predicate label is a verb phrase with a preposition.)
 
+## Loss
+
 The loss is:
 $$L = L_s + L_p + L_o$$
 ...where the component parts are weighted hierarchical losses.
+
+> The output of the subject/object branch is a concatenation of three independent softmax activated vectors corresponded to three hierarchical levels in the IH-tree. The loss Ls (Lo) is thus a summation of three independent softmax losses with respect to these levels, encouraging the intra-level mutual label exclusion and inter-level label dependency.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTcwNTI0LC0xOTI0MTExOTAsLTE2Mz
-UwNDY2OTEsMjAwNDMyMDIzOSwtNTkwNDY5MTYsLTE0NzExNTI2
-NjUsLTEwNjY4NTUyODAsLTMxMTA2OTIxOSwtMTg3NTIzNzMyMS
-w0Mjc5MzYzMjMsLTE1OTQ1NDIyMTUsNzIxMTk0NTg0LDE0OTEz
-NDY3ODUsLTgyNjc5NjU1MCwyMDQwOTM3OTQ3XX0=
+eyJoaXN0b3J5IjpbMTQwNzMyMjQ4NiwtMTkyNDExMTkwLC0xNj
+M1MDQ2NjkxLDIwMDQzMjAyMzksLTU5MDQ2OTE2LC0xNDcxMTUy
+NjY1LC0xMDY2ODU1MjgwLC0zMTEwNjkyMTksLTE4NzUyMzczMj
+EsNDI3OTM2MzIzLC0xNTk0NTQyMjE1LDcyMTE5NDU4NCwxNDkx
+MzQ2Nzg1LC04MjY3OTY1NTAsMjA0MDkzNzk0N119
 -->
