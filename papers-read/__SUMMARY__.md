@@ -38,7 +38,7 @@
 Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and learning of relations.
 
 - **SCA-M** (Spatiality-Context-Appearance Module)
-    - **Contrastive RoI Pooling Cell** - Performs RoI Pooling. Then deRoI pools and places the unpooled features into a region that matches the dimensions of the predic
+    - **Contrastive RoI Pooling Cell** - 
     - **Pyramid RoI Pooling Cell** - 
 
 ## Contributions
@@ -49,8 +49,8 @@ Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and l
 
 Uses Visual Genome dataset (VG), which has many more relations than VRD. Impressive scale: 1,957 predicates.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDc3MjIyMSwtMTQ3MTE1MjY2NSwtMT
-A2Njg1NTI4MCwtMzExMDY5MjE5LC0xODc1MjM3MzIxLDQyNzkz
-NjMyMywtMTU5NDU0MjIxNSw3MjExOTQ1ODQsMTQ5MTM0Njc4NS
-wtODI2Nzk2NTUwLDIwNDA5Mzc5NDddfQ==
+eyJoaXN0b3J5IjpbLTE0NzExNTI2NjUsLTE0NzExNTI2NjUsLT
+EwNjY4NTUyODAsLTMxMTA2OTIxOSwtMTg3NTIzNzMyMSw0Mjc5
+MzYzMjMsLTE1OTQ1NDIyMTUsNzIxMTk0NTg0LDE0OTEzNDY3OD
+UsLTgyNjc5NjU1MCwyMDQwOTM3OTQ3XX0=
 -->
