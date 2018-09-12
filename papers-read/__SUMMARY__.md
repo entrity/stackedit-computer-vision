@@ -41,9 +41,14 @@ Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and l
     - **Contrastive RoI Pooling Cell** - 
     - **Pyramid RoI Pooling Cell** - 
 
+## Contributions
+
+- SCA-M
+- Intra-hierarchical tree - replaces one-hot classification encoding
+
 Uses Visual Genome dataset (VG), which has many more relations than VRD. Impressive scale: 1,957 predicates.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTYyMjI5LC0xODc1MjM3MzIxLDQyNz
+eyJoaXN0b3J5IjpbNDIyOTk2OTIwLC0xODc1MjM3MzIxLDQyNz
 kzNjMyMywtMTU5NDU0MjIxNSw3MjExOTQ1ODQsMTQ5MTM0Njc4
 NSwtODI2Nzk2NTUwLDIwNDA5Mzc5NDddfQ==
 -->
