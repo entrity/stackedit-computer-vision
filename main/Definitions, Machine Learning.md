@@ -100,6 +100,7 @@ Partially supervised learning
 
 Recall @ X (Recall@X, R@X)
 : Among the top $X$ predictions across a dataset (sorted, for example, by confidence), the fraction of correct predictions. "Recall @ x computes the fraction of times the correct relationship is predicted in the top x confident relationship predictions."
+"Rec@N computes the ratio of the correct relationship instance that is covered in the top N predictions per image." [src](https://arxiv.org/pdf/1807.04979.pdf)
 
 ROI Pooling
 : An ROI can be any size, but the network that operates on it expects a particular size. ROI Pooling changes the size of the ROI to fit the following network. First proposed in [Fast R-CNN](https://deepsense.ai/wp-content/uploads/2017/02/1504.08083.pdf). [[Brief explanation](https://deepsense.ai/region-of-interest-pooling-explained/)]
@@ -144,7 +145,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDI3OTAwNyw5MTc2OTEyNjEsLTE4MT
-kwNDAzNTAsNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMTg3NjZd
-fQ==
+eyJoaXN0b3J5IjpbLTEzODc5NDIxNjcsLTg1NDI3OTAwNyw5MT
+c2OTEyNjEsLTE4MTkwNDAzNTAsNTE5MTA3OTUzLDc1OTc4ODEy
+MSw0MjcxMTg3NjZdfQ==
 -->
