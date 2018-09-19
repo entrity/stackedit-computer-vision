@@ -3,7 +3,7 @@
 **Task:** VRR.
 **Proposal:** Zoom-Net learns spatially aware appearance features instead of having spatial and appearance features come from separate branches.
 
-Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and learning of relations.
+Zoom-Net stacks multiple SCA-Ms consecutively. Improves object recognition and learning of relations. Experiments with fully supervised and zero-shot.
 
 ## Contributions
 
@@ -34,5 +34,5 @@ $$L = L_s + L_p + L_o$$
 
 > The output of the subject/object branch is a concatenation of three independent softmax activated vectors corresponded to three hierarchical levels in the IH-tree. The loss Ls (Lo) is thus a summation of three independent softmax losses with respect to these levels, encouraging the intra-level mutual label exclusion and inter-level label dependency.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODA5ODQzOTVdfQ==
+eyJoaXN0b3J5IjpbMTc1NDE1NjA4MSwtMTE4MDk4NDM5NV19
 -->
