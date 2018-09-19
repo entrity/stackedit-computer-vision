@@ -14,10 +14,12 @@
 - Li [21] proposed visual phrase guided CNN
 - Dai [5] associate subj, obj, pred by use of statistical dependencies and spatial configurations
 - Liang [23] combine more cues with ranking method
-- Graph convolution methods have two categories: **spectral methods** & **spatial methods**. Eigen decomposition of spectral methods is expensive. Spatial methods aggregate neighbour n
+- Graph convolution methods have two categories: **spectral methods** & **spatial methods**. Eigen decomposition of spectral methods is expensive. Spatial methods aggregate neighbour nodes to model spatial relationships.
+- diffusion cnn [2] performed diffusion process on each node
+- pscn [29] 
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODQyOTU2LDEyNTY5NTYxOTQsLTE0OT
-MwODc2MDldfQ==
+eyJoaXN0b3J5IjpbLTMzNjAxNDk4NywxMjU2OTU2MTk0LC0xND
+kzMDg3NjA5XX0=
 -->
