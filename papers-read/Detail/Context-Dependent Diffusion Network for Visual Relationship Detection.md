@@ -9,7 +9,9 @@
 - Early on, simple relationships only (spatial predicates) or human-object interaction
 - Two categories: joint model (triplets form classes) v separate model (predicates form classes)
 - Joint models don't scale because of long-tail distribution of triplets, combinatorial quantity
+- Lu [25] did separate model with language priors but *not* end-to-end
+- Zhang [45] considered predicate as
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQzNjUyNzYsMTI1Njk1NjE5NCwtMT
+eyJoaXN0b3J5IjpbLTE0NDYxNTc2NTUsMTI1Njk1NjE5NCwtMT
 Q5MzA4NzYwOV19
 -->
