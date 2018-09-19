@@ -16,10 +16,11 @@
 - Liang [23] combine more cues with ranking method
 - Graph convolution methods have two categories: **spectral methods** & **spatial methods**. Eigen decomposition of spectral methods is expensive. Spatial methods aggregate neighbour nodes to model spatial relationships.
 - diffusion cnn [2] performed diffusion process on each node
-- pscn [29] 
+- pscn [29] sorted neighbours, then performed convolutions on nodes
+- N [26] serialized each graph using concept of n-gram block
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjAxNDk4NywxMjU2OTU2MTk0LC0xND
-kzMDg3NjA5XX0=
+eyJoaXN0b3J5IjpbMTE0MTE5MTM1NiwtMzM2MDE0OTg3LDEyNT
+Y5NTYxOTQsLTE0OTMwODc2MDldfQ==
 -->
