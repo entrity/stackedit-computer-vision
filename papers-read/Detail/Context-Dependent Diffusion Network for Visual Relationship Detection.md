@@ -7,16 +7,17 @@
 - context-dependent diffusion network (CDDN)
 ## Related Work
 - Early on, simple relationships only (spatial predicates) or human-object interaction
-- Two categories: joint model (triplets form classes) v separate model (predicates form classes)
+- Two categories: **joint model** (triplets form classes) & **separate model** (predicates form classes)
 - Joint models don't scale because of long-tail distribution of triplets, combinatorial quantity
 - Lu [25] did separate model with language priors but *not* end-to-end
 - Zhang [45] considered predicate as low-dimensional translation vector between subject and object
 - Li [21] proposed visual phrase guided CNN
 - Dai [5] associate subj, obj, pred by use of statistical dependencies and spatial configurations
 - Liang [23] combine more cues with ranking method
+- Graph convolution methods have two categories: **spectral methods** & **spatial metho**
 
-Current method stands apart by using global inter-object interaction cues. Al
+Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDM4MTk2MSwxMjU2OTU2MTk0LC0xND
-kzMDg3NjA5XX0=
+eyJoaXN0b3J5IjpbMTc0NDk3MTE0LDEyNTY5NTYxOTQsLTE0OT
+MwODc2MDldfQ==
 -->
