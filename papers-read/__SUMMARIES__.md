@@ -32,6 +32,8 @@
 [Zoom-Net: Mining Deep Feature Interactions for Visual Relationship Recognition](https://arxiv.org/pdf/1807.04979.pdf)
 : Instead of having spatial features and appearance features come from separate branches, learn spatially-aware appearance features. Also replaces one-hot encoding with a hierarchical encoding to work on much larger scale (number of predicates).
 
+[Context-Dependent Diffusion Network for Visual Relationship Detection](https://arxiv.org/abs/1809.06213)
+: fo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzU0Mzk4NV19
+eyJoaXN0b3J5IjpbLTE2MzkwMTgzNzZdfQ==
 -->
