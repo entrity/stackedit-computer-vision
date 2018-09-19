@@ -12,8 +12,11 @@
 - Lu [25] did separate model with language priors but *not* end-to-end
 - Zhang [45] considered predicate as low-dimensional translation vector between subject and object
 - Li [21] proposed visual phrase guided CNN
-- Dai [5] 
+- Dai [5] associate subj, obj, pred by use of statistical dependencies and spatial configurations
+- Liang [23] combine more cues with ranking method
+
+Current method stands apart by using global inter-object interaction cues. Al
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk1MzQ3MjAsMTI1Njk1NjE5NCwtMT
-Q5MzA4NzYwOV19
+eyJoaXN0b3J5IjpbMTI0MDM4MTk2MSwxMjU2OTU2MTk0LC0xND
+kzMDg3NjA5XX0=
 -->
