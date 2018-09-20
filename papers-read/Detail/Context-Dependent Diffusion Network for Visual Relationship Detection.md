@@ -28,11 +28,10 @@ $$Z = f(W\odot \hat{A}X)$$
 For the semantic graph, the feature embedding $X$ is the semantic embedding (word2vec?).
 For the spatial graph, the feature embedding $X$ is the output of the R-CNN?
 
-We can use the outputs of the diffusion layer to compute compatibility of each triplet (how well the subj and obj go with a given predicate):
+We can use the outputs of the diffusion layer to compute compatibility of each triplet (how well the subj and obj go with a given predicate): a weight vector for the given predicate is multiplied by a concatenation of the two outputs (one for each graph) of the diffusion layer:
 
 $$\psi(r) = w^T_p[F_s;F_o]$$
 
-After the diffusion layer is run over each graph, its outputs are concatenated.
 
 ## Related Work
 - Early on, simple relationships only (spatial predicates) or human-object interaction
@@ -51,7 +50,7 @@ After the diffusion layer is run over each graph, its outputs are concatenated.
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjgxMjM5MSwtMTg3MzM4MzcxLC0xMT
-AyMjQzODI5LC0xNDgwMjIxMTUxLDEyMDgyMzQ4MzEsLTMzNjAx
-NDk4NywxMjU2OTU2MTk0LC0xNDkzMDg3NjA5XX0=
+eyJoaXN0b3J5IjpbNzIzNDQzNSwtMTg3MzM4MzcxLC0xMTAyMj
+QzODI5LC0xNDgwMjIxMTUxLDEyMDgyMzQ4MzEsLTMzNjAxNDk4
+NywxMjU2OTU2MTk0LC0xNDkzMDg3NjA5XX0=
 -->
