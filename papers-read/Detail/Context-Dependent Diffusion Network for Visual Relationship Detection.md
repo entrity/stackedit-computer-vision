@@ -19,6 +19,7 @@ For two objects in a scene, $e_{ij}$ is $1$ if either IoU exceeds a threshold or
 
 ### Diffusion Layer
 
+This graph diffusion mechanism builds a latent representation from the two graphs.
 
 
 ## Related Work
@@ -38,6 +39,6 @@ For two objects in a scene, $e_{ij}$ is $1$ if either IoU exceeds a threshold or
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzM1MjQzNywxMjA4MjM0ODMxLC0zMz
-YwMTQ5ODcsMTI1Njk1NjE5NCwtMTQ5MzA4NzYwOV19
+eyJoaXN0b3J5IjpbLTExOTM3MzA4ODYsMTIwODIzNDgzMSwtMz
+M2MDE0OTg3LDEyNTY5NTYxOTQsLTE0OTMwODc2MDldfQ==
 -->
