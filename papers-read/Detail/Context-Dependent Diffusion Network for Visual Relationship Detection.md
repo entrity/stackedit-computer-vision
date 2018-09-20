@@ -15,7 +15,7 @@ For example, *person riding horse* and *person riding elephant*, only have diffe
 
 ### Spatial Scene Graph $G_2$
 
-For two objects in a scene, $e_{ij}$ is $1$ if , else $0$.
+For two objects in a scene, $e_{ij}$ is $1$ if either IoU exceeds a threshold or distance falls beneath a threshold, else $0$.
 
 ## Related Work
 - Early on, simple relationships only (spatial predicates) or human-object interaction
@@ -34,6 +34,6 @@ For two objects in a scene, $e_{ij}$ is $1$ if , else $0$.
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDk0MTg2MiwxMjA4MjM0ODMxLC0zMz
+eyJoaXN0b3J5IjpbLTY2ODg4Mzk0NiwxMjA4MjM0ODMxLC0zMz
 YwMTQ5ODcsMTI1Njk1NjE5NCwtMTQ5MzA4NzYwOV19
 -->
