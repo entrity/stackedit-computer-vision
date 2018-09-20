@@ -21,10 +21,12 @@ For two objects in a scene, $e_{ij}$ is $1$ if either IoU exceeds a threshold or
 
 This graph diffusion mechanism builds a latent object representation $z$ from either of the two graphs.
 
-The crux of it is that it takes an adjacency matrix $A$ (representing one of the two foregoing graphs) and makes a tensor $\hat{A}$, in which each layer is a power of $A$. Thus each layer shows how many paths of $pow$ hops exist between any two nodes. Multiply $\hat{A}$ by the semantic embedding (word2vec?) of all of the object words $X$, then elementwise multiply by learned weights $W$, then perform a nonlinear function $f$ (for instance a FC layer).
+The crux of it is that it takes an adjacency matrix $A$ (representing one of the two foregoing graphs) and makes a tensor $\hat{A}$, in which each layer is a power of $A$. Thus each layer shows how many paths of $pow$ hops exist between any two nodes. Multiply $\hat{A}$ by the feature vector of the graph nodes $X$, then elementwise multiply by learned weights $W$, then perform a nonlinear function $f$ (for instance a FC layer).
 
 $$Z = f(W\odot \hat{A}X)$$
 
+For the semantic graph, the feature embedding $X$ is the semantic embedding (word2vec?).
+For the spatial graph, the feature embedding $X$ is the output of the R-CNN.
 
 ## Related Work
 - Early on, simple relationships only (spatial predicates) or human-object interaction
@@ -43,7 +45,7 @@ $$Z = f(W\odot \hat{A}X)$$
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIyNDM4MjksLTE0ODAyMjExNTEsMT
-IwODIzNDgzMSwtMzM2MDE0OTg3LDEyNTY5NTYxOTQsLTE0OTMw
-ODc2MDldfQ==
+eyJoaXN0b3J5IjpbLTE3MTgzMTI0NjgsLTExMDIyNDM4MjksLT
+E0ODAyMjExNTEsMTIwODIzNDgzMSwtMzM2MDE0OTg3LDEyNTY5
+NTYxOTQsLTE0OTMwODc2MDldfQ==
 -->
