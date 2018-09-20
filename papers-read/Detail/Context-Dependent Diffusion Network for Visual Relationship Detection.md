@@ -9,7 +9,9 @@
 ### Global Semantic Graph $G_1$
 Construct a graph to make those objects with similar semantics (in VRD) share more information. *Elephant* and *horse* are not visually or semantically similar, but they should be semantically similar for our purposes because both can be ridden by people.
 
-$G_1 = \{V_1,E_1\}$, where $V_1$ is  all object categories (across dataset) and $E_1$ is the connection strength between object pairs. For example, *person riding horse* and *person riding elephant*, only have different objects, so the objects *horse* and *elephant* will be connected in the graph.
+$G_1 = \{V_1,E_1\}$, where $V_1$ is  all object categories (across dataset) and $E_1$ is the connection strength between object pairs. Edge weight is the number of pairs of triplets in the dataset where $p$ and $o$ are 
+
+For example, *person riding horse* and *person riding elephant*, only have different objects, so the objects *horse* and *elephant* will be connected in the graph.
 
 ## Related Work
 - Early on, simple relationships only (spatial predicates) or human-object interaction
@@ -28,6 +30,6 @@ $G_1 = \{V_1,E_1\}$, where $V_1$ is  all object categories (across dataset) and 
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTY2MDc5MCwxMjA4MjM0ODMxLC0zMz
+eyJoaXN0b3J5IjpbLTU1OTQ0MjE1NCwxMjA4MjM0ODMxLC0zMz
 YwMTQ5ODcsMTI1Njk1NjE5NCwtMTQ5MzA4NzYwOV19
 -->
