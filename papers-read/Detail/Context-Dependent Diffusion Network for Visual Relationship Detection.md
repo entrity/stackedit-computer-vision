@@ -26,7 +26,7 @@ The crux of it is that it takes an adjacency matrix $A$ (representing one of the
 $$Z = f(W\odot \hat{A}X)$$
 
 For the semantic graph, the feature embedding $X$ is the semantic embedding (word2vec?).
-For the spatial graph, the feature embedding $X$ is the output of the R-CNN.
+For the spatial graph, the feature embedding $X$ is the output of the R-CNN?
 
 After the diffusion layer is run over each graph, its outputs are concatenated.
 
@@ -47,7 +47,7 @@ After the diffusion layer is run over each graph, its outputs are concatenated.
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4NTQ3MDIsLTExMDIyNDM4MjksLTE0OD
-AyMjExNTEsMTIwODIzNDgzMSwtMzM2MDE0OTg3LDEyNTY5NTYx
-OTQsLTE0OTMwODc2MDldfQ==
+eyJoaXN0b3J5IjpbLTE4NzMzODM3MSwtMTEwMjI0MzgyOSwtMT
+Q4MDIyMTE1MSwxMjA4MjM0ODMxLC0zMzYwMTQ5ODcsMTI1Njk1
+NjE5NCwtMTQ5MzA4NzYwOV19
 -->
