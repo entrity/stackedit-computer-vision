@@ -6,10 +6,10 @@
 ## Contributions
 - context-dependent diffusion network (CDDN)
 
-### Semantic Graph
+### Global Semantic Graph $G_1$
 Construct a graph to make those objects with similar semantics (in VRD) share more information. *Elephant* and *horse* are not visually or semantically similar, but they should be semantically similar for our purposes because both can be ridden by people.
 
-
+$G_1 = \{V_1,E_1\}$, where $V_1$ is  all object categories (across dataset) and $E_1$ is the connection strength between object pairs.
 
 ## Related Work
 - Early on, simple relationships only (spatial predicates) or human-object interaction
@@ -28,6 +28,6 @@ Construct a graph to make those objects with similar semantics (in VRD) share mo
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODM4ODMxNTksMTIwODIzNDgzMSwtMz
-M2MDE0OTg3LDEyNTY5NTYxOTQsLTE0OTMwODc2MDldfQ==
+eyJoaXN0b3J5IjpbLTExNjE5NjU4OSwxMjA4MjM0ODMxLC0zMz
+YwMTQ5ODcsMTI1Njk1NjE5NCwtMTQ5MzA4NzYwOV19
 -->
