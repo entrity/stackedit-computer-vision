@@ -5,6 +5,10 @@
 
 ## Contributions
 - context-dependent diffusion network (CDDN)
+
+### Semantic Graph
+Construct a graph to make those objects with similar semantics (for VRD share more information in relationship inference. *Elephant* and *horse* are not visually or semantically similar, but they should be semantically similar for our purposes because both can be ridden by people.
+
 ## Related Work
 - Early on, simple relationships only (spatial predicates) or human-object interaction
 - Two categories: **joint model** (triplets form classes) & **separate model** (predicates form classes)
@@ -22,6 +26,6 @@
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwODIzNDgzMSwtMzM2MDE0OTg3LDEyNT
-Y5NTYxOTQsLTE0OTMwODc2MDldfQ==
+eyJoaXN0b3J5IjpbOTY1Mjg1OTAyLDEyMDgyMzQ4MzEsLTMzNj
+AxNDk4NywxMjU2OTU2MTk0LC0xNDkzMDg3NjA5XX0=
 -->
