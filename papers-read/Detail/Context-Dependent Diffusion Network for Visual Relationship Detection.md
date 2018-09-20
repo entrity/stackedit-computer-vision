@@ -21,6 +21,8 @@ For two objects in a scene, $e_{ij}$ is $1$ if either IoU exceeds a threshold or
 
 This graph diffusion mechanism builds a latent object representation from the two graphs.
 
+The crux of it is that it takes an adjacency matrix $A$ (representing one of the two foregoing graphs) and makes a tensor, in which each layer is a power of $A$. Thus each layer shows how many paths of "exist
+
 
 ## Related Work
 - Early on, simple relationships only (spatial predicates) or human-object interaction
@@ -39,6 +41,7 @@ This graph diffusion mechanism builds a latent object representation from the tw
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODAyMjExNTEsMTIwODIzNDgzMSwtMz
-M2MDE0OTg3LDEyNTY5NTYxOTQsLTE0OTMwODc2MDldfQ==
+eyJoaXN0b3J5IjpbMTU4NTU5MjU3MiwtMTQ4MDIyMTE1MSwxMj
+A4MjM0ODMxLC0zMzYwMTQ5ODcsMTI1Njk1NjE5NCwtMTQ5MzA4
+NzYwOV19
 -->
