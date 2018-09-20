@@ -28,6 +28,8 @@ $$Z = f(W\odot \hat{A}X)$$
 For the semantic graph, the feature embedding $X$ is the semantic embedding (word2vec?).
 For the spatial graph, the feature embedding $X$ is the output of the R-CNN.
 
+After the diffusion layer is run over each graph, its outputs are concatenated.
+
 ## Related Work
 - Early on, simple relationships only (spatial predicates) or human-object interaction
 - Two categories: **joint model** (triplets form classes) & **separate model** (predicates form classes)
@@ -45,7 +47,7 @@ For the spatial graph, the feature embedding $X$ is the output of the R-CNN.
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTgzMTI0NjgsLTExMDIyNDM4MjksLT
-E0ODAyMjExNTEsMTIwODIzNDgzMSwtMzM2MDE0OTg3LDEyNTY5
-NTYxOTQsLTE0OTMwODc2MDldfQ==
+eyJoaXN0b3J5IjpbNTU4NTQ3MDIsLTExMDIyNDM4MjksLTE0OD
+AyMjExNTEsMTIwODIzNDgzMSwtMzM2MDE0OTg3LDEyNTY5NTYx
+OTQsLTE0OTMwODc2MDldfQ==
 -->
