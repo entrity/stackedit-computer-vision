@@ -80,6 +80,9 @@ LSTM (Long Short Term Memory)
 mAP (mean Average Precision)
 : When given without a fraction (no "@"), it is the average of {@.5,@.55,@.6,...,@.95}.
 
+Message passing
+: Features get concatenated from different branches of the network
+
 MLP (multi-layer perceptron)
 : vanilla feed-forward neural network. Still needs some 'activation' function such as ReLU to provide non-linearity.
 
@@ -145,7 +148,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc5NDIxNjcsLTg1NDI3OTAwNyw5MT
-c2OTEyNjEsLTE4MTkwNDAzNTAsNTE5MTA3OTUzLDc1OTc4ODEy
-MSw0MjcxMTg3NjZdfQ==
+eyJoaXN0b3J5IjpbLTczNTc0ODgyOCwtMTM4Nzk0MjE2NywtOD
+U0Mjc5MDA3LDkxNzY5MTI2MSwtMTgxOTA0MDM1MCw1MTkxMDc5
+NTMsNzU5Nzg4MTIxLDQyNzExODc2Nl19
 -->
