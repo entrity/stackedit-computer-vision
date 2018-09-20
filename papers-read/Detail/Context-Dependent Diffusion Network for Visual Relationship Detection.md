@@ -21,7 +21,7 @@ For two objects in a scene, $e_{ij}$ is $1$ if either IoU exceeds a threshold or
 
 This graph diffusion mechanism builds a latent object representation from the two graphs.
 
-The crux of it is that it takes an adjacency matrix $A$ (representing one of the two foregoing graphs) and makes a tensor, in which each layer is a power of $A$. Thus each layer shows how many paths of "exist
+The crux of it is that it takes an adjacency matrix $A$ (representing one of the two foregoing graphs) and makes a tensor $\hat{A}$, in which each layer is a power of $A$. Thus each layer shows how many paths of $pow$ hops exist between any two nodes. Multiply $\hat{A}$ by the semantic embedding (word2vec?) of all of the object words $X$, then elementwise multiply by learned weights $W$, then per
 
 
 ## Related Work
@@ -41,7 +41,7 @@ The crux of it is that it takes an adjacency matrix $A$ (representing one of the
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTU5MjU3MiwtMTQ4MDIyMTE1MSwxMj
-A4MjM0ODMxLC0zMzYwMTQ5ODcsMTI1Njk1NjE5NCwtMTQ5MzA4
-NzYwOV19
+eyJoaXN0b3J5IjpbNjA0MTc4OTcsLTE0ODAyMjExNTEsMTIwOD
+IzNDgzMSwtMzM2MDE0OTg3LDEyNTY5NTYxOTQsLTE0OTMwODc2
+MDldfQ==
 -->
