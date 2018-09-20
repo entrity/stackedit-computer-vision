@@ -65,12 +65,13 @@ Inter-attention
 Layer Normalization
 : In training and testing, at every layer, compute a mean and stdev for each image using the whole feature vector (every feature map). Normalize said image's output on an image-by-image basis.
 
-Loss Functions
-: - **Contrastive Loss** - ?
-: - **Cross Entropy Loss** - Used with Softmax classifier. Implemented as $1 - p$ where $p$ is the predicted probability of the target class.
-: - **Focal Loss** - To overcome the class imbalance problem of cross entropy loss (wherein the easy-to-classify examples dominate the gradient). $L(p) = -(1-p)^\gamma log(p)$. Thus, hard-to-classify examples get more weight. $\gamma$ is a tunable parameter.
-  - **Ranking Loss** - The likelihood of class `k` for the input, minus the likelihood of the most likely non-`k` class.
-  - **Triplet Loss** - The distance between objects A and B should be less than the distance between objects A and C.
+**Loss Functions**
+ - **Contrastive Loss** - ?
+ - **Cross Entropy Loss** - Used with Softmax classifier. Implemented as $1 - p$ where $p$ is the predicted probability of the target class.
+ - **Focal Loss** - To overcome the class imbalance problem of cross entropy loss (wherein the easy-to-classify examples dominate the gradient). $L(p) = -(1-p)^\gamma log(p)$. Thus, hard-to-classify examples get more weight. $\gamma$ is a tunable parameter.
+ - **Hinge Loss**
+ - **Ranking Loss** - The likelihood of class `k` for the input, minus the likelihood of the most likely non-`k` class.
+- **Triplet Loss** - The distance between objects A and B should be less than the distance between objects A and C.
 
 LSTM (Long Short Term Memory)
 : One sort of memory cell for implementing RNN's. The motivation is to avoid the vanishing/exploding gradients of vanilla RNN's.
@@ -148,7 +149,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTc0ODgyOCwtMTM4Nzk0MjE2NywtOD
-U0Mjc5MDA3LDkxNzY5MTI2MSwtMTgxOTA0MDM1MCw1MTkxMDc5
-NTMsNzU5Nzg4MTIxLDQyNzExODc2Nl19
+eyJoaXN0b3J5IjpbLTE2MzY2NDA0MTksLTEzODc5NDIxNjcsLT
+g1NDI3OTAwNyw5MTc2OTEyNjEsLTE4MTkwNDAzNTAsNTE5MTA3
+OTUzLDc1OTc4ODEyMSw0MjcxMTg3NjZdfQ==
 -->
