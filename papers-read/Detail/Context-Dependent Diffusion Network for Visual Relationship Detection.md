@@ -7,7 +7,9 @@
 - context-dependent diffusion network (CDDN)
 
 ### Semantic Graph
-Construct a graph to make those objects with similar semantics (for VRD share more information in relationship inference. *Elephant* and *horse* are not visually or semantically similar, but they should be semantically similar for our purposes because both can be ridden by people.
+Construct a graph to make those objects with similar semantics (in VRD) share more information. *Elephant* and *horse* are not visually or semantically similar, but they should be semantically similar for our purposes because both can be ridden by people.
+
+
 
 ## Related Work
 - Early on, simple relationships only (spatial predicates) or human-object interaction
@@ -26,6 +28,6 @@ Construct a graph to make those objects with similar semantics (for VRD share mo
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1Mjg1OTAyLDEyMDgyMzQ4MzEsLTMzNj
-AxNDk4NywxMjU2OTU2MTk0LC0xNDkzMDg3NjA5XX0=
+eyJoaXN0b3J5IjpbLTIwODM4ODMxNTksMTIwODIzNDgzMSwtMz
+M2MDE0OTg3LDEyNTY5NTYxOTQsLTE0OTMwODc2MDldfQ==
 -->
