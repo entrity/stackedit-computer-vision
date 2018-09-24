@@ -15,7 +15,7 @@ http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relat
 3. **Joint recognition** module
 	1. Appearance: A CNN processes *union box* to yield appearance feature for a *pair* of objects.
 	2. Spatial: A binary mask for subj and obj (2 masks) are downsampled, then passed through 3 CNN layers to make 64-d vectors.
-	3. Statistical: DR-Net models posterior probabilities
+	3. Statistical: DR-Net models posterior probabilities (for $r,s,o$)
 
 ### DR-Net
 
@@ -32,5 +32,5 @@ A joint model would not be scalable ("not suitable for generic applications," "e
 4. Fang [48] treat object cats and predicate cats uniformly as words.
 5. Lu [1] classifier combines appearance and language features.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjY3NTk0NjBdfQ==
+eyJoaXN0b3J5IjpbMTYzMzEzMjE2MF19
 -->
