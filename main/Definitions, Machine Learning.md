@@ -27,6 +27,9 @@ CAM (Class Activation Map)
 CorLoc (correct localization)
 : metric used in object detection	
 
+CRF (Conditional Random Fields)
+: (see last paragraph of 4.1 of [Detecting Visual Relationships with Deep Relational Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relationships_CVPR_2017_paper.pdf))
+
 FiLM (Feature-wise Linear Modulation)
 : ?
 
@@ -149,7 +152,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY2NDA0MTksLTEzODc5NDIxNjcsLT
-g1NDI3OTAwNyw5MTc2OTEyNjEsLTE4MTkwNDAzNTAsNTE5MTA3
-OTUzLDc1OTc4ODEyMSw0MjcxMTg3NjZdfQ==
+eyJoaXN0b3J5IjpbMTQ1MTgzMzQ1NywtMTYzNjY0MDQxOSwtMT
+M4Nzk0MjE2NywtODU0Mjc5MDA3LDkxNzY5MTI2MSwtMTgxOTA0
+MDM1MCw1MTkxMDc5NTMsNzU5Nzg4MTIxLDQyNzExODc2Nl19
 -->
