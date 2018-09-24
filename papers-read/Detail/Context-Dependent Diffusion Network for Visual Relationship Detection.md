@@ -26,7 +26,7 @@ The crux of it is that it takes an adjacency matrix $A$ (representing one of the
 $$Z = f(W\odot \hat{A}X)$$
 
 For the semantic graph, the feature embedding $X$ is the semantic embedding (word2vec?).
-For the spatial graph, the feature embedding $X$ is the output of the R-CNN?
+For the spatial graph, not sure what the feature embedding $X$ is. (See their earlier paper.)
 
 We can use the outputs of the diffusion layer to compute compatibility of each triplet (how well the subj and obj go with a given predicate): a weight vector for the given predicate is multiplied by a concatenation of the two outputs (one for each graph) of the diffusion layer:
 
@@ -50,7 +50,8 @@ $$\psi(r) = w^T_p[F_s;F_o]$$
 
 Current method stands apart by using global inter-object interaction cues. Also employs diffusion mechanism (on object attribute graphs).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzNDQzNSwtMTg3MzM4MzcxLC0xMTAyMj
-QzODI5LC0xNDgwMjIxMTUxLDEyMDgyMzQ4MzEsLTMzNjAxNDk4
-NywxMjU2OTU2MTk0LC0xNDkzMDg3NjA5XX0=
+eyJoaXN0b3J5IjpbMjA4MjA5NzU4NCw3MjM0NDM1LC0xODczMz
+gzNzEsLTExMDIyNDM4MjksLTE0ODAyMjExNTEsMTIwODIzNDgz
+MSwtMzM2MDE0OTg3LDEyNTY5NTYxOTQsLTE0OTMwODc2MDldfQ
+==
 -->
