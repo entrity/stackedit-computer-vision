@@ -29,6 +29,8 @@ Writers view DR-Net as unrolling an iterative approximation of a CRF, sort of ho
 
 A joint model would not be scalable ("not suitable for generic applications," "excessively large number of classes and the imbalance among them").
 
+Tested on VRD and sVG (large subset of Visual Genome).
+
 ## Related Work
 1. First, limited to specific types of relations (spatial or action). Usually hand-crafted features or simple heuristics.
 2. Eventually, non-joint models
@@ -36,6 +38,6 @@ A joint model would not be scalable ("not suitable for generic applications," "e
 4. Fang [48] treat object cats and predicate cats uniformly as words.
 5. Lu [1] classifier combines appearance and language features.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQ4MDU1NDIsMTk1MTU1NzA2LDE2Mz
-MxMzIxNjBdfQ==
+eyJoaXN0b3J5IjpbMzA1OTQ4MzIzLDE5NTE1NTcwNiwxNjMzMT
+MyMTYwXX0=
 -->
