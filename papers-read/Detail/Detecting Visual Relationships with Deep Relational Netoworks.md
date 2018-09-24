@@ -5,15 +5,17 @@ http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relat
 **Proposal:**
 
 ## Contributions
-1. DR-Net:
-2. Move state of the art R@50 from 47.9% to 80.8% (predicate reg)
+1. DR-Net: 
+2. Move state of the art R@50 from 47.9% to 80.8% (relationship recognition) and 53.5% to 88.3% (predicate classification)
 
-## Previous Work
+Join
+
+## Related Work
 1. First, limited to specific types of relations (spatial or action). Usually hand-crafted features or simple heuristics.
 2. Eventually, non-joint models
 3. Vedantam [47] used synthetic clip-arts to train non-joint model.
 4. Fang [48] treat object cats and predicate cats uniformly as words.
 5. Lu [1] classifier combines appearance and language features.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzY4MjA0M119
+eyJoaXN0b3J5IjpbMTIxODAzMTQwM119
 -->
