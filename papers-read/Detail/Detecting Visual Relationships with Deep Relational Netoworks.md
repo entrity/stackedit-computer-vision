@@ -1,5 +1,4 @@
-# Detecting Visual Relationships with Deep Relational Networks
-http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relationships_CVPR_2017_paper.pdf
+# [Detecting Visual Relationships with Deep Relational Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relationships_CVPR_2017_paper.pdf)
 
 **Task:** visual relationship detection
 **Proposal:**
@@ -38,6 +37,6 @@ Tested on VRD and sVG (large subset of Visual Genome).
 4. Fang [48] treat object cats and predicate cats uniformly as words.
 5. Lu [1] classifier combines appearance and language features.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTMzMTE5MTksMzA1OTQ4MzIzLDE5NT
-E1NTcwNiwxNjMzMTMyMTYwXX0=
+eyJoaXN0b3J5IjpbMTYxNjc5NjU4NCwtMjAxMzMxMTkxOSwzMD
+U5NDgzMjMsMTk1MTU1NzA2LDE2MzMxMzIxNjBdfQ==
 -->
