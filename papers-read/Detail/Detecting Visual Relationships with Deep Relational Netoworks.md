@@ -13,7 +13,7 @@ http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relat
 1. **Faster RCNN** for object detection
 2. Neural network **filters out some of the possible pairs** b/c $n(n-1)$ is too many. Input is spatial configurations and object categories.
 3. **Joint recognition** module
-	1. 
+	1. A CNN processes *union box* to yield appearance feature for a *pair* of objects.
 
 ## Notes
 
@@ -26,5 +26,5 @@ A joint model would not be scalable ("not suitable for generic applications," "e
 4. Fang [48] treat object cats and predicate cats uniformly as words.
 5. Lu [1] classifier combines appearance and language features.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIyMTEwMDVdfQ==
+eyJoaXN0b3J5IjpbOTQ5NTk1M119
 -->
