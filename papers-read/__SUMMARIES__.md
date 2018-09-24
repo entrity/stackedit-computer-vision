@@ -33,10 +33,13 @@
 : Instead of having spatial features and appearance features come from separate branches, learn spatially-aware appearance features. Also replaces one-hot encoding with a hierarchical encoding to work on much larger scale (number of predicates).
 
 [Context-Dependent Diffusion Network for Visual Relationship Detection](https://arxiv.org/abs/1809.06213)
-: fo
+: 
 
 [Detecting Visual Relationships with Deep Relational Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relationships_CVPR_2017_paper.pdf)
-: Use an DR-Net to approximate (and surpass) a CRF for predicting posterior probabilities, which are used in visual relationship detection. This paper also introduces appealing appearance and spatial features, as well as a filtering neural network to decide which object pair
+: Use an DR-Net to approximate (and surpass) a CRF for predicting posterior probabilities, which are used in visual relationship detection. This paper also introduces appealing appearance and spatial features, as well as a filtering neural network to decide which object pairs to consider from the $n(n-1)$.
+
+[Visual Relationship Detection with Deep Structural Ranking](http://vipl.ict.ac.cn/uploadfile/upload/2018030615400539.pdf)
+: visual relationship detection
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMzMTE1MDg0LC0xNjM5MDE4Mzc2XX0=
+eyJoaXN0b3J5IjpbLTY0MDk0MjMxMCwtMTYzOTAxODM3Nl19
 -->
