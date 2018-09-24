@@ -33,7 +33,7 @@
 : Instead of having spatial features and appearance features come from separate branches, learn spatially-aware appearance features. Also replaces one-hot encoding with a hierarchical encoding to work on much larger scale (number of predicates).
 
 [Context-Dependent Diffusion Network for Visual Relationship Detection](https://arxiv.org/abs/1809.06213)
-: Create two graphs to represent spatial and appearance information. These become adjacen In semantic graph, nodes are object cats, and edge weight is ~number of triplets in dataset that differ from each other by only the two objects in consideration. In appearance graph, nodes are objects in a single image, and edge weights are [we can only guess].
+: Visual relationship detection. Create two graphs to represent spatial and appearance information. These become adjacency matrices $A$, which get extended into tensors, where each layer is a power of $A$. We'll multiply features by these tensors to get a diffusion of the influence each node has on each other. In semantic graph, nodes are object cats, and edge weight is ~number of triplets in dataset that differ from each other by only the two objects in consideration. In appearance graph, nodes are objects in a single image, and edge weights are [we can only guess]. Really impressive design.
 
 [Detecting Visual Relationships with Deep Relational Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relationships_CVPR_2017_paper.pdf)
 : Use an DR-Net to approximate (and surpass) a CRF for predicting posterior probabilities, which are used in visual relationship detection. This paper also introduces appealing appearance and spatial features, as well as a filtering neural network to decide which object pairs to consider from the $n(n-1)$.
@@ -41,5 +41,6 @@
 [Visual Relationship Detection with Deep Structural Ranking](http://vipl.ict.ac.cn/uploadfile/upload/2018030615400539.pdf)
 : visual relationship detection
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjQ1ODk5MSwtMTYzOTAxODM3Nl19
+eyJoaXN0b3J5IjpbLTIxMjQzODExNDEsLTE2MzkwMTgzNzZdfQ
+==
 -->
