@@ -21,7 +21,7 @@ http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relat
 
 The appearance and spatial features are concatenated and passed to DR-Net, along with appearance features of the individual objects.
 
-DR-Net is an MLP, where inputs are fed specifically to different layers in an attempt to approximate a CRF. The aim of the design is specifically for relational modelling.
+DR-Net is an MLP, where inputs are fed specifically to different layers in an attempt to approximate a CRF, though it performs *better* than a CRF in their experiments. The aim of the design is specifically for relational modelling.
 
 Writers view DR-Net as unrolling an iterative approximation of a CRF, sort of how an RNN is unrolled.
 
@@ -38,6 +38,6 @@ Tested on VRD and sVG (large subset of Visual Genome).
 4. Fang [48] treat object cats and predicate cats uniformly as words.
 5. Lu [1] classifier combines appearance and language features.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1OTQ4MzIzLDE5NTE1NTcwNiwxNjMzMT
-MyMTYwXX0=
+eyJoaXN0b3J5IjpbLTIwMTMzMTE5MTksMzA1OTQ4MzIzLDE5NT
+E1NTcwNiwxNjMzMTMyMTYwXX0=
 -->
