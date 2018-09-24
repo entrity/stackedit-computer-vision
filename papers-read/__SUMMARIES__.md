@@ -36,7 +36,8 @@
 : fo
 
 [Detecting Visual Relationships with Deep Relational Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relationships_CVPR_2017_paper.pdf)
-:
+: Use an DR-Net to approximate (and surpass) a CRF for predicting posterior probabilities, which are used in visual relationship detection. This paper also introduces appealing appearance and spatial features, as well as a filtering neural network to dec
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzI3NzQzMSwtMTYzOTAxODM3Nl19
+eyJoaXN0b3J5IjpbLTIxMzc5MTcyMTAsLTE2MzkwMTgzNzZdfQ
+==
 -->
