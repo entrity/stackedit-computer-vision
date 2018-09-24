@@ -21,6 +21,7 @@ http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relat
 
 The appearance and spatial features are concatenated and passed to DR-Net, along with appearance features of the individual objects.
 
+D
 ## Notes
 
 A joint model would not be scalable ("not suitable for generic applications," "excessively large number of classes and the imbalance among them").
@@ -32,5 +33,5 @@ A joint model would not be scalable ("not suitable for generic applications," "e
 4. Fang [48] treat object cats and predicate cats uniformly as words.
 5. Lu [1] classifier combines appearance and language features.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzEzMjE2MF19
+eyJoaXN0b3J5IjpbMzE3ODYxMjA4LDE2MzMxMzIxNjBdfQ==
 -->
