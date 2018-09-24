@@ -34,6 +34,9 @@
 
 [Context-Dependent Diffusion Network for Visual Relationship Detection](https://arxiv.org/abs/1809.06213)
 : fo
+
+[Detecting Visual Relationships with Deep Relational Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relationships_CVPR_2017_paper.pdf)
+:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzkwMTgzNzZdfQ==
+eyJoaXN0b3J5IjpbMTExMzI3NzQzMSwtMTYzOTAxODM3Nl19
 -->
