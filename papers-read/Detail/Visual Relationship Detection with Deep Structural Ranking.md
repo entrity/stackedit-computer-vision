@@ -4,7 +4,9 @@
 
 ## Method
 
-**Appearance**: VGG16 + 2 FC layers
+**Appearance**: VGG16, then pass RoIs through 2 FC layers. Combine feature vectors of s and o with vector for union area.
+
+**Spatial**: concatenate 4-d location vector of s and o with binary masks for s and o (downsampled to 32x32). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTc3Mzc1NF19
+eyJoaXN0b3J5IjpbODU4NzU5MzAyXX0=
 -->
