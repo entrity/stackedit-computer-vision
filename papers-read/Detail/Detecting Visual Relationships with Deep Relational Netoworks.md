@@ -8,7 +8,10 @@ http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relat
 1. DR-Net: 
 2. Move state of the art R@50 from 47.9% to 80.8% (relationship recognition) and 53.5% to 88.3% (predicate classification)
 
-## 
+## Pipeline
+
+1. Faster RCNN for object detection
+2. Neural network filters out some of the $n(n-1)$ possible pairs. Input is spatial and object categories
 
 ## Notes
 
@@ -21,5 +24,5 @@ A joint model would not be scalable ("not suitable for generic applications," "e
 4. Fang [48] treat object cats and predicate cats uniformly as words.
 5. Lu [1] classifier combines appearance and language features.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTcxMzk1MDddfQ==
+eyJoaXN0b3J5IjpbLTc5MjUxNzUwOF19
 -->
