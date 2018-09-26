@@ -8,7 +8,7 @@
 ## Contributions
 
 1. New dataset: **Charades-Ego**. 157 activity classes, 4000 video pairs (31.2 seconds long on avg)
-2. New model: **ActionObserverNet**: aligns the two domains by learning a joint embedding in a weakly-supervised setting. Given an image from one view, it finds a nearest neighbour (from the trainingset) from the corresponding
+2. New model: **ActionObserverNet**: aligns the two domains by learning a joint embedding in a weakly-supervised setting. Given an image from one domain, it finds a nearest neighbour (from the trainingset) from the other domain.
 
 ### Charades-Ego dataset
 
@@ -28,6 +28,6 @@ Seeks to learn *coordinated representation* (i.e. corresponding samples in the t
 
 Theory of mind says humans can put selves in another's shoes. This is done from egocentric perspective.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjk0MTM0MDQsLTkyMDQ5ODU5Nyw0Mz
-g4NjAwNzYsNTQyODgzMzkzLC0xNzMwODQ2OTldfQ==
+eyJoaXN0b3J5IjpbNTA0Mjg1NTM0LC05MjA0OTg1OTcsNDM4OD
+YwMDc2LDU0Mjg4MzM5MywtMTczMDg0Njk5XX0=
 -->
