@@ -18,7 +18,7 @@ Dataset available at http://github.com/gsig/actor-observer
 
 ### ActionObserverNet
 
-
+Seeks to learn *coordinated representation* (i.e. corresponding samples in the two domains are close together in the joint representation).
 
 ## Related Work
 
@@ -28,6 +28,6 @@ Dataset available at http://github.com/gsig/actor-observer
 
 Theory of mind says humans can put selves in another's shoes. This is done from egocentric perspective.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzcyODEyMTEsNDM4ODYwMDc2LDU0Mj
-g4MzM5MywtMTczMDg0Njk5XX0=
+eyJoaXN0b3J5IjpbLTkyMDQ5ODU5Nyw0Mzg4NjAwNzYsNTQyOD
+gzMzkzLC0xNzMwODQ2OTldfQ==
 -->
