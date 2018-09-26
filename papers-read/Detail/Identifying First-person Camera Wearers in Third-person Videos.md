@@ -12,7 +12,9 @@
 
 ### Charades-Ego dataset
 
-Collected with AMT according to "Hollywood in Homes" method [37]. 
+Collected with AMT according to "Hollywood in Homes" method [37]. AMT-ers perform an activity from Charades twice: once while recording 1st-person, once while 3rd-person. (Videos are thus not identical.) Turkers also identify moments that are shared across the 2 videos in order to align them.
+
+Datase
 
 ## Related Work
 
@@ -22,6 +24,6 @@ Collected with AMT according to "Hollywood in Homes" method [37].
 
 Theory of mind says humans can put selves in another's shoes. This is done from egocentric perspective.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTM3NTYwMzAsNDM4ODYwMDc2LDU0Mj
+eyJoaXN0b3J5IjpbLTE4ODE1NzMwNzEsNDM4ODYwMDc2LDU0Mj
 g4MzM5MywtMTczMDg0Njk5XX0=
 -->
