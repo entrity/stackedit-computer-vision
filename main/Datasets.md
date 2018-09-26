@@ -1,3 +1,9 @@
+Charades
+: for human action video?
+
+Charades-Ego
+: Paired 1st-person and 3rd-person 30-second video. 4000 video pair 
+
 CLEVR
 : Synthetic, generated from scene graphs. Relationships between objects are limited to 4 spatial predicates (left, right, front, behind). 48 entity categories. 5M relationships. 30% ambiguous relationships.
 
@@ -19,5 +25,6 @@ Visual Genome
 VRD (Visual Relationship Detection)
 : 100 object categories. 70 predicate categories. 5K images. 60% ambiguous relationships.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTc4MzQ0Niw4NzA4MjM1NzBdfQ==
+eyJoaXN0b3J5IjpbLTE4MTE5MzIxMywyMDIxNzgzNDQ2LDg3MD
+gyMzU3MF19
 -->
