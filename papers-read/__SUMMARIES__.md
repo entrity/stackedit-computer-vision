@@ -41,11 +41,13 @@
 [Visual Relationship Detection with Deep Structural Ranking](http://vipl.ict.ac.cn/uploadfile/upload/2018030615400539.pdf)
 : visual relationship detection
 
+
+
 [Actor and Observer: Joint Modeling of First and Third-Person Videos](https://arxiv.org/abs/1804.09627)
-: Presentation of Charades-Ego dataset and ActionObserverNet model for embedding 3rd-person and 1st person video into a 
+: Presentation of Charades-Ego dataset and ActionObserverNet model for embedding 3rd-person and 1st-person video into a common space.
 
 [Charades-Ego: A Large-Scale Dataset of Paired Third and First Person Videos](https://arxiv.org/pdf/1804.09626.pdf)
 : Short, additional description of Charades-Ego dataset
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzIwNDA4NCwtMTYzOTAxODM3Nl19
+eyJoaXN0b3J5IjpbMTI1MjYyODEyNCwtMTYzOTAxODM3Nl19
 -->
