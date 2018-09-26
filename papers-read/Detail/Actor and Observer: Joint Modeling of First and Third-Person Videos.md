@@ -1,4 +1,4 @@
-# Actor and Observer: Joint Modeling of First and Third-Person Videos
+# [Actor and Observer: Joint Modeling of First and Third-Person Videos](https://arxiv.org/abs/1804.09627)
 
 **Task**: egocentric action understanding
 **Problem**: lack of aligned 1st-person and 3rd-person video data
@@ -28,5 +28,5 @@ Given an image from one domain, it finds a nearest neighbour (in the training se
 
 Theory of mind says humans can put selves in another's shoes. This is done from egocentric perspective.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM4OTkwNDMwXX0=
+eyJoaXN0b3J5IjpbLTEyMDAwMDYzNjldfQ==
 -->
