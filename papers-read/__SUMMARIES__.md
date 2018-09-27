@@ -50,10 +50,11 @@
 : Short, additional description of Charades-Ego dataset
 
 [Ego2Top: Matching Viewers in Egocentric and Top-view Videos]
-: Has a top-down Builds 2 graphs from training videos (one egocentric, one exocentric) where nodes correspond to what a particular person would see.
+: Has a top-down camera viewing several people wearing front-facing cameras. Builds 2 graphs from training videos (one egocentric, one exocentric) where nodes correspond to what a particular person would see. Predicts which egocentric video corresponds to which person.
 
-[EgoTransfer
+[EgoTransfer: Transferring Motion Across Egocentric and Exocentric Domains using Deep Neural Networks]
+: Also experimented with linear regression to transfer from one domain to the other. Results were limited, as 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTczNDU2MSwxMjUyNjI4MTI0LC0xNj
+eyJoaXN0b3J5IjpbMjA5MzYwNTU3MywxMjUyNjI4MTI0LC0xNj
 M5MDE4Mzc2XX0=
 -->
