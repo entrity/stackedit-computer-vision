@@ -53,8 +53,8 @@
 : Has a top-down camera viewing several people wearing front-facing cameras. Builds 2 graphs from training videos (one egocentric, one exocentric) where nodes correspond to what a particular person would see. Predicts which egocentric video corresponds to which person.
 
 [EgoTransfer: Transferring Motion Across Egocentric and Exocentric Domains using Deep Neural Networks]
-: Builds a model to map egocentric and excocentric video features to a common space using DNN. Also experimented with linear regression. Superior model depends on feature type (
+: Builds a model to map egocentric and excocentric video features to a common space using DNN. Also experimented with linear regression. Superior model depends on feature type (HOOF vs C3D).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE3NTc3ODgsLTc0Njg4NjYzMSwxMT
+eyJoaXN0b3J5IjpbLTE1OTk3NDAxNjgsLTc0Njg4NjYzMSwxMT
 QyODkxMDMxLDEyNTI2MjgxMjQsLTE2MzkwMTgzNzZdfQ==
 -->
