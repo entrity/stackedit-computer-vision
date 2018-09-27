@@ -12,6 +12,7 @@
 
 ### Model
 Two-stream architecture: visual (RGB frames) & motion (optical flow fields).
+Siamese network with contrastic loss learns to match particular perosn instances across first- and third-person video.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzUxODI5MjVdfQ==
+eyJoaXN0b3J5IjpbMzYxODE5ODcsLTEwNzUxODI5MjVdfQ==
 -->
