@@ -55,9 +55,12 @@
 [EgoTransfer: Transferring Motion Across Egocentric and Exocentric Domains using Deep Neural Networks]
 : Builds a model to map egocentric and excocentric video features to a common space using DNN. Also experimented with linear regression. Superior model depends on feature type (HOOF vs C3D).
 
-[
+[Joint Person Segmentation and Identification in Synchronized First- and Third-person Videos]
+: Jointly perform segmentation and identification to the benefit of both tasks.
+
+[Seeing Invisible Poses: Estimating 3D Body Pose from Egocentric Video]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTYwNDg1OSwtMTU5OTc0MDE2OCwtNz
-Q2ODg2NjMxLDExNDI4OTEwMzEsMTI1MjYyODEyNCwtMTYzOTAx
-ODM3Nl19
+eyJoaXN0b3J5IjpbLTE5MjExMzQ2NTksLTE1OTk3NDAxNjgsLT
+c0Njg4NjYzMSwxMTQyODkxMDMxLDEyNTI2MjgxMjQsLTE2Mzkw
+MTgzNzZdfQ==
 -->
