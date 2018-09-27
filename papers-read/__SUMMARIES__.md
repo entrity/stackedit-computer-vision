@@ -39,9 +39,7 @@
 : Use an DR-Net to approximate (and surpass) a CRF for predicting posterior probabilities, which are used in visual relationship detection. This paper also introduces appealing appearance and spatial features, as well as a filtering neural network to decide which object pairs to consider from the $n(n-1)$.
 
 [Visual Relationship Detection with Deep Structural Ranking](http://vipl.ict.ac.cn/uploadfile/upload/2018030615400539.pdf)
-: visual relationship detection
-
-
+: does visual relationship detection
 
 [Actor and Observer: Joint Modeling of First and Third-Person Videos](https://arxiv.org/abs/1804.09627)
 : Presentation of Charades-Ego dataset and ActionObserverNet model for embedding 3rd-person and 1st-person video into a common space.
@@ -60,7 +58,7 @@
 
 [Seeing Invisible Poses: Estimating 3D Body Pose from Egocentric Video](http://www.cs.utexas.edu/~grauman/papers/ego-pose-cvpr2017.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTkxNTQ3MywtMTU5OTc0MDE2OCwtNz
-Q2ODg2NjMxLDExNDI4OTEwMzEsMTI1MjYyODEyNCwtMTYzOTAx
-ODM3Nl19
+eyJoaXN0b3J5IjpbLTU2NzQ1NDAxNCwyMTM5OTE1NDczLC0xNT
+k5NzQwMTY4LC03NDY4ODY2MzEsMTE0Mjg5MTAzMSwxMjUyNjI4
+MTI0LC0xNjM5MDE4Mzc2XX0=
 -->
