@@ -56,6 +56,9 @@ HOG (Histogram of Oriented Gradients) [[tuorial](http://mccormickml.com/2013/05/
 : Used for object detection. The entire object is represented by a single feature vector, as opposed to many feature vectors representing smaller parts of the object. The HOG person detector uses a sliding detection window which is moved around the image. At each position of the detector window, a HOG descriptor is computed for the detection window. This descriptor is then shown to the trained SVM, which classifies it as either “person” or “not a person”.
 : To recognize persons at different scales, the image is subsampled to multiple sizes. Each of these subsampled images is searched.
 
+HOOF (Histogram of Oriented Optical Flow)
+: ?
+
 Image Pyramid
 : Perhaps means upsampling to test a single image at multiple scales. (See [SNIP](https://www.cs.umd.edu/~bharat/snip.pdf))
 
@@ -152,7 +155,8 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTgzMzQ1NywtMTYzNjY0MDQxOSwtMT
-M4Nzk0MjE2NywtODU0Mjc5MDA3LDkxNzY5MTI2MSwtMTgxOTA0
-MDM1MCw1MTkxMDc5NTMsNzU5Nzg4MTIxLDQyNzExODc2Nl19
+eyJoaXN0b3J5IjpbMTUwNDg2MDIyOCwxNDUxODMzNDU3LC0xNj
+M2NjQwNDE5LC0xMzg3OTQyMTY3LC04NTQyNzkwMDcsOTE3Njkx
+MjYxLC0xODE5MDQwMzUwLDUxOTEwNzk1Myw3NTk3ODgxMjEsND
+I3MTE4NzY2XX0=
 -->
