@@ -58,9 +58,9 @@
 [Joint Person Segmentation and Identification in Synchronized First- and Third-person Videos]
 : Jointly perform segmentation and identification to the benefit of both tasks.
 
-[Seeing Invisible Poses: Estimating 3D Body Pose from Egocentric Video]
+[Seeing Invisible Poses: Estimating 3D Body Pose from Egocentric Video](http://www.cs.utexas.edu/~grauman/papers/ego-pose-cvpr2017.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjExMzQ2NTksLTE1OTk3NDAxNjgsLT
-c0Njg4NjYzMSwxMTQyODkxMDMxLDEyNTI2MjgxMjQsLTE2Mzkw
-MTgzNzZdfQ==
+eyJoaXN0b3J5IjpbMjEzOTkxNTQ3MywtMTU5OTc0MDE2OCwtNz
+Q2ODg2NjMxLDExNDI4OTEwMzEsMTI1MjYyODEyNCwtMTYzOTAx
+ODM3Nl19
 -->
