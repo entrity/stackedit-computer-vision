@@ -54,7 +54,10 @@
 
 [EgoTransfer: Transferring Motion Across Egocentric and Exocentric Domains using Deep Neural Networks]
 : Builds a model to map egocentric and excocentric video features to a common space using DNN. Also experimented with linear regression. Superior model depends on feature type (HOOF vs C3D).
+
+[
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTk3NDAxNjgsLTc0Njg4NjYzMSwxMT
-QyODkxMDMxLDEyNTI2MjgxMjQsLTE2MzkwMTgzNzZdfQ==
+eyJoaXN0b3J5IjpbLTY1NTYwNDg1OSwtMTU5OTc0MDE2OCwtNz
+Q2ODg2NjMxLDExNDI4OTEwMzEsMTI1MjYyODEyNCwtMTYzOTAx
+ODM3Nl19
 -->
