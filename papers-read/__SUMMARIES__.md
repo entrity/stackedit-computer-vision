@@ -48,6 +48,12 @@
 
 [Charades-Ego: A Large-Scale Dataset of Paired Third and First Person Videos](https://arxiv.org/pdf/1804.09626.pdf)
 : Short, additional description of Charades-Ego dataset
+
+[Ego2Top: Matching Viewers in Egocentric and Top-view Videos]
+: Has a top-down Builds 2 graphs from training videos (one egocentric, one exocentric) where nodes correspond to what a particular person would see.
+
+[EgoTransfer
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjYyODEyNCwtMTYzOTAxODM3Nl19
+eyJoaXN0b3J5IjpbLTI1MTczNDU2MSwxMjUyNjI4MTI0LC0xNj
+M5MDE4Mzc2XX0=
 -->
