@@ -57,8 +57,9 @@
 : Jointly perform segmentation and identification to the benefit of both tasks.
 
 [Seeing Invisible Poses: Estimating 3D Body Pose from Egocentric Video](http://www.cs.utexas.edu/~grauman/papers/ego-pose-cvpr2017.pdf)
+: Train on RGBD data. Using video from 1 chest-mounted camera, guess to which cluster of poses the current wearer's pose belongs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzQ1NDAxNCwyMTM5OTE1NDczLC0xNT
-k5NzQwMTY4LC03NDY4ODY2MzEsMTE0Mjg5MTAzMSwxMjUyNjI4
-MTI0LC0xNjM5MDE4Mzc2XX0=
+eyJoaXN0b3J5IjpbLTI1NzkyMzI2OCwtNTY3NDU0MDE0LDIxMz
+k5MTU0NzMsLTE1OTk3NDAxNjgsLTc0Njg4NjYzMSwxMTQyODkx
+MDMxLDEyNTI2MjgxMjQsLTE2MzkwMTgzNzZdfQ==
 -->
