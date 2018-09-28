@@ -59,6 +59,9 @@ HOG (Histogram of Oriented Gradients) [[tuorial](http://mccormickml.com/2013/05/
 : Used for object detection. The entire object is represented by a single feature vector, as opposed to many feature vectors representing smaller parts of the object. The HOG person detector uses a sliding detection window which is moved around the image. At each position of the detector window, a HOG descriptor is computed for the detection window. This descriptor is then shown to the trained SVM, which classifies it as either “person” or “not a person”.
 : To recognize persons at different scales, the image is subsampled to multiple sizes. Each of these subsampled images is searched.
 
+Homography
+: An 8-d metric for similarity between images. It assumes only rotational change from the oberserver's POV (n
+
 HOOF (Histogram of Oriented Optical Flow)
 : ?
 
@@ -107,6 +110,9 @@ NMS (non-maximum suppression)
 
 Network-in-Network
 : proposed by Min Lin, Qiang Chen, and Shuicheng Yan. Network in network. CoRR, abs/1312.4400, 2013. In vision, 1x1 conv layers followed by relu.
+
+Optical flow
+: A 2xHxW tensor holding the $x$ translation and $y$ translation of every pixel in transition between two similar images.
 
 Partially supervised learning
 : *see "Supervised learning: partially supervised"*
@@ -158,8 +164,8 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjMwMzI1MzUsMTUwNDg2MDIyOCwxND
-UxODMzNDU3LC0xNjM2NjQwNDE5LC0xMzg3OTQyMTY3LC04NTQy
-NzkwMDcsOTE3NjkxMjYxLC0xODE5MDQwMzUwLDUxOTEwNzk1My
-w3NTk3ODgxMjEsNDI3MTE4NzY2XX0=
+eyJoaXN0b3J5IjpbMTgwNjkyNjc0MSwtMTIyMzAzMjUzNSwxNT
+A0ODYwMjI4LDE0NTE4MzM0NTcsLTE2MzY2NDA0MTksLTEzODc5
+NDIxNjcsLTg1NDI3OTAwNyw5MTc2OTEyNjEsLTE4MTkwNDAzNT
+AsNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMTg3NjZdfQ==
 -->
