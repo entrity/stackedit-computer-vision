@@ -154,7 +154,10 @@ Supervised learning
     - **self-supervised** - makes use of non-visual information, intrinsically correlated to the data (domain knowledge)
     - **semi-supervised** - for some of the training data, you know all the ground truth, but for some of the data you don't have all the ground truth (e.g. you know bounding box *and* segmentation for some data but know only bound box for the remaining data). So you train on the fully-labelled data, make predictions on the unlabelled data, then retrain on the whole set (using your predictions as labels).
     - **weakly supervised** - you know one thing and want to predict other (e.g. you know bounding box and want to predict mask)
-    
+
+Surface Normal
+: For each pi
+
 Variational Autoencoder (VAE)
 : Generative model. Easier to train (more stable) than GAN, but good GAN yields better results. Codiscovered: [1](https://arxiv.org/abs/1312.6114), [2](https://arxiv.org/abs/1401.4082)
 
@@ -164,8 +167,8 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MDY4MzMyLC0xMjIzMDMyNTM1LDE1MD
-Q4NjAyMjgsMTQ1MTgzMzQ1NywtMTYzNjY0MDQxOSwtMTM4Nzk0
-MjE2NywtODU0Mjc5MDA3LDkxNzY5MTI2MSwtMTgxOTA0MDM1MC
-w1MTkxMDc5NTMsNzU5Nzg4MTIxLDQyNzExODc2Nl19
+eyJoaXN0b3J5IjpbMTA2NzI1NjIyNSwtMTIyMzAzMjUzNSwxNT
+A0ODYwMjI4LDE0NTE4MzM0NTcsLTE2MzY2NDA0MTksLTEzODc5
+NDIxNjcsLTg1NDI3OTAwNyw5MTc2OTEyNjEsLTE4MTkwNDAzNT
+AsNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMTg3NjZdfQ==
 -->
