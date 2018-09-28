@@ -60,7 +60,7 @@ HOG (Histogram of Oriented Gradients) [[tuorial](http://mccormickml.com/2013/05/
 : To recognize persons at different scales, the image is subsampled to multiple sizes. Each of these subsampled images is searched.
 
 Homography
-: An 8-d metric for similarity between images. It assumes only rotational change from the oberserver's POV (n
+: An 8-d metric for similarity between images. It assumes only rotational change from the obeserver's POV (no translation).
 
 HOOF (Histogram of Oriented Optical Flow)
 : ?
@@ -164,8 +164,8 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjkyNjc0MSwtMTIyMzAzMjUzNSwxNT
-A0ODYwMjI4LDE0NTE4MzM0NTcsLTE2MzY2NDA0MTksLTEzODc5
-NDIxNjcsLTg1NDI3OTAwNyw5MTc2OTEyNjEsLTE4MTkwNDAzNT
-AsNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMTg3NjZdfQ==
+eyJoaXN0b3J5IjpbMzM5MDY4MzMyLC0xMjIzMDMyNTM1LDE1MD
+Q4NjAyMjgsMTQ1MTgzMzQ1NywtMTYzNjY0MDQxOSwtMTM4Nzk0
+MjE2NywtODU0Mjc5MDA3LDkxNzY5MTI2MSwtMTgxOTA0MDM1MC
+w1MTkxMDc5NTMsNzU5Nzg4MTIxLDQyNzExODc2Nl19
 -->
