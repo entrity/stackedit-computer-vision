@@ -156,7 +156,7 @@ Supervised learning
     - **weakly supervised** - you know one thing and want to predict other (e.g. you know bounding box and want to predict mask)
 
 Surface Normal
-: For each pi
+: For each pixel in an image, the ray extending perpendicular from the surface represented by the pixel.
 
 Variational Autoencoder (VAE)
 : Generative model. Easier to train (more stable) than GAN, but good GAN yields better results. Codiscovered: [1](https://arxiv.org/abs/1312.6114), [2](https://arxiv.org/abs/1401.4082)
@@ -167,7 +167,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzI1NjIyNSwtMTIyMzAzMjUzNSwxNT
+eyJoaXN0b3J5IjpbLTkzMzIxMzk4NSwtMTIyMzAzMjUzNSwxNT
 A0ODYwMjI4LDE0NTE4MzM0NTcsLTE2MzY2NDA0MTksLTEzODc5
 NDIxNjcsLTg1NDI3OTAwNyw5MTc2OTEyNjEsLTE4MTkwNDAzNT
 AsNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMTg3NjZdfQ==
