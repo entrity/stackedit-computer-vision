@@ -1,3 +1,6 @@
+affordance
+: an obect's affordances are how a human may interact with it
+
 AMT (Amazon Mechanical Turk)
 : web service to get humans to perform simple tasks for cheap
 
@@ -155,8 +158,8 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNDg2MDIyOCwxNDUxODMzNDU3LC0xNj
-M2NjQwNDE5LC0xMzg3OTQyMTY3LC04NTQyNzkwMDcsOTE3Njkx
-MjYxLC0xODE5MDQwMzUwLDUxOTEwNzk1Myw3NTk3ODgxMjEsND
-I3MTE4NzY2XX0=
+eyJoaXN0b3J5IjpbLTEyMjMwMzI1MzUsMTUwNDg2MDIyOCwxND
+UxODMzNDU3LC0xNjM2NjQwNDE5LC0xMzg3OTQyMTY3LC04NTQy
+NzkwMDcsOTE3NjkxMjYxLC0xODE5MDQwMzUwLDUxOTEwNzk1My
+w3NTk3ODgxMjEsNDI3MTE4NzY2XX0=
 -->
