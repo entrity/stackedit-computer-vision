@@ -8,7 +8,10 @@ Improving scene understanding by seeing where multiple people in the scene are g
 Reconstruct 3D from video using "structure from motion."
 Camera pose is recovered using a RANSAC embedded Perspective-$n$-Point algorithm.
 
+### Calibration
+
+Have pairs of people look at each other's camera while moving back and forth and side to side. This gives us transformation between (camera's angle and gaze angle) and (camera's center and head center). The transformation is applied simply as $y = Ry^w - RC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM3OTIzNywtODUxNDM4ODY3LC0yMD
-gwMzA4ODkwLC0xMTE0MTQ2MjkwXX0=
+eyJoaXN0b3J5IjpbODU3MTM5MTg3LC04NTE0Mzg4NjcsLTIwOD
+AzMDg4OTAsLTExMTQxNDYyOTBdfQ==
 -->
