@@ -10,8 +10,8 @@ Camera pose is recovered using a RANSAC embedded Perspective-$n$-Point algorithm
 
 ### Calibration
 
-Have pairs of people look at each other's camera while moving back and forth and side to side. This gives us transformation between (camera's angle and gaze angle) and (camera's center and head center). The transformation is applied simply as $y = Ry^w - RC
+Have pairs of people look at each other's camera while moving back and forth and side to side. This gives us transformation between (camera's angle and gaze angle) and (camera's center and head center). The transformation is applied simply as $y = Ry^w - RC$ where $y^w$ is the point of regard, R is camera orientation, C is camera center.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3MTM5MTg3LC04NTE0Mzg4NjcsLTIwOD
-AzMDg4OTAsLTExMTQxNDYyOTBdfQ==
+eyJoaXN0b3J5IjpbMTg3OTk2MjA1NSwtODUxNDM4ODY3LC0yMD
+gwMzA4ODkwLC0xMTE0MTQ2MjkwXX0=
 -->
