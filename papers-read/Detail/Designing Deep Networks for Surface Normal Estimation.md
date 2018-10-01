@@ -12,6 +12,10 @@ Build a top-down and a bottom-up network. Learn a fusion network.
 Work in Manhattan world (man-made scenes, orthogonal directions). Model room as a box.
 3. Local structure
 Use edges for information.
+
+Top-down network looks at entire image, produces coarse global interpretation.
+Bottom-up network works on patches in sliding window.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQxMDY5NTk4LDEyMzE1NzQ1MDddfQ==
+eyJoaXN0b3J5IjpbNjkyMTcxMzg1LDg0MTA2OTU5OCwxMjMxNT
+c0NTA3XX0=
 -->
