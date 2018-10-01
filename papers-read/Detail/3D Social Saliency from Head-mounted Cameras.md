@@ -7,7 +7,7 @@ Improving scene understanding by seeing where multiple people in the scene are g
 ## Method
 Reconstruct 3D from video using "structure from motion."
 Camera pose is recovered using a RANSAC embedded Perspective-$n$-Point algorithm.
-
+Use motion capture to provide 
 ### Calibration
 
 Have pairs of people look at each other's camera while moving back and forth and side to side. This gives us transformation between (camera's angle and gaze angle) and (camera's center and head center). The transformation is applied simply as $y = Ry^w - RC$ where $y^w$ is the point of regard, R is camera orientation, C is camera center. (This transforms the real-world $y^w$ to the wearer's camera-centered coordinate system.)
@@ -19,8 +19,10 @@ Compute cone of gaze in previous step. These are probabilistic distributions of 
 For any point and gaze ray, a Gaussian can evaluate the distance of said point from said gaze. For a point $x$ in the scene, $f(x)$ gives the average of these Gaussian evaluations. 
 
 Gradients of $f(X)$ are followed in this field to find modes, i.e. the salient points.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MDgyODkyNCwxMzQ4MjY0NzE0LDIwND
+eyJoaXN0b3J5IjpbMTg0MTQ0OTczNSwxMzQ4MjY0NzE0LDIwND
 A5MDg4MSwtNTY1MzMxNzcwLC04NTE0Mzg4NjcsLTIwODAzMDg4
 OTAsLTExMTQxNDYyOTBdfQ==
 -->
