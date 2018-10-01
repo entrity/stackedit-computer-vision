@@ -7,8 +7,10 @@ Follow the work of Eigen [5] who used CNN to predict depth in image. Frame it as
 ## Themes from scene understanding
 
 1. Fuse top-down, bottom-up
-
-. Human-centric constraints
+Build a top-down and a bottom-up network. Learn a fusion network.
+2. Human-centric constraints
+Work in Manhattan world (man-made scenes, orthogonal directions)
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0MjM4NDk5LDEyMzE1NzQ1MDddfQ==
+eyJoaXN0b3J5IjpbMTQyNjc0NjY4MCwxMjMxNTc0NTA3XX0=
 -->
