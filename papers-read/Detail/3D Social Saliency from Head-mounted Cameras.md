@@ -19,10 +19,10 @@ Compute cone of gaze in previous step. These are probabilistic distributions of 
 
 For any point and gaze ray, a Gaussian can evaluate the distance of said point from said gaze. For a point $x$ in the scene, $f(x)$ gives the average of these Gaussian evaluations. 
 
-Gradients of $f(X)$ are followed in this field (mean-shift algorithm) to find modes, i.e. the salient points.
+Gradients of $f(X)$ are followed in this field (mean-shift algorithm) to find modes, i.e. the concurrences.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk1NTY0MTEsMTM0ODI2NDcxNCwyMD
+eyJoaXN0b3J5IjpbLTE5MjE1NDc4MTgsMTM0ODI2NDcxNCwyMD
 QwOTA4ODEsLTU2NTMzMTc3MCwtODUxNDM4ODY3LC0yMDgwMzA4
 ODkwLC0xMTE0MTQ2MjkwXX0=
 -->
