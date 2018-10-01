@@ -29,7 +29,19 @@ gulation cover. The normal is a weighted combination of the codewords for its tr
 
 For **room layout**, learn a codebook over box layouts via k-medoids. Codewords serve as classes.
 
+## Fusion Layer
+
+Input is concatenation of image maps:
+
+1. coarse global output (TD)
+2. layout (TD)
+3. local surface normals (BU)
+4. edge labels (BU)
+5. vanishing point-aligned coarse output (TD)
+6. original image
+
+The subnets are trained individually, not e2e.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY4Mzk4NTIsMTAxNDkzNDU2Niw4ND
-EwNjk1OTgsMTIzMTU3NDUwN119
+eyJoaXN0b3J5IjpbLTM4Mzk5NjY2NiwxMDE0OTM0NTY2LDg0MT
+A2OTU5OCwxMjMxNTc0NTA3XX0=
 -->
