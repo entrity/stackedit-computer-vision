@@ -10,7 +10,8 @@ Follow the work of Eigen [5] who used CNN to predict depth in image. Frame it as
 Build a top-down and a bottom-up network. Learn a fusion network.
 2. Human-centric constraints
 Work in Manhattan world (man-made scenes, orthogonal directions). Model room as a box.
-1. 
+3. Local structure
+Use edges for information.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg3NTg1NDgsMTIzMTU3NDUwN119
+eyJoaXN0b3J5IjpbODQxMDY5NTk4LDEyMzE1NzQ1MDddfQ==
 -->
