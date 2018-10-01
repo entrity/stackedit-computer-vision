@@ -15,14 +15,17 @@ Use edges for information.
 
 ## 
 
-Top-down network looks at entire image, produces coarse global interpretation. Predicts room layout.
-Bottom-up network works on patches in sliding window. Predicts edge labeling.
+**Top-down** network looks at entire image, produces coarse global interpretation. Predicts room layout.
+**Bottom-up** network works on patches in sliding window. Predicts edge labeling.
 The extra tasks (layout, edges) enforce the human-centric constraints.
 TD and BU have complementary errors. (Whatever that means.)
-Fusion network integrates TD and BU predictions.
+**Fusion** network integrates TD and BU predictions.
 
-Edge label task is classification: {convex, concave, occluding, no edge}.
+**Edge label** task is classification: {convex, concave, occluding, no edge}.
+For **surface normal** and **room layout**, we discretize output space (and then frame problem as classification).
+
+For **surface normal**, lea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjI2NDU0OSw4NDEwNjk1OTgsMTIzMT
-U3NDUwN119
+eyJoaXN0b3J5IjpbNTYwMzIxMDksODQxMDY5NTk4LDEyMzE1Nz
+Q1MDddfQ==
 -->
