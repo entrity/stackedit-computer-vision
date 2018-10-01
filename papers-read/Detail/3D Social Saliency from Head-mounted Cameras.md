@@ -7,7 +7,8 @@ Improving scene understanding by seeing where multiple people in the scene are g
 ## Method
 Reconstruct 3D from video using "structure from motion."
 Camera pose is recovered using a RANSAC embedded Perspective-$n$-Point algorithm.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTQzODg2NywtMjA4MDMwODg5MCwtMT
-ExNDE0NjI5MF19
+eyJoaXN0b3J5IjpbLTE1NTM3OTIzNywtODUxNDM4ODY3LC0yMD
+gwMzA4ODkwLC0xMTE0MTQ2MjkwXX0=
 -->
