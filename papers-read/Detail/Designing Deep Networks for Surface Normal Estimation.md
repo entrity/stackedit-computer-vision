@@ -28,7 +28,8 @@ For **surface normal**, learn a codebook of values using k-means and a Delaunay 
 gulation cover. The normal is a weighted combination of the codewords for its triangle.
 
 For **room layout**, learn a codebook over box layouts via k-medoids. Codewords serve as classes.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDkzNDU2Niw4NDEwNjk1OTgsMTIzMT
-U3NDUwN119
+eyJoaXN0b3J5IjpbLTE4NjY4Mzk4NTIsMTAxNDkzNDU2Niw4ND
+EwNjk1OTgsMTIzMTU3NDUwN119
 -->
