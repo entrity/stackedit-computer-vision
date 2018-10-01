@@ -14,8 +14,8 @@ Have pairs of people look at each other's camera while moving back and forth and
 
 ### Mode seeking
 
-Compute cone of gaze in previous step. Then look for intersection of cones among different wearers.
+Compute cone of gaze in previous step. These are probabilistic distributions of points of regard. Superpos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQyNzE0MTksLTU2NTMzMTc3MCwtOD
-UxNDM4ODY3LC0yMDgwMzA4ODkwLC0xMTE0MTQ2MjkwXX0=
+eyJoaXN0b3J5IjpbOTQwMTY4NDA2LC01NjUzMzE3NzAsLTg1MT
+QzODg2NywtMjA4MDMwODg5MCwtMTExNDE0NjI5MF19
 -->
