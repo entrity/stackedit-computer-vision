@@ -14,8 +14,8 @@ Have pairs of people look at each other's camera while moving back and forth and
 
 ### Mode seeking
 
-Compute cone of gaze in previous step. These are probabilistic distributions of points of regard. Superpos
+Compute cone of gaze in previous step. These are probabilistic distributions of points of regard. Superposition these distributions to get saliency fields of scene. A "mean-shift" algorithm yields modes in this field.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwMTY4NDA2LC01NjUzMzE3NzAsLTg1MT
+eyJoaXN0b3J5IjpbMjA0MDkwODgxLC01NjUzMzE3NzAsLTg1MT
 QzODg2NywtMjA4MDMwODg5MCwtMTExNDE0NjI5MF19
 -->
