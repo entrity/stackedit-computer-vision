@@ -16,9 +16,11 @@ Have pairs of people look at each other's camera while moving back and forth and
 
 Compute cone of gaze in previous step. These are probabilistic distributions of points of regard. Superposition these distributions to get saliency fields of scene. A "mean-shift" algorithm yields modes in this field.
 
-For any point and gaze ray, a Gaussian can evaluate the distance of said point from said gaze. For a point $x$ in the scene, $f(x)$ gives the average of these Gaussian evaluations.
+For any point and gaze ray, a Gaussian can evaluate the distance of said point from said gaze. For a point $x$ in the scene, $f(x)$ gives the average of these Gaussian evaluations. 
+
+Gradients of $f(X)$ are followed in this field to find modes, i.e. the salient points.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0ODI2NDcxNCwyMDQwOTA4ODEsLTU2NT
-MzMTc3MCwtODUxNDM4ODY3LC0yMDgwMzA4ODkwLC0xMTE0MTQ2
-MjkwXX0=
+eyJoaXN0b3J5IjpbLTI1MDgyODkyNCwxMzQ4MjY0NzE0LDIwND
+A5MDg4MSwtNTY1MzMxNzcwLC04NTE0Mzg4NjcsLTIwODAzMDg4
+OTAsLTExMTQxNDYyOTBdfQ==
 -->
