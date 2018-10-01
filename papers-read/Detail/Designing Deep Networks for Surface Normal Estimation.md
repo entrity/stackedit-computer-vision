@@ -24,8 +24,9 @@ TD and BU have complementary errors. (Whatever that means.)
 **Edge label** task is classification: {convex, concave, occluding, no edge}.
 For **surface normal** and **room layout**, we discretize output space (and then frame problem as classification).
 
-For **surface normal**, lea
+For **surface normal**, learn a codebook of values using k-means and a Delaunay trian-
+gulation cover.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwMzIxMDksODQxMDY5NTk4LDEyMzE1Nz
-Q1MDddfQ==
+eyJoaXN0b3J5IjpbNTUwMDI0NTM3LDg0MTA2OTU5OCwxMjMxNT
+c0NTA3XX0=
 -->
