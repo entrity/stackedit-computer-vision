@@ -12,8 +12,10 @@ Camera pose is recovered using a RANSAC embedded Perspective-$n$-Point algorithm
 
 Have pairs of people look at each other's camera while moving back and forth and side to side. This gives us transformation between (camera's angle and gaze angle) and (camera's center and head center). The transformation is applied simply as $y = Ry^w - RC$ where $y^w$ is the point of regard, R is camera orientation, C is camera center. (This transforms the real-world $y^w$ to the wearer's camera-centered coordinate system.)
 
-### 
+### Mode seeking
+
+Compute cone of gaze in previous step. Then look for intersection of cones among different wearers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODkyMTk3OSwtNTY1MzMxNzcwLC04NT
-E0Mzg4NjcsLTIwODAzMDg4OTAsLTExMTQxNDYyOTBdfQ==
+eyJoaXN0b3J5IjpbLTE5ODQyNzE0MTksLTU2NTMzMTc3MCwtOD
+UxNDM4ODY3LC0yMDgwMzA4ODkwLC0xMTE0MTQ2MjkwXX0=
 -->
