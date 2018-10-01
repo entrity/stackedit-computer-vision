@@ -13,11 +13,12 @@ Work in Manhattan world (man-made scenes, orthogonal directions). Model room as 
 3. Local structure
 Use edges for information.
 
-Top-down network looks at entire image, produces coarse global interpretation. Predicts room la
-Bottom-up network works on patches in sliding window.
+Top-down network looks at entire image, produces coarse global interpretation. Predicts room layout.
+Bottom-up network works on patches in sliding window. Predicts edge labeling.
+The extra tasks (layout, edges) enforce the human-centric constraints.
 TD and BU have complementary errors. (Whatever that means.)
 Fusion network integrates TD and BU predictions.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjM0NjMwNCw4NDEwNjk1OTgsMTIzMT
+eyJoaXN0b3J5IjpbLTU5MDQ5NDI1NSw4NDEwNjk1OTgsMTIzMT
 U3NDUwN119
 -->
