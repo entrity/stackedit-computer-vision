@@ -26,7 +26,9 @@ For **surface normal** and **room layout**, we discretize output space (and then
 
 For **surface normal**, learn a codebook of values using k-means and a Delaunay trian-
 gulation cover. The normal is a weighted combination of the codewords for its triangle.
+
+For **room layout**, learn a codebook over box layouts via k-medoids. Codewords serve as classes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDMzNTQ0MSw4NDEwNjk1OTgsMTIzMT
+eyJoaXN0b3J5IjpbMTAxNDkzNDU2Niw4NDEwNjk1OTgsMTIzMT
 U3NDUwN119
 -->
