@@ -58,8 +58,12 @@
 
 [Seeing Invisible Poses: Estimating 3D Body Pose from Egocentric Video](http://www.cs.utexas.edu/~grauman/papers/ego-pose-cvpr2017.pdf)
 : Train on RGBD data. Using video from 1 chest-mounted camera, guess to which cluster of poses the current wearer's pose belongs. From there, guess pose.
+
+[3D Social Saliency from Head-mounted Cameras](http://www.cs.cmu.edu/~hyunsoop/nips/NIPS12.pdf)
+: Present a method to reconstruct a 3D social saliency field and localize gaze concurrences in 3D space from videos taken by head-mounted cameras on multiple people.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzOTc0NDQyLC01Njc0NTQwMTQsMjEzOT
-kxNTQ3MywtMTU5OTc0MDE2OCwtNzQ2ODg2NjMxLDExNDI4OTEw
-MzEsMTI1MjYyODEyNCwtMTYzOTAxODM3Nl19
+eyJoaXN0b3J5IjpbLTM0MDE0NzcwOCwyMjM5NzQ0NDIsLTU2Nz
+Q1NDAxNCwyMTM5OTE1NDczLC0xNTk5NzQwMTY4LC03NDY4ODY2
+MzEsMTE0Mjg5MTAzMSwxMjUyNjI4MTI0LC0xNjM5MDE4Mzc2XX
+0=
 -->
