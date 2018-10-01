@@ -25,8 +25,8 @@ TD and BU have complementary errors. (Whatever that means.)
 For **surface normal** and **room layout**, we discretize output space (and then frame problem as classification).
 
 For **surface normal**, learn a codebook of values using k-means and a Delaunay trian-
-gulation cover.
+gulation cover. The normal is a weighted combination of the codewords for its triangle.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwMDI0NTM3LDg0MTA2OTU5OCwxMjMxNT
-c0NTA3XX0=
+eyJoaXN0b3J5IjpbLTM4MDMzNTQ0MSw4NDEwNjk1OTgsMTIzMT
+U3NDUwN119
 -->
