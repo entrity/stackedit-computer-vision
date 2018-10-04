@@ -26,8 +26,8 @@ Create set of *interaction blocks* showing where interaction surfaces or support
 
 To accommodate squishy bodies and surfaces, constraints are relaxed by eroding surfaces for *free space constraint* and dilating surfaces for *support constraint*.
 
-##
+## Estimating geometry
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDA3MjU4OCwyMTQ3MzU2ODE2LC0xNz
-U0NDI3NDExXX0=
+eyJoaXN0b3J5IjpbLTE1MTU0MjM4NDEsMjE0NzM1NjgxNiwtMT
+c1NDQyNzQxMV19
 -->
