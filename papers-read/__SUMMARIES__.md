@@ -63,9 +63,12 @@
 : Present a method to reconstruct a 3D social saliency field and localize gaze concurrences in 3D space from videos taken by head-mounted cameras on multiple people.
 
 [From 3D Scene Geometry to Human Workspace](http://www.cs.cmu.edu/~abhinavg/affordances/)
+: Estimate a 3D geometry of a scene from an image. Given 7 poses, find places in the scene where humans could assume any of the poses without intersecting objects and while having support for their bodies.
+
+[People Watching: Human Actions as a Cue for Single View Geometry]()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTgwOTMxNTIsMjIzOTc0NDQyLC01Nj
-c0NTQwMTQsMjEzOTkxNTQ3MywtMTU5OTc0MDE2OCwtNzQ2ODg2
-NjMxLDExNDI4OTEwMzEsMTI1MjYyODEyNCwtMTYzOTAxODM3Nl
-19
+eyJoaXN0b3J5IjpbNTk1ODczNDk4LDIyMzk3NDQ0MiwtNTY3ND
+U0MDE0LDIxMzk5MTU0NzMsLTE1OTk3NDAxNjgsLTc0Njg4NjYz
+MSwxMTQyODkxMDMxLDEyNTI2MjgxMjQsLTE2MzkwMTgzNzZdfQ
+==
 -->
