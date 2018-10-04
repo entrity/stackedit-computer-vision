@@ -12,6 +12,9 @@ Working with indoor scenes. Scene geometry is represented as voxel-based Manhatt
 3D poses from mocap. Manually annotate "exemplar" pose (archetype?) and support/interaction surfaces,
 
 ## Method
+7 poses:
+1. s
+
 Insight: only 2 constraints on pose relevant for embedding in 3D geometry:
 1. the space/volume occupied by pose - volumes cannot intersect
 2. the surfaces contacted by pose - pose must be supported by surfaces in the scene
@@ -28,6 +31,6 @@ To accommodate squishy bodies and surfaces, constraints are relaxed by eroding s
 
 ## Estimating geometry
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTU0MjM4NDEsMjE0NzM1NjgxNiwtMT
-c1NDQyNzQxMV19
+eyJoaXN0b3J5IjpbLTE3MzY5OTI3NjIsLTE1MTU0MjM4NDEsMj
+E0NzM1NjgxNiwtMTc1NDQyNzQxMV19
 -->
