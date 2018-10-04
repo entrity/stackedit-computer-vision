@@ -4,7 +4,9 @@
 
 Given a scene, predict all possible actions that are consistent with the scene geometry. Use poses instead of semantic categories like "sittable" or "touchable."
 
+Aim: generalize to unseen poses (e
+
 Working with indoor scenes. Scene geometry is represented as voxel-based Manhattan world.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzE4OTExMiwtMTc1NDQyNzQxMV19
+eyJoaXN0b3J5IjpbMTkyNTU4NjgwNywtMTc1NDQyNzQxMV19
 -->
