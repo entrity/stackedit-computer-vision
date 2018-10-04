@@ -11,7 +11,7 @@ Working with indoor scenes. Scene geometry is represented as voxel-based Manhatt
 
 3D poses from mocap. Manually annotate "exemplar" pose (archetype?) and support/interaction surfaces,
 
-Use indoor scene dataset from Hedau et al [11]
+Use indoor scene dataset from Hedau et ~al [11]
 
 ## Method
 7 poses:
@@ -37,6 +37,6 @@ To accommodate squishy bodies and surfaces, constraints are relaxed by eroding s
 
 ## Estimating geometry
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0ODE3MDY3LC0xNTE1NDIzODQxLDIxND
-czNTY4MTYsLTE3NTQ0Mjc0MTFdfQ==
+eyJoaXN0b3J5IjpbMTUwMzAyNDg3Nyw2NjQ4MTcwNjcsLTE1MT
+U0MjM4NDEsMjE0NzM1NjgxNiwtMTc1NDQyNzQxMV19
 -->
