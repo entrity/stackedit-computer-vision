@@ -11,7 +11,9 @@ detect humans
 infer poses
 use imferred poses t to extract functional regioms in the image, eg sittable surface
 use functional surfacess to derive geoetric comstraits om the scene
+
+Use regularization term to keep the size of the room ~small.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ4NDU2NiwxNDQwMTE2ODUzLDIwOT
-EyMDYwMDJdfQ==
+eyJoaXN0b3J5IjpbLTEyMzE5NzkxNDksLTEzNTQ4NDU2NiwxND
+QwMTE2ODUzLDIwOTEyMDYwMDJdfQ==
 -->
