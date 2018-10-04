@@ -5,8 +5,8 @@ Treat each person in scene as an "active sensor" to get information about the 3D
 **Challenges**: (1) humans don't densely explore the scene; (2) quality of 3D pose estimation
 
 limited to indoor scene
-still images and time-
+still images and time-lapse video
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDg0MzUwMCwxNDQwMTE2ODUzLDIwOT
+eyJoaXN0b3J5IjpbMTQwMjg1MjM4NCwxNDQwMTE2ODUzLDIwOT
 EyMDYwMDJdfQ==
 -->
