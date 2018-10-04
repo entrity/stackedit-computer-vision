@@ -2,10 +2,9 @@
 
 **Task**: human-centric understanding of scene. Use "affordances," defined as opportunities for physical interactions.
 
-Given a scene, 
+Given a scene, predict all possible actions that are consistent with the scene geometry. Use poses instead of semantic categories like "sittable" or "touchable."
 
 Working with indoor scenes. Scene geometry is represented as voxel-based Manhattan world.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjUzNTY2NDksLTE3NTQ0Mjc0MTFdfQ
-==
+eyJoaXN0b3J5IjpbLTQ1NzE4OTExMiwtMTc1NDQyNzQxMV19
 -->
