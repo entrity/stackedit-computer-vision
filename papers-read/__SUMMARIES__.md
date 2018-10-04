@@ -65,10 +65,10 @@
 [From 3D Scene Geometry to Human Workspace](http://www.cs.cmu.edu/~abhinavg/affordances/)
 : Estimate a 3D geometry of a scene from an image. Given 7 poses, find places in the scene where humans could assume any of the poses without intersecting objects and while having support for their bodies.
 
-[People Watching: Human Actions as a Cue for Single View Geometry]()
+[People Watching: Human Actions as a Cue for Single View Geometry](https://arxiv.org/pdf/1411.4958.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1ODczNDk4LDIyMzk3NDQ0MiwtNTY3ND
-U0MDE0LDIxMzk5MTU0NzMsLTE1OTk3NDAxNjgsLTc0Njg4NjYz
-MSwxMTQyODkxMDMxLDEyNTI2MjgxMjQsLTE2MzkwMTgzNzZdfQ
-==
+eyJoaXN0b3J5IjpbLTk2MzU3OTE1NCwyMjM5NzQ0NDIsLTU2Nz
+Q1NDAxNCwyMTM5OTE1NDczLC0xNTk5NzQwMTY4LC03NDY4ODY2
+MzEsMTE0Mjg5MTAzMSwxMjUyNjI4MTI0LC0xNjM5MDE4Mzc2XX
+0=
 -->
