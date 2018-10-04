@@ -21,6 +21,8 @@ Discretize space around the human into blocks. Collection of blocks is 3x5x7 ($x
 4. Does block require external support? In what direction? (Simplify by using only 3 orthogonal orientations for support)
 
 Binary tensor represents whether each block in discretized scene is occupied.
+
+3D correlation computes the set of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODE1MjY4NCwtMTc1NDQyNzQxMV19
+eyJoaXN0b3J5IjpbLTY3MTI0MDYzMywtMTc1NDQyNzQxMV19
 -->
