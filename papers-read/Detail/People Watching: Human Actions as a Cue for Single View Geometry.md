@@ -6,7 +6,12 @@ Treat each person in scene as an "active sensor" to get information about the 3D
 
 limited to indoor scene
 still images and time-lapse video
+
+detect humans
+infer poses
+use imferred poses t to extract functional regioms in the image, eg sittable surface
+use functional surfacess to estimate geoetric comstraits om 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjg1MjM4NCwxNDQwMTE2ODUzLDIwOT
-EyMDYwMDJdfQ==
+eyJoaXN0b3J5IjpbNTcxMDEyNDYwLDE0NDAxMTY4NTMsMjA5MT
+IwNjAwMl19
 -->
