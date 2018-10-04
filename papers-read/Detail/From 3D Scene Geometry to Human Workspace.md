@@ -6,11 +6,15 @@ Given a scene, predict all possible actions that are consistent with the scene g
 
 Aim: generalize to unseen poses (e.g. for sittable objects of different dimensions).
 
-Insight: only 2 constraints on pose relevant for embedding in 3D geometry:
-1. 
-
 Working with indoor scenes. Scene geometry is represented as voxel-based Manhattan world.
+
+Insight: only 2 constraints on pose relevant for embedding in 3D geometry:
+1. the space/volume occupied by pose
+2. the surfaces contacted by pose
+
+Discretize space around the human into blocks.
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODAzMTIzMTksLTE3NTQ0Mjc0MTFdfQ
+eyJoaXN0b3J5IjpbLTE1MzMwNzIyMzMsLTE3NTQ0Mjc0MTFdfQ
 ==
 -->
