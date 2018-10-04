@@ -25,6 +25,9 @@ Binary tensor represents whether each block in discretized scene is occupied. 3D
 Create set of *interaction blocks* showing where interaction surfaces or support surfaces must be present. 3D correlation finds places where pose is supported.
 
 To accommodate squishy bodies and surfaces, constraints are relaxed by eroding surfaces for *free space constraint* and dilating surfaces for *support constraint*.
+
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzM1NjgxNiwtMTc1NDQyNzQxMV19
+eyJoaXN0b3J5IjpbMTk0MDA3MjU4OCwyMTQ3MzU2ODE2LC0xNz
+U0NDI3NDExXX0=
 -->
