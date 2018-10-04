@@ -13,8 +13,9 @@ Insight: only 2 constraints on pose relevant for embedding in 3D geometry:
 2. the surfaces contacted by pose
 
 Discretize space around the human into blocks.
-1. 
+1. Is block occupied by human?
+4. Does block require external support? In what direction? (Simplify by using only 3 orthogonal orientations for support)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzMwNzIyMzMsLTE3NTQ0Mjc0MTFdfQ
+eyJoaXN0b3J5IjpbLTIwOTg2NTExNjQsLTE3NTQ0Mjc0MTFdfQ
 ==
 -->
