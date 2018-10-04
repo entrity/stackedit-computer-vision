@@ -61,9 +61,11 @@
 
 [3D Social Saliency from Head-mounted Cameras](http://www.cs.cmu.edu/~hyunsoop/nips/NIPS12.pdf)
 : Present a method to reconstruct a 3D social saliency field and localize gaze concurrences in 3D space from videos taken by head-mounted cameras on multiple people.
+
+[From 3D Scene Geometry to Human Workspace](http://www.cs.cmu.edu/~abhinavg/affordances/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDE0NzcwOCwyMjM5NzQ0NDIsLTU2Nz
-Q1NDAxNCwyMTM5OTE1NDczLC0xNTk5NzQwMTY4LC03NDY4ODY2
-MzEsMTE0Mjg5MTAzMSwxMjUyNjI4MTI0LC0xNjM5MDE4Mzc2XX
-0=
+eyJoaXN0b3J5IjpbLTE1MTgwOTMxNTIsMjIzOTc0NDQyLC01Nj
+c0NTQwMTQsMjEzOTkxNTQ3MywtMTU5OTc0MDE2OCwtNzQ2ODg2
+NjMxLDExNDI4OTEwMzEsMTI1MjYyODEyNCwtMTYzOTAxODM3Nl
+19
 -->
