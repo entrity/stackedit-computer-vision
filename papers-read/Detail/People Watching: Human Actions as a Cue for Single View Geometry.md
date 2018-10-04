@@ -10,8 +10,8 @@ still images and time-lapse video
 detect humans
 infer poses
 use imferred poses t to extract functional regioms in the image, eg sittable surface
-use functional surfacess to estimate geoetric comstraits om 
+use functional surfacess to derive geoetric comstraits om the scene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMDEyNDYwLDE0NDAxMTY4NTMsMjA5MT
-IwNjAwMl19
+eyJoaXN0b3J5IjpbLTEzNTQ4NDU2NiwxNDQwMTE2ODUzLDIwOT
+EyMDYwMDJdfQ==
 -->
