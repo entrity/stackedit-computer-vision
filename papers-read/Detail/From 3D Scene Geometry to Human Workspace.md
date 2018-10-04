@@ -20,9 +20,7 @@ Discretize space around the human into blocks. Collection of blocks is 3x5x7 ($x
 3. Is block occupied by human?
 4. Does block require external support? In what direction? (Simplify by using only 3 orthogonal orientations for support)
 
-Binary tensor represents whether each block in discretized scene is occupied.
-
-3D correlation computes the set of 
+Binary tensor represents whether each block in discretized scene is occupied. 3D correlation between scene and human computes the set of valid locations for a pose.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTI0MDYzMywtMTc1NDQyNzQxMV19
+eyJoaXN0b3J5IjpbMzM3MjY5NDkyLC0xNzU0NDI3NDExXX0=
 -->
