@@ -66,9 +66,10 @@
 : Estimate a 3D geometry of a scene from an image. Given 7 poses, find places in the scene where humans could assume any of the poses without intersecting objects and while having support for their bodies.
 
 [People Watching: Human Actions as a Cue for Single View Geometry](https://arxiv.org/pdf/1411.4958.pdf)
+: Use human pose estimation to inform estimation of room layout, for example using the constraint that the room must contain the detected humans.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzU3OTE1NCwyMjM5NzQ0NDIsLTU2Nz
-Q1NDAxNCwyMTM5OTE1NDczLC0xNTk5NzQwMTY4LC03NDY4ODY2
-MzEsMTE0Mjg5MTAzMSwxMjUyNjI4MTI0LC0xNjM5MDE4Mzc2XX
-0=
+eyJoaXN0b3J5IjpbLTE1OTI3NTgzMDUsLTk2MzU3OTE1NCwyMj
+M5NzQ0NDIsLTU2NzQ1NDAxNCwyMTM5OTE1NDczLC0xNTk5NzQw
+MTY4LC03NDY4ODY2MzEsMTE0Mjg5MTAzMSwxMjUyNjI4MTI0LC
+0xNjM5MDE4Mzc2XX0=
 -->
