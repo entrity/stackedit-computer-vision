@@ -6,8 +6,12 @@ Given a scene, predict all possible actions that are consistent with the scene g
 
 Aim: generalize to unseen poses (e.g. for sittable objects of different dimensions).
 
+## Data
 Working with indoor scenes. Scene geometry is represented as voxel-based Manhattan world.
 
+3D poses from mocap. Manually annotate "exemplar" pose (archetype?) and 
+
+## Method
 Insight: only 2 constraints on pose relevant for embedding in 3D geometry:
 1. the space/volume occupied by pose
 2. the surfaces contacted by pose
@@ -16,6 +20,5 @@ Discretize space around the human into blocks.
 1. Is block occupied by human?
 4. Does block require external support? In what direction? (Simplify by using only 3 orthogonal orientations for support)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg2NTExNjQsLTE3NTQ0Mjc0MTFdfQ
-==
+eyJoaXN0b3J5IjpbMTcwNzk0NjMyOCwtMTc1NDQyNzQxMV19
 -->
