@@ -22,7 +22,8 @@ Discretize space around the human into blocks. Collection of blocks is 3x5x7 ($x
 
 Binary tensor represents whether each block in discretized scene is occupied. 3D correlation between scene and human computes the set of valid locations for a pose.
 
-Create set of *interaction blocks* showing where interaction surfaces or support surfaces must be present. 3D correlation finds places where 
+Create set of *interaction blocks* showing where interaction surfaces or support surfaces must be present. 3D correlation finds places where pose is supported.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAxMjQ4ODkwLC0xNzU0NDI3NDExXX0=
+eyJoaXN0b3J5IjpbLTE0MzUyMDU1ODEsLTE3NTQ0Mjc0MTFdfQ
+==
 -->
