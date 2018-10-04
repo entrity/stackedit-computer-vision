@@ -13,12 +13,12 @@ Working with indoor scenes. Scene geometry is represented as voxel-based Manhatt
 
 ## Method
 Insight: only 2 constraints on pose relevant for embedding in 3D geometry:
-1. the space/volume occupied by pose
+1. the space/volume occupied by pose - volumes cannot intersect
 2. the surfaces contacted by pose
 
-Discretize space around the human into blocks. Volume of blocks is 3x5x7 ($x\times y\times z$)
+Discretize space around the human into blocks. Collection of blocks is 3x5x7 ($x\times y\times z$)
 1. Is block occupied by human?
 4. Does block require external support? In what direction? (Simplify by using only 3 orthogonal orientations for support)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzIyNDA3MCwtMTc1NDQyNzQxMV19
+eyJoaXN0b3J5IjpbMTE5Nzc5MTMxNiwtMTc1NDQyNzQxMV19
 -->
