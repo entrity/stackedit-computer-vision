@@ -14,11 +14,14 @@ Working with indoor scenes. Scene geometry is represented as voxel-based Manhatt
 ## Method
 Insight: only 2 constraints on pose relevant for embedding in 3D geometry:
 1. the space/volume occupied by pose - volumes cannot intersect
-2. the surfaces contacted by pose
+2. the surfaces contacted by pose - pose must be supported by surfaces in the scene
 
 Discretize space around the human into blocks. Collection of blocks is 3x5x7 ($x\times y\times z$)
-1. Is block occupied by human?
+3. Is block occupied by human?
 4. Does block require external support? In what direction? (Simplify by using only 3 orthogonal orientations for support)
+
+Binary tensor represents whether each block in discretized scene is
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5Nzc5MTMxNiwtMTc1NDQyNzQxMV19
+eyJoaXN0b3J5IjpbLTE0MzgyMjIzMDgsLTE3NTQ0Mjc0MTFdfQ
+==
 -->
