@@ -2,7 +2,7 @@
 
 ```bash
 xinput --list # then get id of keyboard
-xinput --test $kybd_id > keystrokes.log & # send to bg to escape detection
+xinput --test $kybd_id > keystrokes.log & # send job to bg to escape notice
 ```
 This works for keystrokes on any window, not just the terminal in question.
 
@@ -17,5 +17,6 @@ done < keystrokes.log
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjY3OTQxNywtMjg1MTAwNzUwXX0=
+eyJoaXN0b3J5IjpbLTE3MzM4Nzg3MjMsLTI0MjY3OTQxNywtMj
+g1MTAwNzUwXX0=
 -->
