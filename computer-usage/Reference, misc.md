@@ -9,13 +9,12 @@ This works for keystrokes on any window, not just the terminal in question.
 To decode the logfile:
 
 ```bash
-
 while read -r line; do
 	grep -oP '[a-zA-Z\s]+' <<< "$line" | tr '\n' '\0'
 	n=$(grep -oP '\d+' <<< "$line")
-	xmodmap -pke | grep -P "keycode\s+${n} ="  | sed 's/keycode\s\+[0-9]\+ = //' || echo $n 
-done < test.log
+	xmodmap -pke | grep -P "keycode\s+${n} =" | sed 's/keycode\s\+[0-9]\+ = //' || echo $n 
+done < keystrokes.log
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ2ODU0OTksLTI4NTEwMDc1MF19
+eyJoaXN0b3J5IjpbMTMyNTAwNDE4NSwtMjg1MTAwNzUwXX0=
 -->
