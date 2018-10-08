@@ -15,6 +15,7 @@ while read -r line; do
 	xmodmap -pke | grep -P "keycode\s+${n} =" | sed 's/keycode\s\+[0-9]\+ = //' || echo $n 
 done < keystrokes.log
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTAwNDE4NSwtMjg1MTAwNzUwXX0=
+eyJoaXN0b3J5IjpbLTI0MjY3OTQxNywtMjg1MTAwNzUwXX0=
 -->
