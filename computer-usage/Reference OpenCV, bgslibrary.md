@@ -7,12 +7,12 @@ wget https://github.com/opencv/opencv/archive/3.4.3.zip
 unzip $whatever && cd $whatever
 mkdir build && cd build
 cmake -D CMAKE_BUILD_TYPE=Release \
--D CMAKE_INSTALL_PREFIX="$HOME/local" \
--D PYTHON3_EXECUTABLE=/home/markham/miniconda3/envs/gen/bin/python \
--D PYTHON_INCLUDE_DIR=/home/markham/miniconda3/envs/gen/include \
--D PYTHON_LIBRARY=/home/markham/miniconda3/envs/gen/lib/libpython3.6m.so \
--D PYTHON3_NUMPY_INCLUDE_DIRS=/home/markham/miniconda3/envs/gen/include/boost/python/numpy \
-..
+	-D CMAKE_INSTALL_PREFIX="$HOME/local" \
+	-D PYTHON3_EXECUTABLE=/home/markham/miniconda3/envs/gen/bin/python \
+	-D PYTHON_INCLUDE_DIR=/home/markham/miniconda3/envs/gen/include \
+	-D PYTHON_LIBRARY=/home/markham/miniconda3/envs/gen/lib/libpython3.6m.so \
+	-D PYTHON3_NUMPY_INCLUDE_DIRS=/home/markham/miniconda3/envs/gen/include/boost/python/numpy \
+	..
 make -j8 && make install
 ```
 
@@ -28,7 +28,7 @@ export PYTHONPATH="${PYTHONPATH}:$(pwd)/" # (add 'bgs.so' to your Python path)
 cd .. && python Demo.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMDY3ODI5OCwxMTA1MjUyNjgzLDE3ND
-kxMDQ5NTQsMTQ0NDEzNTMxNSwtMTQxNjc1NDg2MSwtNDcwNDk4
-NjIxLC0xNzI1MTQyNzkyXX0=
+eyJoaXN0b3J5IjpbMjAwNDEyMjAxMCwxMTAwNjc4Mjk4LDExMD
+UyNTI2ODMsMTc0OTEwNDk1NCwxNDQ0MTM1MzE1LC0xNDE2NzU0
+ODYxLC00NzA0OTg2MjEsLTE3MjUxNDI3OTJdfQ==
 -->
