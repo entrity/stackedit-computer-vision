@@ -18,11 +18,18 @@ cmake -D CMAKE_BUILD_TYPE=Release \
 # bgslibrary
 https://github.com/andrewssobral/bgslibrary/wiki/Wrapper:-Python#building-bgslibrary-with-python-support-on-linux
 Supply OpenCV 3 (for the sake of python wrapper). Download source. Build:
-```
-cd $srcroot
-mkdir build && cd build
+```bash
+git clone --recursive https://github.com/andrewssobral/bgslibrary.git
+cd bgslibrary && mkdir build && cd build
+cmake -D BGS_PYTHON_SUPPORT=ON ..
+make -j8
+PYTHONPATH="${PYTHONPATH}:$(pwd)/" # (add 'bgs.so' to your Python path)
+export PYTHONPATH
 
+
+cd ..
+python Demo.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjkwMDQ5OF19
+eyJoaXN0b3J5IjpbLTEyMDA1NDU1NjFdfQ==
 -->
