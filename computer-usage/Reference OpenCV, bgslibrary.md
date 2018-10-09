@@ -13,7 +13,7 @@ cmake -D CMAKE_BUILD_TYPE=Release \
 -D PYTHON_LIBRARY=/home/markham/miniconda3/envs/gen/lib/libpython3.6m.so \
 -D PYTHON3_NUMPY_INCLUDE_DIRS=/home/markham/miniconda3/envs/gen/include/boost/python/numpy \
 ..
-make && make install
+make -j8 && make install
 ```
 
 # bgslibrary
@@ -29,6 +29,6 @@ export PYTHONPATH
 cd .. && python Demo.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM0MzYyMTAsLTQ3MDQ5ODYyMSwtMT
+eyJoaXN0b3J5IjpbLTE0MTY3NTQ4NjEsLTQ3MDQ5ODYyMSwtMT
 cyNTE0Mjc5Ml19
 -->
