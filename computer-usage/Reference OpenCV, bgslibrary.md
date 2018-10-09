@@ -18,7 +18,12 @@ cmake -D CMAKE_BUILD_TYPE=Release \
 
 # bgslibrary
 
-Supply OpenCV 3 (for the sake of python wrapper).
+Supply OpenCV 3 (for the sake of python wrapper). Download source. Build:
+```
+cd $srcroot
+mkdir build
+cd
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDA0MTA4NF19
+eyJoaXN0b3J5IjpbLTY3NjM3OTI5NF19
 -->
