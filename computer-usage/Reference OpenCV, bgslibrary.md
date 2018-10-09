@@ -18,7 +18,7 @@ make -j8 && make install
 
 # bgslibrary
 https://github.com/andrewssobral/bgslibrary/wiki/Wrapper:-Python#building-bgslibrary-with-python-support-on-linux
-Supply OpenCV 3 (for the sake of python wrapper). Download source. Build:
+Build OpenCV 3 and install to `$HOME/local` (for the sake of python wrapper). Download source. Build:
 ```bash
 git clone --recursive https://github.com/andrewssobral/bgslibrary.git && \
 cd bgslibrary && mkdir build && cd build && \
@@ -29,6 +29,6 @@ export PYTHONPATH
 cd .. && python Demo.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDEzNTMxNSwtMTQxNjc1NDg2MSwtND
-cwNDk4NjIxLC0xNzI1MTQyNzkyXX0=
+eyJoaXN0b3J5IjpbMTc0OTEwNDk1NCwxNDQ0MTM1MzE1LC0xND
+E2NzU0ODYxLC00NzA0OTg2MjEsLTE3MjUxNDI3OTJdfQ==
 -->
