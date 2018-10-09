@@ -21,15 +21,12 @@ Supply OpenCV 3 (for the sake of python wrapper). Download source. Build:
 ```bash
 git clone --recursive https://github.com/andrewssobral/bgslibrary.git
 cd bgslibrary && mkdir build && cd build
-cmake -D BGS_PYTHON_SUPPORT=ON ..
+cmake -D OpenCV_DIR=$opencvdir -D BGS_PYTHON_SUPPORT=ON ..
 make -j8
 PYTHONPATH="${PYTHONPATH}:$(pwd)/" # (add 'bgs.so' to your Python path)
 export PYTHONPATH
-
-
-cd ..
-python Demo.py
+cd .. && python Demo.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDA1NDU1NjFdfQ==
+eyJoaXN0b3J5IjpbLTE3MjUxNDI3OTJdfQ==
 -->
