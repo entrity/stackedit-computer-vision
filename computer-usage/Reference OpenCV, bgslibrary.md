@@ -2,7 +2,7 @@
 https://docs.opencv.org/trunk/d7/d9f/tutorial_linux_install.html
 https://github.com/opencv/opencv/releases/tag/3.4.3
 Download and build from source:
-```
+```bash
 wget https://github.com/opencv/opencv/archive/3.4.3.zip
 unzip $whatever && cd $whatever
 mkdir build && cd build
@@ -13,6 +13,7 @@ cmake -D CMAKE_BUILD_TYPE=Release \
 -D PYTHON_LIBRARY=/home/markham/miniconda3/envs/gen/lib/libpython3.6m.so \
 -D PYTHON3_NUMPY_INCLUDE_DIRS=/home/markham/miniconda3/envs/gen/include/boost/python/numpy \
 ..
+make && make install
 ```
 
 # bgslibrary
@@ -28,6 +29,6 @@ export PYTHONPATH
 cd .. && python Demo.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTUyNzY1OSwtNDcwNDk4NjIxLC0xNz
-I1MTQyNzkyXX0=
+eyJoaXN0b3J5IjpbLTE5NTM0MzYyMTAsLTQ3MDQ5ODYyMSwtMT
+cyNTE0Mjc5Ml19
 -->
