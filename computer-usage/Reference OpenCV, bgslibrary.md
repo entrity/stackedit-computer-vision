@@ -8,13 +8,8 @@ unzip 3.4.3.zip && cd opencv-3.4.3
 mkdir build && cd build
 cmake -D CMAKE_BUILD_TYPE=Release \
 -D CMAKE_INSTALL_PREFIX="$HOME/local" \
--D PYTHON3_EXECUTABLE=/home/markham/miniconda3/envs/gen/bin/python \
--D PYTHON_INCLUDE_DIR=/home/markham/miniconda3/envs/gen/include \
--D PYTHON_INCLUDE_DIR2=/home/markham/miniconda3/envs/gen/include/python3.6m \
--D PYTHON_LIBRARY=/home/markham/miniconda3/envs/gen/lib/libpython3.6m.so \
--D PYTHON3_NUMPY_INCLUDE_DIRS=/home/markham/miniconda3/envs/gen/include/boost/python/numpy \
 ..
-make -j8 && make install
+make -j8; make install
 ```
 
 # bgslibrary
@@ -29,9 +24,9 @@ export PYTHONPATH="${PYTHONPATH}:$(pwd)/" # (add 'bgs.so' to your Python path)
 cd .. && python Demo.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjYzNDc0NiwtNDE0MjIyMTQxLDExMj
-A5NDY3MCwtNDE0MjIyMTQxLC0xNzQxNzA1NjksMjAwNDEyMjAx
-MCwxMTAwNjc4Mjk4LDExMDUyNTI2ODMsMTc0OTEwNDk1NCwxND
-Q0MTM1MzE1LC0xNDE2NzU0ODYxLC00NzA0OTg2MjEsLTE3MjUx
-NDI3OTJdfQ==
+eyJoaXN0b3J5IjpbLTI2MDMxNzIwOCwxMzMyNjM0NzQ2LC00MT
+QyMjIxNDEsMTEyMDk0NjcwLC00MTQyMjIxNDEsLTE3NDE3MDU2
+OSwyMDA0MTIyMDEwLDExMDA2NzgyOTgsMTEwNTI1MjY4MywxNz
+Q5MTA0OTU0LDE0NDQxMzUzMTUsLTE0MTY3NTQ4NjEsLTQ3MDQ5
+ODYyMSwtMTcyNTE0Mjc5Ml19
 -->
