@@ -22,14 +22,14 @@ Build OpenCV 3 and install to `$HOME/local` (for the sake of python wrapper). Do
 ```bash
 git clone --recursive https://github.com/andrewssobral/bgslibrary.git && \
 cd bgslibrary && mkdir -p build && cd build && \
-cmake -D OpenCV_DIR=$HOME/local/share/OpenCV -D BGS_PYTHON_SUPPORT=ON .. && \
+cmake -D CMAKE_BUILD_TYPE=Release -D OpenCV_DIR=$HOME/local/share/OpenCV -D BGS_PYTHON_SUPPORT=ON .. && \
 make -j8
 export PYTHONPATH="${PYTHONPATH}:$(pwd)/" # (add 'bgs.so' to your Python path)
 cd .. && python Demo.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE3MDU2OSwyMDA0MTIyMDEwLDExMD
-A2NzgyOTgsMTEwNTI1MjY4MywxNzQ5MTA0OTU0LDE0NDQxMzUz
-MTUsLTE0MTY3NTQ4NjEsLTQ3MDQ5ODYyMSwtMTcyNTE0Mjc5Ml
-19
+eyJoaXN0b3J5IjpbLTQxNDIyMjE0MSwtMTc0MTcwNTY5LDIwMD
+QxMjIwMTAsMTEwMDY3ODI5OCwxMTA1MjUyNjgzLDE3NDkxMDQ5
+NTQsMTQ0NDEzNTMxNSwtMTQxNjc1NDg2MSwtNDcwNDk4NjIxLC
+0xNzI1MTQyNzkyXX0=
 -->
