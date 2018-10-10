@@ -8,7 +8,6 @@ unzip 3.4.3.zip && cd opencv-3.4.3
 mkdir build && cd build
 cmake -D CMAKE_BUILD_TYPE=Release \
 -D CMAKE_INSTALL_PREFIX="$HOME/local" \
--D WITH_FFMPEG=ON \
 -D PYTHON3_EXECUTABLE=/home/markham/miniconda3/envs/gen/bin/python \
 -D PYTHON_INCLUDE_DIR=/home/markham/miniconda3/envs/gen/include \
 -D PYTHON_LIBRARY=/home/markham/miniconda3/envs/gen/lib/libpython3.6m.so \
@@ -29,8 +28,8 @@ export PYTHONPATH="${PYTHONPATH}:$(pwd)/" # (add 'bgs.so' to your Python path)
 cd .. && python Demo.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDk0NjcwLC00MTQyMjIxNDEsLTE3ND
-E3MDU2OSwyMDA0MTIyMDEwLDExMDA2NzgyOTgsMTEwNTI1MjY4
-MywxNzQ5MTA0OTU0LDE0NDQxMzUzMTUsLTE0MTY3NTQ4NjEsLT
-Q3MDQ5ODYyMSwtMTcyNTE0Mjc5Ml19
+eyJoaXN0b3J5IjpbLTQxNDIyMjE0MSwxMTIwOTQ2NzAsLTQxND
+IyMjE0MSwtMTc0MTcwNTY5LDIwMDQxMjIwMTAsMTEwMDY3ODI5
+OCwxMTA1MjUyNjgzLDE3NDkxMDQ5NTQsMTQ0NDEzNTMxNSwtMT
+QxNjc1NDg2MSwtNDcwNDk4NjIxLC0xNzI1MTQyNzkyXX0=
 -->
