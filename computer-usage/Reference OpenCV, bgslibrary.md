@@ -20,13 +20,12 @@ git clone --recursive https://github.com/andrewssobral/bgslibrary.git && \
 cd bgslibrary && mkdir -p build && cd build && \
 cmake -D CMAKE_BUILD_TYPE=Release -D OpenCV_DIR=$HOME/local/share/OpenCV .. && \
 make -j8
-export PYTHONPATH="${PYTHONPATH}:$(pwd)/" # (add 'bgs.so' to your Python path)
-cd .. && python Demo.py
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTE2NjM0LC0yNjAzMTcyMDgsMTMzMj
-YzNDc0NiwtNDE0MjIyMTQxLDExMjA5NDY3MCwtNDE0MjIyMTQx
-LC0xNzQxNzA1NjksMjAwNDEyMjAxMCwxMTAwNjc4Mjk4LDExMD
-UyNTI2ODMsMTc0OTEwNDk1NCwxNDQ0MTM1MzE1LC0xNDE2NzU0
-ODYxLC00NzA0OTg2MjEsLTE3MjUxNDI3OTJdfQ==
+eyJoaXN0b3J5IjpbMTQ2MjQxNDM3LC01OTUxNjYzNCwtMjYwMz
+E3MjA4LDEzMzI2MzQ3NDYsLTQxNDIyMjE0MSwxMTIwOTQ2NzAs
+LTQxNDIyMjE0MSwtMTc0MTcwNTY5LDIwMDQxMjIwMTAsMTEwMD
+Y3ODI5OCwxMTA1MjUyNjgzLDE3NDkxMDQ5NTQsMTQ0NDEzNTMx
+NSwtMTQxNjc1NDg2MSwtNDcwNDk4NjIxLC0xNzI1MTQyNzkyXX
+0=
 -->
