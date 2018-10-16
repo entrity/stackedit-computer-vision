@@ -67,9 +67,12 @@
 
 [People Watching: Human Actions as a Cue for Single View Geometry](https://arxiv.org/pdf/1411.4958.pdf)
 : Use human pose estimation to inform estimation of room layout, for example using the constraint that the room must contain the detected humans.
+
+[Explaining and Harnessing Adversarial Examples](https://arxiv.org/pdf/1412.6572.pdf)
+: Ian Goodfellow looks at adversarial perturbations, explores theory that linear nature of models is 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTI3NTgzMDUsLTk2MzU3OTE1NCwyMj
-M5NzQ0NDIsLTU2NzQ1NDAxNCwyMTM5OTE1NDczLC0xNTk5NzQw
-MTY4LC03NDY4ODY2MzEsMTE0Mjg5MTAzMSwxMjUyNjI4MTI0LC
-0xNjM5MDE4Mzc2XX0=
+eyJoaXN0b3J5IjpbLTE1ODIzNTUyOTAsLTE1OTI3NTgzMDUsLT
+k2MzU3OTE1NCwyMjM5NzQ0NDIsLTU2NzQ1NDAxNCwyMTM5OTE1
+NDczLC0xNTk5NzQwMTY4LC03NDY4ODY2MzEsMTE0Mjg5MTAzMS
+wxMjUyNjI4MTI0LC0xNjM5MDE4Mzc2XX0=
 -->
