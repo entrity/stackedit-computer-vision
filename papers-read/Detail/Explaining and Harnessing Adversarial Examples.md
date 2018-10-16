@@ -10,8 +10,8 @@ Published as a conference paper at ICLR 2015
 
 >RBF networks are naturally immune to adversarial examples, in the sense that they have low confidence when they are fooled.
 
->RBF units are unfortunately not invariant to any significant transformations so they cannot generalize very well. We can view linear units and RBF units as different points on a precision-recall tradeoff curve. 
+>RBF units are unfortunately not invariant to any significant transformations so they cannot generalize very well. We can view linear units and RBF units as different points on a precision-recall tradeoff curve. Linear units achieve high recall by responding to every input in a certain direction, but may have low precision due to responding too strongly in unfamiliar situations. RBF units achieve high precision by responding only to a specific point in space, but in doing so sacrifice recall.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTEyMjI5ODEsMTM0ODAzOTk1OSwtND
+eyJoaXN0b3J5IjpbLTE0Mjg1MjM0NjgsMTM0ODAzOTk1OSwtND
 gxODI5NjU0XX0=
 -->
