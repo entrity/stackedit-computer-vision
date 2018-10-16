@@ -67,7 +67,7 @@ Zhongzheng (Jason) Ren [[pdf](http://web.cs.ucdavis.edu/~yjlee/teaching/ecs289g-
 Gregory Rehm + Shahbaz Rezaei [[pdf](http://web.cs.ucdavis.edu/~yjlee/teaching/ecs289g-winter2018/LLL.pdf)]
 
 
-**Reinforcement Learning**
+**Reinforcement Learning **
 - [Active Object Localization with Deep Reinforcement Learning](http://slazebni.cs.illinois.edu/publications/iccv15_active.pdf). J. Caicedo and S. Lazebnik, ICCV 2015.  
 Chongruo Wu [[pdf](http://web.cs.ucdavis.edu/~yjlee/teaching/ecs289g-winter2018/RL.pdf)]  
 - [Action-Decision Networks for Visual Tracking with Deep Reinforcement Learning](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yun_Action-Decision_Networks_for_CVPR_2017_paper.pdf). Sangdoo Yun et al., CVPR 2016.  
@@ -93,5 +93,5 @@ Mingyang Zhou + Terry Yang [[pdf](http://web.cs.ucdavis.edu/~yjlee/teaching/ecs2
 - [StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation](https://arxiv.org/pdf/1711.09020.pdf). Yunjey Choi, et al., arXiv 2017.
 Tina Mashhour [[pdf](http://web.cs.ucdavis.edu/~yjlee/teaching/ecs289g-winter2018/StarGAN.pdf)]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MTI3Mjk2XX0=
+eyJoaXN0b3J5IjpbMTI2NzU2MzY4Miw2MDQxMjcyOTZdfQ==
 -->
