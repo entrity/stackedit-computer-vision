@@ -33,6 +33,9 @@ CorLoc (correct localization)
 CRF (Conditional Random Fields)
 : (see last paragraph of 4.1 of [Detecting Visual Relationships with Deep Relational Networks](http://openaccess.thecvf.com/content_cvpr_2017/papers/Dai_Detecting_Visual_Relationships_CVPR_2017_paper.pdf))
 
+Distillation
+: Transferring knowledge from a more complex network to a smaller one by feeding an input into both and letting the label for the smaller network be the output of the larger one.
+
 FiLM (Feature-wise Linear Modulation)
 : ?
 
@@ -167,8 +170,9 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzIxMzk4NSwtMTIyMzAzMjUzNSwxNT
-A0ODYwMjI4LDE0NTE4MzM0NTcsLTE2MzY2NDA0MTksLTEzODc5
-NDIxNjcsLTg1NDI3OTAwNyw5MTc2OTEyNjEsLTE4MTkwNDAzNT
-AsNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMTg3NjZdfQ==
+eyJoaXN0b3J5IjpbLTIxMDEwMjQwNDAsLTkzMzIxMzk4NSwtMT
+IyMzAzMjUzNSwxNTA0ODYwMjI4LDE0NTE4MzM0NTcsLTE2MzY2
+NDA0MTksLTEzODc5NDIxNjcsLTg1NDI3OTAwNyw5MTc2OTEyNj
+EsLTE4MTkwNDAzNTAsNTE5MTA3OTUzLDc1OTc4ODEyMSw0Mjcx
+MTg3NjZdfQ==
 -->
