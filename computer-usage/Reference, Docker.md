@@ -8,6 +8,9 @@ See http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
 >   -v /tmp/.X11-unix:/tmp/.X11-unix \
 >   firefox
 > ```
+
+## Installing Docker without root
+Not possible, as far as I know: https://stackoverflow.com/a/48474153/507721
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTM5NDE5MF19
+eyJoaXN0b3J5IjpbLTEzOTkyNzM1NDIsLTU2OTM5NDE5MF19
 -->
