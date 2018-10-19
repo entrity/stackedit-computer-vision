@@ -59,7 +59,7 @@ Hard negative examples
 : negative examples that are currently rated as positive or ambiguous by the detector (see also 'hard-negative mining)
 
 Hard-negative mining
-: 
+: Identifying training set examples (or portions thereof) which are given low probabilities by the model, but which should be high probability instead. [cite](https://arxiv.org/pdf/1312.6199.pdf)
 
 HOG (Histogram of Oriented Gradients) [[tuorial](http://mccormickml.com/2013/05/09/hog-person-detector-tutorial/)][[tutorial](https://lilianweng.github.io/lil-log/2017/10/29/object-recognition-for-dummies-part-1.html)]
 : Used for object detection. The entire object is represented by a single feature vector, as opposed to many feature vectors representing smaller parts of the object. The HOG person detector uses a sliding detection window which is moved around the image. At each position of the detector window, a HOG descriptor is computed for the detection window. This descriptor is then shown to the trained SVM, which classifies it as either “person” or “not a person”.
@@ -173,7 +173,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzA3MjUwOCwtMjEwMTAyNDA0MCwtOT
+eyJoaXN0b3J5IjpbMTg0MjE5MTgxOCwtMjEwMTAyNDA0MCwtOT
 MzMjEzOTg1LC0xMjIzMDMyNTM1LDE1MDQ4NjAyMjgsMTQ1MTgz
 MzQ1NywtMTYzNjY0MDQxOSwtMTM4Nzk0MjE2NywtODU0Mjc5MD
 A3LDkxNzY5MTI2MSwtMTgxOTA0MDM1MCw1MTkxMDc5NTMsNzU5
