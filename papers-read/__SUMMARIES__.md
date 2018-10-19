@@ -71,9 +71,11 @@
 [Explaining and Harnessing Adversarial Examples](https://arxiv.org/pdf/1412.6572.pdf)
 : Ian Goodfellow looks at adversarial perturbations, explores theory that linear nature of models is what makes them vulnerable to adversarial examples (previously it was supposed that overfitting was the cause of this vulnerability), that and the fact that an adversarial example can move in any direction from a rather limited statistical space where the real-world examples reside.
 
+[Intriguing properties of neural networks](https://arxiv.org/pdf/1312.6199.pdf) 
+: Coined "adversarial examples." Found that they transfer well.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyNDg0NDgzLC0xNTkyNzU4MzA1LC05Nj
-M1NzkxNTQsMjIzOTc0NDQyLC01Njc0NTQwMTQsMjEzOTkxNTQ3
-MywtMTU5OTc0MDE2OCwtNzQ2ODg2NjMxLDExNDI4OTEwMzEsMT
-I1MjYyODEyNCwtMTYzOTAxODM3Nl19
+eyJoaXN0b3J5IjpbMTMzNTg5Mzg2Niw1MjI0ODQ0ODMsLTE1OT
+I3NTgzMDUsLTk2MzU3OTE1NCwyMjM5NzQ0NDIsLTU2NzQ1NDAx
+NCwyMTM5OTE1NDczLC0xNTk5NzQwMTY4LC03NDY4ODY2MzEsMT
+E0Mjg5MTAzMSwxMjUyNjI4MTI0LC0xNjM5MDE4Mzc2XX0=
 -->
