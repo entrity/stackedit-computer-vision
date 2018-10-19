@@ -20,7 +20,9 @@ There is a *smoothness prior*, to wit, the assumption that for a small enough ra
 
 Evidence suggests that vulnerability to adversarial examples is *not* due to overfitting.
 
-Adversarial example is one which minimize
+For adversarial examples, they seek to minimize $L_2$ norm of perturbation (vector), while targeting a specific erroneous class.
+
+Computing the "minimum distortion" function $D$ is hard, so they approximate it by using a box-constrained L-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTM5ODM2Ml19
+eyJoaXN0b3J5IjpbNjM5NzA4MTg3XX0=
 -->
