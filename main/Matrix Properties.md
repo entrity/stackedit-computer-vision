@@ -18,7 +18,10 @@
 
 ## Definitions
 
-- **spectrum** - the set of a matrix's eigenvalues
+singular values
+: the square roots of the eigenvalues of [A^(H)A](http://mathworld.wolfram.com/images/equations/SingularValue/Inline2.gif), where ![A^(H)](http://mathworld.wolfram.com/images/equations/SingularValue/Inline3.gif) is the [conjugate transpose](http://mathworld.wolfram.com/ConjugateTranspose.html),
+spectrum
+: the set of a matrix's eigenvalues
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzY0MjU5Nl19
+eyJoaXN0b3J5IjpbLTEyMDQzMzkxNl19
 -->
