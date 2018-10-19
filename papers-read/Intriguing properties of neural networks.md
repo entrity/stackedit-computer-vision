@@ -14,7 +14,13 @@ This paper finds that "the natural basis is not better than a random basis for i
 ## Adversarial examples
 There is a *smoothness prior*, to wit, the assumption that for a small enough radius, area near correctly classified training examples can also be correctly classified. "Our main result is that for deep neural networks, the smoothness assumption that underlies many kernel methods does not hold." (Consider adversarial examples, which are very close to their source images.)
 
-1
+1. Found adversarial examples for all networks they tested.
+2. Adversarial examples generalize across models.
+3. Adversarial examples generalize across training sets.
+
+Evidence suggests that vulnerability to adversarial examples is *not* due to overfitting.
+
+Adversarial example is one which minimize
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDQwNjkwNl19
+eyJoaXN0b3J5IjpbLTgxNTM5ODM2Ml19
 -->
