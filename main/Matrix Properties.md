@@ -19,9 +19,10 @@
 ## Definitions
 
 singular values
-: the square roots of the eigenvalues of [A^(H)A](http://mathworld.wolfram.com/images/equations/SingularValue/Inline2.gif), where ![A^(H)](http://mathworld.wolfram.com/images/equations/SingularValue/Inline3.gif) is the [conjugate transpose](http://mathworld.wolfram.com/ConjugateTranspose.html),
+: the square roots of the eigenvalues of $A^HA$ (where $A^H$ is the conjugate transpose
+
 spectrum
 : the set of a matrix's eigenvalues
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQzMzkxNl19
+eyJoaXN0b3J5IjpbLTMxMzI4MDU3NV19
 -->
