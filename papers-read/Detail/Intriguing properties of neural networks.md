@@ -17,7 +17,7 @@ There is a *smoothness prior*, to wit, the assumption that for a small enough ra
 1. Found adversarial examples for all networks they tested.
 2. Adversarial examples generalize across models.
 3. Adversarial examples generalize across training sets.
-4. 
+4. "The set of adversarial negatives ... is dense ... and so it is found near every virtually every test case." [sic]
 
 Evidence suggests that vulnerability to adversarial examples is *not* due to overfitting.
 
@@ -25,5 +25,5 @@ For adversarial examples, they seek to minimize $L_2$ norm of perturbation (vect
 
 Computing the "minimum distortion" function $D$ is hard, so they approximate it by using a box-constrained L-BFGS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzEzOTgwOV19
+eyJoaXN0b3J5IjpbNzY0NjkzMDI1XX0=
 -->
