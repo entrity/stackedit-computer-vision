@@ -5,8 +5,9 @@
 Background: Pre-training is already common. And Transformers are too. For a description of the **model architecture**, see Vaswani et al (2017) and "The Annotated Transformer"
 
 Contributions:
-1. Demonstrate the importance of pre-training
-2. pre-trained representations eliminate the needs of many heavily-engineered task-specific architec
+1. demonstrate the importance of pre-training
+2. pre-trained representations eliminate the needs of many heavily-engineered task-specific architectures
+3. advances the state-of-the-art for eleven NLP tasks
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjQzODM2MV19
+eyJoaXN0b3J5IjpbLTcwODE4NjEyMF19
 -->
