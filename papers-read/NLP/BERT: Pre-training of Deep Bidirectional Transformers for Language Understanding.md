@@ -9,7 +9,9 @@ Contributions:
 2. pre-trained representations eliminate the needs of many heavily-engineered task-specific architectures
 3. advances the state-of-the-art for eleven NLP tasks
 
-$L$ = number of la
+$L$ = number of layers (i.e Transformer blocks)
+$H$ = the hidden size
+$A$ = number of self-attention heads
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4ODU0MTRdfQ==
+eyJoaXN0b3J5IjpbLTIwNDY3MTQ0MjJdfQ==
 -->
