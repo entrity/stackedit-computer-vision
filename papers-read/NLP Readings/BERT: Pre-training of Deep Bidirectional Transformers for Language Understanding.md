@@ -29,8 +29,8 @@ Input embedding is sum of (1) token embedding (WordPiece), (2) positional embedd
 
 "Increasing the model size will lead to ... improvements ..., which is demonstrated by the LM perplexity of held-out training data." Wow! I had no idea perplexity gave us insight into this. (I need to re-learn what perplexity is.)
 
-A span prediction task (such as isolating the answer to a question in a paragraph of text) is different from sequence classification tasks. In this paper, we learn additional parameters 
+A span prediction task (such as isolating the answer to a question in a paragraph of text) is different from sequence classification tasks. In this paper, we learn additional parameters of a *start vector* $S \in \R^H$ and an *end vector* $E \in \R^H$ The final hidden vector from BERT for the $i^{th}$ token is $T_i \in \R^H$. Then, the probability 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTUwMjc2MDAsODAzMTA1MzQ5LC0xMj
+eyJoaXN0b3J5IjpbLTIwNjI5MTc5OTQsODAzMTA1MzQ5LC0xMj
 gwMTQzNzM1LDEwMDg3NDk3MDFdfQ==
 -->
