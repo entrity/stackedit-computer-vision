@@ -2,8 +2,9 @@
 - word2vec
 - WordPiece - 2016 - Wu et al. - 30k toke vocab.
 
-# Datasets
-
+# Datasets / Corpora
+NER (Named Entity Recognition)
+: 2003. 200k  words
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjYyNTEzM119
+eyJoaXN0b3J5IjpbMTkwOTIyMjQ2OF19
 -->
