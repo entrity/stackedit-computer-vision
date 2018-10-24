@@ -15,7 +15,9 @@ $A$ = number of self-attention heads
 
 In literature, *bidirectional Transformer* is often called "Transformer encoder" and *left-context-only Transformer* is called "Transformer decoder" because it can be used for text generation.
 
-##
+## Method
+
+Input embedding is sum of (1) token embedding (WordPiece), (2) positional embedding (for position of token in sequence), (3) segmentation embedding (whether token belongs to sentence A or sentence B).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjAwMTY3NV19
+eyJoaXN0b3J5IjpbLTExNTQ0NTk2NjZdfQ==
 -->
