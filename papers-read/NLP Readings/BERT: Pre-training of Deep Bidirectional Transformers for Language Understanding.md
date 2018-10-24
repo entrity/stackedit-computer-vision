@@ -17,7 +17,11 @@ In literature, *bidirectional Transformer* is often called "Transformer encoder"
 
 ## Method
 
+**Input embedding**
 Input embedding is sum of (1) token embedding (WordPiece), (2) positional embedding (for position of token in sequence), (3) segmentation embedding (whether token belongs to sentence A or sentence B).
+
+**Pre-training tasks**
+(1) Masked LM. Standard conditional language models cannot be trained bidirectionally (exc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQ0NTk2NjZdfQ==
+eyJoaXN0b3J5IjpbLTQ2MTMxMzM2NV19
 -->
