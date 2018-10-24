@@ -4,7 +4,7 @@
 
 # Datasets / Corpora
 Billion Word Benchmark
-: (2-13 Chelba et al.)
+: (2013 Chelba et al.)
 
 BooksCorpus
 : (2015 Zhu et al.) 800M words.
@@ -25,5 +25,5 @@ E.g. A girl is going across a set of monky bars. She ___
 
 # Tasks
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MzM2MTYyNl19
+eyJoaXN0b3J5IjpbMTc1OTkxMjQxM119
 -->
