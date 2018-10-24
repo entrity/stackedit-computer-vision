@@ -22,6 +22,8 @@ Input embedding is sum of (1) token embedding (WordPiece), (2) positional embedd
 
 **Pre-training tasks**
 (1) Masked LM (alias "Cloze"). Standard conditional language models cannot be trained bidirectionally (except by concatenating two independently trained models that look in opposite directions) because bidirectional conditioning would allow each word to see itself (that's bogus conditioning there). Therefore, we mask some percentage of input tokens at random and then predict only those masked tokens. Masking replaces an input token with a `[MASK]` token or with a random word (or does nothing at all). Then the LM predicts only the targeted words (not the entire sequence).
+
+(2) Next Sentence Prediction. Given two sentences $A$ and $B$, predict whether $B$ is indeed the the sentence that follows $A$ in the corpus. (This
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwODc0OTcwMV19
+eyJoaXN0b3J5IjpbMTc3NTg0NzIxNiwxMDA4NzQ5NzAxXX0=
 -->
