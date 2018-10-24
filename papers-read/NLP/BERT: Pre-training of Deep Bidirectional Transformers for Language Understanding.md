@@ -8,6 +8,8 @@ Contributions:
 1. demonstrate the importance of pre-training
 2. pre-trained representations eliminate the needs of many heavily-engineered task-specific architectures
 3. advances the state-of-the-art for eleven NLP tasks
+
+$L$ = number of la
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODE4NjEyMF19
+eyJoaXN0b3J5IjpbODI4ODU0MTRdfQ==
 -->
