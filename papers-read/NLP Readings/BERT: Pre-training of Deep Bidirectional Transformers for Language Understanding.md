@@ -21,7 +21,7 @@ In literature, *bidirectional Transformer* is often called "Transformer encoder"
 Input embedding is sum of (1) token embedding (WordPiece), (2) positional embedding (for position of token in sequence), (3) segmentation embedding (whether token belongs to sentence A or sentence B).
 
 **Pre-training tasks**
-(1) Masked LM (alias "Cloze"). Standard conditional language models cannot be trained bidirectionally (except by concatenating two independently trained models that look in opposite directions) because bidirectional conditioning would allow each word to see itself (that's bogus conditioning there). Therefore, we mask some percentage of input tokens at random and then predict only those masked tokens.
+(1) Masked LM (alias "Cloze"). Standard conditional language models cannot be trained bidirectionally (except by concatenating two independently trained models that look in opposite directions) because bidirectional conditioning would allow each word to see itself (that's bogus conditioning there). Therefore, we mask some percentage of input tokens with a `[MASK]` token at random and then predict only those masked tokens.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODg5NDExM119
+eyJoaXN0b3J5IjpbOTE2MDc4NzQ3XX0=
 -->
