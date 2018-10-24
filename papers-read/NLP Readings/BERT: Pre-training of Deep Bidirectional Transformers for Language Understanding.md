@@ -24,6 +24,11 @@ Input embedding is sum of (1) token embedding (WordPiece), (2) positional embedd
 (1) Masked LM (alias "Cloze"). Standard conditional language models cannot be trained bidirectionally (except by concatenating two independently trained models that look in opposite directions) because bidirectional conditioning would allow each word to see itself (that's bogus conditioning there). Therefore, we mask some percentage of input tokens at random and then predict only those masked tokens. Masking replaces an input token with a `[MASK]` token or with a random word (or does nothing at all). Then the LM predicts only the targeted words (not the entire sequence).
 
 (2) Next Sentence Prediction. Given two sentences $A$ and $B$, predict whether $B$ is indeed the the sentence that follows $A$ in the corpus. (This takes place *with* masked input tokens, applied for the MLM task.)
+
+## NB
+
+"Increasing the model size will lead to ... improvements ..., which is demonstrated by 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODAxNDM3MzUsMTAwODc0OTcwMV19
+eyJoaXN0b3J5IjpbODAzMTA1MzQ5LC0xMjgwMTQzNzM1LDEwMD
+g3NDk3MDFdfQ==
 -->
