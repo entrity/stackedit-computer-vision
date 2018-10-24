@@ -14,6 +14,8 @@ $H$ = the hidden size
 $A$ = number of self-attention heads
 
 In literature, *bidirectional Transformer* is often called "Transformer encoder" and *left-context-only Transformer* is called "Transformer decoder" because it can be used for text generation.
+
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTczNTQ3M119
+eyJoaXN0b3J5IjpbMTAzMjAwMTY3NV19
 -->
