@@ -39,7 +39,10 @@ Distillation
 Entropy
 : $H(p) = E[I(X)] = E[-log(P(X)] = \sum_{i=1}^n P(x_i)I(x_i)$
 $= -\sum_{i=1}^n P(x_i)log(P(x_i))$
-
+$H$ is entropy
+$E$ is expectation (average)
+$X$ is a random variable
+$I$ is the information content of $X$
 
 FiLM (Feature-wise Linear Modulation)
 : ?
@@ -183,7 +186,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTA2MTQ2MywxNDU4NzE2OTkyLDE4ND
+eyJoaXN0b3J5IjpbLTQwMjgyNjQ0NywxNDU4NzE2OTkyLDE4ND
 IxOTE4MTgsLTIxMDEwMjQwNDAsLTkzMzIxMzk4NSwtMTIyMzAz
 MjUzNSwxNTA0ODYwMjI4LDE0NTE4MzM0NTcsLTE2MzY2NDA0MT
 ksLTEzODc5NDIxNjcsLTg1NDI3OTAwNyw5MTc2OTEyNjEsLTE4
