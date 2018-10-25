@@ -125,7 +125,7 @@ Partially supervised learning
 
 Perplexity
 : $2^H(p)$ where $H$ is entropy of a probability distribution $p$
-For a model $q$ fir an unknown probability distribution $p$, 
+For a model $q$ fir an unknown probability distribution $p$, the perplexity would be $2^{-\frac{1}{N}\sum_{i=1}^N{log( q(x_i) )}}$
 
 Recall @ X (Recall@X, R@X)
 : Among the top $X$ predictions across a dataset (sorted, for example, by confidence), the fraction of correct predictions. "Recall @ x computes the fraction of times the correct relationship is predicted in the top x confident relationship predictions."
@@ -177,7 +177,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTU1MjYyOSwxODQyMTkxODE4LC0yMT
+eyJoaXN0b3J5IjpbMTQ1ODcxNjk5MiwxODQyMTkxODE4LC0yMT
 AxMDI0MDQwLC05MzMyMTM5ODUsLTEyMjMwMzI1MzUsMTUwNDg2
 MDIyOCwxNDUxODMzNDU3LC0xNjM2NjQwNDE5LC0xMzg3OTQyMT
 Y3LC04NTQyNzkwMDcsOTE3NjkxMjYxLC0xODE5MDQwMzUwLDUx
