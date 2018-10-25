@@ -36,6 +36,9 @@ CRF (Conditional Random Fields)
 Distillation
 : Transferring knowledge from a more complex network to a smaller one by feeding an input into both and letting the label for the smaller network be the output of the larger one.
 
+Entropy
+: $H(p) = EE[-log(P(X)]$
+
 FiLM (Feature-wise Linear Modulation)
 : ?
 
@@ -178,7 +181,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDkwOTI1NCwxNDU4NzE2OTkyLDE4ND
+eyJoaXN0b3J5IjpbMTExOTU0ODQzNywxNDU4NzE2OTkyLDE4ND
 IxOTE4MTgsLTIxMDEwMjQwNDAsLTkzMzIxMzk4NSwtMTIyMzAz
 MjUzNSwxNTA0ODYwMjI4LDE0NTE4MzM0NTcsLTE2MzY2NDA0MT
 ksLTEzODc5NDIxNjcsLTg1NDI3OTAwNyw5MTc2OTEyNjEsLTE4
