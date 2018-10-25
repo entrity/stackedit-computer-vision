@@ -123,6 +123,9 @@ Optical flow
 Partially supervised learning
 : *see "Supervised learning: partially supervised"*
 
+Perplexity
+: $2^H(p)$ where $H$ is entropy
+
 Recall @ X (Recall@X, R@X)
 : Among the top $X$ predictions across a dataset (sorted, for example, by confidence), the fraction of correct predictions. "Recall @ x computes the fraction of times the correct relationship is predicted in the top x confident relationship predictions."
 "Rec@N computes the ratio of the correct relationship instance that is covered in the top N predictions per image." [src](https://arxiv.org/pdf/1807.04979.pdf)
@@ -173,9 +176,9 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjE5MTgxOCwtMjEwMTAyNDA0MCwtOT
-MzMjEzOTg1LC0xMjIzMDMyNTM1LDE1MDQ4NjAyMjgsMTQ1MTgz
-MzQ1NywtMTYzNjY0MDQxOSwtMTM4Nzk0MjE2NywtODU0Mjc5MD
-A3LDkxNzY5MTI2MSwtMTgxOTA0MDM1MCw1MTkxMDc5NTMsNzU5
-Nzg4MTIxLDQyNzExODc2Nl19
+eyJoaXN0b3J5IjpbLTE4MTg4MTg0ODksMTg0MjE5MTgxOCwtMj
+EwMTAyNDA0MCwtOTMzMjEzOTg1LC0xMjIzMDMyNTM1LDE1MDQ4
+NjAyMjgsMTQ1MTgzMzQ1NywtMTYzNjY0MDQxOSwtMTM4Nzk0Mj
+E2NywtODU0Mjc5MDA3LDkxNzY5MTI2MSwtMTgxOTA0MDM1MCw1
+MTkxMDc5NTMsNzU5Nzg4MTIxLDQyNzExODc2Nl19
 -->
