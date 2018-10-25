@@ -124,7 +124,8 @@ Partially supervised learning
 : *see "Supervised learning: partially supervised"*
 
 Perplexity
-: $2^H(p)$ where $H$ is entropy of a probability distribution $p$
+: $2^{H(p)}$ where $H$ is entropy of a probability distribution $p$
+I.e. $2^{-\sum_x p(x) log(p(x))}$
 For a model $q$ fir an unknown probability distribution $p$, the perplexity would be $2^{-\frac{1}{N}\sum_{i=1}^N{log( q(x_i) )}}$
 
 Recall @ X (Recall@X, R@X)
@@ -177,9 +178,10 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODcxNjk5MiwxODQyMTkxODE4LC0yMT
-AxMDI0MDQwLC05MzMyMTM5ODUsLTEyMjMwMzI1MzUsMTUwNDg2
-MDIyOCwxNDUxODMzNDU3LC0xNjM2NjQwNDE5LC0xMzg3OTQyMT
-Y3LC04NTQyNzkwMDcsOTE3NjkxMjYxLC0xODE5MDQwMzUwLDUx
-OTEwNzk1Myw3NTk3ODgxMjEsNDI3MTE4NzY2XX0=
+eyJoaXN0b3J5IjpbLTM1NDkwOTI1NCwxNDU4NzE2OTkyLDE4ND
+IxOTE4MTgsLTIxMDEwMjQwNDAsLTkzMzIxMzk4NSwtMTIyMzAz
+MjUzNSwxNTA0ODYwMjI4LDE0NTE4MzM0NTcsLTE2MzY2NDA0MT
+ksLTEzODc5NDIxNjcsLTg1NDI3OTAwNyw5MTc2OTEyNjEsLTE4
+MTkwNDAzNTAsNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMTg3Nj
+ZdfQ==
 -->
