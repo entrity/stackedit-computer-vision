@@ -12,7 +12,7 @@
 
 2 alternatives for design: (1) two-step framework first detects bbs then estimates pose within bb; (2) part-based framework detects body parts independently, then assembles them to form human poses. This paper uses two-step framework.
 
-Weakness: depends on quality of bb. We aim to do well even on bad bb. SPPE Stacked Hourglass model is very vulnerable to poor bb.
+Weakness: two-step framework depends on quality of bb. We aim to do well even on bad bb. SPPE Stacked Hourglass model is very vulnerable to poor bb.
 
 **Contributions**
 
@@ -59,6 +59,6 @@ To compute *atomic poses* take all the samples int he training set, align them s
 
 The distribution of relative offset between the detected bb and the gt varies by pose. So given the set of atomic poses and the set of annotated poses which belong to each cluster, we can approximate $P(\delta_B|Pose)$ (the probability of a bb offset for a given pose),
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODc3NTc5OSwtNDQyMDQ2NTYzLDE3Nj
+eyJoaXN0b3J5IjpbMTI0ODQzODY5OCwtNDQyMDQ2NTYzLDE3Nj
 YxOTQ3MjgsMTU3NDQyODEzOF19
 -->
