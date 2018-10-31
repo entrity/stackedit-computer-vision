@@ -51,8 +51,10 @@ The distance function $d$ between two given candidates is the sum of two terms: 
 
 The four parameters used here ($\eta$, $\sigma_1$, $\sigma_2$, $\lambda$) are *learned* (thus the NMS is parametric, not hyperparametric).
 
+**Proposal Generator (PGPG) for data augmentation**
 
+During training, for each annotated pose (gt), look up the corresponding *atomic pose*, then generate offsets by dense sampling according to a probabilitye
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzA5MDE4MywtNDQyMDQ2NTYzLDE3Nj
-YxOTQ3MjgsMTU3NDQyODEzOF19
+eyJoaXN0b3J5IjpbLTE1ODc3OTIzNTUsLTQ0MjA0NjU2MywxNz
+Y2MTk0NzI4LDE1NzQ0MjgxMzhdfQ==
 -->
