@@ -53,8 +53,10 @@ The four parameters used here ($\eta$, $\sigma_1$, $\sigma_2$, $\lambda$) are *l
 
 **Proposal Generator (PGPG) for data augmentation**
 
-During training, for each annotated pose (gt), look up the corresponding *atomic pose*, then generate offsets by dense sampling according to a probabilitye
+During training, for each annotated pose (gt), look up the corresponding *atomic pose*, then generate offsets to $x$ and $y$ values (for each keypoint) by dense sampling according to the probability distribution described below. This create augmented training proposals.
+
+To compute *atomic poses* take all the samples int he training set, align them s.t. their torsos have the same lengt 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODc3OTIzNTUsLTQ0MjA0NjU2MywxNz
-Y2MTk0NzI4LDE1NzQ0MjgxMzhdfQ==
+eyJoaXN0b3J5IjpbLTU1NDkwMzQxNiwtNDQyMDQ2NTYzLDE3Nj
+YxOTQ3MjgsMTU3NDQyODEzOF19
 -->
