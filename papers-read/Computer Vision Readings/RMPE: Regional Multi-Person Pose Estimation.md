@@ -47,10 +47,8 @@ As usual, the most confident candidate (pose) "is selected as reference, and som
 
 $$d(P_i,P_j|\Lambda,\lambda) \leq \eta$$
 
-The distance function $d$ is:
-
-
+The distance function $d$ between two given candidates is the sum of two terms: (1) the confidence of both candidates ($K_{sim}$) and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDkxNTA3NzAsMTc2NjE5NDcyOCwxNT
-c0NDI4MTM4XX0=
+eyJoaXN0b3J5IjpbMTMzMDE0MjI0MywxNzY2MTk0NzI4LDE1Nz
+Q0MjgxMzhdfQ==
 -->
