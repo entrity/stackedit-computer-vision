@@ -7,8 +7,8 @@
                   year={2017}
                  }
 
-Task: detect poses of multiple persons in an image, even when the bounding boxes are inaccurate.
-Proposal: a regional multi-person pose estimation (RMPE) framework/
+**Task**: detect poses of multiple persons in an image, even when the bounding boxes are inaccurate.
+**Proposal**: a "regional multi-person pose estimation (RMPE) framework"
 
 2 alternatives for design: (1) two-step framework first detects bbs then estimates pose within bb; (2) part-based framework detects body parts independently, then assembles them to form human poses. This paper uses two-step framework.
 
@@ -59,6 +59,6 @@ To compute *atomic poses* take all the samples int he training set, align them s
 
 The distribution of relative offset between the detected bb and the gt varies by pose. So given the set of atomic poses and the set of annotated poses which belong to each cluster, we can approximate $P(\delta_B|Pose)$ (the probability of a bb offset for a given pose),
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg1MzMyMDIyLC00NDIwNDY1NjMsMTc2Nj
-E5NDcyOCwxNTc0NDI4MTM4XX0=
+eyJoaXN0b3J5IjpbLTM1ODc3NTc5OSwtNDQyMDQ2NTYzLDE3Nj
+YxOTQ3MjgsMTU3NDQyODEzOF19
 -->
