@@ -42,7 +42,9 @@ This parallel branch is discarded during testing.
 **Parametric pose NMS**
 
 Redundant proposals (human detections) lead to redundant pose estimations. Previous NMS techniques are not accurate or not efficient enough.
+
+As usual, the most confident candidate (pose) "is selected as reference, and some poses close to it are subject to elimination."
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI2OTA2NzMsMTc2NjE5NDcyOCwxNT
-c0NDI4MTM4XX0=
+eyJoaXN0b3J5IjpbNTA4MzA3NDczLDE3NjYxOTQ3MjgsMTU3ND
+QyODEzOF19
 -->
