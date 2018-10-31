@@ -75,11 +75,13 @@
 : Coined "adversarial examples." Found that they transfer well.
 
 [RMPE: Regional Multi-Person Pose Estimation](http://openaccess.thecvf.com/content_ICCV_2017/papers/Fang_RMPE_Regional_Multi-Person_ICCV_2017_paper.pdf)
+: SOTA on pose estimation in multi-person setting. They improve bounding boxes by means of SSTN and parallel SPPE.
 
+[Pose Flow: Efficient Online Pose Tracking](https://arxiv.org/pdf/1802.00977.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyNTEzOTQ5LDEzMzU4OTM4NjYsNTIyND
-g0NDgzLC0xNTkyNzU4MzA1LC05NjM1NzkxNTQsMjIzOTc0NDQy
-LC01Njc0NTQwMTQsMjEzOTkxNTQ3MywtMTU5OTc0MDE2OCwtNz
-Q2ODg2NjMxLDExNDI4OTEwMzEsMTI1MjYyODEyNCwtMTYzOTAx
-ODM3Nl19
+eyJoaXN0b3J5IjpbLTE2MzUwNzkyMDksMTMzNTg5Mzg2Niw1Mj
+I0ODQ0ODMsLTE1OTI3NTgzMDUsLTk2MzU3OTE1NCwyMjM5NzQ0
+NDIsLTU2NzQ1NDAxNCwyMTM5OTE1NDczLC0xNTk5NzQwMTY4LC
+03NDY4ODY2MzEsMTE0Mjg5MTAzMSwxMjUyNjI4MTI0LC0xNjM5
+MDE4Mzc2XX0=
 -->
