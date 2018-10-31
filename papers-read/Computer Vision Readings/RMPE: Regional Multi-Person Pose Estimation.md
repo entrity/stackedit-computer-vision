@@ -1,6 +1,6 @@
 # [RMPE: Regional Multi-Person Pose Estimation](http://openaccess.thecvf.com/content_ICCV_2017/papers/Fang_RMPE_Regional_Multi-Person_ICCV_2017_paper.pdf)
 
-
+2 alternatives for design: (1) two-step framework first detects bbs then estimates pose within bb; (2) part-based framework detects body parts independently, then assembles them to form human poses.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjQ2ODcxNl19
+eyJoaXN0b3J5IjpbLTE2NDgyOTgwOTddfQ==
 -->
