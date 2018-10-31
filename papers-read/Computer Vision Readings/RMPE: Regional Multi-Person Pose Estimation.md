@@ -17,10 +17,10 @@ Weakness: depends on quality of bb. We aim to do well even on bad bb. SPPE Stack
 **Contributions**
 
 1. a symmetric spatial transformer network (SSTN)
-2. a parallel SPPE branch
+2. a parallel SPPE (single-person pose estimator) branch
 3. a pose NMS to remove redundant pose estimates (for overlapping bbs)
 4. a pose-guided human proposal generator (PGPG) to augment training samples
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzM0MTUyMF19
+eyJoaXN0b3J5IjpbMTU3NDQyODEzOF19
 -->
