@@ -38,7 +38,11 @@ In parallel with the SPPE branch that follows STN, another SPPE branch is execut
 The purpose of this branch "is to back-propagate center-located pose errors to the STN module" so that the STN will learn to center-locate the pose.
 
 This parallel branch is discarded during testing.
+
+**Parametric pose NMS**
+
+Redundant proposals (human detections) lead to redundant pose estimations. Previous NMS techniques are not accurate or not efficient enough.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDAyMzU1NSwxNzY2MTk0NzI4LDE1Nz
-Q0MjgxMzhdfQ==
+eyJoaXN0b3J5IjpbLTE1MDI2OTA2NzMsMTc2NjE5NDcyOCwxNT
+c0NDI4MTM4XX0=
 -->
