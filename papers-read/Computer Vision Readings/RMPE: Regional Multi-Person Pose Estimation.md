@@ -27,9 +27,13 @@ The STN and SDTN are 2D affine transformations which just transform the coordina
 
 The SPPE takes place *between* the STN and SDTN.
 
-The STN was developed by [18]. The SDTN is just the inverse of the
+The STN was developed by [18]. The SDTN is just the inverse of the STN.
+
+**Parallel SPPE**
+
+In parallel with the SPPE branch that follows STN, another SPPE branch is executed. The parallel SPPE branch is *not* followed by SDTN.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNDQ2Mjc2LDE1NzQ0MjgxMzhdfQ==
+eyJoaXN0b3J5IjpbMTc2NjE5NDcyOCwxNTc0NDI4MTM4XX0=
 -->
