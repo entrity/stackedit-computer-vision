@@ -43,8 +43,10 @@ This parallel branch is discarded during testing.
 
 Redundant proposals (human detections) lead to redundant pose estimations. Previous NMS techniques are not accurate or not efficient enough.
 
-As usual, the most confident candidate (pose) "is selected as reference, and some poses close to it are subject to elimination."
+As usual, the most confident candidate (pose) "is selected as reference, and some poses close to it are subject to elimination." This paper's pose elimination criterion is:
+
+$$d(P_i,P_j|\Lambda,\lambda) \leq \eta$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4MzA3NDczLDE3NjYxOTQ3MjgsMTU3ND
-QyODEzOF19
+eyJoaXN0b3J5IjpbMTU1Mjk0MTc1OCwxNzY2MTk0NzI4LDE1Nz
+Q0MjgxMzhdfQ==
 -->
