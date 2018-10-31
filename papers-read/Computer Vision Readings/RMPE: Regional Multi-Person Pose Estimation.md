@@ -21,6 +21,7 @@ Weakness: depends on quality of bb. We aim to do well even on bad bb. SPPE Stack
 3. a pose NMS to remove redundant pose estimates (for overlapping bbs)
 4. a pose-guided human proposal generator (PGPG) to augment training samples
 
+The STN and SDTN are 2D affine transformations which just transform the coordinates of a human proposal into a new coordinate space (in which the target human is centred) and back again (to the coordinates of the original proposal. The cycle of STN and SDTN is what makes this a "*symmetric* spatial transformer network."
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NDQyODEzOF19
+eyJoaXN0b3J5IjpbLTExMDc4NjA5ODQsMTU3NDQyODEzOF19
 -->
