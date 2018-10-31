@@ -57,8 +57,8 @@ During training, for each annotated pose (gt), look up the corresponding *atomic
 
 To compute *atomic poses* take all the samples int he training set, align them s.t. their torsos have the same length, then compute cluster centers using k-means. These centroids are the atomic poses (archetypes).
 
-The distribution of relative offset between the detected bb and the gt varies by pose. So given the set of atomic poses and the set of annotated poses which belong to each cluster, we can approximate $P(\delta_B|Pose
+The distribution of relative offset between the detected bb and the gt varies by pose. So given the set of atomic poses and the set of annotated poses which belong to each cluster, we can approximate $P(\delta_B|Pose)$ (the probability of a bb offset for a given pose),
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDYxNDg3MywtNDQyMDQ2NTYzLDE3Nj
-YxOTQ3MjgsMTU3NDQyODEzOF19
+eyJoaXN0b3J5IjpbNDg1MzMyMDIyLC00NDIwNDY1NjMsMTc2Nj
+E5NDcyOCwxNTc0NDI4MTM4XX0=
 -->
