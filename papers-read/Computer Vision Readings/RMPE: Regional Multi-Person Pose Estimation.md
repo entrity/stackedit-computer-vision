@@ -23,6 +23,8 @@ Weakness: depends on quality of bb. We aim to do well even on bad bb. SPPE Stack
 
 **SSTN: (STN + SDTN)**
 
+Proposal regions are fed into the STN.
+
 The STN and SDTN are 2D affine transformations which just transform the coordinates of a human proposal into a new coordinate space (in which the target human is centred) and back again (to the coordinates of the original proposal. The cycle of STN and SDTN is what makes this a "*symmetric* spatial transformer network."
 
 The SPPE takes place *between* the STN and SDTN.
@@ -37,6 +39,6 @@ The purpose of this branch "is to back-propagate center-located pose errors to t
 
 This parallel branch is discarded during testing.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU1NDAwNjUsMTc2NjE5NDcyOCwxNT
-c0NDI4MTM4XX0=
+eyJoaXN0b3J5IjpbLTU1NDAyMzU1NSwxNzY2MTk0NzI4LDE1Nz
+Q0MjgxMzhdfQ==
 -->
