@@ -1,5 +1,12 @@
 # [RMPE: Regional Multi-Person Pose Estimation](http://openaccess.thecvf.com/content_ICCV_2017/papers/Fang_RMPE_Regional_Multi-Person_ICCV_2017_paper.pdf)
 
+@inproceedings{fang2017rmpe,
+                   title={RMPE: Regional Multi-person Pose Estimation},
+                   author={Fang, Hao-Shu and Xie, Shuqin and Tai, Yu-Wing and Lu, Cewu},
+                   booktitle={ICCV},
+                   year={2017}
+                  }
+
 Task: detect poses of multiple persons in an image, even when the bounding boxes are inaccurate.
 Proposal: a regional multi-person pose estimation (RMPE) framework/
 
@@ -15,5 +22,5 @@ Weakness: depends on quality of bb. We aim to do well even on bad bb. SPPE Stack
 4. a pose-guided human proposal generator (PGPG) to augment training samples
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDc5NDEzM119
+eyJoaXN0b3J5IjpbLTExNDY2Mzc2OF19
 -->
