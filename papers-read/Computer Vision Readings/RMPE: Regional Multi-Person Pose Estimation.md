@@ -31,9 +31,10 @@ The STN was developed by [18]. The SDTN is just the inverse of the STN.
 
 **Parallel SPPE**
 
-In parallel with the SPPE branch that follows STN, another SPPE branch is executed. The parallel SPPE branch is *not* followed by SDTN.
+In parallel with the SPPE branch that follows STN, another SPPE branch is executed. The parallel SPPE branch is *not* followed by SDTN, and its weights are *frozen* during training (both SPPE branches are just off the shelf).
 
-
+The purpose of this branch "is to back-propagate center-located pose errors to the STN module" so that the STN will learn to center-locate the pose.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjE5NDcyOCwxNTc0NDI4MTM4XX0=
+eyJoaXN0b3J5IjpbNzIxNDgwMTc0LDE3NjYxOTQ3MjgsMTU3ND
+QyODEzOF19
 -->
