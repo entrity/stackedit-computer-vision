@@ -50,7 +50,9 @@ $$d(P_i,P_j|\Lambda,\lambda) \leq \eta$$
 The distance function $d$ between two given candidates is the sum of two terms: (1) the confidence of both candidates ($K_{Sim}$) and (2) the distances between each pair of keypoints ($H_{Sim}$).
 
 The four parameters used here ($\eta$, $\sigma_1$, $\sigma_2$, $\lambda$) are *learned* (thus the NMS is parametric, not hyperparametric).
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjA0NjU2MywxNzY2MTk0NzI4LDE1Nz
-Q0MjgxMzhdfQ==
+eyJoaXN0b3J5IjpbLTU0MzA5MDE4MywtNDQyMDQ2NTYzLDE3Nj
+YxOTQ3MjgsMTU3NDQyODEzOF19
 -->
