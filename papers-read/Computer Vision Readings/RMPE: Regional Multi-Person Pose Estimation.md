@@ -55,8 +55,10 @@ The four parameters used here ($\eta$, $\sigma_1$, $\sigma_2$, $\lambda$) are *l
 
 During training, for each annotated pose (gt), look up the corresponding *atomic pose*, then generate offsets to $x$ and $y$ values (for each keypoint) by dense sampling according to the probability distribution described below. This create augmented training proposals.
 
-To compute *atomic poses* take all the samples int he training set, align them s.t. their torsos have the same lengt 
+To compute *atomic poses* take all the samples int he training set, align them s.t. their torsos have the same length, then compute cluster centers using k-means. These centroids are the atomic poses (archetypes).
+
+The distribution of relative offset between the detected bb and the gt varies by pose. So given the set of atomic poses and the set of annotated poses which belong to each cluster, we can approximate $P(\delta_B|Pose
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDkwMzQxNiwtNDQyMDQ2NTYzLDE3Nj
+eyJoaXN0b3J5IjpbMTQyNDYxNDg3MywtNDQyMDQ2NTYzLDE3Nj
 YxOTQ3MjgsMTU3NDQyODEzOF19
 -->
