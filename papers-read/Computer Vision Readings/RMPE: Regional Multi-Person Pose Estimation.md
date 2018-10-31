@@ -46,7 +46,11 @@ Redundant proposals (human detections) lead to redundant pose estimations. Previ
 As usual, the most confident candidate (pose) "is selected as reference, and some poses close to it are subject to elimination." This paper's pose elimination criterion is:
 
 $$d(P_i,P_j|\Lambda,\lambda) \leq \eta$$
+
+The distance function $d$ is:
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Mjk0MTc1OCwxNzY2MTk0NzI4LDE1Nz
-Q0MjgxMzhdfQ==
+eyJoaXN0b3J5IjpbLTE0NDkxNTA3NzAsMTc2NjE5NDcyOCwxNT
+c0NDI4MTM4XX0=
 -->
