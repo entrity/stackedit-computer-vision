@@ -17,11 +17,11 @@ Published as a conference paper at ICLR 2015
 >RBF units are unfortunately not invariant to any significant transformations so they cannot generalize very well. We can view linear units and RBF units as different points on a precision-recall tradeoff curve. Linear units achieve high recall by responding to every input in a certain direction, but may have low precision due to responding too strongly in unfamiliar situations. RBF units achieve high precision by responding only to a specific point in space, but in doing so sacrifice recall.
 
 ## FGSM
-Let $J(θ, x, y)$
+Let $J(\theta, x, y)$  be the cost function. 
 > ...obtaining an optimal max-norm perturbation of:
 > $$\eta = \epsilon \times \text{sign}(\nabla_x J(\theta, x, y))$$
 > We refer to this as the “fast gradient sign method” of generating adversarial examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNTk5OTc5OCwxNjA4MDUzOTczLC0xND
-I4NTIzNDY4XX0=
+eyJoaXN0b3J5IjpbNDI5NzA4NzQ5LDE2MDgwNTM5NzMsLTE0Mj
+g1MjM0NjhdfQ==
 -->
