@@ -18,8 +18,10 @@ Linear vs nonlinear:
 
 FGSM
 
+> $$\eta = \epsilon \times \text{sign}(\nabla_x J(\theta, x, y))$$
+
 > We refer to this as the “fast gradient sign method” of generating adversarial examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDE3NTcwNywxNjA4MDUzOTczLC0xND
-I4NTIzNDY4XX0=
+eyJoaXN0b3J5IjpbLTE1OTkzMTMwLDE2MDgwNTM5NzMsLTE0Mj
+g1MjM0NjhdfQ==
 -->
