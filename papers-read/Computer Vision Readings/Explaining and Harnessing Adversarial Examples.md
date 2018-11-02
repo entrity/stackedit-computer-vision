@@ -15,6 +15,11 @@ Linear vs nonlinear:
 >RBF networks are naturally immune to adversarial examples, in the sense that they have low confidence when they are fooled.
 
 >RBF units are unfortunately not invariant to any significant transformations so they cannot generalize very well. We can view linear units and RBF units as different points on a precision-recall tradeoff curve. Linear units achieve high recall by responding to every input in a certain direction, but may have low precision due to responding too strongly in unfamiliar situations. RBF units achieve high precision by responding only to a specific point in space, but in doing so sacrifice recall.
+
+FGSM
+
+> We refer to this as the “fast gradient sign method” of generating adversarial examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODA1Mzk3MywtMTQyODUyMzQ2OF19
+eyJoaXN0b3J5IjpbLTIzNDE3NTcwNywxNjA4MDUzOTczLC0xND
+I4NTIzNDY4XX0=
 -->
