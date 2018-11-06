@@ -22,7 +22,9 @@ Supports linearity hypothesis: "others have argued the reason adversarial exampl
 
 ## Review other attack algorithms
 
-**L-BFGS** Approximate: rather than minimize $||x-x'||^2_2$ s.t. $C(x') = l, x' \in [0,1]^n$, minimize $c \times ||x-x'||^2_2 + \text{loss}_{F,t}(x')$ s.t. $x' \in [0,1]^n$
+**L-BFGS** Approximate: rather than 
+minimize $||x-x'||^2_2$ s.t. $C(x') = l, x' \in [0,1]^n$, 
+minimize $c \times ||x-x'||^2_2 + \text{loss}_{F,t}(x')$ s.t. $x' \in [0,1]^n$
 Optimized for L2 distance. Repeatedly solve this optimization problem for multiple values of $c$ to find $c$ that yields advx of min distance.
 
 **FGSM** Optimized for $L_\infty$ distance. Designed to be faster rather than producing close advxs. Variant: iterative gradient sign.
@@ -35,6 +37,6 @@ NB: it appears C&W are always misrepresenting this one if I read their papers ar
 ## Our attack
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODQxMTU0OCwtMTczNDQ1MDc2MywyMT
-A1NjU5MDY4LC05NzU2NjY1NTFdfQ==
+eyJoaXN0b3J5IjpbLTE1ODA5MTIzNTYsLTE3MzQ0NTA3NjMsMj
+EwNTY1OTA2OCwtOTc1NjY2NTUxXX0=
 -->
