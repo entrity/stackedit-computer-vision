@@ -18,6 +18,11 @@
 
 C&W $L_0$ is the first attack that can cause targetted misclassificaiton ImageNet
 
+Supports linearity hypothesis: "others have argued the reason adversarial examples exist is not due to blind spots int he highly non-learn nerual network, but due only to the locally-linearl nature of neural networks."
+
+## Review other atta k algorig=thsm
+
+**L-BFGS** Rather than minimize $||x-x'||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwOTAwNzI3LC05NzU2NjY1NTFdfQ==
+eyJoaXN0b3J5IjpbLTEyNDM0MDM3ODgsLTk3NTY2NjU1MV19
 -->
