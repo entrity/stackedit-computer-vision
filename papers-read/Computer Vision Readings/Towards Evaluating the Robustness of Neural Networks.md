@@ -26,7 +26,7 @@ Supports linearity hypothesis: "others have argued the reason adversarial exampl
 Optimized for L2 distance. Repeatedly solve this optimization problem for multiple values of $c$ to find $c$ that yields advx of min distance.
 
 **FGSM** Optimized for $L_\infty$ distance. Designed to be faster rather than producing close advxs. Variant: iterative gradient sign.
-NB: it appears C&W are always misrepresenting this one if I read aright. They say the loss used is against the target (attack) class, but [this paper](https://arxiv.org/pdf/1607.02533.pdf) by Goodfellow shows that it is acting on $y
+NB: it appears C&W are always misrepresenting this one if I read their papers aright. They say the loss used is against the target (attack) class, but [this paper](https://arxiv.org/pdf/1607.02533.pdf) by Goodfellow shows that it is acting on $y_{true}$.
 
 **JSMA** Jacobian-based Saliency Map Attack. Targeted. Optimized under $L_0$ distance. Compute a saliency map using the gradient; saliency is how likely a given pixel's perturbation will change the model's label output. Pick the most salient pixel in the map and modify it. Repeat until success or too many pixels have changed to be satisfactory. Variants: JSMA-Z and JSMA-F depending on whether the logits or the softmax outputs are used.
 
@@ -35,6 +35,6 @@ NB: it appears C&W are always misrepresenting this one if I read aright. They sa
 ## Our attack
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0MzcwNjg4LC0xNzM0NDUwNzYzLDIxMD
-U2NTkwNjgsLTk3NTY2NjU1MV19
+eyJoaXN0b3J5IjpbMjA3ODQxMTU0OCwtMTczNDQ1MDc2MywyMT
+A1NjU5MDY4LC05NzU2NjY1NTFdfQ==
 -->
