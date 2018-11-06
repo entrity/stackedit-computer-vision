@@ -27,7 +27,7 @@ Optimized for L2 distance. Repeatedly solve this optimization problem for multip
 
 **FGSM** Optimized for $L_\infty$ distance. Designed to be faster rather than producing close advxs. Variant: iterative gradient sign.
 
-**JSMA** Jacobian-based Saliency Map Attack. Optimized under $L_0$ distance. Compute a saliency map using the gradient; th
+**JSMA** Jacobian-based Saliency Map Attack. Targeted. Optimized under $L_0$ distance. Compute a saliency map using the gradient; saliency is how likely a given pixel's perturbation will change the model's label output. Pick the most salient pixel in the map and modify it. Repeat until success or too many pixels have changed to be satisfactory.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDM4NjkzNywtOTc1NjY2NTUxXX0=
+eyJoaXN0b3J5IjpbNzgxMzQ5ODExLC05NzU2NjY1NTFdfQ==
 -->
