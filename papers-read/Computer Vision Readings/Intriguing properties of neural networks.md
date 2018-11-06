@@ -1,6 +1,8 @@
 # [Intriguing properties of neural networks](https://arxiv.org/pdf/1312.6199.pdf) 
 Szegedy 2014
 
+**Highlight**: first to point out existence of advx
+
 ## Findings
 1. Semantic analysis of individual units in neural nets is unlikely to contain semantic information. (Not sure how they got this; didn't see support in their discussion.)
 2. Neural networks are unstable against small changes to their inputs. They coin **"adversarial examples"** for perturbed images.
@@ -25,5 +27,5 @@ For adversarial examples, they seek to minimize $L_2$ norm of perturbation (vect
 
 Computing the "minimum distortion" function $D$ is hard, so they approximate it by using a box-constrained L-BFGS.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0NjkzMDI1XX0=
+eyJoaXN0b3J5IjpbLTEwNTAyNjYyMjRdfQ==
 -->
