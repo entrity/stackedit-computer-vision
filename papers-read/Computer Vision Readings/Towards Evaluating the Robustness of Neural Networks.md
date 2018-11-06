@@ -22,7 +22,10 @@ Supports linearity hypothesis: "others have argued the reason adversarial exampl
 
 ## Review other atta k algorig=thsm
 
-**L-BFGS** Rather than minimize $||x-x'||^2_2$ s.t. $C(x') = l, x' \in [0,1]^n$, minimize $c \times ||x-x'||^2_2 + \text{loss}_{F,t}(x')$ s.t. $x' \in [0,1]^n$
+**L-BFGS** Approximate: rather than minimize $||x-x'||^2_2$ s.t. $C(x') = l, x' \in [0,1]^n$, minimize $c \times ||x-x'||^2_2 + \text{loss}_{F,t}(x')$ s.t. $x' \in [0,1]^n$
+L2 distance. Repeatedly solve this optimization problem for multiple values of $c$ to find $c$ that yields advx of min distance.
+
+**FGSM** 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDU1MzMyNywtOTc1NjY2NTUxXX0=
+eyJoaXN0b3J5IjpbMzA4Njc0NDI1LC05NzU2NjY1NTFdfQ==
 -->
