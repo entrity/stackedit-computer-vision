@@ -20,7 +20,7 @@ C&W $L_0$ is the first attack that can cause targetted misclassificaiton ImageNe
 
 Supports linearity hypothesis: "others have argued the reason adversarial examples exist is not due to blind spots int he highly non-learn nerual network, but due only to the locally-linearl nature of neural networks."
 
-## Review other atta k algorig=thsm
+## Review other attack algorithms
 
 **L-BFGS** Approximate: rather than minimize $||x-x'||^2_2$ s.t. $C(x') = l, x' \in [0,1]^n$, minimize $c \times ||x-x'||^2_2 + \text{loss}_{F,t}(x')$ s.t. $x' \in [0,1]^n$
 Optimized for L2 distance. Repeatedly solve this optimization problem for multiple values of $c$ to find $c$ that yields advx of min distance.
@@ -30,6 +30,10 @@ Optimized for L2 distance. Repeatedly solve this optimization problem for multip
 **JSMA** Jacobian-based Saliency Map Attack. Targeted. Optimized under $L_0$ distance. Compute a saliency map using the gradient; saliency is how likely a given pixel's perturbation will change the model's label output. Pick the most salient pixel in the map and modify it. Repeat until success or too many pixels have changed to be satisfactory. Variants: JSMA-Z and JSMA-F depending on whether the logits or the softmax outputs are used.
 
 **Deepfool**. Untargeted. Optimized for $L_2$ distance. Efficient and produces less distortion than L-BFGS. Envision classification space as linearly separable and identify optimal examples for each class; then given a natural image, move it a step toward target optimal example. Repeat.
+
+## Our attack
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNTY1OTA2OCwtOTc1NjY2NTUxXX0=
+eyJoaXN0b3J5IjpbLTE3MzQ0NTA3NjMsMjEwNTY1OTA2OCwtOT
+c1NjY2NTUxXX0=
 -->
