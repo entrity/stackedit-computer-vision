@@ -12,7 +12,11 @@
 (1) prove a lower bound (harder)
 (2) construct attacks that demonstrate an upper bound
 
+**Code** available online: http://nicholas.carlini.com/code/nn_robust_attacks
+
 **Datasets**: MNIST, CIFAR 10, Imagenet
+
+C&W $L_0$ is the first attack that can cause targetted misclassificaiton ImageNet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzE2Njc3MiwtMjQwNDY3MTc1XX0=
+eyJoaXN0b3J5IjpbLTk3NTY2NjU1MSwtMjQwNDY3MTc1XX0=
 -->
