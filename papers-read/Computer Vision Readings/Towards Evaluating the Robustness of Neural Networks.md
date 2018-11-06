@@ -29,7 +29,7 @@ Optimized for L2 distance. Repeatedly solve this optimization problem for multip
 
 **JSMA** Jacobian-based Saliency Map Attack. Targeted. Optimized under $L_0$ distance. Compute a saliency map using the gradient; saliency is how likely a given pixel's perturbation will change the model's label output. Pick the most salient pixel in the map and modify it. Repeat until success or too many pixels have changed to be satisfactory. Variants: JSMA-Z and JSMA-F depending on whether the logits or the softmax outputs are used.
 
-**Deepfool**. Untargeted. Optimized for $L_2$ distance.
+**Deepfool**. Untargeted. Optimized for $L_2$ distance. Efficient and produces less distortion than L-BFGS. Envision classification space as linearly separable and identify optimal examples for each class; then given a natural image, move it a step toward target optimal example. Repeat.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODM1ODY0MywtOTc1NjY2NTUxXX0=
+eyJoaXN0b3J5IjpbMjEwNTY1OTA2OCwtOTc1NjY2NTUxXX0=
 -->
