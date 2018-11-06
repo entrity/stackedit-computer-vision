@@ -17,6 +17,7 @@
 **Datasets**: MNIST, CIFAR 10, Imagenet
 
 C&W $L_0$ is the first attack that can cause targetted misclassificaiton ImageNet
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTY2NjU1MV19
+eyJoaXN0b3J5IjpbNzIwOTAwNzI3LC05NzU2NjY1NTFdfQ==
 -->
