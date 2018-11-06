@@ -22,7 +22,7 @@ Supports linearity hypothesis: "others have argued the reason adversarial exampl
 
 ## Review other atta k algorig=thsm
 
-**L-BFGS** Rather than minimize $||x-x'||
+**L-BFGS** Rather than minimize $||x-x'||^2_2$ s.t. $C(x') = l, x' \in [0,1]^n$, minimize $c \times ||x-x'||^2_2 + \text{loss}_{F,t}(x')$ s.t. $x' \in [0,1]^n$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDM0MDM3ODgsLTk3NTY2NjU1MV19
+eyJoaXN0b3J5IjpbMjE0NDU1MzMyNywtOTc1NjY2NTUxXX0=
 -->
