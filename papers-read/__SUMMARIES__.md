@@ -71,7 +71,7 @@
 [Explaining and Harnessing Adversarial Examples](https://arxiv.org/pdf/1412.6572.pdf)
 : Ian Goodfellow looks at adversarial perturbations, explores theory that linear nature of models is what makes them vulnerable to adversarial examples (previously it was supposed that overfitting was the cause of this vulnerability), that and the fact that an adversarial example can move in any direction from a rather limited statistical space where the real-world examples reside.
 
-[Intriguing properties of neural networks](https://arxiv.org/pdf/1312.6199.pdf) 
+[Intriguing properties of neural networks](httprks:
 : Coined "adversarial examples." Found that they transfer well.
 
 [RMPE: Regional Multi-Person Pose Estimation](http://openaccess.thecvf.com/content_ICCV_2017/papers/Fang_RMPE_Regional_Multi-Person_ICCV_2017_paper.pdf)
@@ -80,9 +80,9 @@
 Towards Evaluating the Robustness of Neural Networks
 :
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjM5NzQ3OCwxMzM1ODkzODY2LDUyMj
-Q4NDQ4MywtMTU5Mjc1ODMwNSwtOTYzNTc5MTU0LDIyMzk3NDQ0
-MiwtNTY3NDU0MDE0LDIxMzk5MTU0NzMsLTE1OTk3NDAxNjgsLT
-c0Njg4NjYzMSwxMTQyODkxMDMxLDEyNTI2MjgxMjQsLTE2Mzkw
-MTgzNzZdfQ==
+eyJoaXN0b3J5IjpbMjA5ODcxMjYzMiwtNDU2Mzk3NDc4LDEzMz
+U4OTM4NjYsNTIyNDg0NDgzLC0xNTkyNzU4MzA1LC05NjM1Nzkx
+NTQsMjIzOTc0NDQyLC01Njc0NTQwMTQsMjEzOTkxNTQ3MywtMT
+U5OTc0MDE2OCwtNzQ2ODg2NjMxLDExNDI4OTEwMzEsMTI1MjYy
+ODEyNCwtMTYzOTAxODM3Nl19
 -->
