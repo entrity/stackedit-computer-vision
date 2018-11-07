@@ -35,6 +35,7 @@ Starts a file-serving webserver in the current directory bound to `0.0.0.0:8000`
 { echo -ne "HTTP/1.0 200 OK\r\n\r\n"; cat some.file; } | nc -l -p 8080
 { echo -ne "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <some.file)\r\n\r\n"; cat some.file; } | nc -l -p 8080
 ```
+Serves up just the specified file(s).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDQxNjk2OCwtNjMzMDM3NjAzXX0=
+eyJoaXN0b3J5IjpbMTQxNDg5NTY4OCwtNjMzMDM3NjAzXX0=
 -->
