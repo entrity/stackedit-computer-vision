@@ -16,6 +16,8 @@ Weakness: two-step framework depends on quality of bb. We aim to do well even on
 
 **Contributions**
 
+AlphaPose (not actually mentioned by name in paper)
+
 1. a symmetric spatial transformer network (SSTN)
 2. a parallel SPPE (single-person pose estimator) branch
 3. a pose NMS to remove redundant pose estimates (for overlapping bbs)
@@ -59,6 +61,6 @@ To compute *atomic poses* take all the samples int he training set, align them s
 
 The distribution of relative offset between the detected bb and the gt varies by pose. So given the set of atomic poses and the set of annotated poses which belong to each cluster, we can approximate $P(\delta_B|Pose)$ (the probability of a bb offset for a given pose),
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODQzODY5OCwtNDQyMDQ2NTYzLDE3Nj
-YxOTQ3MjgsMTU3NDQyODEzOF19
+eyJoaXN0b3J5IjpbLTUyODE3OTY4NCwxMjQ4NDM4Njk4LC00ND
+IwNDY1NjMsMTc2NjE5NDcyOCwxNTc0NDI4MTM4XX0=
 -->
