@@ -19,6 +19,14 @@ done < keystrokes.log
 ## Disable network access for a process
 
 `unshare -n <program> ...`
+
+## Quick webserver
+
+```bash
+python2 -m SimpleHTTPServer # Python 2
+python3 -m http.server      # Python 3
+```
+Starts a file-serving webserver in the current directory bound to `0.0.0.0:8000`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzAzNzYwM119
+eyJoaXN0b3J5IjpbLTYwMjA4MzI0LC02MzMwMzc2MDNdfQ==
 -->
