@@ -22,11 +22,19 @@ done < keystrokes.log
 
 ## Quick webserver
 
+### Python
+
 ```bash
 python2 -m SimpleHTTPServer # Python 2
 python3 -m http.server      # Python 3
 ```
 Starts a file-serving webserver in the current directory bound to `0.0.0.0:8000`
+
+### Netcat
+```bash
+{ echo -ne "HTTP/1.0 200 OK\r\n\r\n"; cat some.file; } | nc -l -p 8080
+{ echo -ne "HTTP/1.0 200 OK\r\nContent-Length: $(wc -c <some.file)\r\n\r\n"; cat some.file; } | nc -l -p 8080
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjA4MzI0LC02MzMwMzc2MDNdfQ==
+eyJoaXN0b3J5IjpbMTMyMDQxNjk2OCwtNjMzMDM3NjAzXX0=
 -->
