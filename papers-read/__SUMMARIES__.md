@@ -74,15 +74,18 @@
 [Intriguing properties of neural networks](https://arxiv.org/pdf/1312.6199.pdf)
 : Coined "adversarial examples." Found that they transfer well.
 
+[Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods](https://arxiv.org/abs/1705.07263v2)
+: C&W show that 10 countermeasures against adversarial examples published in the last yecan be overcome with the 
+
 [RMPE: Regional Multi-Person Pose Estimation](http://openaccess.thecvf.com/content_ICCV_2017/papers/Fang_RMPE_Regional_Multi-Person_ICCV_2017_paper.pdf)
 : SOTA on pose estimation in multi-person setting. They improve bounding boxes by means of SSTN and parallel SPPE. [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose)
 
 [Towards Evaluating the Robustness of Neural Networks](https://arxiv.org/pdf/1608.04644.pdf)
 : The C&W (Carlini and Wagner) method of generating adversarial examples is presented.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzU1MjIyNSwtNDU2Mzk3NDc4LDEzMz
-U4OTM4NjYsNTIyNDg0NDgzLC0xNTkyNzU4MzA1LC05NjM1Nzkx
-NTQsMjIzOTc0NDQyLC01Njc0NTQwMTQsMjEzOTkxNTQ3MywtMT
-U5OTc0MDE2OCwtNzQ2ODg2NjMxLDExNDI4OTEwMzEsMTI1MjYy
-ODEyNCwtMTYzOTAxODM3Nl19
+eyJoaXN0b3J5IjpbLTE1MTQ5NzAwNDksLTEyNzU1MjIyNSwtND
+U2Mzk3NDc4LDEzMzU4OTM4NjYsNTIyNDg0NDgzLC0xNTkyNzU4
+MzA1LC05NjM1NzkxNTQsMjIzOTc0NDQyLC01Njc0NTQwMTQsMj
+EzOTkxNTQ3MywtMTU5OTc0MDE2OCwtNzQ2ODg2NjMxLDExNDI4
+OTEwMzEsMTI1MjYyODEyNCwtMTYzOTAxODM3Nl19
 -->
