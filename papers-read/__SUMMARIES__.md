@@ -78,11 +78,11 @@
 : SOTA on pose estimation in multi-person setting. They improve bounding boxes by means of SSTN and parallel SPPE. [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose)
 
 Towards Evaluating the Robustness of Neural Networks
-:
+: The C&W (Carlini and Wagner) method of generatiadversarial examples
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODcxMjYzMiwtNDU2Mzk3NDc4LDEzMz
-U4OTM4NjYsNTIyNDg0NDgzLC0xNTkyNzU4MzA1LC05NjM1Nzkx
-NTQsMjIzOTc0NDQyLC01Njc0NTQwMTQsMjEzOTkxNTQ3MywtMT
-U5OTc0MDE2OCwtNzQ2ODg2NjMxLDExNDI4OTEwMzEsMTI1MjYy
-ODEyNCwtMTYzOTAxODM3Nl19
+eyJoaXN0b3J5IjpbMTM4Nzk4MTczLC00NTYzOTc0NzgsMTMzNT
+g5Mzg2Niw1MjI0ODQ0ODMsLTE1OTI3NTgzMDUsLTk2MzU3OTE1
+NCwyMjM5NzQ0NDIsLTU2NzQ1NDAxNCwyMTM5OTE1NDczLC0xNT
+k5NzQwMTY4LC03NDY4ODY2MzEsMTE0Mjg5MTAzMSwxMjUyNjI4
+MTI0LC0xNjM5MDE4Mzc2XX0=
 -->
