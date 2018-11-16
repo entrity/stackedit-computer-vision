@@ -71,18 +71,18 @@
 [Explaining and Harnessing Adversarial Examples](https://arxiv.org/pdf/1412.6572.pdf)
 : Ian Goodfellow looks at adversarial perturbations, explores theory that linear nature of models is what makes them vulnerable to adversarial examples (previously it was supposed that overfitting was the cause of this vulnerability), that and the fact that an adversarial example can move in any direction from a rather limited statistical space where the real-world examples reside.
 
-[Intriguing properties of neural networks](httprks:
+[Intriguing properties of neural networks](https://arxiv.org/pdf/1312.6199.pdf)
 : Coined "adversarial examples." Found that they transfer well.
 
 [RMPE: Regional Multi-Person Pose Estimation](http://openaccess.thecvf.com/content_ICCV_2017/papers/Fang_RMPE_Regional_Multi-Person_ICCV_2017_paper.pdf)
 : SOTA on pose estimation in multi-person setting. They improve bounding boxes by means of SSTN and parallel SPPE. [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose)
 
-Towards Evaluating the Robustness of Neural Networks
-: The C&W (Carlini and Wagner) method of generatiadversarial examples
+[Towards Evaluating the Robustness of Neural Networks](https://arxiv.org/pdf/1608.04644.pdf)
+: The C&W (Carlini and Wagner) method of generating adversarial examples is presented.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Nzk4MTczLC00NTYzOTc0NzgsMTMzNT
-g5Mzg2Niw1MjI0ODQ0ODMsLTE1OTI3NTgzMDUsLTk2MzU3OTE1
-NCwyMjM5NzQ0NDIsLTU2NzQ1NDAxNCwyMTM5OTE1NDczLC0xNT
-k5NzQwMTY4LC03NDY4ODY2MzEsMTE0Mjg5MTAzMSwxMjUyNjI4
-MTI0LC0xNjM5MDE4Mzc2XX0=
+eyJoaXN0b3J5IjpbLTEyNzU1MjIyNSwtNDU2Mzk3NDc4LDEzMz
+U4OTM4NjYsNTIyNDg0NDgzLC0xNTkyNzU4MzA1LC05NjM1Nzkx
+NTQsMjIzOTc0NDQyLC01Njc0NTQwMTQsMjEzOTkxNTQ3MywtMT
+U5OTc0MDE2OCwtNzQ2ODg2NjMxLDExNDI4OTEwMzEsMTI1MjYy
+ODEyNCwtMTYzOTAxODM3Nl19
 -->
