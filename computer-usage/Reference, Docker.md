@@ -12,7 +12,7 @@ See http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
 ## Installing Docker without root
 Not possible, as far as I know: https://stackoverflow.com/a/48474153/507721
 
-## Launch Container
+## Launch container
 ```bash
 # docker run -it -v <mount-share> <image> <command>
 # -i is 'interactive'
@@ -23,10 +23,15 @@ docker run -it -v /sharedfolder:/root/sharedfolder ufoym/deepo bash
 nvidia-docker run -it -v /sharedfolder:/root/sharedfolder ufoym/deepo bash
 ```
 
-## Commit your docker_
+## Commit image changes
 
-After installing something new, you can easily commit your current images so that you can freely share with others or launch it again in case you broke your current docke
+After installing something new, you can easily commit your current images so that you can freely share with others or launch it again.
+```bash
+docker ps # Get container ID
+docker commit <containerid> <repository>:[tag]
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDQzMDc4OCwtMTM5OTI3MzU0MiwtNT
+eyJoaXN0b3J5IjpbMjA4OTUxNzk0NiwtMTM5OTI3MzU0MiwtNT
 Y5Mzk0MTkwXX0=
 -->
