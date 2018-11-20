@@ -14,13 +14,19 @@ Not possible, as far as I know: https://stackoverflow.com/a/48474153/507721
 
 ## Launch Container
 ```bash
-# docker run -v <mount-share> <image> <command>
+# docker run -it -v <mount-share> <image> <command>
+# -i is 'interactive'
+# -t is 'allocate pseudo-tty'
 # CPU e.g.
-docker run -v /sharedfolder:/root/sharedfolder ufoym/deepo bash
+docker run -it -v /sharedfolder:/root/sharedfolder ufoym/deepo bash
 # GPU e.g.
-nvidia-docker run -v /sharedfolder:/root/sharedfolder ufoym/deepo bash
+nvidia-docker run -it -v /sharedfolder:/root/sharedfolder ufoym/deepo bash
 ```
+
+## Commit your docker_
+
+After installing something new, you can easily commit your current images so that you can freely share with others or launch it again in case you broke your current docke
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDY0MzYxNCwtMTM5OTI3MzU0MiwtNT
+eyJoaXN0b3J5IjpbLTU4NDQzMDc4OCwtMTM5OTI3MzU0MiwtNT
 Y5Mzk0MTkwXX0=
 -->
