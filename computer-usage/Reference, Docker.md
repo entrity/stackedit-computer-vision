@@ -28,10 +28,9 @@ nvidia-docker run -it -v /sharedfolder:/root/sharedfolder ufoym/deepo bash
 After installing something new, you can easily commit your current images so that you can freely share with others or launch it again.
 ```bash
 docker ps # Get container ID
-docker commit <containerid> <repository>:[tag]
-
+docker commit <container> [repository:[tag]]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTUxNzk0NiwtMTM5OTI3MzU0MiwtNT
-Y5Mzk0MTkwXX0=
+eyJoaXN0b3J5IjpbLTE2NzMxNjg1MzksLTEzOTkyNzM1NDIsLT
+U2OTM5NDE5MF19
 -->
