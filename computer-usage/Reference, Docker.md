@@ -11,6 +11,16 @@ See http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
 
 ## Installing Docker without root
 Not possible, as far as I know: https://stackoverflow.com/a/48474153/507721
+
+## Launch Container
+```bash
+# docker run -v <mount-share> <image> <command>
+# CPU e.g.
+docker run -v /sharedfolder:/root/sharedfolder ufoym/deepo bash
+# GPU e.g.
+nvidia-docker run -v /sharedfolder:/root/sharedfolder ufoym/deepo bash
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTkyNzM1NDIsLTU2OTM5NDE5MF19
+eyJoaXN0b3J5IjpbLTc4MDY0MzYxNCwtMTM5OTI3MzU0MiwtNT
+Y5Mzk0MTkwXX0=
 -->
