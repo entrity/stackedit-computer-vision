@@ -15,11 +15,8 @@ The pattern is:
 
 1. numeric type (f, s, u)
 2. bit depth (8, 16, 24, 32, 64)
-3. byte-endia
+3. byte-endianness
 
-- f32be
-- f32le
-- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NDIwMzYxOCwxNDIxMDIwMDcyXX0=
+eyJoaXN0b3J5IjpbMTc3NzUxODgzNCwxNDIxMDIwMDcyXX0=
 -->
