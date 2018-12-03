@@ -4,7 +4,9 @@ Related to 'dying ReLU' phenomenon, in which some features get cut off in traini
 
 Proposal: this emergency of sparsity is result of disproportionate influence of regularizer (L2 or weight decay) viz the gradients in training.
 
-Increases mini-batch s
+- Increases mini-batch size decreases sparsity
+- adaptive gradient descent method increase sparsity
+- L2 synergizes with adaptive gradient descent more than weight decay does to increase sparsity
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY0NDk5NzBdfQ==
+eyJoaXN0b3J5IjpbMTYxNDE4MjUxOV19
 -->
