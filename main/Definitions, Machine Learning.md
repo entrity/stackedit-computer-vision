@@ -19,7 +19,7 @@ There are 3 types: (1) soft, (2) hard, (3) local
 - **Multi-level attention**: Apply the attention function multiple times. At the first level, $f(q,k,k)$ gives you attention in the dimension of the keys. Treat that output as a query for the next application of the function: $f(f(q, k, k), k, v)$ gives you attention in the dimension of the values. 
 
 Batch Normalization [[src](https://arxiv.org/pdf/1502.03167.pdf)]
-: In training, at every layer, compute a mean and stdev for each feature using the entire batch (every location, every image). Normalize said layer's output on a feature-by-feature basis. Make a running avg and running stdev for the whole training set to use as mean and stdev during testing.
+: In training, at every layer, compute a mean and stdev for each feature/channel using the entire batch (every location, every image). Normalize said layer's output on a feature-by-feature basis. Make a running avg and running stdev for the whole training set to use as mean and stdev during testing. When the batch is too small, use **Group Normalization** .
 
  Beam Search
  : Non-greedy selection for output from a sequence (as RNN). At each time-step, it chooses the $K$ most likely hypotheses $y_2$ based on $p(y_1) \times p(y_2|y_1) \times ...$. Keep extending $K$ rays (keeping the top $K$ at each timestep) until end of sequence is reached on all rays. Then output the sequence with the highest joint distribution $p(y_1, y_2, ...)$
@@ -62,6 +62,9 @@ GMM (Gaussian Mixture Model)
 
 GNN (Graph  Neural Networks)
 : "An iterative process, which propagates the node states until equilibrium; followed by a neural network." [[cite](https://openreview.net/pdf?id=rJXMpikCZ)]
+
+Group Normalization
+: When the minibatch is too small for batch normalization to be effective, compute a mean and standard deviation for each image (all pixels, all channels
 
 Hard negative examples
 : negative examples that are currently rated as positive or ambiguous by the detector (see also 'hard-negative mining)
@@ -186,10 +189,10 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjgyNjQ0NywxNDU4NzE2OTkyLDE4ND
-IxOTE4MTgsLTIxMDEwMjQwNDAsLTkzMzIxMzk4NSwtMTIyMzAz
-MjUzNSwxNTA0ODYwMjI4LDE0NTE4MzM0NTcsLTE2MzY2NDA0MT
-ksLTEzODc5NDIxNjcsLTg1NDI3OTAwNyw5MTc2OTEyNjEsLTE4
-MTkwNDAzNTAsNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMTg3Nj
-ZdfQ==
+eyJoaXN0b3J5IjpbNzQyNTI1NjUwLC00MDI4MjY0NDcsMTQ1OD
+cxNjk5MiwxODQyMTkxODE4LC0yMTAxMDI0MDQwLC05MzMyMTM5
+ODUsLTEyMjMwMzI1MzUsMTUwNDg2MDIyOCwxNDUxODMzNDU3LC
+0xNjM2NjQwNDE5LC0xMzg3OTQyMTY3LC04NTQyNzkwMDcsOTE3
+NjkxMjYxLC0xODE5MDQwMzUwLDUxOTEwNzk1Myw3NTk3ODgxMj
+EsNDI3MTE4NzY2XX0=
 -->
