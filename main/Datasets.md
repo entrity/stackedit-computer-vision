@@ -11,13 +11,16 @@ CoQA - [paper](https://arxiv.org/abs/1808.07042)
 : Conversational Question Answering.
 
 Jester
-: fine-grained actions. crowd-
+: for activity recognition. fine-grained actions. crowd-sourced. hand gestures.
 
 PASCAL
 : Object detection.
 
 QuAC - [paper](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping)
 : Question Answering. 14K dialogues, 100K questions. "Its questions are often more open-ended, unanswerable, or only meaningful within the dialog context."
+
+UCF101
+: Activity recognition. Coarse-grained actions. From YouTube.
 
 UnRel
 : Object relation detection.
@@ -28,6 +31,6 @@ Visual Genome
 VRD (Visual Relationship Detection)
 : 100 object categories. 70 predicate categories. 5K images. 60% ambiguous relationships.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTQ2NjM1MCw3NjkzMjY1NzMsMjAyMT
+eyJoaXN0b3J5IjpbLTI2MTIwMzI5Myw3NjkzMjY1NzMsMjAyMT
 c4MzQ0Niw4NzA4MjM1NzBdfQ==
 -->
