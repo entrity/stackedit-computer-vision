@@ -64,7 +64,7 @@ GNN (Graph  Neural Networks)
 : "An iterative process, which propagates the node states until equilibrium; followed by a neural network." [[cite](https://openreview.net/pdf?id=rJXMpikCZ)]
 
 Group Normalization
-: When the minibatch is too small for batch normalization to be effective, compute a mean and standard deviation for each image (all pixels, all channels
+: When the minibatch is too small for batch normalization to be effective, compute a mean and standard deviation for each image (all pixels, all channels). Use these statistics to normalize the minibatch. **Synchronized batch normalization** is used when the batch is actually spread across multiple processors; the mean and stdev are therefore also spread across multiple processors.
 
 Hard negative examples
 : negative examples that are currently rated as positive or ambiguous by the detector (see also 'hard-negative mining)
@@ -189,10 +189,10 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNTI1NjUwLC00MDI4MjY0NDcsMTQ1OD
-cxNjk5MiwxODQyMTkxODE4LC0yMTAxMDI0MDQwLC05MzMyMTM5
-ODUsLTEyMjMwMzI1MzUsMTUwNDg2MDIyOCwxNDUxODMzNDU3LC
-0xNjM2NjQwNDE5LC0xMzg3OTQyMTY3LC04NTQyNzkwMDcsOTE3
-NjkxMjYxLC0xODE5MDQwMzUwLDUxOTEwNzk1Myw3NTk3ODgxMj
-EsNDI3MTE4NzY2XX0=
+eyJoaXN0b3J5IjpbMjAxMTQzNTg4MywtNDAyODI2NDQ3LDE0NT
+g3MTY5OTIsMTg0MjE5MTgxOCwtMjEwMTAyNDA0MCwtOTMzMjEz
+OTg1LC0xMjIzMDMyNTM1LDE1MDQ4NjAyMjgsMTQ1MTgzMzQ1Ny
+wtMTYzNjY0MDQxOSwtMTM4Nzk0MjE2NywtODU0Mjc5MDA3LDkx
+NzY5MTI2MSwtMTgxOTA0MDM1MCw1MTkxMDc5NTMsNzU5Nzg4MT
+IxLDQyNzExODc2Nl19
 -->
