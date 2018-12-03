@@ -10,6 +10,9 @@ CLEVR
 CoQA - [paper](https://arxiv.org/abs/1808.07042)
 : Conversational Question Answering.
 
+Jester
+: fine-grained actions. crowd-
+
 PASCAL
 : Object detection.
 
@@ -25,6 +28,6 @@ Visual Genome
 VRD (Visual Relationship Detection)
 : 100 object categories. 70 predicate categories. 5K images. 60% ambiguous relationships.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5MzI2NTczLDIwMjE3ODM0NDYsODcwOD
-IzNTcwXX0=
+eyJoaXN0b3J5IjpbLTI0OTQ2NjM1MCw3NjkzMjY1NzMsMjAyMT
+c4MzQ0Niw4NzA4MjM1NzBdfQ==
 -->
