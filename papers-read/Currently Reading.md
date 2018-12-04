@@ -14,7 +14,7 @@ Said sparsity can be leveraged for speedup, eliminating the need for explicit pr
 
 # [Taskonomy: Disentangling Task Transfer Learning](http://taskonomy.stanford.edu/taskonomy_CVPR2018.pdf)
 
-Learning 
+Learning tasks in isolation ignores useful relationships. Model aware of relationships requires less supervision and computation (than multiple models, one for each task).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTI2NzY1OSwxNzg2OTgyMTg0XX0=
+eyJoaXN0b3J5IjpbMTg4MDg3MDUyNiwxNzg2OTgyMTg0XX0=
 -->
