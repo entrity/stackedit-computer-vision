@@ -9,6 +9,12 @@ Proposal: this emergency of sparsity is result of disproportionate influence of 
 - L2 synergizes with adaptive gradient descent more than weight decay does to increase sparsity
 
 Said sparsity can be leveraged for speedup, eliminating the need for explicit pruning. Can remove 70-80% of filters from VGG-16 on CIFAR10/100.
+
+# [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf)
+
+# [Taskonomy: Disentangling Task Transfer Learning](http://taskonomy.stanford.edu/taskonomy_CVPR2018.pdf)
+
+Learning 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Njk4MjE4NF19
+eyJoaXN0b3J5IjpbMTE0MTI2NzY1OSwxNzg2OTgyMTg0XX0=
 -->
