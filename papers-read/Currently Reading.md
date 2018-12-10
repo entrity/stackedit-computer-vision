@@ -17,7 +17,9 @@ Said sparsity can be leveraged for speedup, eliminating the need for explicit pr
 Learning tasks in isolation ignores useful relationships. Model aware of relationships requires less supervision and computation (than multiple models, one for each task).
 
 # [Evolution of Visual Odometry Techniques](https://arxiv.org/pdf/1804.11142.pdf)
+
+# [Object Discovery in Videos as Foreground Motion Clustering](https://arxiv.org/pdf/1812.02772.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyOTYyNjUzLDE4ODA4NzA1MjYsMTc4Nj
-k4MjE4NF19
+eyJoaXN0b3J5IjpbLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4OD
+A4NzA1MjYsMTc4Njk4MjE4NF19
 -->
