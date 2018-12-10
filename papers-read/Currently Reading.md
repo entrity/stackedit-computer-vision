@@ -23,7 +23,9 @@ Learning tasks in isolation ignores useful relationships. Model aware of relatio
 BG: Motion segmentation methods aim to segment moving objects in video, can discover new (unseen) objects (as opposed to object detection and object tracking in video, which train for specific categories).
 
 Plan: formulate object discovery problem as foreground motion clusterin: cluster pixels in a video into different objects based on their motion.
+
+Video frames and optical flow as input to encoder-decoder, then use feature embeddings to learn classifier to discriminate foreground v background.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjU0MDkwNzMsLTE0Mjk0NDcxMDcsMj
-cyOTYyNjUzLDE4ODA4NzA1MjYsMTc4Njk4MjE4NF19
+eyJoaXN0b3J5IjpbLTI1NjIyMDc1NywtMTQyOTQ0NzEwNywyNz
+I5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgyMTg0XX0=
 -->
