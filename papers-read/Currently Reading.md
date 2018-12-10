@@ -20,8 +20,8 @@ Learning tasks in isolation ignores useful relationships. Model aware of relatio
 
 # [Object Discovery in Videos as Foreground Motion Clustering](https://arxiv.org/pdf/1812.02772.pdf)
 
-BG: Motion segmentation methods aim at 
+BG: Motion segmentation methods aim to segment moving objects in video, can discover new (unseen) objects (as opposed to object detection and object tracking in video, which train for specific categories).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjA3NjU5OCwtMTQyOTQ0NzEwNywyNz
+eyJoaXN0b3J5IjpbMTY3OTE0NTIzMCwtMTQyOTQ0NzEwNywyNz
 I5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgyMTg0XX0=
 -->
