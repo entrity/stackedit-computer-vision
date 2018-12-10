@@ -19,7 +19,9 @@ Learning tasks in isolation ignores useful relationships. Model aware of relatio
 # [Evolution of Visual Odometry Techniques](https://arxiv.org/pdf/1804.11142.pdf)
 
 # [Object Discovery in Videos as Foreground Motion Clustering](https://arxiv.org/pdf/1812.02772.pdf)
+
+BG: Motion segmentation methods aim at 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4OD
-A4NzA1MjYsMTc4Njk4MjE4NF19
+eyJoaXN0b3J5IjpbMjA3MjA3NjU5OCwtMTQyOTQ0NzEwNywyNz
+I5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgyMTg0XX0=
 -->
