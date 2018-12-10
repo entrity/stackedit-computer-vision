@@ -16,6 +16,8 @@ Said sparsity can be leveraged for speedup, eliminating the need for explicit pr
 
 Learning tasks in isolation ignores useful relationships. Model aware of relationships requires less supervision and computation (than multiple models, one for each task).
 
+> Unlike multi-task learning, we explicitly model the relations among tasks and extract a meta-structure.
+
 # [Evolution of Visual Odometry Techniques](https://arxiv.org/pdf/1804.11142.pdf)
 
 # [Object Discovery in Videos as Foreground Motion Clustering](https://arxiv.org/pdf/1812.02772.pdf)
@@ -26,6 +28,7 @@ Plan: formulate object discovery problem as foreground motion clusterin: cluster
 
 Video frames and optical flow as input to encoder-decoder, then use feature embeddings to learn classifier to discriminate foreground v background.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjIyMDc1NywtMTQyOTQ0NzEwNywyNz
-I5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgyMTg0XX0=
+eyJoaXN0b3J5IjpbLTE2MDk3NDQ3MjIsLTI1NjIyMDc1NywtMT
+QyOTQ0NzEwNywyNzI5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgy
+MTg0XX0=
 -->
