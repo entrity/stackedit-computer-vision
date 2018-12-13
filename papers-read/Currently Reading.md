@@ -30,44 +30,14 @@ Video frames and optical flow as input to encoder-decoder, then use feature embe
 
 # [Deep-RBF Networks Revisited: Robust Classification with Rejection](https://arxiv.org/pdf/1812.03190.pdf)
 
-# [YOLO9000: Better, Faster, Stronger](http://openaccess.thecvf.com/content_cvpr_2017/papers/Redmon_YOLO9000_Better_Faster_CVPR_2017_paper.pdf) 2017
 
-Achieves SOTA on object detection with realtime speed (30+ fps)
-Better than YOLO: YOLO had low recall and high error in localization.
 
-### Changes from YOLO
-Changed network: simpler
-1. include batchnorm, remove dropout
-2. fine-tune classifier network at full resolution (448x448)
-3. remove FC layers; use anchor boxes to predict BBs for each cell. (yields 1000+ proposals vs 98 from YOLO)
-4. shrink res to 416x416 and remove a pooling layer to give 13x13 output, which has a center cell, since images tend to have an object in center
-5. predict class and objectness (IoU) for every anchor box.
-
-### Anchor boxes
-AB's have to be picked, not learned. But they pick good ones by running k-means clustering on dataset, using $d(\text{box},\text{centroid}) = 1 - \text{IoU}(\text{box},\text{centroid})$.
-
-Predict 5 BBs at each cell, and predict $x,y,w,h,o$ for each BB.
-
-Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\sigma$ to bound to [0,1] to keep location from ending up just anywhere in image (not near to given grid cell).
-
-### Joint classification and detection (different datasets)
-
-Trains on both detection datasets (COCO) *and* image classification datasets (ImageNet). Makes a hierarchical synset for all labels from both datasets. When given a classification example, we only backprop classification loss. When given any example, classification loss is only backpropagated at or above the corresponding level of the label in the WordTree.
-
-### Misc
-
-For localizing smaller objects, add a passthrough layer that brings features from an earlier layer at double resolution. Stack adjacent features in high-res maps so that the spatial dimensions drop to match that of the low-res maps so that the they two can be concatenated.
-
-Uses Darknet-19 as its base.
-
-### Performance
-78.6 mAP at high resolution.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzA4NzAyNiwyMDM3NDI5MzMyLDEyOT
-k5MTI2MDMsOTY0MzIzMTcxLC02NDA0MTgxMywyMDcxMTM0NDE5
-LC0xOTE3MDg5MjczLC0yMDM3MDg1Mzg4LC0yMDU0ODE4NjgzLD
-M5ODIwNDUzMiwxMTc4MDIyMzQyLC04Nzc5MzcxMzcsMTEyNjM3
-ODA2MiwtMTEwOTk5NjE5LC0xOTkzODAwMTIyLDIwNTY1MDg1Ny
-wtMTYwOTc0NDcyMiwtMjU2MjIwNzU3LC0xNDI5NDQ3MTA3LDI3
-Mjk2MjY1M119
+eyJoaXN0b3J5IjpbLTIyMjMzNjc4MSwxODgzMDg3MDI2LDIwMz
+c0MjkzMzIsMTI5OTkxMjYwMyw5NjQzMjMxNzEsLTY0MDQxODEz
+LDIwNzExMzQ0MTksLTE5MTcwODkyNzMsLTIwMzcwODUzODgsLT
+IwNTQ4MTg2ODMsMzk4MjA0NTMyLDExNzgwMjIzNDIsLTg3Nzkz
+NzEzNywxMTI2Mzc4MDYyLC0xMTA5OTk2MTksLTE5OTM4MDAxMj
+IsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNTYyMjA3NTcsLTE0
+Mjk0NDcxMDddfQ==
 -->
