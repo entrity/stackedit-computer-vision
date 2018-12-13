@@ -37,11 +37,13 @@ Better than YOLO: YOLO had low recall and high error in localization.
 Changed network: simpler
 1. include batchnorm, remove dropout
 2. fine-tune classifier network at full resolution (448x448)
+3. remove FC layers; use anchor boxes to predict BBs
+4. shrink res to 416x416 and remove a pooling layer to give output a center cell, since images tend to have an object in center
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA3MTEyNTQxLC0yMDM3MDg1Mzg4LC0yMD
-U0ODE4NjgzLDM5ODIwNDUzMiwxMTc4MDIyMzQyLC04Nzc5Mzcx
-MzcsMTEyNjM3ODA2MiwtMTEwOTk5NjE5LC0xOTkzODAwMTIyLD
-IwNTY1MDg1NywtMTYwOTc0NDcyMiwtMjU2MjIwNzU3LC0xNDI5
-NDQ3MTA3LDI3Mjk2MjY1MywxODgwODcwNTI2LDE3ODY5ODIxOD
-RdfQ==
+eyJoaXN0b3J5IjpbMTk2NzYzODMzNCwtMjAzNzA4NTM4OCwtMj
+A1NDgxODY4MywzOTgyMDQ1MzIsMTE3ODAyMjM0MiwtODc3OTM3
+MTM3LDExMjYzNzgwNjIsLTExMDk5OTYxOSwtMTk5MzgwMDEyMi
+wyMDU2NTA4NTcsLTE2MDk3NDQ3MjIsLTI1NjIyMDc1NywtMTQy
+OTQ0NzEwNywyNzI5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgyMT
+g0XX0=
 -->
