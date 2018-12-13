@@ -37,7 +37,7 @@ Better than YOLO: YOLO had low recall and high error in localization.
 Changed network: simpler
 1. include batchnorm, remove dropout
 2. fine-tune classifier network at full resolution (448x448)
-3. remove FC layers; use anchor boxes to predict BBs. (yields 1000+ proposals vs 98 from YOLO)
+3. remove FC layers; use anchor boxes to predict BBs for each cell. (yields 1000+ proposals vs 98 from YOLO)
 4. shrink res to 416x416 and remove a pooling layer to give 13x13 output, which has a center cell, since images tend to have an object in center
 5. predict class and objectness (IoU) for every anchor box.
 
@@ -45,11 +45,14 @@ Changed network: simpler
 AB's have to be picked, not learned. But they pick good ones by running k-means clustering on dataset, using $d(\text{box},\text{centroid}) = 1 - \text{IoU}(\text{box},\text{centroid})$.
 
 Predict 5 BBs at each cell, and predict $x,y,w,h,o$ for each BB.
+
+Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\si$ to bound to [0,1].
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDQxODEzLDIwNzExMzQ0MTksLTE5MT
-cwODkyNzMsLTIwMzcwODUzODgsLTIwNTQ4MTg2ODMsMzk4MjA0
-NTMyLDExNzgwMjIzNDIsLTg3NzkzNzEzNywxMTI2Mzc4MDYyLC
-0xMTA5OTk2MTksLTE5OTM4MDAxMjIsMjA1NjUwODU3LC0xNjA5
-NzQ0NzIyLC0yNTYyMjA3NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNj
-UzLDE4ODA4NzA1MjYsMTc4Njk4MjE4NF19
+eyJoaXN0b3J5IjpbMTkxMDA5NDc1LC02NDA0MTgxMywyMDcxMT
+M0NDE5LC0xOTE3MDg5MjczLC0yMDM3MDg1Mzg4LC0yMDU0ODE4
+NjgzLDM5ODIwNDUzMiwxMTc4MDIyMzQyLC04Nzc5MzcxMzcsMT
+EyNjM3ODA2MiwtMTEwOTk5NjE5LC0xOTkzODAwMTIyLDIwNTY1
+MDg1NywtMTYwOTc0NDcyMiwtMjU2MjIwNzU3LC0xNDI5NDQ3MT
+A3LDI3Mjk2MjY1MywxODgwODcwNTI2LDE3ODY5ODIxODRdfQ==
+
 -->
