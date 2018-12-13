@@ -56,9 +56,12 @@ Pretrained on ImageNet until classification was comparable to GoogLeNet.
 Then prepended four Conv layers and added two fc layers. Increased resolution from 224 to 448 in order to support detection task, as opposed to image classification task.
 
 Low confidences for cells that contain yields high gradient, which gradient from neighbouring cells during backprop. Compensate by increasing weight of BB and decreasing weight of classification on cells that lack objects (in gt): $\lambda_{\text{coord}}=5$, $\lambda_{\text{noobj}}=0.5$
+
+Small deviations in BB of large objects matter less than for small objects, so predict square root of $w,h$ instead of width and height directly.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODAyMjM0MiwtODc3OTM3MTM3LDExMj
-YzNzgwNjIsLTExMDk5OTYxOSwtMTk5MzgwMDEyMiwyMDU2NTA4
-NTcsLTE2MDk3NDQ3MjIsLTI1NjIyMDc1NywtMTQyOTQ0NzEwNy
-wyNzI5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgyMTg0XX0=
+eyJoaXN0b3J5IjpbMzk4MjA0NTMyLDExNzgwMjIzNDIsLTg3Nz
+kzNzEzNywxMTI2Mzc4MDYyLC0xMTA5OTk2MTksLTE5OTM4MDAx
+MjIsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNTYyMjA3NTcsLT
+E0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4NzA1MjYsMTc4Njk4
+MjE4NF19
 -->
