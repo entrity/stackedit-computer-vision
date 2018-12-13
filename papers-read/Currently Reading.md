@@ -27,8 +27,10 @@ BG: Motion segmentation methods aim to segment moving objects in video, can disc
 Plan: formulate object discovery problem as foreground motion clusterin: cluster pixels in a video into different objects based on their motion.
 
 Video frames and optical flow as input to encoder-decoder, then use feature embeddings to learn classifier to discriminate foreground v background.
+
+# [Deep-RBF Networks Revisited: Robust Classification with Rejection](https://arxiv.org/pdf/1812.03190.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDk3NDQ3MjIsLTI1NjIyMDc1NywtMT
-QyOTQ0NzEwNywyNzI5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgy
-MTg0XX0=
+eyJoaXN0b3J5IjpbMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNT
+YyMjA3NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4NzA1
+MjYsMTc4Njk4MjE4NF19
 -->
