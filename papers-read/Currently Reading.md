@@ -34,9 +34,9 @@ Video frames and optical flow as input to encoder-decoder, then use feature embe
 
 Better than YOLO: YOLO had low recall and high error in localization.
 
-Changed network: simpler; include batchnorm;
+Changed network: simpler; include batchnorm; fine-tune classifier network at full resolution (448x448)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzkwNTU1NCwtMjAzNzA4NTM4OCwtMj
+eyJoaXN0b3J5IjpbLTgwMzg0NjMyMywtMjAzNzA4NTM4OCwtMj
 A1NDgxODY4MywzOTgyMDQ1MzIsMTE3ODAyMjM0MiwtODc3OTM3
 MTM3LDExMjYzNzgwNjIsLTExMDk5OTYxOSwtMTk5MzgwMDEyMi
 wyMDU2NTA4NTcsLTE2MDk3NDQ3MjIsLTI1NjIyMDc1NywtMTQy
