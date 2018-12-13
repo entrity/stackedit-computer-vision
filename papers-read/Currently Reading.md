@@ -52,11 +52,12 @@ A fast version was created (150 fps vs 45 fps): 9 conv layers instead of 24, few
 ### Experiments
 Pascal VOC. $S=7, B=2, C=20$
 
-Pretrained on ImageNet until classification was comparable to GoogLeNet. Then prepended 
+Pretrained on ImageNet until classification was comparable to GoogLeNet.
+Then prepended four Conv layers and added two fc layers. Increased resolution from 224 to 448 in order to support detection task, as opposed to image classification task.
 
 Low confidences for cells that contain yields high gradient, which gradient from neighbouring cells during backprop. Compensate by increasing weight of BB and decreasing weight of classification on cells that lack objects (in gt): $\lambda_{\text{coord}}=5$, $\lambda_{\text{noobj}}=0.5$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NDc5OTE4NywtODc3OTM3MTM3LDExMj
+eyJoaXN0b3J5IjpbMTE3ODAyMjM0MiwtODc3OTM3MTM3LDExMj
 YzNzgwNjIsLTExMDk5OTYxOSwtMTk5MzgwMDEyMiwyMDU2NTA4
 NTcsLTE2MDk3NDQ3MjIsLTI1NjIyMDc1NywtMTQyOTQ0NzEwNy
 wyNzI5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgyMTg0XX0=
