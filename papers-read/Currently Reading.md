@@ -50,9 +50,9 @@ Predict 5 BBs at each cell, and predict $x,y,w,h,o$ for each BB.
 
 Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\sigma$ to bound to [0,1] to keep location from ending up just anywhere in image (not near to given grid cell).
 
-### Joint classification and detection (di
+### Joint classification and detection (different datasets)
 
-Trains on both detection datasets (COCO) *and* image classification datasets (ImageNet). Makes a hierarchical synset for all labels from both datasets. When given an image-classification example, it 
+Trains on both detection datasets (COCO) *and* image classification datasets (ImageNet). Makes a hierarchical synset for all labels from both datasets. When given a classification example, we only backprop classificaion loss. When given any example, classification loss is only backpropagated at or above the corresponding level in the WordTree.
 
 ### Misc
 
@@ -63,11 +63,11 @@ Uses Darknet-19 as its base.
 ### Performance
 78.6 mAP at high resolution.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc0NzA5ODUsMjAzNzQyOTMzMiwxMj
-k5OTEyNjAzLDk2NDMyMzE3MSwtNjQwNDE4MTMsMjA3MTEzNDQx
-OSwtMTkxNzA4OTI3MywtMjAzNzA4NTM4OCwtMjA1NDgxODY4My
-wzOTgyMDQ1MzIsMTE3ODAyMjM0MiwtODc3OTM3MTM3LDExMjYz
-NzgwNjIsLTExMDk5OTYxOSwtMTk5MzgwMDEyMiwyMDU2NTA4NT
-csLTE2MDk3NDQ3MjIsLTI1NjIyMDc1NywtMTQyOTQ0NzEwNywy
-NzI5NjI2NTNdfQ==
+eyJoaXN0b3J5IjpbLTkzNTM4OTg2LDIwMzc0MjkzMzIsMTI5OT
+kxMjYwMyw5NjQzMjMxNzEsLTY0MDQxODEzLDIwNzExMzQ0MTks
+LTE5MTcwODkyNzMsLTIwMzcwODUzODgsLTIwNTQ4MTg2ODMsMz
+k4MjA0NTMyLDExNzgwMjIzNDIsLTg3NzkzNzEzNywxMTI2Mzc4
+MDYyLC0xMTA5OTk2MTksLTE5OTM4MDAxMjIsMjA1NjUwODU3LC
+0xNjA5NzQ0NzIyLC0yNTYyMjA3NTcsLTE0Mjk0NDcxMDcsMjcy
+OTYyNjUzXX0=
 -->
