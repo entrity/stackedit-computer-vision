@@ -50,9 +50,9 @@ Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\sigma$ to bound t
 
 ### Misc
 
-For localizing smaller objects, 
+For localizing smaller objects, add a passthrough layer that brings features from an earlier layer at double resolution; concat fine-grained features with the higher-res features (as additional channels)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODQ1MjMwMiwtNjQwNDE4MTMsMjA3MT
+eyJoaXN0b3J5IjpbMjA5ODc2NzI5NywtNjQwNDE4MTMsMjA3MT
 EzNDQxOSwtMTkxNzA4OTI3MywtMjAzNzA4NTM4OCwtMjA1NDgx
 ODY4MywzOTgyMDQ1MzIsMTE3ODAyMjM0MiwtODc3OTM3MTM3LD
 ExMjYzNzgwNjIsLTExMDk5OTYxOSwtMTk5MzgwMDEyMiwyMDU2
