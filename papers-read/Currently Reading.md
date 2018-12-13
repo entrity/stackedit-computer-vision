@@ -40,12 +40,13 @@ Weaknesses: Location accuracy less than SOTA, particularly for small objects.
 
 Looks at entire image at once.
 Predicts all bounding boxes for all classes at once.
-Divides image into SxS grid. Each cell is responsible for an object if the object's center falls within the cell. Each cell predicts $B$ bbs and $C$ class probabilities. (O
+Divides image into SxS grid. Each cell is responsible for an object if the object's center falls within the cell. Each cell predicts $B$ bbs and $C$ class probabilities. (One set of $C$ per cell, regardless of $B$.)
 
-**Format**: BB is $x,y,h,w,confidence$, where $x,y$ are the center of the object relative to the cell and $w,h$ are relative to the whole image and $c$ is IoU (or Prob(Obj) * IoU ?)
+**Format**: BB is $x,y,h,w,confidence$, where $x,y$ are the center of the object relative to the cell and $w,h$ are relative to the whole image and $c$ is IoU.
+At test time, class confidence is $Pr(Obj) \times \text{IoU}$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTg0MDc5MiwtMTEwOTk5NjE5LC0xOT
-kzODAwMTIyLDIwNTY1MDg1NywtMTYwOTc0NDcyMiwtMjU2MjIw
-NzU3LC0xNDI5NDQ3MTA3LDI3Mjk2MjY1MywxODgwODcwNTI2LD
-E3ODY5ODIxODRdfQ==
+eyJoaXN0b3J5IjpbODY0NTcwNDU3LC0xMTA5OTk2MTksLTE5OT
+M4MDAxMjIsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNTYyMjA3
+NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4NzA1MjYsMT
+c4Njk4MjE4NF19
 -->
