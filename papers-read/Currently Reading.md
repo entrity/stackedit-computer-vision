@@ -44,9 +44,9 @@ Changed network: simpler
 ### Anchor boxes
 AB's have to be picked, not learned. But they pick good ones by running k-means clustering on dataset, using $d(\text{box},\text{centroid}) = 1 - \text{IoU}(\text{box},\text{centroid})$.
 
-
+Predict 5 BBs at each cell, and predict $x,y,w,h,o$ for each BB.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzNjMyODE1LDIwNzExMzQ0MTksLTE5MT
+eyJoaXN0b3J5IjpbLTY0MDQxODEzLDIwNzExMzQ0MTksLTE5MT
 cwODkyNzMsLTIwMzcwODUzODgsLTIwNTQ4MTg2ODMsMzk4MjA0
 NTMyLDExNzgwMjIzNDIsLTg3NzkzNzEzNywxMTI2Mzc4MDYyLC
 0xMTA5OTk2MTksLTE5OTM4MDAxMjIsMjA1NjUwODU3LC0xNjA5
