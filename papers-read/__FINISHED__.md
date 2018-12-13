@@ -66,10 +66,15 @@ Uses Darknet-19 as its base.
 
 # [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf) 2018 Apr 8
 
+
+### Multiscale predictions
 Predicts at 3 scales for each BB. (9 clusters were chosen for BB priors, then these were divided evenly among the 3 scales.)
 At the first scale, a prediction is made as usual for 3 BB's at each of the NxN output locations.
-Then the feature map from 2 layers up is upsampled 2x and concatenated with another feature map from still higher in the network. (See YOLO9000 for how they concatenate feature maps of different spatial dimensions.) This map is passed through some more conv layers and then outputs predictions in the same format as at the first scale (but larger since 
+Then the feature map from 2 layers up is upsampled 2x and concatenated with another feature map from still higher in the network. (See YOLO9000 for how they concatenate feature maps of different spatial dimensions.) This map is passed through some more conv layers and then outputs predictions in the same format as at the first scale (but larger since the final feature maps are larger).
+The same thing happens once more for the 3rd prediction, at the finest-grained scale of all (smallest objects).
+
+### N
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2Mjc3MTA2LDcwNzQxMDg0MCwxNTY1Nj
+eyJoaXN0b3J5IjpbMzU2NzE4Mjg5LDcwNzQxMDg0MCwxNTY1Nj
 I3NjQyLC0xOTU2NTE5MDA4XX0=
 -->
