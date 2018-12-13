@@ -66,10 +66,8 @@ Uses Darknet-19 as its base.
 
 # [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf) 2018 Apr 8
 
-
-
-
+Predicts at 3 scales for each BB. (9 clusters were chosen for BB priors, then thes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3NDEwODQwLDE1NjU2Mjc2NDIsLTE5NT
-Y1MTkwMDhdfQ==
+eyJoaXN0b3J5IjpbLTcwNDExMDE0NSw3MDc0MTA4NDAsMTU2NT
+YyNzY0MiwtMTk1NjUxOTAwOF19
 -->
