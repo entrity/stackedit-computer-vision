@@ -84,9 +84,9 @@
 : The C&W (Carlini and Wagner) method of generating adversarial examples is presented.
 
 [You Only Look Once: Unified, Real-Time Object Detection](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf) 2016
-: Divide image into grid; each cell predicts $B$ bbs and $C$ class probabilities. Fastest object detector to date
+: Divide image into grid; each cell predicts $B$ bbs and $C$ class probabilities. Fastest object detector to date. Incorporates global view of image for fewer bg false positives.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDE1OTU3NiwtMTEwOTE5NTEyMSwtMT
+eyJoaXN0b3J5IjpbMTk0MDA4NzQ2MywtMTEwOTE5NTEyMSwtMT
 I3NTUyMjI1LC00NTYzOTc0NzgsMTMzNTg5Mzg2Niw1MjI0ODQ0
 ODMsLTE1OTI3NTgzMDUsLTk2MzU3OTE1NCwyMjM5NzQ0NDIsLT
 U2NzQ1NDAxNCwyMTM5OTE1NDczLC0xNTk5NzQwMTY4LC03NDY4
