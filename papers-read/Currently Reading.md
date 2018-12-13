@@ -32,13 +32,14 @@ Video frames and optical flow as input to encoder-decoder, then use feature embe
 
 # [YOLO9000: Better, Faster, Stronger](http://openaccess.thecvf.com/content_cvpr_2017/papers/Redmon_YOLO9000_Better_Faster_CVPR_2017_paper.pdf) 2017
 
-Better than YOLO:
-1, 
+Better than YOLO: YOLO had low recall and high error in localization.
+
+Changed network: simpler; include batchnorm;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ2Njk3NjQ5LC0yMDM3MDg1Mzg4LC0yMD
-U0ODE4NjgzLDM5ODIwNDUzMiwxMTc4MDIyMzQyLC04Nzc5Mzcx
-MzcsMTEyNjM3ODA2MiwtMTEwOTk5NjE5LC0xOTkzODAwMTIyLD
-IwNTY1MDg1NywtMTYwOTc0NDcyMiwtMjU2MjIwNzU3LC0xNDI5
-NDQ3MTA3LDI3Mjk2MjY1MywxODgwODcwNTI2LDE3ODY5ODIxOD
-RdfQ==
+eyJoaXN0b3J5IjpbMTU3NzkwNTU1NCwtMjAzNzA4NTM4OCwtMj
+A1NDgxODY4MywzOTgyMDQ1MzIsMTE3ODAyMjM0MiwtODc3OTM3
+MTM3LDExMjYzNzgwNjIsLTExMDk5OTYxOSwtMTk5MzgwMDEyMi
+wyMDU2NTA4NTcsLTE2MDk3NDQ3MjIsLTI1NjIyMDc1NywtMTQy
+OTQ0NzEwNywyNzI5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgyMT
+g0XX0=
 -->
