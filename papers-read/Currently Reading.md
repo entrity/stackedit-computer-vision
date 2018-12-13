@@ -35,6 +35,7 @@ Video frames and optical flow as input to encoder-decoder, then use feature embe
 Achieves SOTA on object detection with realtime speed (30+ fps)
 Better than YOLO: YOLO had low recall and high error in localization.
 
+### Changes from YOLO
 Changed network: simpler
 1. include batchnorm, remove dropout
 2. fine-tune classifier network at full resolution (448x448)
@@ -52,8 +53,11 @@ Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\sigma$ to bound t
 ### Misc
 
 For localizing smaller objects, add a passthrough layer that brings features from an earlier layer at double resolution. Stack adjacent features in high-res maps so that the spatial dimensions drop to match that of the low-res maps so that the they two can be concatenated.
+
+### Performance
+78.6 mAP at high resolution.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDA1MTA1NSw5NjQzMjMxNzEsLTY0MD
+eyJoaXN0b3J5IjpbMTI5OTkxMjYwMyw5NjQzMjMxNzEsLTY0MD
 QxODEzLDIwNzExMzQ0MTksLTE5MTcwODkyNzMsLTIwMzcwODUz
 ODgsLTIwNTQ4MTg2ODMsMzk4MjA0NTMyLDExNzgwMjIzNDIsLT
 g3NzkzNzEzNywxMTI2Mzc4MDYyLC0xMTA5OTk2MTksLTE5OTM4
