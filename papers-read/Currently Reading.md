@@ -50,6 +50,10 @@ Predict 5 BBs at each cell, and predict $x,y,w,h,o$ for each BB.
 
 Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\sigma$ to bound to [0,1] to keep location from ending up just anywhere in image (not near to given grid cell).
 
+### Joint classification and detection (di
+
+Trains on both detection datasets (COCO) *and* image classification datasets (ImageNet). Makes a hierarchical synset for all labels from both datasets. When given an image-classification example, it 
+
 ### Misc
 
 For localizing smaller objects, add a passthrough layer that brings features from an earlier layer at double resolution. Stack adjacent features in high-res maps so that the spatial dimensions drop to match that of the low-res maps so that the they two can be concatenated.
@@ -59,11 +63,11 @@ Uses Darknet-19 as its base.
 ### Performance
 78.6 mAP at high resolution.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzQyOTMzMiwxMjk5OTEyNjAzLDk2ND
-MyMzE3MSwtNjQwNDE4MTMsMjA3MTEzNDQxOSwtMTkxNzA4OTI3
-MywtMjAzNzA4NTM4OCwtMjA1NDgxODY4MywzOTgyMDQ1MzIsMT
-E3ODAyMjM0MiwtODc3OTM3MTM3LDExMjYzNzgwNjIsLTExMDk5
-OTYxOSwtMTk5MzgwMDEyMiwyMDU2NTA4NTcsLTE2MDk3NDQ3Mj
-IsLTI1NjIyMDc1NywtMTQyOTQ0NzEwNywyNzI5NjI2NTMsMTg4
-MDg3MDUyNl19
+eyJoaXN0b3J5IjpbLTIwNjc0NzA5ODUsMjAzNzQyOTMzMiwxMj
+k5OTEyNjAzLDk2NDMyMzE3MSwtNjQwNDE4MTMsMjA3MTEzNDQx
+OSwtMTkxNzA4OTI3MywtMjAzNzA4NTM4OCwtMjA1NDgxODY4My
+wzOTgyMDQ1MzIsMTE3ODAyMjM0MiwtODc3OTM3MTM3LDExMjYz
+NzgwNjIsLTExMDk5OTYxOSwtMTk5MzgwMDEyMiwyMDU2NTA4NT
+csLTE2MDk3NDQ3MjIsLTI1NjIyMDc1NywtMTQyOTQ0NzEwNywy
+NzI5NjI2NTNdfQ==
 -->
