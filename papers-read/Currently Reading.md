@@ -50,13 +50,13 @@ Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\sigma$ to bound t
 
 ### Misc
 
-For localizing smaller objects, add a passthrough layer that brings features from an earlier layer at double resolution; concat fine-grained features with the higher-res features (as additional channels)
+For localizing smaller objects, add a passthrough layer that brings features from an earlier layer at double resolution. Stack adjacent features in high-res maps so that the spatial dimensions drop to match that of the low-res maps so that the they two can be concatenated.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODc2NzI5NywtNjQwNDE4MTMsMjA3MT
-EzNDQxOSwtMTkxNzA4OTI3MywtMjAzNzA4NTM4OCwtMjA1NDgx
-ODY4MywzOTgyMDQ1MzIsMTE3ODAyMjM0MiwtODc3OTM3MTM3LD
-ExMjYzNzgwNjIsLTExMDk5OTYxOSwtMTk5MzgwMDEyMiwyMDU2
-NTA4NTcsLTE2MDk3NDQ3MjIsLTI1NjIyMDc1NywtMTQyOTQ0Nz
-EwNywyNzI5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgyMTg0XX0=
+eyJoaXN0b3J5IjpbOTY0MzIzMTcxLC02NDA0MTgxMywyMDcxMT
+M0NDE5LC0xOTE3MDg5MjczLC0yMDM3MDg1Mzg4LC0yMDU0ODE4
+NjgzLDM5ODIwNDUzMiwxMTc4MDIyMzQyLC04Nzc5MzcxMzcsMT
+EyNjM3ODA2MiwtMTEwOTk5NjE5LC0xOTkzODAwMTIyLDIwNTY1
+MDg1NywtMTYwOTc0NDcyMiwtMjU2MjIwNzU3LC0xNDI5NDQ3MT
+A3LDI3Mjk2MjY1MywxODgwODcwNTI2LDE3ODY5ODIxODRdfQ==
 
 -->
