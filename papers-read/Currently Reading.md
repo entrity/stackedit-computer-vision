@@ -35,10 +35,11 @@ Bottom line: Object detection. E2e: a single convnet predicts bbs and class prob
 1. Speedup over divided models like the original R-CNN. Speedup over sliding window models like Deformable Parts Model (DPM). Better mAP.
 2. Global reasoning (unlike sliding-window or region-proposal solutions). Contrast with Fast R-CNN.
 3. Transfers across domains better.
-4. 
+
+Weaknesses: Location accuracy less than SOTA, particularly for small objects.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDMzODA4OCwtMTEwOTk5NjE5LC0xOT
-kzODAwMTIyLDIwNTY1MDg1NywtMTYwOTc0NDcyMiwtMjU2MjIw
-NzU3LC0xNDI5NDQ3MTA3LDI3Mjk2MjY1MywxODgwODcwNTI2LD
-E3ODY5ODIxODRdfQ==
+eyJoaXN0b3J5IjpbNjg2NzQwMjUyLC0xMTA5OTk2MTksLTE5OT
+M4MDAxMjIsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNTYyMjA3
+NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4NzA1MjYsMT
+c4Njk4MjE4NF19
 -->
