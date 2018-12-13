@@ -37,9 +37,13 @@ Bottom line: Object detection. E2e: a single convnet predicts bbs and class prob
 3. Transfers across domains better.
 
 Weaknesses: Location accuracy less than SOTA, particularly for small objects.
+
+Looks at entire image at once.
+Predicts all bounding boxes for all classes at once.
+Divides image into SxS grid. Each cell is responsible for an object if the object's center falls within the cell. Each cell predicts $B$ bbs and confi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2NzQwMjUyLC0xMTA5OTk2MTksLTE5OT
-M4MDAxMjIsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNTYyMjA3
-NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4NzA1MjYsMT
-c4Njk4MjE4NF19
+eyJoaXN0b3J5IjpbLTE4MDA0NjAxMzgsLTExMDk5OTYxOSwtMT
+k5MzgwMDEyMiwyMDU2NTA4NTcsLTE2MDk3NDQ3MjIsLTI1NjIy
+MDc1NywtMTQyOTQ0NzEwNywyNzI5NjI2NTMsMTg4MDg3MDUyNi
+wxNzg2OTgyMTg0XX0=
 -->
