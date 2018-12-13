@@ -32,7 +32,7 @@ Video frames and optical flow as input to encoder-decoder, then use feature embe
 
 # [YOLO9000: Better, Faster, Stronger](http://openaccess.thecvf.com/content_cvpr_2017/papers/Redmon_YOLO9000_Better_Faster_CVPR_2017_paper.pdf) 2017
 
-Achieves SOTA on object dete
+Achieves SOTA on object detection with realtime speed (30+ fps)
 Better than YOLO: YOLO had low recall and high error in localization.
 
 Changed network: simpler
@@ -53,11 +53,11 @@ Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\sigma$ to bound t
 
 For localizing smaller objects, add a passthrough layer that brings features from an earlier layer at double resolution. Stack adjacent features in high-res maps so that the spatial dimensions drop to match that of the low-res maps so that the they two can be concatenated.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzODI0MDcwLDk2NDMyMzE3MSwtNjQwND
-E4MTMsMjA3MTEzNDQxOSwtMTkxNzA4OTI3MywtMjAzNzA4NTM4
-OCwtMjA1NDgxODY4MywzOTgyMDQ1MzIsMTE3ODAyMjM0MiwtOD
-c3OTM3MTM3LDExMjYzNzgwNjIsLTExMDk5OTYxOSwtMTk5Mzgw
-MDEyMiwyMDU2NTA4NTcsLTE2MDk3NDQ3MjIsLTI1NjIyMDc1Ny
-wtMTQyOTQ0NzEwNywyNzI5NjI2NTMsMTg4MDg3MDUyNiwxNzg2
-OTgyMTg0XX0=
+eyJoaXN0b3J5IjpbMjEzNDA1MTA1NSw5NjQzMjMxNzEsLTY0MD
+QxODEzLDIwNzExMzQ0MTksLTE5MTcwODkyNzMsLTIwMzcwODUz
+ODgsLTIwNTQ4MTg2ODMsMzk4MjA0NTMyLDExNzgwMjIzNDIsLT
+g3NzkzNzEzNywxMTI2Mzc4MDYyLC0xMTA5OTk2MTksLTE5OTM4
+MDAxMjIsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNTYyMjA3NT
+csLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4NzA1MjYsMTc4
+Njk4MjE4NF19
 -->
