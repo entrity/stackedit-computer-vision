@@ -50,10 +50,11 @@ At test time, class confidence is $Pr(Obj) \times \text{IoU}$.
 A fast version was created (150 fps vs 45 fps): 9 conv layers instead of 24, fewer filters per layer.
 
 ### Experiments
-Pascal VOC. $S=7, B=2, C=20$
+Pascal VOC 2007 & 2012. $S=7, B=2, C=20$
 
 Pretrained on ImageNet until classification was comparable to GoogLeNet.
 Then prepended four Conv layers and added two fc layers. Increased resolution from 224 to 448 in order to support detection task, as opposed to image classification task.
+135 epochs training.
 
 Low confidences for cells that contain yields high gradient, which gradient from neighbouring cells during backprop. Compensate by increasing weight of BB and decreasing weight of classification on cells that lack objects (in gt): $\lambda_{\text{coord}}=5$, $\lambda_{\text{noobj}}=0.5$
 
@@ -61,9 +62,9 @@ Small deviations in BB of large objects matter less than for small objects, so p
 
 Different BB predictors end up specializing for different aspect ratios and sizes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ4MTg2ODMsMzk4MjA0NTMyLDExNz
-gwMjIzNDIsLTg3NzkzNzEzNywxMTI2Mzc4MDYyLC0xMTA5OTk2
-MTksLTE5OTM4MDAxMjIsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC
-0yNTYyMjA3NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4
-NzA1MjYsMTc4Njk4MjE4NF19
+eyJoaXN0b3J5IjpbLTIwMzcwODUzODgsLTIwNTQ4MTg2ODMsMz
+k4MjA0NTMyLDExNzgwMjIzNDIsLTg3NzkzNzEzNywxMTI2Mzc4
+MDYyLC0xMTA5OTk2MTksLTE5OTM4MDAxMjIsMjA1NjUwODU3LC
+0xNjA5NzQ0NzIyLC0yNTYyMjA3NTcsLTE0Mjk0NDcxMDcsMjcy
+OTYyNjUzLDE4ODA4NzA1MjYsMTc4Njk4MjE4NF19
 -->
