@@ -52,7 +52,7 @@ Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\sigma$ to bound t
 
 ### Joint classification and detection (different datasets)
 
-Trains on both detection datasets (COCO) *and* image classification datasets (ImageNet). Makes a hierarchical synset for all labels from both datasets. When given a classification example, we only backprop classificaion loss. When given any example, classification loss is only backpropagated at or above the corresponding level in the WordTree.
+Trains on both detection datasets (COCO) *and* image classification datasets (ImageNet). Makes a hierarchical synset for all labels from both datasets. When given a classification example, we only backprop classificaion loss. When given any example, classification loss is only backpropagated at or above the corresponding level of the label in the WordTree.
 
 ### Misc
 
@@ -63,7 +63,7 @@ Uses Darknet-19 as its base.
 ### Performance
 78.6 mAP at high resolution.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTM4OTg2LDIwMzc0MjkzMzIsMTI5OT
+eyJoaXN0b3J5IjpbOTkzMDA4NTYwLDIwMzc0MjkzMzIsMTI5OT
 kxMjYwMyw5NjQzMjMxNzEsLTY0MDQxODEzLDIwNzExMzQ0MTks
 LTE5MTcwODkyNzMsLTIwMzcwODUzODgsLTIwNTQ4MTg2ODMsMz
 k4MjA0NTMyLDExNzgwMjIzNDIsLTg3NzkzNzEzNywxMTI2Mzc4
