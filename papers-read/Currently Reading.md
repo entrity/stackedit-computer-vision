@@ -40,11 +40,14 @@ Changed network: simpler
 3. remove FC layers; use anchor boxes to predict BBs. (yields 1000+ proposals vs 98 from YOLO)
 4. shrink res to 416x416 and remove a pooling layer to give 13x13 output, which has a center cell, since images tend to have an object in center
 5. predict class and objectness (IoU) for every anchor box.
+
+### Anchor boxes
+AB's have to be picked, not learned,. But 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTcwODkyNzMsLTIwMzcwODUzODgsLT
-IwNTQ4MTg2ODMsMzk4MjA0NTMyLDExNzgwMjIzNDIsLTg3Nzkz
-NzEzNywxMTI2Mzc4MDYyLC0xMTA5OTk2MTksLTE5OTM4MDAxMj
-IsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNTYyMjA3NTcsLTE0
-Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4NzA1MjYsMTc4Njk4Mj
-E4NF19
+eyJoaXN0b3J5IjpbMTkyMDQ2NDk0MiwtMTkxNzA4OTI3MywtMj
+AzNzA4NTM4OCwtMjA1NDgxODY4MywzOTgyMDQ1MzIsMTE3ODAy
+MjM0MiwtODc3OTM3MTM3LDExMjYzNzgwNjIsLTExMDk5OTYxOS
+wtMTk5MzgwMDEyMiwyMDU2NTA4NTcsLTE2MDk3NDQ3MjIsLTI1
+NjIyMDc1NywtMTQyOTQ0NzEwNywyNzI5NjI2NTMsMTg4MDg3MD
+UyNiwxNzg2OTgyMTg0XX0=
 -->
