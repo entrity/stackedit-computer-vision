@@ -43,11 +43,13 @@ Changed network: simpler
 
 ### Anchor boxes
 AB's have to be picked, not learned. But they pick good ones by running k-means clustering on dataset, using $d(\text{box},\text{centroid}) = 1 - \text{IoU}(\text{box},\text{centroid})$.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTEzNDQxOSwtMTkxNzA4OTI3MywtMj
-AzNzA4NTM4OCwtMjA1NDgxODY4MywzOTgyMDQ1MzIsMTE3ODAy
-MjM0MiwtODc3OTM3MTM3LDExMjYzNzgwNjIsLTExMDk5OTYxOS
-wtMTk5MzgwMDEyMiwyMDU2NTA4NTcsLTE2MDk3NDQ3MjIsLTI1
-NjIyMDc1NywtMTQyOTQ0NzEwNywyNzI5NjI2NTMsMTg4MDg3MD
-UyNiwxNzg2OTgyMTg0XX0=
+eyJoaXN0b3J5IjpbMzEzNjMyODE1LDIwNzExMzQ0MTksLTE5MT
+cwODkyNzMsLTIwMzcwODUzODgsLTIwNTQ4MTg2ODMsMzk4MjA0
+NTMyLDExNzgwMjIzNDIsLTg3NzkzNzEzNywxMTI2Mzc4MDYyLC
+0xMTA5OTk2MTksLTE5OTM4MDAxMjIsMjA1NjUwODU3LC0xNjA5
+NzQ0NzIyLC0yNTYyMjA3NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNj
+UzLDE4ODA4NzA1MjYsMTc4Njk4MjE4NF19
 -->
