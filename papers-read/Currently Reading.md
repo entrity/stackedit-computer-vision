@@ -54,14 +54,16 @@ Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\sigma$ to bound t
 
 For localizing smaller objects, add a passthrough layer that brings features from an earlier layer at double resolution. Stack adjacent features in high-res maps so that the spatial dimensions drop to match that of the low-res maps so that the they two can be concatenated.
 
+Uses Darknet-19 as its base.
+
 ### Performance
 78.6 mAP at high resolution.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTkxMjYwMyw5NjQzMjMxNzEsLTY0MD
-QxODEzLDIwNzExMzQ0MTksLTE5MTcwODkyNzMsLTIwMzcwODUz
-ODgsLTIwNTQ4MTg2ODMsMzk4MjA0NTMyLDExNzgwMjIzNDIsLT
-g3NzkzNzEzNywxMTI2Mzc4MDYyLC0xMTA5OTk2MTksLTE5OTM4
-MDAxMjIsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNTYyMjA3NT
-csLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4NzA1MjYsMTc4
-Njk4MjE4NF19
+eyJoaXN0b3J5IjpbMjAzNzQyOTMzMiwxMjk5OTEyNjAzLDk2ND
+MyMzE3MSwtNjQwNDE4MTMsMjA3MTEzNDQxOSwtMTkxNzA4OTI3
+MywtMjAzNzA4NTM4OCwtMjA1NDgxODY4MywzOTgyMDQ1MzIsMT
+E3ODAyMjM0MiwtODc3OTM3MTM3LDExMjYzNzgwNjIsLTExMDk5
+OTYxOSwtMTk5MzgwMDEyMiwyMDU2NTA4NTcsLTE2MDk3NDQ3Mj
+IsLTI1NjIyMDc1NywtMTQyOTQ0NzEwNywyNzI5NjI2NTMsMTg4
+MDg3MDUyNl19
 -->
