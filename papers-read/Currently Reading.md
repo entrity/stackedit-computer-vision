@@ -59,11 +59,11 @@ Low confidences for cells that contain yields high gradient, which gradient from
 
 Small deviations in BB of large objects matter less than for small objects, so predict square root of $w,h$ instead of width and height directly.
 
-
+Different BB predictors end up specializing for different aspect ratios and sizes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxNzc4MDgsMzk4MjA0NTMyLDExNzgwMj
-IzNDIsLTg3NzkzNzEzNywxMTI2Mzc4MDYyLC0xMTA5OTk2MTks
-LTE5OTM4MDAxMjIsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNT
-YyMjA3NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4NzA1
-MjYsMTc4Njk4MjE4NF19
+eyJoaXN0b3J5IjpbLTIwNTQ4MTg2ODMsMzk4MjA0NTMyLDExNz
+gwMjIzNDIsLTg3NzkzNzEzNywxMTI2Mzc4MDYyLC0xMTA5OTk2
+MTksLTE5OTM4MDAxMjIsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC
+0yNTYyMjA3NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4
+NzA1MjYsMTc4Njk4MjE4NF19
 -->
