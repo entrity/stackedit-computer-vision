@@ -29,8 +29,12 @@ Plan: formulate object discovery problem as foreground motion clusterin: cluster
 Video frames and optical flow as input to encoder-decoder, then use feature embeddings to learn classifier to discriminate foreground v background.
 
 # [Deep-RBF Networks Revisited: Robust Classification with Rejection](https://arxiv.org/pdf/1812.03190.pdf)
+
+# [You Only Look Once: Unified, Real-Time Object Detection](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNT
-YyMjA3NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4NzA1
-MjYsMTc4Njk4MjE4NF19
+eyJoaXN0b3J5IjpbLTE5OTM4MDAxMjIsMjA1NjUwODU3LC0xNj
+A5NzQ0NzIyLC0yNTYyMjA3NTcsLTE0Mjk0NDcxMDcsMjcyOTYy
+NjUzLDE4ODA4NzA1MjYsMTc4Njk4MjE4NF19
 -->
