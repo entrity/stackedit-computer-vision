@@ -40,12 +40,12 @@ Weaknesses: Location accuracy less than SOTA, particularly for small objects.
 
 Looks at entire image at once.
 Predicts all bounding boxes for all classes at once.
-Divides image into SxS grid. Each cell is responsible for an object if the object's center falls within the cell. Each cell predicts $B$ bbs and confidence scores for each bb ($Pr(obj) \times IoU$).
+Divides image into SxS grid. Each cell is responsible for an object if the object's center falls within the cell. Each cell predicts $B$ bbs.
 
-**Format**: BB is $x,y,h,w,
+**Format**: BB is $x,y,h,w,confidence$, where $x,y$ are the center of the object relative to the cell and $w,h$ are relative to the whole image and $c$ is $Pr(obj) \times IoU$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY3ODk0NjUsLTExMDk5OTYxOSwtMT
-k5MzgwMDEyMiwyMDU2NTA4NTcsLTE2MDk3NDQ3MjIsLTI1NjIy
-MDc1NywtMTQyOTQ0NzEwNywyNzI5NjI2NTMsMTg4MDg3MDUyNi
-wxNzg2OTgyMTg0XX0=
+eyJoaXN0b3J5IjpbMTgyNDY4MjA4NSwtMTEwOTk5NjE5LC0xOT
+kzODAwMTIyLDIwNTY1MDg1NywtMTYwOTc0NDcyMiwtMjU2MjIw
+NzU3LC0xNDI5NDQ3MTA3LDI3Mjk2MjY1MywxODgwODcwNTI2LD
+E3ODY5ODIxODRdfQ==
 -->
