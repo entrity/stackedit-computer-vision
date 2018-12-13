@@ -37,14 +37,14 @@ Better than YOLO: YOLO had low recall and high error in localization.
 Changed network: simpler
 1. include batchnorm, remove dropout
 2. fine-tune classifier network at full resolution (448x448)
-3. remove FC layers; use anchor boxes to predict BBs
+3. remove FC layers; use anchor boxes to predict BBs. (yields 1000+ proposals vs 98 from YOLO)
 4. shrink res to 416x416 and remove a pooling layer to give 13x13 output, which has a center cell, since images tend to have an object in center
-5. predict class and objectness for every anchor box
+5. predict class and objectness (IoU) for every anchor box.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjkzNzQ5MiwtMjAzNzA4NTM4OCwtMj
-A1NDgxODY4MywzOTgyMDQ1MzIsMTE3ODAyMjM0MiwtODc3OTM3
-MTM3LDExMjYzNzgwNjIsLTExMDk5OTYxOSwtMTk5MzgwMDEyMi
-wyMDU2NTA4NTcsLTE2MDk3NDQ3MjIsLTI1NjIyMDc1NywtMTQy
-OTQ0NzEwNywyNzI5NjI2NTMsMTg4MDg3MDUyNiwxNzg2OTgyMT
-g0XX0=
+eyJoaXN0b3J5IjpbLTE5MTcwODkyNzMsLTIwMzcwODUzODgsLT
+IwNTQ4MTg2ODMsMzk4MjA0NTMyLDExNzgwMjIzNDIsLTg3Nzkz
+NzEzNywxMTI2Mzc4MDYyLC0xMTA5OTk2MTksLTE5OTM4MDAxMj
+IsMjA1NjUwODU3LC0xNjA5NzQ0NzIyLC0yNTYyMjA3NTcsLTE0
+Mjk0NDcxMDcsMjcyOTYyNjUzLDE4ODA4NzA1MjYsMTc4Njk4Mj
+E4NF19
 -->
