@@ -45,7 +45,7 @@ Changed network: simpler
 5. predict class and objectness (IoU) for every anchor box.
 
 ### Anchor boxes
-AB's have to be picked, not learned. But they pick good ones by running k-means clustering on dataset, using $d(\text{box},\text{centroid}) = 1 - \text{IoU}(\text{box},\text{centroid})$.
+AB's (a.k.a. "bounding box priors") have to be picked, not learned. But they pick good ones by running k-means clustering on dataset, using $d(\text{box},\text{centroid}) = 1 - \text{IoU}(\text{box},\text{centroid})$.
 
 Predict 5 BBs at each cell, and predict $x,y,w,h,o$ for each BB.
 
@@ -70,5 +70,5 @@ Uses Darknet-19 as its base.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTY1MTkwMDhdfQ==
+eyJoaXN0b3J5IjpbMTU2NTYyNzY0MiwtMTk1NjUxOTAwOF19
 -->
