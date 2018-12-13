@@ -51,9 +51,11 @@ A fast version was created (150 fps vs 45 fps): 9 conv layers instead of 24, few
 
 ### Experiments
 Pascal VOC. $S=7, B=2, C=20$
+
+Low confidences for cells that contain yields high gradient, which gradient from neighbouring cells during backprop. Compensate by increasing weight of BB and decreasing weight of classification: $\la
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzkzNzEzNywxMTI2Mzc4MDYyLC0xMT
-A5OTk2MTksLTE5OTM4MDAxMjIsMjA1NjUwODU3LC0xNjA5NzQ0
-NzIyLC0yNTYyMjA3NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLD
-E4ODA4NzA1MjYsMTc4Njk4MjE4NF19
+eyJoaXN0b3J5IjpbMzYxODE0NzE3LC04Nzc5MzcxMzcsMTEyNj
+M3ODA2MiwtMTEwOTk5NjE5LC0xOTkzODAwMTIyLDIwNTY1MDg1
+NywtMTYwOTc0NDcyMiwtMjU2MjIwNzU3LC0xNDI5NDQ3MTA3LD
+I3Mjk2MjY1MywxODgwODcwNTI2LDE3ODY5ODIxODRdfQ==
 -->
