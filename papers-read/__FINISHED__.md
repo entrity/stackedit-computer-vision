@@ -73,8 +73,9 @@ At the first scale, a prediction is made as usual for 3 BB's at each of the NxN 
 Then the feature map from 2 layers up is upsampled 2x and concatenated with another feature map from still higher in the network. (See YOLO9000 for how they concatenate feature maps of different spatial dimensions.) This map is passed through some more conv layers and then outputs predictions in the same format as at the first scale (but larger since the final feature maps are larger).
 The same thing happens once more for the 3rd prediction, at the finest-grained scale of all (smallest objects).
 
-### N
+### New base network
+Uses Darknet-53, which is a hybrid of Darknet-19 (from YOLOv2) and residual networks.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2NzE4Mjg5LDcwNzQxMDg0MCwxNTY1Nj
+eyJoaXN0b3J5IjpbNDU2NjQxMDQ4LDcwNzQxMDg0MCwxNTY1Nj
 I3NjQyLC0xOTU2NTE5MDA4XX0=
 -->
