@@ -30,6 +30,43 @@ Low confidences for cells that contain yields high gradient, which gradient from
 Small deviations in BB of large objects matter less than for small objects, so predict square root of $w,h$ instead of width and height directly.
 
 Different BB predictors end up specializing for different aspect ratios and sizes.
+
+# [YOLO9000: Better, Faster, Stronger](http://openaccess.thecvf.com/content_cvpr_2017/papers/Redmon_YOLO9000_Better_Faster_CVPR_2017_paper.pdf) 2017
+
+Achieves SOTA on object detection with realtime speed (30+ fps)
+Better than YOLO: YOLO had low recall and high error in localization.
+
+### Changes from YOLO
+Changed network: simpler
+1. include batchnorm, remove dropout
+2. fine-tune classifier network at full resolution (448x448)
+3. remove FC layers; use anchor boxes to predict BBs for each cell. (yields 1000+ proposals vs 98 from YOLO)
+4. shrink res to 416x416 and remove a pooling layer to give 13x13 output, which has a center cell, since images tend to have an object in center
+5. predict class and objectness (IoU) for every anchor box.
+
+### Anchor boxes
+AB's have to be picked, not learned. But they pick good ones by running k-means clustering on dataset, using $d(\text{box},\text{centroid}) = 1 - \text{IoU}(\text{box},\text{centroid})$.
+
+Predict 5 BBs at each cell, and predict $x,y,w,h,o$ for each BB.
+
+Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\sigma$ to bound to [0,1] to keep location from ending up just anywhere in image (not near to given grid cell).
+
+### Joint classification and detection (different datasets)
+
+Trains on both detection datasets (COCO) *and* image classification datasets (ImageNet). Makes a hierarchical synset for all labels from both datasets. When given a classification example, we only backprop classification loss. When given any example, classification loss is only backpropagated at or above the corresponding level of the label in the WordTree.
+
+### Misc
+
+For localizing smaller objects, add a passthrough layer that brings features from an earlier layer at double resolution. Stack adjacent features in high-res maps so that the spatial dimensions drop to match that of the low-res maps so that the they two can be concatenated.
+
+Uses Darknet-19 as its base.
+
+### Performance
+78.6 mAP at high resolution.
+
+# [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf) 8 Apr 2018
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDE0NDM0ODldfQ==
+eyJoaXN0b3J5IjpbODM0MjM4MTA2XX0=
 -->
