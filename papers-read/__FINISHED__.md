@@ -66,8 +66,10 @@ Uses Darknet-19 as its base.
 
 # [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf) 2018 Apr 8
 
-Predicts at 3 scales for each BB. (9 clusters were chosen for BB priors, then thes
+Predicts at 3 scales for each BB. (9 clusters were chosen for BB priors, then these were divided evenly among the 3 scales.)
+At the first scale, a prediction is made as usual for 3 BB's at each of the NxN output locations.
+Then the feature map from 2 layers up is upsampled 2x and concatenated with another feature map from still higher in the network.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDExMDE0NSw3MDc0MTA4NDAsMTU2NT
+eyJoaXN0b3J5IjpbMTM0MTE5NDcyNSw3MDc0MTA4NDAsMTU2NT
 YyNzY0MiwtMTk1NjUxOTAwOF19
 -->
