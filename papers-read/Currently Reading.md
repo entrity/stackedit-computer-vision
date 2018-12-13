@@ -46,9 +46,9 @@ AB's have to be picked, not learned. But they pick good ones by running k-means 
 
 Predict 5 BBs at each cell, and predict $x,y,w,h,o$ for each BB.
 
-Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\si$ to bound to [0,1].
+Constrain $x,y$ of BB by passing predicted $t_x,t_y$ through $\sigma$ to bound to [0,1] to keep location from ending up just anywhere in image (not near to given grid cell).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDA5NDc1LC02NDA0MTgxMywyMDcxMT
+eyJoaXN0b3J5IjpbNjg1MDU3NzU2LC02NDA0MTgxMywyMDcxMT
 M0NDE5LC0xOTE3MDg5MjczLC0yMDM3MDg1Mzg4LC0yMDU0ODE4
 NjgzLDM5ODIwNDUzMiwxMTc4MDIyMzQyLC04Nzc5MzcxMzcsMT
 EyNjM3ODA2MiwtMTEwOTk5NjE5LC0xOTkzODAwMTIyLDIwNTY1
