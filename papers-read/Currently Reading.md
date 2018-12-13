@@ -45,11 +45,15 @@ Divides image into SxS grid. Each cell is responsible for an object if the objec
 **Format**: BB is $x,y,h,w,confidence$, where $x,y$ are the center of the object relative to the cell and $w,h$ are relative to the whole image and $c$ is IoU.
 At test time, class confidence is $Pr(Obj) \times \text{IoU}$.
 
+### Architecture
+24 conv layers + 2 fc layers. 1x1 reduction layers followed by 3x3 conv layers.
+A fast version was created (150 fps vs 45 fps): 9 conv layers instead of 24, fewer filters per layer.
+
 ### Experiments
 Pascal VOC. $S=7, B=2, C=20$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjM3ODA2MiwtMTEwOTk5NjE5LC0xOT
-kzODAwMTIyLDIwNTY1MDg1NywtMTYwOTc0NDcyMiwtMjU2MjIw
-NzU3LC0xNDI5NDQ3MTA3LDI3Mjk2MjY1MywxODgwODcwNTI2LD
-E3ODY5ODIxODRdfQ==
+eyJoaXN0b3J5IjpbLTg3NzkzNzEzNywxMTI2Mzc4MDYyLC0xMT
+A5OTk2MTksLTE5OTM4MDAxMjIsMjA1NjUwODU3LC0xNjA5NzQ0
+NzIyLC0yNTYyMjA3NTcsLTE0Mjk0NDcxMDcsMjcyOTYyNjUzLD
+E4ODA4NzA1MjYsMTc4Njk4MjE4NF19
 -->
