@@ -64,9 +64,11 @@ Uses Darknet-19 as its base.
 ### Performance
 78.6 mAP at high resolution.
 
-# [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf) 8 Apr 2018
+# [YOLOv3: An Incremental Improvement](https://pjreddie.com/media/files/papers/YOLOv3.pdf) 2018 Apr 8
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0MjM4MTA2XX0=
+eyJoaXN0b3J5IjpbLTE5NTY1MTkwMDhdfQ==
 -->
