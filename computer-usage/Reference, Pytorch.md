@@ -30,7 +30,8 @@ pdb.set_trace()
 
 ## Converting models
 ### Convert from Tensorflow
-
+https://discuss.pytorch.org/t/how-to-transfer-pretained-model-from-tensorflow-to-pytorch/6173
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTE5MzcwMTYsMzY0OTIyOTY4XX0=
+eyJoaXN0b3J5IjpbMTAyNDIwNDU5NCwtMTgxMTkzNzAxNiwzNj
+Q5MjI5NjhdfQ==
 -->
