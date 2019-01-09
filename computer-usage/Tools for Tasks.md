@@ -14,8 +14,7 @@ Browser
 
 ## Media
 
-video
-: `mplayer` `smplayer` `vlc` ``
+ `mplayer` `smplayer` `vlc` `ffplay` `totem`
 
 ## Computer Vision
 
@@ -27,5 +26,5 @@ Pose estimation
 Project management / Task management
 : [Asana](https://app.asana.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MDY1ODEyNSwzNjQ0NTM5NDNdfQ==
+eyJoaXN0b3J5IjpbMjEzODQ1MTc2MSwzNjQ0NTM5NDNdfQ==
 -->
