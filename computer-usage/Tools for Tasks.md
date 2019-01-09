@@ -12,6 +12,11 @@ Email send/receive
 Browser
 : `puppeteer`, a Node.js package, is headless Google Chrome
 
+## Media
+
+video
+: `mplayer` `smplayer` `vlc` ``
+
 ## Computer Vision
 
 Pose estimation
@@ -22,5 +27,5 @@ Pose estimation
 Project management / Task management
 : [Asana](https://app.asana.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODkxNzQ1OTIsMzY0NDUzOTQzXX0=
+eyJoaXN0b3J5IjpbLTU3MDY1ODEyNSwzNjQ0NTM5NDNdfQ==
 -->
