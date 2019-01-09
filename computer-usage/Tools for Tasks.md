@@ -21,10 +21,17 @@ Browser
 Pose estimation
 : [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose/blob/master/doc/output.md)
 
+Surface normal
+: Taskonomy
+
+Semantic segmentation
+: CSAIL's solution
+
 ## Misc
 
 Project management / Task management
 : [Asana](https://app.asana.com)
+: Github issue tracker
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODQ1MTc2MSwzNjQ0NTM5NDNdfQ==
+eyJoaXN0b3J5IjpbMTEzMTM1OTMwOSwzNjQ0NTM5NDNdfQ==
 -->
