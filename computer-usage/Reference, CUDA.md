@@ -1,5 +1,6 @@
 # CUDA
 
+- `/usr/local/cuda/bin/nvcc --version` - get installed CUDA version
 - `nvidia-smi` - prints GPUs and their current load
 - `export CUDA_VISIBLE_DEVICES=1,2` env variable to set for pytorch to use given gpu(s)
 
@@ -24,6 +25,6 @@ So for vision2, I have compute capability 6.1 and 3.5. So in calls to `nvcc`, I 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc4Mzk1MTMsLTE0Mjc0OTM0MzldfQ
-==
+eyJoaXN0b3J5IjpbMTkxMTU4MTg4OCwtMTE3NzgzOTUxMywtMT
+QyNzQ5MzQzOV19
 -->
