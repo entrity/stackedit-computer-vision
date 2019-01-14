@@ -7,15 +7,15 @@
 
 ```bash
 # Mount a remote directory:
-sshfs user@host:path directory
-# The path can be absolute or relative to the user's $HOME
-# The "user@host" can be an alias from .ssh/config
-#
+sshfs ${user}@${host}:${path} $mydir
+# "path" can be absolute or relative to the user's $HOME
+# "user@host" can be an alias from .ssh/config
+# "mydir" should be an empty local directory
 
 # Unmount the directory:
-fusermount -u 
+fusermount -u $mydir 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODA1MjU5NywtODQyMTIzMzM4LDE3Mj
-EyOTA4MzBdfQ==
+eyJoaXN0b3J5IjpbNTU5NjA3ODU5LC04NDIxMjMzMzgsMTcyMT
+I5MDgzMF19
 -->
