@@ -1,7 +1,9 @@
 # Pytorch Reference
+## Installation
+See https://pytorch.org/.
+
 
 ## Training Step
-
 ```
 self.model.forward(minibatch)
 self.optimizer.zero_grad()
@@ -12,7 +14,6 @@ self.optimizer.step() # update model parameters
 ```
 
 ## Select GPU(s)
-
 ```bash
 export CUDA_VISUAL_DEVICES=<csv of device ids>
 export CUDA_VISUAL_DEVICES=1
@@ -20,7 +21,6 @@ export CUDA_VISUAL_DEVICES=0,2
 ```
 
 ## Python Debugger
-
 ```python
 import pdb
 ...
@@ -32,6 +32,6 @@ pdb.set_trace()
 ### Convert from Tensorflow
 https://discuss.pytorch.org/t/how-to-transfer-pretained-model-from-tensorflow-to-pytorch/6173
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDIwNDU5NCwtMTgxMTkzNzAxNiwzNj
-Q5MjI5NjhdfQ==
+eyJoaXN0b3J5IjpbLTkxODcyOTIxNiwxMDI0MjA0NTk0LC0xOD
+ExOTM3MDE2LDM2NDkyMjk2OF19
 -->
