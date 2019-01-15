@@ -38,9 +38,10 @@ Project management / Task management
 : Github issue tracker
 
 Text editor, IDE
-: PyCharm
+: PyCharm, Notepad++
 : `vim`, `nano`, `emacs`, `vi`, `pico`
+: SublimeText
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODUwODI0NiwxMTMxMzU5MzA5LDM2ND
-Q1Mzk0M119
+eyJoaXN0b3J5IjpbLTE4NjQyODc1MTcsMTEzMTM1OTMwOSwzNj
+Q0NTM5NDNdfQ==
 -->
