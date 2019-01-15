@@ -14,7 +14,11 @@ Browser
 
 ## Media
 
- `mplayer` `smplayer` `vlc` `ffplay` `totem`
+ Audio/Video
+:  `mplayer` `smplayer` `vlc` `ffplay` `totem`
+
+Images
+: `eog` `feh`
 
 ## Computer Vision
 
@@ -32,6 +36,11 @@ Semantic segmentation
 Project management / Task management
 : [Asana](https://app.asana.com)
 : Github issue tracker
+
+Text editor, IDE
+: PyCharm
+: `vim`, `nano`, `emacs`, `vi`, `pico`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTM1OTMwOSwzNjQ0NTM5NDNdfQ==
+eyJoaXN0b3J5IjpbMTU5ODUwODI0NiwxMTMxMzU5MzA5LDM2ND
+Q1Mzk0M119
 -->
