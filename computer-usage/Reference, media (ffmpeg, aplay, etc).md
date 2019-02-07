@@ -6,6 +6,8 @@
 ffplay $myfile -ar $samplerate -ac $channels -f $audioformat
 ```
 
+NB: If using video, don't try to use ffplay with `-ss` to seek to a fine-grained location. It will just seek to a nearby keypoint.
+
 ### Audio formats
 ```bash
 ffmpeg -formats | grep PCM
@@ -35,6 +37,6 @@ aplay [-f $format] $audiofile
 Recognized  sample formats are: S8 U8 S16_LE S16_BE U16_LE U16_BE S24_LE S24_BE U24_LE U24_BE S32_LE S32_BE U32_LE U32_BE FLOAT_LE FLOAT_BE FLOAT64_LE FLOAT64_BE IEC958_SUBFRAME_LE IEC958_SUBFRAME_BE MU_LAW A_LAW IMA_ADPCM MPEG GSM SPECIAL S24_3LE S24_3BE U24_3LE U24_3BE S20_3LE S20_3BE  U20_3LE  U20_3BE  S18_3LE  S18_3BE U18_3LE
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODkwNzIzMjAsLTE0Mjg4NTUzMDJdfQ
-==
+eyJoaXN0b3J5IjpbNTI3NjgzNTE4LC0yMDg5MDcyMzIwLC0xND
+I4ODU1MzAyXX0=
 -->
