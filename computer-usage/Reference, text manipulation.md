@@ -3,6 +3,8 @@
 ```bash
 # Print nth line
 sed -n "${n}p" $FILE
+# Print every nth line
+sed -n "~
 # Print mth and nth line
 sed -n "${m}p;${n}p" $FILE
 # Print lines m through n
@@ -18,5 +20,6 @@ jq '.[] | select(.property == "value")' $JSONFILE
 jq '.[3]' $JSONFILE
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTI0MDUzNiw5MzkxODEwNl19
+eyJoaXN0b3J5IjpbMTY0NTEyMjY5NCwxMjMxMjQwNTM2LDkzOT
+E4MTA2XX0=
 -->
