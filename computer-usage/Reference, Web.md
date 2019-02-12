@@ -18,6 +18,7 @@ The "Current web app url" with look like this:
 https://script.google.com/macros/s/AKfycbzN5c9IV0MEgSwaCTo1T3dyYqanfwSBpCbrxyT9WKD2IwB9hE5w/exec
 Copy the link that says "Test web app for your [latest code](https://script.google.com/a/ucdavis.edu/macros/s/AKfycbxkYMBUOozVsEq4h7RxyPf3rznHHJXksyxzvcgqgSjM/dev)."
 https://script.google.com/a/ucdavis.edu/macros/s/AKfycbxkYMBUOozVsEq4h7RxyPf3rznHHJXksyxzvcgqgSjM/dev
+Use this one, and you won't have to keep deploying
 
 ## Heavier Web Servers
 
@@ -25,6 +26,6 @@ https://script.google.com/a/ucdavis.edu/macros/s/AKfycbxkYMBUOozVsEq4h7RxyPf3rzn
 
 ### Nginx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjM1NDM3NjUsLTYxMjE4MDk4MCw5Mz
-AxMzc3OThdfQ==
+eyJoaXN0b3J5IjpbMjA3MzMxMDg1MCwtNjEyMTgwOTgwLDkzMD
+EzNzc5OF19
 -->
