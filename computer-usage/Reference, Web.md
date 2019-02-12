@@ -12,11 +12,14 @@ It defaults to port 8000 and the current directory. It will serve up directories
 ### Google Apps
 Instead of running your own server, create a Google Apps Script project: https://script.google.com
 
+When ready to deplo
+
 ## Heavier Web Servers
 
 ### Apache
 
 ### Nginx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMjE4MDk4MCw5MzAxMzc3OThdfQ==
+eyJoaXN0b3J5IjpbNjc2MjE5MDY0LC02MTIxODA5ODAsOTMwMT
+M3Nzk4XX0=
 -->
