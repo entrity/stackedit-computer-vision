@@ -9,7 +9,7 @@ python -m http.server [port]
 ```
 It defaults to port 8000 and the current directory. It will serve up directories as index pages.
 
-### Google Apps
+### Google Script apps
 Instead of running your own server, create a Google Apps Script project: https://script.google.com
 
 When ready to deploy, click Publish > Deploy as web app. Then complete the form and submit.
@@ -38,7 +38,7 @@ function doGet(request) {
 
 ### Nginx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDcyMTE3NTAsLTc4NDUzMDg3NywtMT
-Q1MDg0ODkwNiwyMDczMzEwODUwLC02MTIxODA5ODAsOTMwMTM3
-Nzk4XX0=
+eyJoaXN0b3J5IjpbMTI5OTEzNjA2NSwtNzg0NTMwODc3LC0xND
+UwODQ4OTA2LDIwNzMzMTA4NTAsLTYxMjE4MDk4MCw5MzAxMzc3
+OThdfQ==
 -->
