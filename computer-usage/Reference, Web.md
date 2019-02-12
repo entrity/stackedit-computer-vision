@@ -22,12 +22,23 @@ If logged in, use this one, and you won't have to keep deploying.
 
 If accessing Sheets or Docs or whatever, you need to give the script permissions (through the menus) to access those resources.
 
+```javascript
+function doPost(request) {
+	return ContentService.createTextOutput('Got POST ' + request.parameter.foo);
+}
+
+function doGet(request) {
+	return ContentService.createTextOutput('Got GET ' + request.parameter.foo);
+}
+```
+
 ## Heavier Web Servers
 
 ### Apache
 
 ### Nginx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDUzMDg3NywtMTQ1MDg0ODkwNiwyMD
-czMzEwODUwLC02MTIxODA5ODAsOTMwMTM3Nzk4XX0=
+eyJoaXN0b3J5IjpbLTE4NDcyMTE3NTAsLTc4NDUzMDg3NywtMT
+Q1MDg0ODkwNiwyMDczMzEwODUwLC02MTIxODA5ODAsOTMwMTM3
+Nzk4XX0=
 -->
