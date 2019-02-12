@@ -18,7 +18,9 @@ The "Current web app url" with look like this:
 https://script.google.com/macros/s/AKfycbzN5c9IV0MEgSwaCTo1T3dyYqanfwSBpCbrxyT9WKD2IwB9hE5w/exec
 Copy the link that says "Test web app for your [latest code](https://script.google.com/a/ucdavis.edu/macros/s/AKfycbxkYMBUOozVsEq4h7RxyPf3rznHHJXksyxzvcgqgSjM/dev)."
 https://script.google.com/a/ucdavis.edu/macros/s/AKfycbxkYMBUOozVsEq4h7RxyPf3rznHHJXksyxzvcgqgSjM/dev
-If logged in, use this one, and you won't have to keep deploying
+If logged in, use this one, and you won't have to keep deploying.
+
+If accessing Sheets or Docs or whatever, you need to give the script permissions (through the menus) to access those resources.
 
 ## Heavier Web Servers
 
@@ -26,6 +28,6 @@ If logged in, use this one, and you won't have to keep deploying
 
 ### Nginx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTA4NDg5MDYsMjA3MzMxMDg1MCwtNj
-EyMTgwOTgwLDkzMDEzNzc5OF19
+eyJoaXN0b3J5IjpbLTc4NDUzMDg3NywtMTQ1MDg0ODkwNiwyMD
+czMzEwODUwLC02MTIxODA5ODAsOTMwMTM3Nzk4XX0=
 -->
