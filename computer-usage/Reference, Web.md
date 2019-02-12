@@ -12,7 +12,12 @@ It defaults to port 8000 and the current directory. It will serve up directories
 ### Google Apps
 Instead of running your own server, create a Google Apps Script project: https://script.google.com
 
-When ready to deplo
+When ready to deploy, click Publish > Deploy as web app. Then complete the form and submit.
+
+The "Current web app url" with look like this:
+https://script.google.com/macros/s/AKfycbzN5c9IV0MEgSwaCTo1T3dyYqanfwSBpCbrxyT9WKD2IwB9hE5w/exec
+Copy the link that says "Test web app for your [latest code](https://script.google.com/a/ucdavis.edu/macros/s/AKfycbxkYMBUOozVsEq4h7RxyPf3rznHHJXksyxzvcgqgSjM/dev)."
+https://script.google.com/a/ucdavis.edu/macros/s/AKfycbxkYMBUOozVsEq4h7RxyPf3rznHHJXksyxzvcgqgSjM/dev
 
 ## Heavier Web Servers
 
@@ -20,6 +25,6 @@ When ready to deplo
 
 ### Nginx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2MjE5MDY0LC02MTIxODA5ODAsOTMwMT
-M3Nzk4XX0=
+eyJoaXN0b3J5IjpbLTE1NjM1NDM3NjUsLTYxMjE4MDk4MCw5Mz
+AxMzc3OThdfQ==
 -->
