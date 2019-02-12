@@ -10,7 +10,7 @@ python -m http.server [port]
 It defaults to port 8000 and the current directory. It will serve up directories as index pages.
 
 ### Google Apps
-Instead of running your own server, create a Google Apps Script project
+Instead of running your own server, create a Google Apps Script project: https://script.google.com
 
 ## Heavier Web Servers
 
@@ -18,5 +18,5 @@ Instead of running your own server, create a Google Apps Script project
 
 ### Nginx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMwMTM3Nzk4XX0=
+eyJoaXN0b3J5IjpbLTYxMjE4MDk4MCw5MzAxMzc3OThdfQ==
 -->
