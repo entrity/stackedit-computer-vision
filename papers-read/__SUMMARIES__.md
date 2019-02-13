@@ -90,12 +90,12 @@
 : Uses a cascade of DNNs to regress pose keypoints. (I really like this cascade idea.)
 
 (https://dspace.mit.edu/bitstream/handle/1721.1/6715/AIM-2003-009.pdf?sequence=2)
-: Uses neat technique called Locality-Sensitive Hashing, which learns several hashing functions to index examples for example-based learning. (Can work in high dimensions where a k-nearest-neighbour search would be prohibitive.)
+: Uses neat technique called Locality-Sensitive Hashing, which learns several hashing functions to index examples for example-based learning. (Can work in high dimensions where a k-nearest-neighbour search would be prohibitive.) Extends LSH to PSH (Parameter-Sensitive Hashing), which is sensitive to similarity in the parameter space instead of in the input space,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjcyMTQ2NSwxMTkwMjI2MDQyLDE5ND
-AwODc0NjMsLTExMDkxOTUxMjEsLTEyNzU1MjIyNSwtNDU2Mzk3
-NDc4LDEzMzU4OTM4NjYsNTIyNDg0NDgzLC0xNTkyNzU4MzA1LC
-05NjM1NzkxNTQsMjIzOTc0NDQyLC01Njc0NTQwMTQsMjEzOTkx
-NTQ3MywtMTU5OTc0MDE2OCwtNzQ2ODg2NjMxLDExNDI4OTEwMz
-EsMTI1MjYyODEyNCwtMTYzOTAxODM3Nl19
+eyJoaXN0b3J5IjpbMzg1OTY5OTksMTE5MDIyNjA0MiwxOTQwMD
+g3NDYzLC0xMTA5MTk1MTIxLC0xMjc1NTIyMjUsLTQ1NjM5NzQ3
+OCwxMzM1ODkzODY2LDUyMjQ4NDQ4MywtMTU5Mjc1ODMwNSwtOT
+YzNTc5MTU0LDIyMzk3NDQ0MiwtNTY3NDU0MDE0LDIxMzk5MTU0
+NzMsLTE1OTk3NDAxNjgsLTc0Njg4NjYzMSwxMTQyODkxMDMxLD
+EyNTI2MjgxMjQsLTE2MzkwMTgzNzZdfQ==
 -->
