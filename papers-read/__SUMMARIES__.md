@@ -88,11 +88,14 @@
 
 [DeepPose: Human Pose Estimation via Deep Neural Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Toshev_DeepPose_Human_Pose_2014_CVPR_paper.pdf)
 : Uses a cascade of DNNs to regress pose keypoints. (I really like this cascade idea.)
+
+(https://dspace.mit.edu/bitstream/handle/1721.1/6715/AIM-2003-009.pdf?sequence=2)
+: Uses neat technique called Locality-Sensitive Hashing, which learns several hashing functions to index examples for example-based learning. (Can work in high dimensions where a k-nearest-neighbour search would be prohibitive.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDIyNjA0MiwxOTQwMDg3NDYzLC0xMT
-A5MTk1MTIxLC0xMjc1NTIyMjUsLTQ1NjM5NzQ3OCwxMzM1ODkz
-ODY2LDUyMjQ4NDQ4MywtMTU5Mjc1ODMwNSwtOTYzNTc5MTU0LD
-IyMzk3NDQ0MiwtNTY3NDU0MDE0LDIxMzk5MTU0NzMsLTE1OTk3
-NDAxNjgsLTc0Njg4NjYzMSwxMTQyODkxMDMxLDEyNTI2MjgxMj
-QsLTE2MzkwMTgzNzZdfQ==
+eyJoaXN0b3J5IjpbLTk1NjcyMTQ2NSwxMTkwMjI2MDQyLDE5ND
+AwODc0NjMsLTExMDkxOTUxMjEsLTEyNzU1MjIyNSwtNDU2Mzk3
+NDc4LDEzMzU4OTM4NjYsNTIyNDg0NDgzLC0xNTkyNzU4MzA1LC
+05NjM1NzkxNTQsMjIzOTc0NDQyLC01Njc0NTQwMTQsMjEzOTkx
+NTQ3MywtMTU5OTc0MDE2OCwtNzQ2ODg2NjMxLDExNDI4OTEwMz
+EsMTI1MjYyODEyNCwtMTYzOTAxODM3Nl19
 -->
