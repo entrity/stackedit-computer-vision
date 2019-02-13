@@ -85,11 +85,14 @@
 
 [You Only Look Once: Unified, Real-Time Object Detection](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf) 2016
 : Divide image into grid; each cell predicts $B$ bbs and $C$ class probabilities. Fastest object detector to date. Incorporates global view of image for fewer bg false positives.
+
+[DeepPose: Human Pose Estimation via Deep Neural Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Toshev_DeepPose_Human_Pose_2014_CVPR_paper.pdf)
+: Uses a cascade of DNNs to regress pose keypoints. (I really like this cascade idea.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDA4NzQ2MywtMTEwOTE5NTEyMSwtMT
-I3NTUyMjI1LC00NTYzOTc0NzgsMTMzNTg5Mzg2Niw1MjI0ODQ0
-ODMsLTE1OTI3NTgzMDUsLTk2MzU3OTE1NCwyMjM5NzQ0NDIsLT
-U2NzQ1NDAxNCwyMTM5OTE1NDczLC0xNTk5NzQwMTY4LC03NDY4
-ODY2MzEsMTE0Mjg5MTAzMSwxMjUyNjI4MTI0LC0xNjM5MDE4Mz
-c2XX0=
+eyJoaXN0b3J5IjpbMTE5MDIyNjA0MiwxOTQwMDg3NDYzLC0xMT
+A5MTk1MTIxLC0xMjc1NTIyMjUsLTQ1NjM5NzQ3OCwxMzM1ODkz
+ODY2LDUyMjQ4NDQ4MywtMTU5Mjc1ODMwNSwtOTYzNTc5MTU0LD
+IyMzk3NDQ0MiwtNTY3NDU0MDE0LDIxMzk5MTU0NzMsLTE1OTk3
+NDAxNjgsLTc0Njg4NjYzMSwxMTQyODkxMDMxLDEyNTI2MjgxMj
+QsLTE2MzkwMTgzNzZdfQ==
 -->
