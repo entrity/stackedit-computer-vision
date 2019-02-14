@@ -99,6 +99,7 @@ Layer Normalization
  - **Cross Entropy Loss** - Used with Softmax classifier. Implemented as $1 - p$ where $p$ is the predicted probability of the target class.
  - **Focal Loss** - To overcome the class imbalance problem of cross entropy loss (wherein the easy-to-classify examples dominate the gradient). $L(p) = -(1-p)^\gamma log(p)$. Thus, hard-to-classify examples get more weight. $\gamma$ is a tunable parameter.
  - **Hinge Loss** - a.k.a. Max margin loss. Used with SVM classifier.
+ - **Mean Squared Error (MSE)** - Used in linear regression. The method of minimizing with MSE is Ordinary Least Squares.
  - **Ranking Loss** - The likelihood of class `k` for the input, minus the likelihood of the most likely non-`k` class.
 - **Triplet Loss** - The distance between objects A and B should be less than the distance between objects A and C.
 
@@ -189,11 +190,11 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MTQzNzUwMSwtMTAxMzk4MjMyMywyMD
-ExNDM1ODgzLC00MDI4MjY0NDcsMTQ1ODcxNjk5MiwxODQyMTkx
-ODE4LC0yMTAxMDI0MDQwLC05MzMyMTM5ODUsLTEyMjMwMzI1Mz
-UsMTUwNDg2MDIyOCwxNDUxODMzNDU3LC0xNjM2NjQwNDE5LC0x
-Mzg3OTQyMTY3LC04NTQyNzkwMDcsOTE3NjkxMjYxLC0xODE5MD
-QwMzUwLDUxOTEwNzk1Myw3NTk3ODgxMjEsNDI3MTE4NzY2XX0=
+eyJoaXN0b3J5IjpbLTEyMTI2NTIyNTUsLTEwMTM5ODIzMjMsMj
+AxMTQzNTg4MywtNDAyODI2NDQ3LDE0NTg3MTY5OTIsMTg0MjE5
+MTgxOCwtMjEwMTAyNDA0MCwtOTMzMjEzOTg1LC0xMjIzMDMyNT
+M1LDE1MDQ4NjAyMjgsMTQ1MTgzMzQ1NywtMTYzNjY0MDQxOSwt
+MTM4Nzk0MjE2NywtODU0Mjc5MDA3LDkxNzY5MTI2MSwtMTgxOT
+A0MDM1MCw1MTkxMDc5NTMsNzU5Nzg4MTIxLDQyNzExODc2Nl19
 
 -->
