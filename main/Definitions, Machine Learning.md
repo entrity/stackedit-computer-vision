@@ -95,10 +95,10 @@ Layer Normalization
 : In training and testing, at every layer, compute a mean and stdev for each image using the whole feature vector (every feature map). Normalize said image's output on an image-by-image basis.
 
 **Loss Functions**
- - **Contrastive Loss** - ?
+ - **Contrastive Loss** - Used in 
  - **Cross Entropy Loss** - Used with Softmax classifier. Implemented as $1 - p$ where $p$ is the predicted probability of the target class.
  - **Focal Loss** - To overcome the class imbalance problem of cross entropy loss (wherein the easy-to-classify examples dominate the gradient). $L(p) = -(1-p)^\gamma log(p)$. Thus, hard-to-classify examples get more weight. $\gamma$ is a tunable parameter.
- - **Hinge Loss**
+ - **Hinge Loss** - Used with SVM classifier.
  - **Ranking Loss** - The likelihood of class `k` for the input, minus the likelihood of the most likely non-`k` class.
 - **Triplet Loss** - The distance between objects A and B should be less than the distance between objects A and C.
 
@@ -189,10 +189,10 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTQzNTg4MywtNDAyODI2NDQ3LDE0NT
-g3MTY5OTIsMTg0MjE5MTgxOCwtMjEwMTAyNDA0MCwtOTMzMjEz
-OTg1LC0xMjIzMDMyNTM1LDE1MDQ4NjAyMjgsMTQ1MTgzMzQ1Ny
-wtMTYzNjY0MDQxOSwtMTM4Nzk0MjE2NywtODU0Mjc5MDA3LDkx
-NzY5MTI2MSwtMTgxOTA0MDM1MCw1MTkxMDc5NTMsNzU5Nzg4MT
-IxLDQyNzExODc2Nl19
+eyJoaXN0b3J5IjpbLTEwMTM5ODIzMjMsMjAxMTQzNTg4MywtND
+AyODI2NDQ3LDE0NTg3MTY5OTIsMTg0MjE5MTgxOCwtMjEwMTAy
+NDA0MCwtOTMzMjEzOTg1LC0xMjIzMDMyNTM1LDE1MDQ4NjAyMj
+gsMTQ1MTgzMzQ1NywtMTYzNjY0MDQxOSwtMTM4Nzk0MjE2Nywt
+ODU0Mjc5MDA3LDkxNzY5MTI2MSwtMTgxOTA0MDM1MCw1MTkxMD
+c5NTMsNzU5Nzg4MTIxLDQyNzExODc2Nl19
 -->
