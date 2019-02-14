@@ -94,11 +94,11 @@ Inter-attention
 Layer Normalization
 : In training and testing, at every layer, compute a mean and stdev for each image using the whole feature vector (every feature map). Normalize said image's output on an image-by-image basis.
 
-**Loss Functions**
- - **Contrastive Loss** - Used in Siamese networs, a distance-based loss (as opposed to prediction error-based loss).
+**[Loss Functions](https://isaacchanghau.github.io/post/loss_functions/)**
+ - **Contrastive Loss** - Used in Siamese networs, a distance-based loss (as opposed to prediction error-based loss). It tries to ensure that similar examples are embedded close together while different examples are distinct.
  - **Cross Entropy Loss** - Used with Softmax classifier. Implemented as $1 - p$ where $p$ is the predicted probability of the target class.
  - **Focal Loss** - To overcome the class imbalance problem of cross entropy loss (wherein the easy-to-classify examples dominate the gradient). $L(p) = -(1-p)^\gamma log(p)$. Thus, hard-to-classify examples get more weight. $\gamma$ is a tunable parameter.
- - **Hinge Loss** - Used with SVM classifier.
+ - **Hinge Loss** - a.k.a. Max margin loss. Used with SVM classifier.
  - **Ranking Loss** - The likelihood of class `k` for the input, minus the likelihood of the most likely non-`k` class.
 - **Triplet Loss** - The distance between objects A and B should be less than the distance between objects A and C.
 
@@ -189,7 +189,7 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzg5MzczMywtMTAxMzk4MjMyMywyMD
+eyJoaXN0b3J5IjpbMTk0MTQzNzUwMSwtMTAxMzk4MjMyMywyMD
 ExNDM1ODgzLC00MDI4MjY0NDcsMTQ1ODcxNjk5MiwxODQyMTkx
 ODE4LC0yMTAxMDI0MDQwLC05MzMyMTM5ODUsLTEyMjMwMzI1Mz
 UsMTUwNDg2MDIyOCwxNDUxODMzNDU3LC0xNjM2NjQwNDE5LC0x
