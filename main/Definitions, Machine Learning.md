@@ -95,7 +95,7 @@ Layer Normalization
 : In training and testing, at every layer, compute a mean and stdev for each image using the whole feature vector (every feature map). Normalize said image's output on an image-by-image basis.
 
 **[Loss Functions](https://isaacchanghau.github.io/post/loss_functions/)**
- - **Contrastive Loss** - Used in Siamese networs, a distance-based loss (as opposed to prediction error-based loss). It tries to ensure that similar examples are embedded close together while different examples are distinct.
+ - **Contrastive Loss** - Used in Siamese networs, a distance-based loss (as opposed to prediction error-based loss). It tries to ensure that similar examples are embedded close together while non-neighbours are pushed apart.
  - **Cross Entropy Loss** - Used with Softmax classifier. Implemented as $1 - p$ where $p$ is the predicted probability of the target class.
  - **Focal Loss** - To overcome the class imbalance problem of cross entropy loss (wherein the easy-to-classify examples dominate the gradient). $L(p) = -(1-p)^\gamma log(p)$. Thus, hard-to-classify examples get more weight. $\gamma$ is a tunable parameter.
  - **Hinge Loss** - a.k.a. Max margin loss. Used with SVM classifier.
@@ -190,11 +190,11 @@ Wasserstein Distance
 Weakly supervised learning
 : *see "Supervised learning: weakly supervised"*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI2NTIyNTUsLTEwMTM5ODIzMjMsMj
-AxMTQzNTg4MywtNDAyODI2NDQ3LDE0NTg3MTY5OTIsMTg0MjE5
-MTgxOCwtMjEwMTAyNDA0MCwtOTMzMjEzOTg1LC0xMjIzMDMyNT
-M1LDE1MDQ4NjAyMjgsMTQ1MTgzMzQ1NywtMTYzNjY0MDQxOSwt
-MTM4Nzk0MjE2NywtODU0Mjc5MDA3LDkxNzY5MTI2MSwtMTgxOT
-A0MDM1MCw1MTkxMDc5NTMsNzU5Nzg4MTIxLDQyNzExODc2Nl19
+eyJoaXN0b3J5IjpbLTUzNDAxNDgyLC0xMDEzOTgyMzIzLDIwMT
+E0MzU4ODMsLTQwMjgyNjQ0NywxNDU4NzE2OTkyLDE4NDIxOTE4
+MTgsLTIxMDEwMjQwNDAsLTkzMzIxMzk4NSwtMTIyMzAzMjUzNS
+wxNTA0ODYwMjI4LDE0NTE4MzM0NTcsLTE2MzY2NDA0MTksLTEz
+ODc5NDIxNjcsLTg1NDI3OTAwNyw5MTc2OTEyNjEsLTE4MTkwND
+AzNTAsNTE5MTA3OTUzLDc1OTc4ODEyMSw0MjcxMTg3NjZdfQ==
 
 -->
