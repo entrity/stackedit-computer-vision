@@ -18,9 +18,9 @@ conda create -n gen python=3.6
 conda activate gen
 conda install scikit-image scipy
 conda install torchvision pytorch=0.4.0 cuda91 -c pytorch
-pip3 install easydict
+pip install easydict
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzcwMDg2MjEsNjM0OTI0ODAzLDE3Mj
-g0MjQ3ODQsLTkyNjA2OTYxOV19
+eyJoaXN0b3J5IjpbLTI4MTUyNjc0MCwtMTYzNzAwODYyMSw2Mz
+Q5MjQ4MDMsMTcyODQyNDc4NCwtOTI2MDY5NjE5XX0=
 -->
