@@ -19,8 +19,10 @@ conda activate gen
 conda install scikit-image scipy
 conda install torchvision pytorch=0.4.0 cuda91 -c pytorch
 pip install easydict
+pip install sklearn joblib
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTUyNjc0MCwtMTYzNzAwODYyMSw2Mz
-Q5MjQ4MDMsMTcyODQyNDc4NCwtOTI2MDY5NjE5XX0=
+eyJoaXN0b3J5IjpbLTE5NjI3NzM2NTYsLTI4MTUyNjc0MCwtMT
+YzNzAwODYyMSw2MzQ5MjQ4MDMsMTcyODQyNDc4NCwtOTI2MDY5
+NjE5XX0=
 -->
