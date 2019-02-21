@@ -16,13 +16,13 @@ Go to https://conda.io/miniconda.html. Download the bash script, and run it.
 ```
 conda create -n gen python=3.6
 conda activate gen
-conda install scikit-image scipy
+conda install scikit-image scipy easydict sklearn joblib ipython opencv-python
 conda install torchvision pytorch=0.4.0 cuda91 -c pytorch
 pip install easydict
-pip install sklearn joblib
+pip install 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI3NzM2NTYsLTI4MTUyNjc0MCwtMT
-YzNzAwODYyMSw2MzQ5MjQ4MDMsMTcyODQyNDc4NCwtOTI2MDY5
-NjE5XX0=
+eyJoaXN0b3J5IjpbNDg2MTc1NTExLC0xOTYyNzczNjU2LC0yOD
+E1MjY3NDAsLTE2MzcwMDg2MjEsNjM0OTI0ODAzLDE3Mjg0MjQ3
+ODQsLTkyNjA2OTYxOV19
 -->
