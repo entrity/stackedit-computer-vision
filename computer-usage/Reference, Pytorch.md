@@ -1,8 +1,8 @@
 # Pytorch Reference
 ## Installation
 1. Check installed version of CUDA: `/usr/local/cuda/bin/nvcc --version`
-1. Check installed version of Python: `python --version`
-1. See https://pytorch.org/ to learn installation command.
+2. Check installed version of Python: `python --version`
+3. See https://pytorch.org/ to learn installation command. Probably something like `conda install pytorch=0.4 torchvision cudatoolkit=9.0 -c pytorch`
 
 
 ## Training Step
@@ -34,6 +34,6 @@ pdb.set_trace()
 ### Convert from Tensorflow
 https://discuss.pytorch.org/t/how-to-transfer-pretained-model-from-tensorflow-to-pytorch/6173
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwNDQ0OTQ2LDEwMjQyMDQ1OTQsLTE4MT
-E5MzcwMTYsMzY0OTIyOTY4XX0=
+eyJoaXN0b3J5IjpbMTc2Nzg5ODEwNyw2ODA0NDQ5NDYsMTAyND
+IwNDU5NCwtMTgxMTkzNzAxNiwzNjQ5MjI5NjhdfQ==
 -->
