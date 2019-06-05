@@ -92,17 +92,23 @@
 (https://dspace.mit.edu/bitstream/handle/1721.1/6715/AIM-2003-009.pdf?sequence=2)
 : Uses neat technique called Locality-Sensitive Hashing, which learns several hashing functions to index examples for example-based learning. (Can work in high dimensions where a k-nearest-neighbour search would be prohibitive.) Extends LSH to PSH (Parameter-Sensitive Hashing), which is sensitive to similarity in the parameter space instead of in the input space Uses Locally-Weighted Regression (LWR) on top of that.
 
+[Image Style Transfer Using Convolutional Neural Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) (2016)
+: We can separate style from content of image inputs, then recombine them across inputs to transfer style onto new content. Content reconstructions feature maps from high in a CNN contain don't constrain the pixels much; they are more content focused. Style is extracted as correlation between features in pooled feature vectors (no arrangement, just textures) in a Gram vector. With a pretrained CNN, we can permute an output image by descending a gradient, using a loss function which constrains extracted content to match between input and output images, as well as constraining extracted style to match between input and output images.
+
 Deep Spectral Clustering
 : Common clustering approaches use a fixed embedding; we can improve by learning an embedding. DSCL has low-cost loss function, which doesn't require running clustering after each batch. Its gradient has a closed-form, linear in size of batch and quadratic in size of embedding. However, training requires ground-truth labels.
+
+[Neural Probabilistic Logic Programming](https://papers.nips.cc/paper/7632-deepproblog-neural-probabilistic-logic-programming.pdf)
+: In a probabilistic language, expressions have probabilities. We can extend an existing language ProbLog to support training neural nets, where inputs to the language are feature vectors (from lower-level DNN's), and the outputs are probabilities, whose loss can be backpropagated through the language and DNN's. Incorporating a probabilistic language allows us to integrate background knowledge, which is not easily encoded into a DNN. We separate concerns into low-level perception and high-level reasoning, but we train a model end-to-end.
 
 [A Semantic Loss Function for Deep Learning with Symbolic Knowledge](http://starai.cs.ucla.edu/papers/XuICML18.pdf) (2018)
 : We want a differential loss function to train a model, but we also want to apply reasoning (i.e. constraints) to the output, which destroys the differentiability of the deep learner. So we contrive a "semantic loss function." Three examples of semantic losses which are successfully applied are one-hot constraint, ranking constraint, and path constraint.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI4ODU2NzksLTc0MTk5NTU0LDM4NT
-k2OTk5LDExOTAyMjYwNDIsMTk0MDA4NzQ2MywtMTEwOTE5NTEy
-MSwtMTI3NTUyMjI1LC00NTYzOTc0NzgsMTMzNTg5Mzg2Niw1Mj
-I0ODQ0ODMsLTE1OTI3NTgzMDUsLTk2MzU3OTE1NCwyMjM5NzQ0
-NDIsLTU2NzQ1NDAxNCwyMTM5OTE1NDczLC0xNTk5NzQwMTY4LC
-03NDY4ODY2MzEsMTE0Mjg5MTAzMSwxMjUyNjI4MTI0LC0xNjM5
-MDE4Mzc2XX0=
+eyJoaXN0b3J5IjpbMTI3NDQ5MzUzNiwtNzQxOTk1NTQsMzg1OT
+Y5OTksMTE5MDIyNjA0MiwxOTQwMDg3NDYzLC0xMTA5MTk1MTIx
+LC0xMjc1NTIyMjUsLTQ1NjM5NzQ3OCwxMzM1ODkzODY2LDUyMj
+Q4NDQ4MywtMTU5Mjc1ODMwNSwtOTYzNTc5MTU0LDIyMzk3NDQ0
+MiwtNTY3NDU0MDE0LDIxMzk5MTU0NzMsLTE1OTk3NDAxNjgsLT
+c0Njg4NjYzMSwxMTQyODkxMDMxLDEyNTI2MjgxMjQsLTE2Mzkw
+MTgzNzZdfQ==
 -->
