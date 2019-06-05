@@ -102,13 +102,13 @@ Deep Spectral Clustering
 : In a probabilistic language, expressions have probabilities. We can extend an existing language ProbLog to support training neural nets, where inputs to the language are feature vectors (from lower-level DNN's), and the outputs are probabilities, whose loss can be backpropagated through the language and DNN's. Incorporating a probabilistic language allows us to integrate background knowledge, which is not easily encoded into a DNN. We separate concerns into low-level perception and high-level reasoning, but we train a model end-to-end.
 
 [A Semantic Loss Function for Deep Learning with Symbolic Knowledge](http://starai.cs.ucla.edu/papers/XuICML18.pdf) (2018)
-: We want a differential loss function to train a model, but we also want to apply reasoning (i.e. constraints) to the output, which destroys the differentiability of the deep learner. So we contrive a "semantic loss function": the semantic loss is a function of the probability of sampling a state that satisfies the constraint. (The semantic loss term can just be added to any existing loss function.) Three examples of semantic losses which are successfully applied in semi-supervised experiments are one-hot constraint, ranking constraint, and path constraint.
+: We want a differential loss function to train a model, but we also want to apply reasoning (i.e. constraints) to the output, which destroys the differentiability of the deep learner. So we contrive a "semantic loss function": the semantic loss is a function of the probability of sampling a state that satisfies the constraint. (The semantic loss term can just be added to any existing loss function.) Three examples of semantic losses which are successfully applied in semi-supervised experiments are one-hot constraint, ranking constraint, and path constraint. (co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjMyMjkwMywxMjc0NDkzNTM2LC03ND
-E5OTU1NCwzODU5Njk5OSwxMTkwMjI2MDQyLDE5NDAwODc0NjMs
-LTExMDkxOTUxMjEsLTEyNzU1MjIyNSwtNDU2Mzk3NDc4LDEzMz
-U4OTM4NjYsNTIyNDg0NDgzLC0xNTkyNzU4MzA1LC05NjM1Nzkx
-NTQsMjIzOTc0NDQyLC01Njc0NTQwMTQsMjEzOTkxNTQ3MywtMT
-U5OTc0MDE2OCwtNzQ2ODg2NjMxLDExNDI4OTEwMzEsMTI1MjYy
-ODEyNF19
+eyJoaXN0b3J5IjpbLTQ1NDk1ODIzNywxNzIyMzIyOTAzLDEyNz
+Q0OTM1MzYsLTc0MTk5NTU0LDM4NTk2OTk5LDExOTAyMjYwNDIs
+MTk0MDA4NzQ2MywtMTEwOTE5NTEyMSwtMTI3NTUyMjI1LC00NT
+YzOTc0NzgsMTMzNTg5Mzg2Niw1MjI0ODQ0ODMsLTE1OTI3NTgz
+MDUsLTk2MzU3OTE1NCwyMjM5NzQ0NDIsLTU2NzQ1NDAxNCwyMT
+M5OTE1NDczLC0xNTk5NzQwMTY4LC03NDY4ODY2MzEsMTE0Mjg5
+MTAzMV19
 -->
