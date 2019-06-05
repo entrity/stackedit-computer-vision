@@ -93,16 +93,16 @@
 : Uses neat technique called Locality-Sensitive Hashing, which learns several hashing functions to index examples for example-based learning. (Can work in high dimensions where a k-nearest-neighbour search would be prohibitive.) Extends LSH to PSH (Parameter-Sensitive Hashing), which is sensitive to similarity in the parameter space instead of in the input space Uses Locally-Weighted Regression (LWR) on top of that.
 
 Deep Spectral Clustering
-: Common clustering approaches use a fixed embedding; we can improve by learning an embedding. DSCL has low-cost loss function, which doesn't require running clustering after each batch. Its gradient has a closed-form, linear in size of batch and quadratic in size of embedding.
+: Common clustering approaches use a fixed embedding; we can improve by learning an embedding. DSCL has low-cost loss function, which doesn't require running clustering after each batch. Its gradient has a closed-form, linear in size of batch and quadratic in size of embedding. However, training requires ground-truth labels.
 
 [A Semantic Loss Function for Deep Learning with Symbolic Knowledge](http://starai.cs.ucla.edu/papers/XuICML18.pdf) (2018)
 : We want a differential loss function to train a model, but we also want to apply reasoning (i.e. constraints) to the output, which destroys the differentiability of the deep learner. So we contrive a "semantic loss function." Three examples of semantic losses which are successfully applied are one-hot constraint, ranking constraint, and path constraint.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3NTA4NzgzLC03NDE5OTU1NCwzODU5Nj
-k5OSwxMTkwMjI2MDQyLDE5NDAwODc0NjMsLTExMDkxOTUxMjEs
-LTEyNzU1MjIyNSwtNDU2Mzk3NDc4LDEzMzU4OTM4NjYsNTIyND
-g0NDgzLC0xNTkyNzU4MzA1LC05NjM1NzkxNTQsMjIzOTc0NDQy
-LC01Njc0NTQwMTQsMjEzOTkxNTQ3MywtMTU5OTc0MDE2OCwtNz
-Q2ODg2NjMxLDExNDI4OTEwMzEsMTI1MjYyODEyNCwtMTYzOTAx
-ODM3Nl19
+eyJoaXN0b3J5IjpbLTEzNDI4ODU2NzksLTc0MTk5NTU0LDM4NT
+k2OTk5LDExOTAyMjYwNDIsMTk0MDA4NzQ2MywtMTEwOTE5NTEy
+MSwtMTI3NTUyMjI1LC00NTYzOTc0NzgsMTMzNTg5Mzg2Niw1Mj
+I0ODQ0ODMsLTE1OTI3NTgzMDUsLTk2MzU3OTE1NCwyMjM5NzQ0
+NDIsLTU2NzQ1NDAxNCwyMTM5OTE1NDczLC0xNTk5NzQwMTY4LC
+03NDY4ODY2MzEsMTE0Mjg5MTAzMSwxMjUyNjI4MTI0LC0xNjM5
+MDE4Mzc2XX0=
 -->
