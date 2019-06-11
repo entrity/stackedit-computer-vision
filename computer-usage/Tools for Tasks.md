@@ -1,7 +1,7 @@
 ## Command line
 
 HTML processing
-: `pup`
+: `pup`, `hxnormalize ... | hxselect ...` 
 
 Javascript processing
 : `jq`
@@ -42,6 +42,6 @@ Text editor, IDE
 : `vim`, `nano`, `emacs`, `vi`, `pico`
 : SublimeText
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQyODc1MTcsMTEzMTM1OTMwOSwzNj
-Q0NTM5NDNdfQ==
+eyJoaXN0b3J5IjpbLTEyMDc4NDk3NDgsLTE4NjQyODc1MTcsMT
+EzMTM1OTMwOSwzNjQ0NTM5NDNdfQ==
 -->
