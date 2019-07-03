@@ -1,6 +1,6 @@
 ## 'Detach' terms in custom loss function
 
-*Situation: training neural networks in pytorch*
+*Situreation: training neural networks in pytorch*
 
 If calculating "labels" or something to go into the loss term that doesn't come from the network itself, probably `detach` those components from the graph. 
 
@@ -8,5 +8,5 @@ For examples, consider my attempt at the KL Divergence loss in [https://github.c
 
 Also consider the changes I had to make to the Q-learner for playing Pong. Look for git revisions that include the `detach` function call: [https://github.com/entrity/Q-Learning-and-Dimension-Reduction/blob/master/dqn.py](https://github.com/entrity/Q-Learning-and-Dimension-Reduction/blob/master/dqn.py)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzM5ODU0N119
+eyJoaXN0b3J5IjpbLTE0MjYzMDcwNjZdfQ==
 -->
