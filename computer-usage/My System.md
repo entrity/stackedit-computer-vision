@@ -10,7 +10,7 @@ Press <kbd>Alt</kbd>+<kbd>F2</kbd> and run `gnome-session-properties`
 1. Write your own rules to a (possibly new) file `/lib/udev/hwdb.d/70-keyboard.hwdb`, as in the example below.
 2. Run bash commands to load the new rules, given below.
 
-### Ex
+### Example rules file
 ```
 # /lib/udev/hwdb.d/70-keyboard.hwdb
 
@@ -32,6 +32,14 @@ evdev:input:b0005v004Cp0267e0067*
  KEYBOARD_KEY_70044=home # f11
  KEYBOARD_KEY_70045=end # f12
 ```
+
+### Commands to load rules
+```bash
+# Make sure you figure out what eventXX should be for the chosen keyboard. Use `sudo evtest` to find out.
+sudo systemd-hwdb update
+sudo udevadm trigger /dev/input/event<XX>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2OTc4NzQsLTE2NDIzNzUyMTNdfQ==
+eyJoaXN0b3J5IjpbLTE3MDM5NTMzMzYsLTE2NDIzNzUyMTNdfQ
+==
 -->
