@@ -7,14 +7,18 @@ Press <kbd>Alt</kbd>+<kbd>F2</kbd> and run `gnome-session-properties`
 ## For a specific keyboard
 *These instructions are taken from the comments in `/lib/udev/hwdb.d/60-keyboard.hwdb`*
 
-1. Write your own rules to a (possibly new) file 
+1. Write your own rules to a (possibly new) file `/lib/udev/hwdb.d/70-keyboard.hwdb`, as in the example below.
+2. Run bash commands to load the new rules, given below.
 
+### Ex
 ```
-##################33
+# /lib/udev/hwdb.d/70-keyboard.hwdb
+
+##################
 # Apple Magic Keyboard
 # Bus 0x05 is Bluetooth. See /usr/include/linux/input.h
 # vendor, product, version are in /sys/class/input/eventX/device/id.
-# `sudo evtest` shows that the apple keyboard is event20
+# `sudo evtest` shows that the apple keyboard on my system is currently event20
 #################
 evdev:input:b0005v004Cp0267e0067*
  KEYBOARD_KEY_7003e=brightnessdown # F5
@@ -29,6 +33,5 @@ evdev:input:b0005v004Cp0267e0067*
  KEYBOARD_KEY_70045=end # f12
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzk5MDUyODQsLTE2NDIzNzUyMTNdfQ
-==
+eyJoaXN0b3J5IjpbMzU2OTc4NzQsLTE2NDIzNzUyMTNdfQ==
 -->
