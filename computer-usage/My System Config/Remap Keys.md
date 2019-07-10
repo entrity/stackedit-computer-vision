@@ -29,7 +29,8 @@ evdev:input:b0005v004Cp0267e0067*
 ### Example rules file `/etc/udev/hwdb.d/71-mouse-local.hwdb`
 ```
 evdev:input:b0003v1A7Cp0191e0110*
-  
+  KEYBOARD_KEY_90004=
+  KEYBOARD_KEY_90006=
 ```
 
 
@@ -41,5 +42,5 @@ sudo udevadm trigger /dev/input/event<XX>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxNTE3NTQ4XX0=
+eyJoaXN0b3J5IjpbLTExMjI2NzQ2MDAsMjgxNTE3NTQ4XX0=
 -->
