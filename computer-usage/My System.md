@@ -1,8 +1,10 @@
 # Startup applications
-
 Press <kbd>Alt</kbd>+<kbd>F2</kbd> and run `gnome-session-properties`
 
-#
+# Disable input device
+```bash
+/usr/bin/xinput disable ELAN\ Touchscreen
+```
 
 # Remap keys
 
@@ -10,6 +12,9 @@ Press <kbd>Alt</kbd>+<kbd>F2</kbd> and run `gnome-session-properties`
 *These instructions are taken from the comments in `/lib/udev/hwdb.d/60-keyboard.hwdb`*
 
 1. Write your own rules to a (possibly new) file `/lib/udev/hwdb.d/70-keyboard.hwdb`, as in the example below.
+    - Get keyboard key codes (hex) from `sudo evtest`
+    - Get action names from `/lib/udev/hwdb.d/60-keyboard.hwdb`
+    - 
 2. Run bash commands to load the new rules, given below.
 
 ### Example rules file
@@ -42,6 +47,6 @@ sudo systemd-hwdb update
 sudo udevadm trigger /dev/input/event<XX>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5Mjg1MTMxMSwtMTcwMzk1MzMzNiwtMT
+eyJoaXN0b3J5IjpbLTYxNDgxOTExOCwtMTcwMzk1MzMzNiwtMT
 Y0MjM3NTIxM119
 -->
