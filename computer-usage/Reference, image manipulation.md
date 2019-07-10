@@ -1,4 +1,6 @@
-## https://www.photopea.com/
+## Image editing online
+
+https://www.photopea.com/
 
 Online image editor with tools similar to gimp
 
@@ -11,5 +13,6 @@ Online image editor with tools similar to gimp
 ### Permissions
 Edit `/etc/ImageMagick-6/policy.xml` so that the line giving no rights to PDF is commented out.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTE1NzQzNDEsMTkyMjY4NjU0OV19
+eyJoaXN0b3J5IjpbLTEyMTQ3MjgyNTcsLTE5NTE1NzQzNDEsMT
+kyMjY4NjU0OV19
 -->
