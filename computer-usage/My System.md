@@ -12,20 +12,17 @@ Press <kbd>Alt</kbd>+<kbd>F2</kbd> and run `gnome-session-properties`
 *These instructions are taken from the comments in `/lib/udev/hwdb.d/60-keyboard.hwdb`*
 
 1. Write your own rules to a (possibly new) file `/lib/udev/hwdb.d/70-keyboard.hwdb`, as in the example below.
+    - Get event number from `sudo evtest`
     - Get keyboard key codes (hex) from `sudo evtest`
     - Get action names from `/lib/udev/hwdb.d/60-keyboard.hwdb`
-    - 
+    - Get bus code (usb, bluethooth, etc) from `/usr/include/linux/input.h`
+    - Get vendor, product, version from `/sys/class/input/event<X>/device/id`
 2. Run bash commands to load the new rules, given below.
 
 ### Example rules file
 ```
-# /lib/udev/hwdb.d/70-keyboard.hwdb
-
 ##################
 # Apple Magic Keyboard
-# Bus 0x05 is Bluetooth. See /usr/include/linux/input.h
-# vendor, product, version are in /sys/class/input/eventX/device/id.
-# `sudo evtest` shows that the apple keyboard on my system is currently event20
 #################
 evdev:input:b0005v004Cp0267e0067*
  KEYBOARD_KEY_7003e=brightnessdown # F5
@@ -47,6 +44,6 @@ sudo systemd-hwdb update
 sudo udevadm trigger /dev/input/event<XX>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDgxOTExOCwtMTcwMzk1MzMzNiwtMT
-Y0MjM3NTIxM119
+eyJoaXN0b3J5IjpbLTU2MjYxMjkxLC0xNzAzOTUzMzM2LC0xNj
+QyMzc1MjEzXX0=
 -->
