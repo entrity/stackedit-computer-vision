@@ -16,6 +16,7 @@
 
 ### Example rules file `/lib/udev/hwdb.d/70-keyboard.hwdb`
 ```
+# Format is evdev:input:b<BUS>v<>p<>e<>
 evdev:input:b0005v004Cp0267e0067*
  KEYBOARD_KEY_700e6=rightctrl
  KEYBOARD_KEY_700e3=leftalt
@@ -26,7 +27,7 @@ evdev:input:b0005v004Cp0267e0067*
 
 ### Example rules file `/etc/udev/hwdb.d/71-mouse-local.hwdb`
 ```
-evdev:input:bvpe
+evdev:input:b0003vpe
 ```
 
 
@@ -38,5 +39,5 @@ sudo udevadm trigger /dev/input/event<XX>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjM4NDMxN119
+eyJoaXN0b3J5IjpbMTk1NjY0MDQwMV19
 -->
