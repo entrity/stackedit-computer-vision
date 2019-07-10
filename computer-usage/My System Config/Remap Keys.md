@@ -16,7 +16,7 @@
 
 ### Example rules file `/lib/udev/hwdb.d/70-keyboard.hwdb`
 ```
-# Format is evdev:input:b<BUS>v<VENDOR>p<PRODUCT>e<VERSION>
+# Format is evdev:input:b<BUS>v<VENDOR>p<PRODUCT>e<VERSION>-<MODALIAS>
 # The hex codes should be in all caps
 evdev:input:b0005v004Cp0267e0067*
  KEYBOARD_KEY_700e6=rightctrl
@@ -29,6 +29,7 @@ evdev:input:b0005v004Cp0267e0067*
 ### Example rules file `/etc/udev/hwdb.d/71-mouse-local.hwdb`
 ```
 evdev:input:b0003v1A7Cp0191e0110*
+  
 ```
 
 
@@ -40,5 +41,5 @@ sudo udevadm trigger /dev/input/event<XX>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU5OTg3NTldfQ==
+eyJoaXN0b3J5IjpbMjgxNTE3NTQ4XX0=
 -->
