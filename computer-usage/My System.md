@@ -2,6 +2,8 @@
 
 Press <kbd>Alt</kbd>+<kbd>F2</kbd> and run `gnome-session-properties`
 
+#
+
 # Remap keys
 
 ## For a specific keyboard
@@ -40,6 +42,6 @@ sudo systemd-hwdb update
 sudo udevadm trigger /dev/input/event<XX>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDM5NTMzMzYsLTE2NDIzNzUyMTNdfQ
-==
+eyJoaXN0b3J5IjpbMTM5Mjg1MTMxMSwtMTcwMzk1MzMzNiwtMT
+Y0MjM3NTIxM119
 -->
