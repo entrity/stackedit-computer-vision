@@ -1,5 +1,7 @@
 # Remap keys
 
+*NB: for mouse buttons, the comments in my  `/etc/udev/hwdb.d/71-mouse-local.hwdb` advise putting custom changes into /etc/udev/hwdb.d/71-mouse-local.hwdb`*
+
 ## For a specific keyboard
 *These instructions are taken from the comments in `/lib/udev/hwdb.d/60-keyboard.hwdb`*
 
@@ -28,6 +30,7 @@ evdev:input:b0005v004Cp0267e0067*
 sudo systemd-hwdb update
 sudo udevadm trigger /dev/input/event<XX>
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDEzMjg5MV19
+eyJoaXN0b3J5IjpbNzIyMTgwOTk1XX0=
 -->
