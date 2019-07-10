@@ -1,6 +1,6 @@
 # Remap keys
 
-*NB: for mouse buttons, the comments in my  `/etc/udev/hwdb.d/71-mouse-local.hwdb` advise putting custom changes into /etc/udev/hwdb.d/71-mouse-local.hwdb`*
+*NB: for mouse buttons, the comments in my  `/etc/udev/hwdb.d/70-mouse-local.hwdb` advise putting custom changes into `/etc/udev/hwdb.d/71-mouse-local.hwdb`*
 
 ## For a specific keyboard
 *These instructions are taken from the comments in `/lib/udev/hwdb.d/60-keyboard.hwdb`*
@@ -24,6 +24,12 @@ evdev:input:b0005v004Cp0267e0067*
  KEYBOARD_KEY_70045=end # f12 => End
 ```
 
+### Example rules file `/etc/udev/hwdb.d/71-mouse-local.hwdb`
+```
+evdev:input:bvpe
+```
+
+
 ### Commands to load rules
 ```bash
 # Make sure you figure out what eventXX should be for the chosen keyboard. Use `sudo evtest` to find out.
@@ -32,5 +38,5 @@ sudo udevadm trigger /dev/input/event<XX>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIyMTgwOTk1XX0=
+eyJoaXN0b3J5IjpbMjA2NjM4NDMxN119
 -->
