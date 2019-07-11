@@ -18,6 +18,7 @@
 ```
 # Format is evdev:input:b<BUS>v<VENDOR>p<PRODUCT>e<VERSION>-<MODALIAS>
 # The hex codes should be in all caps
+# === Apple Magic Keyboard ===
 evdev:input:b0005v004Cp0267e0067*
  KEYBOARD_KEY_700e6=rightctrl
  KEYBOARD_KEY_700e3=leftalt
@@ -28,9 +29,10 @@ evdev:input:b0005v004Cp0267e0067*
 
 ### Example rules file `/etc/udev/hwdb.d/71-mouse-local.hwdb`
 ```
+# === E
 evdev:input:b0003v1A7Cp0191e0110*
-  KEYBOARD_KEY_90004=
-  KEYBOARD_KEY_90006=
+  KEYBOARD_KEY_90004=esc
+  KEYBOARD_KEY_90006=esc
 ```
 
 
@@ -42,5 +44,6 @@ sudo udevadm trigger /dev/input/event<XX>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjI2NzQ2MDAsMjgxNTE3NTQ4XX0=
+eyJoaXN0b3J5IjpbNjkxMjM4NzIsLTExMjI2NzQ2MDAsMjgxNT
+E3NTQ4XX0=
 -->
