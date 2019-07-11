@@ -29,7 +29,7 @@ evdev:input:b0005v004Cp0267e0067*
 
 ### Example rules file `/etc/udev/hwdb.d/71-mouse-local.hwdb`
 ```
-# === E
+# === Evoluent vertical mouse ===
 evdev:input:b0003v1A7Cp0191e0110*
   KEYBOARD_KEY_90004=esc
   KEYBOARD_KEY_90006=esc
@@ -44,6 +44,6 @@ sudo udevadm trigger /dev/input/event<XX>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxMjM4NzIsLTExMjI2NzQ2MDAsMjgxNT
-E3NTQ4XX0=
+eyJoaXN0b3J5IjpbLTc4MTk2MjM4MywtMTEyMjY3NDYwMCwyOD
+E1MTc1NDhdfQ==
 -->
