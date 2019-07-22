@@ -2,7 +2,7 @@ This takes some tricks. My current 6TB MyCloud device is running a Linux distro 
 
 ## Adding executables
 
-I have created a directory tree in my shares which mimics the `/usr` tree
+I have created a directory tree in *within* one of my shares which mimics the `/usr` tree. This is because it's not safe to install things onto WD MyCloud's root partition.
 
 ## Installing packages
 Download the package from the web. Then extract the package:
@@ -14,6 +14,10 @@ tar -xzf data.tar.gz # see NB.2
 NB.1: I downloaded a .deb file, but the OS didn't support `dpkg -x`, but `.deb` files are just archive files, so `ar` can extract them.
 
 NB.2: I did this with [libimage-exiftool-perl](https://packages.debian.org/buster/all/libimage-exiftool-perl/download), and the control and data files were `.tar.xz`, so I needed to untar with `-J` instead of `-z`, and the OS didn't support `-J`, so I untarred on my workstation and then ran `rsync -a --ignore-existing ...` to get the files where I wanted them.
+
+## Adding an SSH key
+
+The `/home/root` directory is on a tmpfs, so I can't really put anything there. Therefore, I put `.ssh` within one of my shares, and after every restart, I run a shell s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODY0NjEyMF19
+eyJoaXN0b3J5IjpbLTE3NTY1MjgyMzddfQ==
 -->
