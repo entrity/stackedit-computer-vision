@@ -21,7 +21,7 @@ The `/home/root` directory is on a tmpfs, so I can't really put anything there. 
 
 ## Setup script, .bashrc, &c.
 
-**`setup.sh`**
+**`/shares/mar/setup.sh`**
 ```bash
 #!/bin/bash
 cp -r /shares/mar/.ssh $HOME
@@ -32,9 +32,20 @@ ln -s /shares/mar/Youtube $HOME
 ln -s /shares/mar/root/usr/bin $HOME
 ```
 
-**`.bashrc`**
+**`/shares/mar/.bashrc`**
 
+```bash
+alias ll='ls -l'
+THISDIR=$(dirname $(readlink -f $BASH_SOURCE))
+ROOTDIR=/shares/mar/root
+export LD_LIBRARY_PATH=$ROOTDIR/usr/lib
+export PATH=$PATH:$ROOTDIR/usr/bin
+export PYTHONPATH=$PYTHONPATH:$ROOTDIR/usr/lib/python3/dist-packages
+export LANG="en_US.UTF-8" # This prevents youtube-dl from using --restrict-filenames
+export PYTHONIOENCODING=utf-8
+export PERL5LIB=/shares/mar/root/usr/share/perl5 # This allows exiftool to find my installed perl libs
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyNzQ5MDk5XX0=
+eyJoaXN0b3J5IjpbLTI3Mjk4MTIzM119
 -->
