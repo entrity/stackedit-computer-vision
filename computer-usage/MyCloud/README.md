@@ -17,7 +17,24 @@ NB.2: I did this with [libimage-exiftool-perl](https://packages.debian.org/buste
 
 ## Adding an SSH key
 
-The `/home/root` directory is on a tmpfs, so I can't really put anything there. Therefore, I put `.ssh` within one of my shares, and after every restart, I run a shell s
+The `/home/root` directory is on a tmpfs, so I can't really put anything there. Therefore, I put `.ssh` within one of my shares, and after every restart, I run a shell script which *copies* this directory into `/home/root`. (Don't symlink. It won't work.)
+
+## Setup script, .bashrc, &c.
+
+**`setup.sh`**
+```bash
+#!/bin/bash
+cp -r /shares/mar/.ssh $HOME
+ln -s /shares/mar/bash $HOME
+ln -s /shares/mar/Wat $HOME
+ln -s /shares/mar $HOME
+ln -s /shares/mar/Youtube $HOME
+ln -s /shares/mar/root/usr/bin $HOME
+```
+
+**`.bashrc`**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTY1MjgyMzddfQ==
+eyJoaXN0b3J5IjpbNDcyNzQ5MDk5XX0=
 -->
