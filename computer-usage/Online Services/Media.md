@@ -1,10 +1,14 @@
+## Cartoons online
+
+- https://www.thewatchcartoononline.tv/
+- https://watchcartoononline.io/
+
 ## Feedly.com
 
 ### Add cartoon feeds from watchcartoononline.io (moved to https://www.thewatchcartoononline.tv/)
 
-Go to a 
-
-https://www.watchcartoononline.io/anime/corner-gas-animated/feed
+- Go to a cartoon page (not an episode page) and add '/feed' to the end of the URL. E.g. https://www.watchcartoononline.io/anime/corner-gas-animated/feed
+- Then click the button to add content in Feedly, and supply this URL.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5NDE2ODg2XX0=
+eyJoaXN0b3J5IjpbLTY2OTg4OTUzXX0=
 -->
