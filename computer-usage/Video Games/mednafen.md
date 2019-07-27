@@ -13,6 +13,7 @@ I like to use `mednaffe`, then go to **System > Input** and configure the keys b
 
 To back them up (into an override file), I've run `grep ';nes, Port ., Gamepad' mednafen-09x.cfg -A2 > nes.cfg`
 
+I have the most satisfying results with X-box controllers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjkyMDkzNTNdfQ==
+eyJoaXN0b3J5IjpbMjk0MTc3NDgwXX0=
 -->
