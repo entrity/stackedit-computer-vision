@@ -10,6 +10,8 @@ mame -rompath $DIR $FILE
 mame -rompath $DIR $DIR/$FILE
 mame -rompath $DIR $ROMNAME
 ```
+
+Which version of a rom should you use? Well, it looks as if Mame-0.139u1 works. (https://www.theoldcomputer.com/roms/index.php?folder=MAME/Mame-0.139)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzIzODg3MCw2ODE3MzIyNzFdfQ==
+eyJoaXN0b3J5IjpbLTgyNjU4MDE3NCw2ODE3MzIyNzFdfQ==
 -->
