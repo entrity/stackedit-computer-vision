@@ -13,12 +13,12 @@ mame -rompath $DIR $DIR/$FILE
 mame -rompath $DIR $ROMNAME
 ```
 
-Which version of a rom should you use? Well, it looks as if Mame-0.139u1 works. (www.theoldcomputer.com/roms/index.php?folder=MAME/Mame-0.139)
+Which version of a rom should you use? Well, it looks as if Mame-0.139u1 works. (www.theoldcomputer.com/roms/index.php?folder=MAME/Mame-0.139u1)
 
 ## Configure controls
 
 Run `mame` with no arguments. Then choose the menu **Configure Options > General Inputs > Player 1 Controls**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzM1NTk1NCwxMDYwMjY4OTI5LDY4MT
-czMjI3MV19
+eyJoaXN0b3J5IjpbLTMyNTMxMDk2MiwxNDIzMzU1OTU0LDEwNj
+AyNjg5MjksNjgxNzMyMjcxXX0=
 -->
