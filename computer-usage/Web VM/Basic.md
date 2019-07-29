@@ -4,7 +4,7 @@
 
 ## `apt` packages
 ```
-sudo apt install vim python3 python-pip3 mariadb-server
+sudo apt install vim python3 python-pip3 mariadb-server node
 ```
 
 ## Firewall
@@ -12,5 +12,5 @@ sudo apt install vim python3 python-pip3 mariadb-server
 ### `iptables`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzI1MjA2MF19
+eyJoaXN0b3J5IjpbMjM2MDM4OTAyXX0=
 -->
