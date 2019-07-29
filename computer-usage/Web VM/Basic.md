@@ -4,7 +4,7 @@
 
 ## `apt` packages
 ```
-sudo apt install vim python3 python-pip3 mariadb-server node less
+sudo apt install vim python3 python-pip3 mariadb-server node less apache2 
 ```
 
 ## Firewall
@@ -12,5 +12,5 @@ sudo apt install vim python3 python-pip3 mariadb-server node less
 ### `iptables`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzg1ODcwMSwyMzYwMzg5MDJdfQ==
+eyJoaXN0b3J5IjpbMTQ3NjY0MjQ4OSwyMzYwMzg5MDJdfQ==
 -->
