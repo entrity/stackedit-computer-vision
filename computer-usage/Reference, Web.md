@@ -32,13 +32,13 @@ function doGet(request) {
 }
 ```
 
-## Heavier Web Servers
+## Apache
 
-### Apache
 
-### Nginx
+
+## Nginx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTEzNjA2NSwtNzg0NTMwODc3LC0xND
-UwODQ4OTA2LDIwNzMzMTA4NTAsLTYxMjE4MDk4MCw5MzAxMzc3
-OThdfQ==
+eyJoaXN0b3J5IjpbNDg1NTg3ODkxLDEyOTkxMzYwNjUsLTc4ND
+UzMDg3NywtMTQ1MDg0ODkwNiwyMDczMzEwODUwLC02MTIxODA5
+ODAsOTMwMTM3Nzk4XX0=
 -->
