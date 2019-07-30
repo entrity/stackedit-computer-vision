@@ -4,7 +4,7 @@
 
 ## `apt` packages
 ```
-sudo apt install vim python3 python-pip3 mariadb-server node less apache2 nodejs git ufw
+sudo apt install vim python3 python-pip3 mariadb-server node less apache2 nodejs git ufw sudo
 ```
 
 ## Misc setup
@@ -23,5 +23,5 @@ echo "LANG=\"en_US.UTF-8\"" >> /etc/default/locale
 ### `iptables`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4Nzg2NTQzXX0=
+eyJoaXN0b3J5IjpbLTEzOTAyMzE1OF19
 -->
