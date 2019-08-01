@@ -20,7 +20,12 @@ Aug 01 15:57:12 server1.markhamanderson.com systemd[1]: mysql.service: Start req
 Aug 01 15:57:12 server1.markhamanderson.com systemd[1]: mysql.service: Failed with result 'exit-code'.
 Aug 01 15:57:12 server1.markhamanderson.com systemd[1]: Failed to start MySQL Community Server.
 ```
+
+- Try starting `mysqld_safe`.
+- Try looking for `.err` file in `/etc/mysql`
+
+> I'll likely have to boot your MySQL server in innodb_recovery mode and extract the database.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDYwNjUxODYsMjkxNTc2MjI4LDE0ND
-I1MTU3MjldfQ==
+eyJoaXN0b3J5IjpbNTIyMDIyOTU1LC0yMTQ2MDY1MTg2LDI5MT
+U3NjIyOCwxNDQyNTE1NzI5XX0=
 -->
