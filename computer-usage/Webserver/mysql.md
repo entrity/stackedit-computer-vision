@@ -25,7 +25,9 @@ Aug 01 15:57:12 server1.markhamanderson.com systemd[1]: Failed to start MySQL Co
 - Try looking for `.err` file in `/var/lib/mysql`
 
 > I'll likely have to boot your MySQL server in innodb_recovery mode and extract the database.
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY4ODI1NzIsLTIxNDYwNjUxODYsMj
-kxNTc2MjI4LDE0NDI1MTU3MjldfQ==
+eyJoaXN0b3J5IjpbMzEwNTY1NDgsLTE3NDY4ODI1NzIsLTIxND
+YwNjUxODYsMjkxNTc2MjI4LDE0NDI1MTU3MjldfQ==
 -->
