@@ -27,7 +27,9 @@ Aug 01 15:57:12 server1.markhamanderson.com systemd[1]: Failed to start MySQL Co
 > I'll likely have to boot your MySQL server in innodb_recovery mode and extract the database.
 
 ```
+mkdir /var/run/mysqld && chown mysql:mysql /var/run/mysqld && mysqld_safe --skip-grant-tables &
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwNTY1NDgsLTE3NDY4ODI1NzIsLTIxND
-YwNjUxODYsMjkxNTc2MjI4LDE0NDI1MTU3MjldfQ==
+eyJoaXN0b3J5IjpbLTExOTQwNTEyNjgsLTE3NDY4ODI1NzIsLT
+IxNDYwNjUxODYsMjkxNTc2MjI4LDE0NDI1MTU3MjldfQ==
 -->
