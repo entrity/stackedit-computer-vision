@@ -23,3 +23,11 @@ jq '.[3]' $JSONFILE
 eyJoaXN0b3J5IjpbLTY4Nzc1MDc4OCwxMjMxMjQwNTM2LDkzOT
 E4MTA2XX0=
 -->
+
+## html
+
+Use package `html-xml-utils/xenial`:
+
+```bash
+hxnormalize -x <file> | hxselect '<DOMSelector>'
+```
