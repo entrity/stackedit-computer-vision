@@ -25,6 +25,13 @@ evdev:input:b0005v004Cp0267e0067*
  KEYBOARD_KEY_700e2=leftmeta
  KEYBOARD_KEY_70044=home # f11 => Home
  KEYBOARD_KEY_70045=end # f12 => End
+# === same thing over USB ===
+evdev:input:b0003v05ACp0267e0110*
+ KEYBOARD_KEY_700e6=rightctrl
+ KEYBOARD_KEY_700e3=leftalt
+ KEYBOARD_KEY_700e2=leftmeta
+ KEYBOARD_KEY_70044=home # f11 => Home
+ KEYBOARD_KEY_70045=end # f12 => End
 ```
 
 ### Example rules file `/etc/udev/hwdb.d/71-mouse-local.hwdb`
@@ -45,6 +52,6 @@ sudo udevadm trigger /dev/input/event<XX>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU3NjY1MjQsLTc4MTk2MjM4MywtMT
-EyMjY3NDYwMCwyODE1MTc1NDhdfQ==
+eyJoaXN0b3J5IjpbLTE3Njg0MzcyNDgsLTE4NzU3NjY1MjQsLT
+c4MTk2MjM4MywtMTEyMjY3NDYwMCwyODE1MTc1NDhdfQ==
 -->
