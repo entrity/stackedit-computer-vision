@@ -1,4 +1,7 @@
 ##################
+#
+# NB: Make sure you *DON'T* have files at both /etc/udev/hwdb.d and /lib/udev/hwdb.d that define settings for the same devices or otherwise override each other. That will lead to confusion.
+#
 # HOW TO:
 #
 # - See comments in `60-keyboard.hwdb` for general instructions on how to create an entry in this file.
