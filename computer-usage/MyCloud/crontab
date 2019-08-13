@@ -1,0 +1,6 @@
+0 0 * * 1 /mnt/HD/HD_a2/mar/backup.sh Photos &
+0 0 * * 2 /mnt/HD/HD_a2/mar/backup.sh Comics &
+0 0 * * 3 /mnt/HD/HD_a2/mar/backup.sh Documents &
+0 0 * * 4 /mnt/HD/HD_a2/mar/backup.sh 'Music (Sheet Music)' &
+0 0 * * 5 /mnt/HD/HD_a2/mar/backup.sh 'Music' &
+0 23 28 * * /bin/bash -c 'rm /home/root/backup.log'
