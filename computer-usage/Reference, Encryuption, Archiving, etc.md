@@ -3,7 +3,9 @@
 ```bash
 # Non-interactive
 gpg --symmetric --batch --yes --passphrase $PWD $PLAINFILE
+# Interactive
+gpg -c $PLAINFILE # Creates $PLAINFILE.gpg
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjI3MzMwM119
+eyJoaXN0b3J5IjpbNDQ5NTY5NzQ4XX0=
 -->
