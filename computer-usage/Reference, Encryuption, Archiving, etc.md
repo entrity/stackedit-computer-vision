@@ -20,6 +20,11 @@ openssl enc -aes-256-cbc -in "$SRC" -out "$DST" -salt -kfile "$KEYFILE"
 openssl enc -d -aes-256-cbc -in "$SRC" -out "$DST" -salt -k "$KEY"
 ```
 
+## Encrypt a file with 7zip
+```bash
+7za a -mhe=on -p$KEY "$DST" "$SRC"
+# 'mhe' ensures t
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzY0MTU1OF19
+eyJoaXN0b3J5IjpbLTE5NjkxMzYxMTNdfQ==
 -->
