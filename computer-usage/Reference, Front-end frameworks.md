@@ -6,13 +6,14 @@ A browser extension [React Developer Tools](https://github.com/facebook/react-de
 
 ### Thinking in React
 1. Break the UI into a component heirarchy, matching the data architecture/model
-2. Build a static version in React (renders data but has no interactivity)
+2. Build a static version in React (*no state*; renders data but has no interactivity)
+	- bottom-up in bigger projects, building tests as you go; top-down in smaller projects
 3. 
 
 ### Formik
 
 For use with React. (Recommended in the [React docs](https://reactjs.org/docs/forms.html).)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODE1Njc2MCwtMjEzNjg1NjMyNSwxNj
+eyJoaXN0b3J5IjpbMTgzMjUxMDA5MCwtMjEzNjg1NjMyNSwxNj
 YwMjAyNzEwLDIxNDU0ODg2OF19
 -->
