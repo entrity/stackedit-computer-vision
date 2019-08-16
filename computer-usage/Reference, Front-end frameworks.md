@@ -1,6 +1,6 @@
 ## React.js
 
-A javascript framework.
+A javascript framework. Developed by F
 
 A browser extension [React Developer Tools](https://github.com/facebook/react-devtools) improves debugging.
 
@@ -8,5 +8,6 @@ A browser extension [React Developer Tools](https://github.com/facebook/react-de
 
 For use with React. (Recommended in the [React docs](https://reactjs.org/docs/forms.html).)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MDIwMjcxMCwyMTQ1NDg4NjhdfQ==
+eyJoaXN0b3J5IjpbLTIwMDEwNzkzMjcsMTY2MDIwMjcxMCwyMT
+Q1NDg4NjhdfQ==
 -->
