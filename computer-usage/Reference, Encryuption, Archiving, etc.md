@@ -23,8 +23,8 @@ openssl enc -d -aes-256-cbc -in "$SRC" -out "$DST" -salt -k "$KEY"
 ## Encrypt a file with 7zip
 ```bash
 7za a -mhe=on -p$KEY "$DST" "$SRC"
-# 'mhe' ensures t
+# 'mhe' ensures that the listing of files within the archive is also encrypted
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjkxMzYxMTNdfQ==
+eyJoaXN0b3J5IjpbMTAyNTYyMDQyNl19
 -->
