@@ -13,7 +13,7 @@ flush privileges;
 ```
 ### `.mylogin.cnf`
 
-Create a file with one or more identities for automatic login. I find this useful for automatic backups.
+Create a file with one or more identities for automatic login. I find this useful for automated backups or just keeping the password off of the command line.
 ```bash
 mysql_config_editor set --user=<user> --password --host=<host>
 ```
@@ -50,7 +50,7 @@ alter table user modify max_user_connections int(11) unsigned NOT NULL DEFAULT '
 flush privileges;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU3NTIwMTcsLTU1Mjk0ODAzMSwxMT
-UzNTU2MjIyLC0xMTk0MDUxMjY4LC0xNzQ2ODgyNTcyLC0yMTQ2
-MDY1MTg2LDI5MTU3NjIyOCwxNDQyNTE1NzI5XX0=
+eyJoaXN0b3J5IjpbMTEzNDg4NDAwMiwtNTUyOTQ4MDMxLDExNT
+M1NTYyMjIsLTExOTQwNTEyNjgsLTE3NDY4ODI1NzIsLTIxNDYw
+NjUxODYsMjkxNTc2MjI4LDE0NDI1MTU3MjldfQ==
 -->
