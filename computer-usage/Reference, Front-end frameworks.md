@@ -9,12 +9,12 @@ A browser extension [React Developer Tools](https://github.com/facebook/react-de
 2. Build a static version in React (*no state*; renders data but has no interactivity)
 	- bottom-up in bigger projects, building tests as you go; top-down in smaller projects
 3. Figure out a DRY state needs (assign data to state or props)
-4. 
+4. Assign state variables to React components
 
 ### Formik
 
 For use with React. (Recommended in the [React docs](https://reactjs.org/docs/forms.html).)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NDQ3MjY1NSwxODMyNTEwMDkwLC0yMT
-M2ODU2MzI1LDE2NjAyMDI3MTAsMjE0NTQ4ODY4XX0=
+eyJoaXN0b3J5IjpbMTExNjE0NjkyLDE4MzI1MTAwOTAsLTIxMz
+Y4NTYzMjUsMTY2MDIwMjcxMCwyMTQ1NDg4NjhdfQ==
 -->
