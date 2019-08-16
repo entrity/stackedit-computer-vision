@@ -1,13 +1,21 @@
+## Set up
+
 ```bash
 apt install mysql-server
 ```
-
+### Create users
 ```sql
 update mysql.user set authentication_string = password('newpw') where user = 'root';
 create user 'duckofdoom'@localhost identified by 'usrpw';
 create schema duckofdoom character set = 'utf8';
 grant all on duckofdoom.* to 'duckofdoom'@'localhost' with grant option;
 flush privileges;
+```
+### `.mylogin.cnf`
+
+Create a file with one or more identities for automatic login. I find this useful for automatic backups.
+```bash
+mysql_config_editor set --user=<user> --password --host=<host>
 ```
 
 ## Troubleshooting
@@ -42,7 +50,7 @@ alter table user modify max_user_connections int(11) unsigned NOT NULL DEFAULT '
 flush privileges;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Mjk0ODAzMSwxMTUzNTU2MjIyLC0xMT
-k0MDUxMjY4LC0xNzQ2ODgyNTcyLC0yMTQ2MDY1MTg2LDI5MTU3
-NjIyOCwxNDQyNTE1NzI5XX0=
+eyJoaXN0b3J5IjpbLTEzNDU3NTIwMTcsLTU1Mjk0ODAzMSwxMT
+UzNTU2MjIyLC0xMTk0MDUxMjY4LC0xNzQ2ODgyNTcyLC0yMTQ2
+MDY1MTg2LDI5MTU3NjIyOCwxNDQyNTE1NzI5XX0=
 -->
