@@ -1,5 +1,10 @@
 This takes some tricks. My current 6TB MyCloud device is running a Linux distro which I don't know: "Linux WDMyCloud 3.10.39 #1 SMP Thu Nov 15 21:22:21 CST 2018 2014T20p4 Build-git0451941 armv7l GNU/Linux"
 
+## Mounting MyCloud
+```bash
+sudo mount -t cifs -o username=mar,workgroup=WORKGROUP,password="$PASS" "//$IP_ADDR/$PATH" "$DST"
+```
+
 ## Adding executables
 
 I have created a directory tree in *within* one of my shares which mimics the `/usr` tree. This is because it's not safe to install things onto WD MyCloud's root partition.
@@ -47,5 +52,5 @@ export PERL5LIB=/shares/mar/root/usr/share/perl5 # This allows exiftool to find 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Mjk4MTIzM119
+eyJoaXN0b3J5IjpbNDg2MzU4NjgsLTI3Mjk4MTIzM119
 -->
