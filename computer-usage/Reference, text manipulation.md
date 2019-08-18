@@ -18,6 +18,8 @@ sed -n "${m},${n}p" $FILE
 jq '.[] | select(.property == "value")' $JSONFILE
 # Get nth item from array
 jq '.[3]' $JSONFILE
+# Get fields from items in array
+jq '.[].myField'
 ```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTY4Nzc1MDc4OCwxMjMxMjQwNTM2LDkzOT
@@ -31,3 +33,6 @@ Use package `html-xml-utils/xenial`:
 ```bash
 hxnormalize -x <file> | hxselect '<DOMSelector>'
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjA0Mzg3ODc4XX0=
+-->
