@@ -7,9 +7,11 @@ document.getElementById(elemId)
 })
 ```
 
-Other event names which may be of use and which are documented [here]() include:
+Other event names which may be of use and which are documented [here](https://www.w3.org/TR/DOM-Level-3-Events/#event-type-DOMSubtreeModified) include:
 
-[https://www.w3.org/TR/DOM-Level-3-Events/#event-type-DOMSubtreeModified](https://www.w3.org/TR/DOM-Level-3-Events/#event-type-DOMSubtreeModified)
+- ##### DOMAttrModified
+- ##### DOMCharacterDataModified
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDAyMzU1M119
+eyJoaXN0b3J5IjpbLTY4ODQ0Mzc1NV19
 -->
