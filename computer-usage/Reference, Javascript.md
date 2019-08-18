@@ -16,6 +16,10 @@ Other event names which may be of use and which are documented [here](https://ww
 5.  [8.4.2.5DOMNodeRemoved](https://w3c.github.io/uievents/#event-type-DOMNodeRemoved)
 6.  [8.4.2.6DOMNodeRemovedFromDocument](https://w3c.github.io/uievents/#event-type-DOMNodeRemovedFromDocument)
 7.  [8.4.2.7DOMSubtreeModified](https://w3c.github.io/uievents/#event-type-DOMSubtreeModified)
+
+### Also
+
+You can also use Developer Tools to set breakpoints (assuming the change doesn't happen at page load, which would require you to set the breakpoint with lightning speed in order to catch the event): [https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints#dom](https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints#dom)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTc2MzU2NV19
+eyJoaXN0b3J5IjpbLTc0NzI3NTkwNF19
 -->
