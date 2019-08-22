@@ -25,7 +25,6 @@ Use `jstest /dev/input/js<id>` to figure out which axis or which button identifi
 gb.input.builtin.gamepad.up joystick 630f0eab74165481 0000c001
 ```
 To learn the id for your gamepad  (e.g. 630f0eab74165481), run the following and look at the output on the command line.
-
 ```
 mednafen <mediafile> | grep Joystick
 ```
@@ -33,5 +32,6 @@ mednafen <mediafile> | grep Joystick
 ### Keysyms
 [https://www.tcl.tk/man/tcl8.6/TkCmd/keysyms.htm](https://www.tcl.tk/man/tcl8.6/TkCmd/keysyms.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTI1ODcyLC0xODE3MjEyNjk5XX0=
+eyJoaXN0b3J5IjpbLTE2NDgyNjU5ODYsLTE4MTcyMTI2OTldfQ
+==
 -->
