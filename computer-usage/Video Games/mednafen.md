@@ -18,8 +18,13 @@ To back them up (into an override file), I've run `grep ';nes, Port ., Gamepad' 
 
 I have the most satisfying results with X-box controllers.
 
+#### Gamepads
+
+Use `jstest /dev/input/js<id>` to figure out which axis or which button identifier applies. Buttons are straightforward: 1,2,3,4... expressed as a zero-padded  But specifying axes is different. It seems the last byte of the 
+
 ### Keysyms
 [https://www.tcl.tk/man/tcl8.6/TkCmd/keysyms.htm](https://www.tcl.tk/man/tcl8.6/TkCmd/keysyms.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTcyMTI2OTldfQ==
+eyJoaXN0b3J5IjpbLTE4NjU3NDA1ODMsLTE4MTcyMTI2OTldfQ
+==
 -->
