@@ -20,11 +20,11 @@ I have the most satisfying results with X-box controllers.
 
 #### Gamepads
 
-Use `jstest /dev/input/js<id>` to figure out which axis or which button identifier applies. Buttons are straightforward: 1,2,3,4... expressed as a zero-padded  But specifying axes is different. It seems the last byte of the 
+Use `jstest /dev/input/js<id>` to figure out which axis or which button identifier applies. Buttons are straightforward: 1,2,3,4... expressed as a zero-padded 8-digit hex humber. But specifying axes is different. They are also expressed as a zero-padded 8-digit hex number, and it seems the last byte of the number specifies which axis (provided by jstest) is referenced, but the next byte holds information on positive/negative: 
 
 ### Keysyms
 [https://www.tcl.tk/man/tcl8.6/TkCmd/keysyms.htm](https://www.tcl.tk/man/tcl8.6/TkCmd/keysyms.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU3NDA1ODMsLTE4MTcyMTI2OTldfQ
+eyJoaXN0b3J5IjpbLTEyMzk0NDAxMzQsLTE4MTcyMTI2OTldfQ
 ==
 -->
