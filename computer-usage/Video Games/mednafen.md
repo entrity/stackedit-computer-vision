@@ -21,13 +21,17 @@ I have the most satisfying results with X-box controllers.
 #### Gamepads
 
 Use `jstest /dev/input/js<id>` to figure out which axis or which button identifier applies. Buttons are straightforward: 1,2,3,4... expressed as a zero-padded 8-digit hex humber. But specifying axes is different. They are also expressed as a zero-padded 8-digit hex number, and it seems the last byte of the number specifies which axis (provided by jstest) is referenced, but the next byte holds information on positive/negative: negative is `c0`; positive is `80`. E.g.:
-
 ```
 gb.input.builtin.gamepad.up joystick 630f0eab74165481 0000c001
+```
+To learn the id for your gamepad  (e.g. 630f0eab74165481), run the following and look at the output on the command line.
+
+```
+mednafen <mediafile> | grep Joystick
 ```
 
 ### Keysyms
 [https://www.tcl.tk/man/tcl8.6/TkCmd/keysyms.htm](https://www.tcl.tk/man/tcl8.6/TkCmd/keysyms.htm)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTgxODIyNSwtMTgxNzIxMjY5OV19
+eyJoaXN0b3J5IjpbLTI2OTI1ODcyLC0xODE3MjEyNjk5XX0=
 -->
