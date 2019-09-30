@@ -31,6 +31,28 @@ Surface normal
 Semantic segmentation
 : CSAIL's solution
 
+## Projects
+
+CI/CD
+: [Gitlab CI](https://about.gitlab.com/product/continuous-integration/)
+
+Project management
+: trello
+: asana
+: github project boards
+
+Team commmunication
+: discord
+: slack
+
+## Cloud storage
+: mega.nz
+: files.com
+: box
+: dropbox
+: google drive
+: amazon aws
+
 ## Misc
 
 Project management / Task management
