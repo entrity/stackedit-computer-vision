@@ -31,6 +31,21 @@ Surface normal
 Semantic segmentation
 : CSAIL's solution
 
+## Monitoring & Metrics
+
+Monitoring
+: monit
+: god
+
+Metrics
+: grafana
+: newrelic
+: elasticsearch
+
+## Databases
+
+: Amazon aurora (SQL etc)
+
 ## Projects
 
 CI/CD
@@ -44,6 +59,11 @@ Project management
 Team commmunication
 : discord
 : slack
+
+Source control management
+: subversion (SVN)
+: git
+: mercurial (Hg) - optimized by facebook for huge histories and huge repositories (according to Stephan)
 
 ## Cloud storage
 : mega.nz
