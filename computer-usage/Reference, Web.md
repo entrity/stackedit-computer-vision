@@ -1,5 +1,7 @@
 ## Lightweight Web Servers
 
+*See also https://github.com/entrity/stackedit-computer-vision/blob/master/computer-usage/Reference%2C%20%3D%3D%20misc%20%3D%3D.md#quick-webserver*
+
 ### Flask (Python)
 
 ### python -m http.server
@@ -52,4 +54,9 @@ A headless (optionally), command-line browser.
 On chromebook, raises error, failing to launch browser. To remedy:
 ```bash
 export CHROME_DEVEL_SANDBOX=/home/markham/proj/media-archiver/watchcartoononline/node_modules/puppeteer/.local-chromium/linux-656675/chrome-linux/chrome_devel_sandbox
+```
+
+## HTML processing
+```bash
+hxnormalize -x $FILE | hxselect $QUERY_SELECTOR -s '\n' -c | while read TEXT; do ...; done 
 ```
