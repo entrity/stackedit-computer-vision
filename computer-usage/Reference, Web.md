@@ -42,3 +42,14 @@ eyJoaXN0b3J5IjpbNDg1NTg3ODkxLDEyOTkxMzYwNjUsLTc4ND
 UzMDg3NywtMTQ1MDg0ODkwNiwyMDczMzEwODUwLC02MTIxODA5
 ODAsOTMwMTM3Nzk4XX0=
 -->
+
+## Clients
+
+### Puppeteer
+A headless (optionally), command-line browser.
+
+### In ChromeOS
+On chromebook, raises error, failing to launch browser. To remedy:
+```bash
+export CHROME_DEVEL_SANDBOX=/home/markham/proj/media-archiver/watchcartoononline/node_modules/puppeteer/.local-chromium/linux-656675/chrome-linux/chrome_devel_sandbox
+```
