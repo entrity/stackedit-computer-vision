@@ -79,6 +79,14 @@ Project management / Task management
 : [Asana](https://app.asana.com)
 : Github issue tracker
 
+VPN
+: NordVPn (recommended by some guys at Files.com)
+
+Android emulator
+: Anbox (Linux)
+: BlueStacks (Windows)
+: Genymotion (commercial)
+
 Text editor, IDE
 : PyCharm, Notepad++
 : `vim`, `nano`, `emacs`, `vi`, `pico`
