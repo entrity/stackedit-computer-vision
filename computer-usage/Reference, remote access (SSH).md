@@ -24,4 +24,5 @@ I5MDgzMF19
 
 ```bash
 python -m pyftpdlib [--help]
+python -m pyftpdlib -w -u <uname> -P <pass>
 ```
