@@ -19,3 +19,19 @@ Ruby environment managers:
 
 - rbenv
 - rvm
+
+## Arel
+
+### Update
+
+Arel has an UpdateManager, but to get it to perform a join is convoluted and extremely poorly documented:
+
+```ruby
+s = Site.arel_table;
+p = Plan.arel_table;
+j = Arel::Nodes::JoinSource.new(s, [s.create_join(p)]);
+u = Arel::UpdateManager.new;
+u.table j;
+u.set [[s[:campaign], p[:name]]];
+puts(u.to_sql);
+```
