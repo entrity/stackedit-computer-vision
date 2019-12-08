@@ -23,3 +23,4 @@ sudo apt-get update
 sudo apt-get install certbot python-certbot-apache
 sudo certbot --apache
 ```
+(If you only set up port 80 for a site, this will go ahead and create the 443 config, based on your port-80 config, and also give you the option of adding RewriteRules.)
