@@ -28,3 +28,12 @@ openssl enc -d -aes-256-cbc -in "$SRC" -out "$DST" -salt -k "$KEY"
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTAyNTYyMDQyNl19
 -->
+
+## Full disk encryption, encrypted boot
+
+### Encrypted boot
+
+In `/etc/default/grub`, add:
+```
+GRUB_ENABLE_CRYPTODISK=y
+```
