@@ -37,3 +37,4 @@ In `/etc/default/grub`, add:
 ```
 GRUB_ENABLE_CRYPTODISK=y
 ```
+Run `update-grub`
