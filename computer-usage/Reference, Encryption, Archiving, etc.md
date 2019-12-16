@@ -50,3 +50,14 @@ lvscan # Then see something like /dev/mint/root # https://askubuntu.com/a/485114
 vgchange -ay # activate all of the volumes
 mount /dev/mapper/mint-root /media/mydev
 ```
+
+### Fixing broken boot
+
+*Boot used to ask me for disk-encryption password before doing anything graphical, before even letting me choose an OS to boot. Now it just boots to my unencrypted partition. Here's my solution:*
+
+1. Decrypt and mount the work partition, according to the instructions in the **Encrypted boot** section of this document.
+2. Copy the contents of the grub file from the work partition (`/media/mydev/etc/default/grub`) to the personal partition (`/etc/default/grub`).
+    * `GRUB_ENABLE_CRYPTODISK=y`
+    * `GRUB_CMDLINE_LINUX="cryptdevice=/dev/sda3:sda3_crypt`
+3. Run `update-grub`
+4. Reboot
