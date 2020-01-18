@@ -28,6 +28,10 @@ ffmpeg -loglevel warning -i "$vid" "${OUTDIR}/${name}-%05d.jpg" -hide_banner
 ffprobe -v 0 -of csv=p=0 -select_streams V:0 -show_entries stream=r_frame_rate infile
 ```
 
+### Loops with ffmpeg in them
+
+`ffmpeg` will kill loops, even if it's running in a subshell, a different shell script, whatever. Use the `-nostdin` flag with `ffmpeg` to avoid this loop-killing behaviour.
+
 ## aplay, arecord
 
 ```bash
